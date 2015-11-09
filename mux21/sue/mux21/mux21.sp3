@@ -1,0 +1,78 @@
+* FILE: mux21.sp
+Vgnd gnd 0 DC 0V
+.model n nmos level=49 tnom=25 version=3.1 tox=5.8e-9 xj=1e-07 
++ nch=2.3e+17 lln=1 lwn=1 wln=1 wwn=1 lint=1.7e-08 wint=6.7e-09 
++ mobmod=1 binunit=2 dwg=0 dwb=0 vth0=0.5 lvth0=1.7e-08 
++ wvth0=-2.9e-08 pvth0=4.3e-15 k1=0.5 lk1=1.6e-08 wk1=-9.6e-08 
++ pk1=1.1e-14 k2=-5e-04 lk2=-1.0e-08 wk2=3.1e-08 pk2=-3.7e-15 k3=0 
++ dvt0=0 dvt1=0 dvt2=0 dvt0w=0 dvt1w=0 dvt2w=0 nlx=0 w0=0 k3b=0 
++ vsat=7.0e+04 lvsat=4.1e-03 ua=0 ub=1.0e-18 lub=-2.4e-25 wub=1.1e-25 
++ pub=-2.5e-32 uc=3.7e-11 luc=-1.9e-17 wuc=-1.4e-17 puc=7.3e-24 
++ rdsw=380 prwb=0 prwg=0 wr=0.99 u0=0.03 lu0=7.2e-09 wu0=5.4e-09 
++ pu0=-4.7e-15 a0=-0.2 la0=4.1e-07 wa0=1.5e-06 pa0=-3.7e-13 
++ keta=-0.04 lketa=1.8e-08 wketa=-6.8e-09 pketa=1.6e-15 a1=4.9e-08 
++ la1=-1.2e-14 wa1=-5.8e-14 pa1=1.4e-20 a2=1 ags=0.02 lags=5.9e-10 
++ wags=8.8e-07 pags=-2.1e-13 b0=0 b1=0 voff=-0.1 lvoff=2.7e-09 
++ wvoff=2.1e-08 pvoff=-3.1e-15 nfactor=1.5 lnfactor=-2.2e-07 
++ wnfactor=-8.5e-07 pnfactor=4.3e-13 cit=-1.2e-03 lcit=5.7e-10 
++ wcit=1.1e-09 pcit=-5.6e-16 cdsc=0 cdscb=0 cdscd=0 eta0=4.4e-06 
++ leta0=3.5e-11 etab=3.0e-03 letab=-1.5e-09 wetab=6.1e-10 
++ petab=-3.1e-16 dsub=0 pclm=0.6 lpclm=3.0e-08 wpclm=-1.5e-07 
++ ppclm=1.2e-13 pdiblc1=0 pdiblc2=3.8e-03 lpdiblc2=8.8e-09 
++ wpdiblc2=1.1e-08 ppdiblc2=-2.8e-15 pdiblcb=0.03 lpdiblcb=3.5e-09 
++ wpdiblcb=-2.0e-07 ppdiblcb=1.0e-13 drout=0 pscbe1=5.9e+08 
++ lpscbe1=-25 pscbe2=1.7e-05 lpscbe2=-3.3e-12 pvag=0.6 lpvag=-1.6e-07 
++ wpvag=-8.0e-07 ppvag=1.9e-13 delta=-4.7e-03 ldelta=1.3e-08 
++ wdelta=-2.3e-09 pdelta=5.7e-16 alpha0=0 beta0=30 kt1=-0.3 
++ lkt1=-8.2e-09 wkt1=-1.5e-08 pkt1=7.6e-15 kt2=-0.05 lkt2=4.9e-09 
++ wkt2=5.6e-09 pkt2=-2.8e-15 at=2.3e+04 lat=-6.0e-04 wat=-0.028 
++ pat=6.0e-09 ute=-2.1 lute=2.2e-08 wute=-2.1e-07 pute=1.1e-13 
++ ua1=-8.4e-10 lua1=4.5e-16 wua1=2.3e-16 pua1=-1.0e-22 ub1=0 
++ uc1=-1.7e-10 luc1=8.4e-17 wuc1=2.8e-16 puc1=-1.2e-22 kt1l=0 
++ prt=-1e-18 cj=2.0e-3 mj=0.5 pb=0.9 cjsw=2.7e-10 mjsw=0.4 pbsw=0.9 
++ cjswg=2.1e-10 mjswg=0.4 pbswg=0.9 rsh=4.5 cta=7.7e-04 ctp=5.5e-04 
++ pta=1.1e-03 ptp=1.1e-03 xti=3 cgdo=3.1e-10 cgso=3.1e-10 capmod=0 
++ nqsmod=0 elm=5 xpart=1 cgsl=0 cgdl=0 ckappa=0.6 cf=0 clc=1e-07 
++ cle=0.6 js=1e-06 jsw=5e-11
+.model p pmos level=49 version=3.1 tnom=25 tox=5.8e-9 xj=1e-7 
++ nch=4.1e17 lln=1 lwn=1 wln=1 wwn=1 lint=1.2e-8 wint=7.8e-9 mobmod=1 
++ binunit=2 dwg=0 dwb=0 vth0=-0.6 lvth0=2.8e-8 wvth0=8.9e-8 
++ pvth0=-1.1e-14 k1=0.6 lk1=5.1e-10 wk1=-3.3e-8 pk1=-2.6e-14 k2=0.017 
++ lk2=-2.0e-8 wk2=-9.1e-9 pk2=1.3e-14 k3=0 dvt0=0 dvt1=0 dvt2=0 
++ dvt0w=0 dvt1w=0 dvt2w=0 nlx=0 w0=0 k3b=0 vsat=2.8e5 lvsat=-0.041 
++ wvsat=-0.1 pvsat=4.0e-8 ua=3.8e-10 lua=-9.5e-17 wua=2.9e-16 
++ pua=6.0e-23 ub=5.8e-19 lub=1.7e-25 wub=-2.4e-26 pub=-2.3e-31 
++ uc=-4.3e-11 luc=5.9e-18 wuc=-1.0e-17 puc=-2.3e-23 rdsw=1.0e3 prwb=0 
++ prwg=0 wr=1 u0=7.8e-3 lu0=9.9e-10 wu0=2.4e-9 pu0=-1.0e-15 a0=1.3 
++ la0=-8.2e-8 wa0=-3.3e-7 pa0=3.5e-13 keta=-0.023 lketa=5.1e-9 
++ wketa=-1.5e-10 pketa=6.2e-16 a1=0 a2=0.4 ags=-0.16 lags=2.2e-7 
++ wags=4.3e-7 pags=-1.61e-13 b0=0 b1=0 voff=-0.13 lvoff=6.0e-9 
++ wvoff=1.2e-8 pvoff=-4.6e-15 nfactor=1.6 lnfactor=-3.3e-7 
++ wnfactor=-1.2e-6 pnfactor=3.4e-13 cit=-9.6e-4 lcit=5.9e-10 
++ wcit=2.0e-9 pcit=-5.5e-16 cdsc=0 cdscb=0 cdscd=0 eta0=-4.0e-3 
++ leta0=2.1e-9 weta0=2.2e-9 peta0=-9.7e-16 etab=2.3e-3 letab=-1.4e-9 
++ wetab=-1.4e-9 petab=7.0e-16 dsub=0 pclm=0.76 lpclm=5.2e-7 
++ wpclm=1.3e-6 ppclm=-4.0e-13 pdiblc1=0 pdiblc2=-2.7e-3 
++ lpdiblc2=2.8e-9 wpdiblc2=-3.5e-9 ppdiblc2=8.7e-16 pdiblcb=0.19 
++ drout=0 pscbe1=7.1e8 pscbe2=1e-20 pvag=0 delta=0.01 alpha0=0 
++ beta0=30 kt1=-0.2 wkt1=6.0e-11 pkt1=-3.0e-17 kt2=-0.03 lkt2=2.3e-12 
++ wkt2=4.6e-11 pkt2=-2.3e-17 at=1e4 ute=-1.04 ua1=3.7e-10 
++ lua1=1.0e-17 wua1=2.0e-16 pua1=-1.0e-22 ub1=-1.1e-18 lub1=7.3e-29 
++ wub1=1.4e-27 pub1=-7.3e-34 uc1=-1.0e-12 luc1=1.9e-22 wuc1=3.8e-21 
++ puc1=-1.9e-27 kt1l=0 prt=0 cj=1.9e-3 mj=0.4 pb=0.9 cjsw=2.7e-10 
++ mjsw=0.3 pbsw=0.9 cjswg=1.6e-10 mjswg=0.3 pbswg=0.9 rsh=3.5 
++ cta=8.3e-4 ctp=4.3e-4 pta=1.3e-3 ptp=1.3e-3 cgdo=2.6e-10 
++ cgso=2.6e-10 capmod=0 nqsmod=0 elm=5 xpart=1 cf=0 tlevc=1 js=3e-7 
++ jsw=5e-12
+vdd vdd 0 dc 2.25
+.options temp=105
+.tran 5p 10n
+m_1 out sel in_1 gnd n w=3e-06 l=6e-07 ad=1.98e-12 as=1.98e-12 
++ pd=7.32e-06 ps=7.32e-06
+m_2 out sel_bar in_1 vdd p w=3e-06 l=6e-07 ad=1.98e-12 as=1.98e-12 
++ pd=7.32e-06 ps=7.32e-06
+m_3 out sel_bar in_0 gnd n w=3e-06 l=6e-07 ad=1.98e-12 as=1.98e-12 
++ pd=7.32e-06 ps=7.32e-06
+m_4 out sel in_0 vdd p w=3e-06 l=6e-07 ad=1.98e-12 as=1.98e-12 
++ pd=7.32e-06 ps=7.32e-06
+.end

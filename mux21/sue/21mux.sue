@@ -1,0 +1,29 @@
+# SUE version MMI_SUE5.6.18
+
+proc SCHEMATIC_21mux {} {
+  make nand2 -origin {450 180}
+  make nand2 -origin {450 340}
+  make nand2 -origin {620 260}
+  make inverter -origin {310 260}
+  make input -name S -origin {210 260}
+  make input -name B -origin {320 160}
+  make input -name A -origin {320 360}
+  make output -name Out -origin {750 260}
+  make_wire 410 260 410 320
+  make_wire 360 260 410 260
+  make_wire 410 320 430 320
+  make_wire 430 200 240 200
+  make_wire 240 200 240 260
+  make_wire 240 260 210 260
+  make_wire 240 260 280 260
+  make_wire 320 160 430 160
+  make_wire 320 360 430 360
+  make_wire 520 180 560 180
+  make_wire 560 180 560 240
+  make_wire 560 240 600 240
+  make_wire 520 340 560 340
+  make_wire 560 340 560 280
+  make_wire 560 280 600 280
+  make_wire 690 260 750 260
+}
+
