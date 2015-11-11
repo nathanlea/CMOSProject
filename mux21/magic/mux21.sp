@@ -28,43 +28,42 @@ VD D gnd pulse 0 5V 0ns 200ps 200ps 39.8ns 80ns
 
 .option scale=0.3u
 
-M1000 nand_1/A A nand_2/vdd nand_2/vdd CMOSPTT w=20 l=2
-+  ad=120 pd=52 as=300 ps=150
-M1001 nand_2/vdd S' nand_1/A nand_2/vdd CMOSPTT w=20 l=2
+M1000 nand_1/A A vdd vdd CMOSPTT w=20 l=2
++  ad=120 pd=52 as=700 ps=350
+M1001 vdd nand_2/B nand_1/A vdd CMOSPTT w=20 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1002 nand_2/a_9_6# A nand_0/gnd Gnd CMOSNTT w=20 l=2
+M1002 nand_2/a_9_6# A gnd Gnd CMOSNTT w=20 l=2
 +  ad=60 pd=46 as=350 ps=180
-M1003 nand_1/A S' nand_2/a_9_6# Gnd CMOSNTT w=20 l=2
+M1003 nand_1/A nand_2/B nand_2/a_9_6# Gnd CMOSNTT w=20 l=2
 +  ad=100 pd=50 as=0 ps=0
-M1004 S' S nand_2/vdd nand_2/vdd CMOSPTT w=20 l=2
+M1004 nand_2/B S vdd vdd CMOSPTT w=20 l=2
 +  ad=100 pd=50 as=0 ps=0
-M1005 S' S nand_0/gnd Gnd CMOSNTT w=10 l=2
+M1005 nand_2/B S gnd Gnd CMOSNTT w=10 l=2
 +  ad=50 pd=30 as=0 ps=0
-M1006 out nand_1/A nand_0/vdd nand_0/vdd CMOSPTT w=20 l=2
-+  ad=120 pd=52 as=400 ps=200
-M1007 nand_0/vdd nand_1/B out nand_0/vdd CMOSPTT w=20 l=2
+M1006 out nand_1/A vdd vdd CMOSPTT w=20 l=2
++  ad=120 pd=52 as=0 ps=0
+M1007 vdd nand_1/B out vdd CMOSPTT w=20 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1008 nand_1/a_9_6# nand_1/A nand_0/gnd Gnd CMOSNTT w=20 l=2
+M1008 nand_1/a_9_6# nand_1/A gnd Gnd CMOSNTT w=20 l=2
 +  ad=60 pd=46 as=0 ps=0
 M1009 out nand_1/B nand_1/a_9_6# Gnd CMOSNTT w=20 l=2
 +  ad=100 pd=50 as=0 ps=0
-M1010 nand_1/B S nand_0/vdd nand_0/vdd CMOSPTT w=20 l=2
+M1010 nand_1/B S vdd vdd CMOSPTT w=20 l=2
 +  ad=120 pd=52 as=0 ps=0
-M1011 nand_0/vdd B nand_1/B nand_0/vdd CMOSPTT w=20 l=2
+M1011 vdd B nand_1/B vdd CMOSPTT w=20 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1012 nand_0/a_9_6# S nand_0/gnd Gnd CMOSNTT w=20 l=2
+M1012 nand_0/a_9_6# S gnd Gnd CMOSNTT w=20 l=2
 +  ad=60 pd=46 as=0 ps=0
 M1013 nand_1/B B nand_0/a_9_6# Gnd CMOSNTT w=20 l=2
 +  ad=100 pd=50 as=0 ps=0
-C0 nand_1/B nand_0/vdd 2.097720fF
-C1 nand_2/vdd S' 5.711850fF
-C2 S gnd! 6.253860fF
+C0 nand_1/B vdd 2.097720fF
+C1 nand_2/B vdd 5.711850fF
+C2 S gnd! 5.693250fF
 C3 nand_1/B gnd! 3.001320fF
-C4 nand_1/A gnd! 6.522480fF
-C5 nand_0/vdd gnd! 10.667521fF
-C6 nand_0/gnd gnd! 8.607600fF
-C7 S' gnd! 2.382240fF
-C8 nand_2/vdd gnd! 8.912881fF
+C4 nand_1/A gnd! 6.037200fF
+C5 vdd gnd! 19.580400fF
+C6 gnd gnd! 9.882000fF
+C7 nand_2/B gnd! 2.382240fF
 
 
 *********************************************

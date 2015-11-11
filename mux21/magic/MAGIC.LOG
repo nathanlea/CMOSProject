@@ -29,11 +29,11 @@ set VDD "vdd!"
 : vdd!
 catch {source /usr/local/lib/magic/sys/site.def}
 : 1
-File <../../nand/magic/nand.mag> is already locked by pid 82324.  Opening read-only.
-File <../../inv/magic/inverter.mag> is already locked by pid 82324.  Opening read-only.
 Extracting ../../inv/magic/inverter into ../../inv/magic/inverter.ext:
 Extracting ../../nand/magic/nand into ../../nand/magic/nand.ext:
 Extracting mux21 into mux21.ext:
+mux21: 2 warnings
+Total of 2 warnings.
 exttosim finished.
 Devices merged: 0
 exttosim finished.
@@ -93,4 +93,3 @@ Warning: character '/' changed to '_' in name ../../nand/magic/nand
 Warning: character '/' changed to '_' in name ../../nand/magic/nand
 Warning: character '/' changed to '_' in name ../../nand/magic/nand
 Warning: characters changed in string '../../nand/magic/nand'; modified string is '______nand_magic_nand'
-Warning: characters changed in string 'S''; modified string is 'S_'

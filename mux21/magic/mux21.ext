@@ -1,4 +1,4 @@
-timestamp 1447273295
+timestamp 1447275876
 version 8.0
 tech scmos
 style AMI0.5um(amic5)from:T01X
@@ -8,55 +8,53 @@ use ../../nand/magic/nand nand_0 1 0 3 0 1 1
 use ../../nand/magic/nand nand_1 1 0 35 0 1 1
 use ../../inv/magic/inverter inverter_0 -1 0 19 0 -1 -5
 use ../../nand/magic/nand nand_2 -1 0 59 0 -1 -5
-node "m1_23_n88#" 2 46.8 23 -88 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 112 92 0 0 0 0
-node "S'" 2 561.6 5 -50 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 61 44 232 124 0 0
+node "vdd" 2 46.8 23 -88 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 112 92 0 0 0 0
+node "m1_5_n50#" 2 561.6 5 -50 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 61 44 232 124 0 0
 node "m1_46_n43#" 0 331.2 46 -43 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 14 18 0 0 0 0
 node "A" 0 601.2 55 -37 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 24 22 0 0 0 0
-node "m1_17_n29#" 0 255.6 17 -29 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6 10 0 0 0 0
-node "m1_31_n4#" 1 1821.6 31 -4 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 64 68 0 0 0 0
-node "m1_n1_n4#" 1 1389.6 -1 -4 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 48 52 0 0 0 0
+node "gnd" 1 7729.2 -1 -8 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 860 198 0 0 0 0
 node "out" 1 1407.6 55 24 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 66 50 0 0 0 0
-node "m1_27_n43#" 3 5025.96 27 -43 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 79 58 320 168 0 0
-node "S" 3 5219.46 -1 30 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 56 48 260 178 0 0
+node "m1_27_n43#" 3 4491 27 -43 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 79 58 320 168 0 0
+node "S" 3 4873.68 -1 30 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 72 54 280 178 0 0
 node "m1_23_37#" 0 889.2 23 37 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 39 32 0 0 0 0
 node "B" 1 1350 -1 37 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 63 48 0 0 0 0
+node "vdd" 1 4658.4 -1 76 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 384 140 0 0 0 0
 node "w_n1_n90#" 1658 9950.04 -1 -90 nw 0 0 0 0 2988 232 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-cap "w_n1_n90#" "m1_27_n43#" 360
+cap "m1_27_n43#" "gnd" 655.68
+cap "S" "gnd" 587.16
+cap "vdd" "w_n1_n90#" 2509.2
+cap "m1_5_n50#" "w_n1_n90#" 3449.52
 cap "m1_46_n43#" "w_n1_n90#" 140.4
-cap "m1_31_n4#" "m1_27_n43#" 63.6
-cap "w_n1_n90#" "m1_23_n88#" 2509.2
-cap "S" "m1_n1_n4#" 145.56
-cap "w_n1_n90#" "S'" 3449.52
+cap "m1_27_n43#" "w_n1_n90#" 360
+cap "inverter_0/Y" "nand_2/a_9_52#" 119.34
+cap "inverter_0/Y" "inverter_0/A" 15.84
+cap "inverter_0/Y" "A" 15.84
 cap "nand_0/a_9_52#" "inverter_0/A" 18.36
-cap "nand_0/gnd" "nand_2/a_9_52#" 73.44
-cap "nand_0/gnd" "inverter_0/A" 110.16
-cap "inverter_0/vdd" "S'" -92.79
-cap "inverter_0/vdd" "inverter_0/A" 31.68
-cap "S'" "inverter_0/A" 15.84
-cap "S'" "nand_2/a_9_52#" 119.34
-cap "S'" "A" 15.84
+cap "gnd" "nand_2/a_9_52#" 2.84217e-14
+cap "gnd" "inverter_0/A" 18.36
+cap "vdd" "inverter_0/Y" -92.79
+cap "vdd" "inverter_0/A" 31.68
 cap "S" "nand_0/a_9_52#" 113.22
-cap "S" "B" 11.88
-cap "nand_0/vdd" "nand_0/a_9_52#" 18
-merge "nand_1/A" "nand_2/a_9_52#" -1021.68 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -36 -36 0 0 0 0
+cap "vdd" "nand_0/a_9_52#" 18
+cap "S" "B" 15.84
+merge "nand_1/A" "nand_2/a_9_52#" -972 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -36 -36 0 0 0 0
 merge "nand_2/a_9_52#" "m1_27_n43#"
-merge "nand_1/a_9_52#" "out" -1407.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -66 -50 0 0 0 0
-merge "nand_2/gnd" "inverter_0/gnd" -5846.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -64 -240 0 0 0 0
+merge "nand_2/gnd" "inverter_0/gnd" -9090 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -380 -330 0 0 0 0
 merge "inverter_0/gnd" "nand_1/gnd"
 merge "nand_1/gnd" "nand_0/gnd"
-merge "nand_0/gnd" "m1_n1_n4#"
-merge "m1_n1_n4#" "m1_31_n4#"
+merge "nand_0/gnd" "gnd"
+merge "nand_1/a_9_52#" "out" -1407.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -66 -50 0 0 0 0
 merge "nand_1/B" "nand_0/a_9_52#" -759.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -24 -28 0 0 0 0
 merge "nand_0/a_9_52#" "m1_23_37#"
-merge "nand_2/vdd" "inverter_0/vdd" -10290.6 0 0 0 0 -2500 -302 0 0 0 0 0 0 0 0 0 0 0 -84 0 0 0 0
+merge "nand_1/vdd" "nand_0/vdd" -15229.8 0 0 0 0 -2500 -392 0 0 0 0 0 0 0 0 0 0 -384 -236 0 0 0 0
+merge "nand_0/vdd" "nand_2/vdd"
+merge "nand_2/vdd" "inverter_0/vdd"
 merge "inverter_0/vdd" "w_n1_n90#"
-merge "w_n1_n90#" "m1_23_n88#"
+merge "w_n1_n90#" "vdd"
 merge "nand_2/B" "m1_46_n43#" -1353.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -43 -50 0 0 0 0
 merge "m1_46_n43#" "inverter_0/Y"
-merge "inverter_0/Y" "S'"
+merge "inverter_0/Y" "m1_5_n50#"
 merge "nand_0/B" "B" -1350 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -63 -48 0 0 0 0
 merge "nand_2/A" "A" -601.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -24 -22 0 0 0 0
-merge "nand_0/A" "inverter_0/A" -1630.8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -51 -52 0 0 0 0
-merge "inverter_0/A" "m1_17_n29#"
-merge "m1_17_n29#" "S"
-merge "nand_1/vdd" "nand_0/vdd" -280.8 0 0 0 0 0 -90 0 0 0 0 0 0 0 0 0 0 0 -12 0 0 0 0
+merge "nand_0/A" "inverter_0/A" -1593.99 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -54 -52 0 0 0 0
+merge "inverter_0/A" "S"
