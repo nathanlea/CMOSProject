@@ -1,8 +1,10 @@
 magic
 tech scmos
-timestamp 1447036319
+timestamp 1447269970
 << nwell >>
-rect -1 -90 63 -43
+rect -1 -46 63 -43
+rect -1 -50 58 -46
+rect -1 -90 63 -50
 << metal1 >>
 rect -1 37 20 40
 rect 23 37 36 40
