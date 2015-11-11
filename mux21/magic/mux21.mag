@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1447272275
+timestamp 1447272965
 << nwell >>
 rect -1 -46 63 -43
 rect -1 -50 58 -46
@@ -8,28 +8,32 @@ rect -1 -90 63 -50
 << metal1 >>
 rect -1 37 20 40
 rect 23 37 36 40
-rect -1 30 7 33
+rect 3 30 7 33
 rect 34 30 39 33
 rect 55 24 58 46
 rect -1 -4 23 -2
 rect 31 -4 63 -2
-rect 17 -29 23 -26
+rect 17 -29 19 -26
 rect 55 -37 63 -34
-rect 30 -43 39 -39
+rect 31 -43 39 -39
 rect 46 -41 48 -40
 rect 46 -43 52 -41
 rect 58 -46 63 -41
 rect 23 -86 31 -82
 rect 23 -88 63 -86
 << m2contact >>
+rect -1 30 3 34
 rect 30 30 34 34
-rect 26 -43 30 -39
+rect 20 -30 24 -26
+rect 27 -43 31 -39
 rect 5 -50 9 -46
 rect 58 -50 63 -46
 << metal2 >>
+rect 3 30 23 33
+rect 20 -26 23 30
 rect 30 19 34 30
-rect 26 15 34 19
-rect 26 -39 30 15
+rect 27 15 34 19
+rect 27 -39 31 15
 rect 9 -50 58 -46
 use ../../nand/magic/nand  nand_0 ../../nand/magic
 timestamp 1013989602
@@ -48,8 +52,7 @@ timestamp 1013989602
 transform -1 0 59 0 -1 -5
 box -4 -3 28 83
 << labels >>
-rlabel metal1 -1 30 7 33 0 S
-rlabel metal1 17 -29 23 -26 0 S
+rlabel space 17 -29 23 -26 0 S
 rlabel metal2 5 -50 63 -46 0 S'
 rlabel metal1 55 24 58 46 0 out
 rlabel metal1 55 -37 63 -34 0 A
