@@ -1,4 +1,4 @@
-timestamp 1447272965
+timestamp 1447273156
 version 8.0
 tech scmos
 style AMI0.5um(amic5)from:T01X
@@ -21,20 +21,20 @@ node "m1_n1_30#" 3 5013.9 -1 30 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 44 40 260 178 
 node "m1_23_37#" 0 889.2 23 37 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 39 32 0 0 0 0
 node "B" 1 1350 -1 37 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 63 48 0 0 0 0
 node "w_n1_n90#" 1658 9950.04 -1 -90 nw 0 0 0 0 2988 232 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "m1_46_n43#" "w_n1_n90#" 140.4
+cap "m1_31_n4#" "m1_27_n43#" 63.6
 cap "w_n1_n90#" "m1_23_n88#" 2509.2
 cap "w_n1_n90#" "S'" 3449.52
 cap "m1_n1_30#" "m1_n1_n4#" 145.56
 cap "w_n1_n90#" "m1_27_n43#" 360
-cap "m1_46_n43#" "w_n1_n90#" 140.4
-cap "m1_31_n4#" "m1_27_n43#" 63.6
 cap "S'" "inverter_0/A" 15.84
 cap "S'" "nand_2/a_9_52#" 119.34
 cap "S'" "A" 15.84
 cap "nand_0/a_9_52#" "inverter_0/A" 18.36
 cap "nand_0/gnd" "nand_2/a_9_52#" 73.44
 cap "nand_0/gnd" "inverter_0/A" 110.16
-cap "inverter_0/vdd" "inverter_0/A" 31.68
 cap "inverter_0/vdd" "S'" -92.79
+cap "inverter_0/vdd" "inverter_0/A" 31.68
 cap "nand_0/A" "nand_0/a_9_52#" 113.22
 cap "nand_0/A" "B" 11.88
 cap "nand_0/vdd" "nand_0/a_9_52#" 18

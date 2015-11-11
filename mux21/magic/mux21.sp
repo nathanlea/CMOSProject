@@ -56,8 +56,8 @@ M1012 nand_0/a_9_6# nand_0/A nand_0/gnd Gnd CMOSNTT w=20 l=2
 +  ad=60 pd=46 as=0 ps=0
 M1013 nand_1/B B nand_0/a_9_6# Gnd CMOSNTT w=20 l=2
 +  ad=100 pd=50 as=0 ps=0
-C0 nand_0/vdd nand_1/B 2.097720fF
-C1 S' nand_2/vdd 5.711850fF
+C0 S' nand_2/vdd 5.711850fF
+C1 nand_0/vdd nand_1/B 2.097720fF
 C2 nand_0/A gnd! 6.253860fF
 C3 nand_1/B gnd! 3.001320fF
 C4 nand_1/A gnd! 6.522480fF
