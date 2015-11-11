@@ -34,8 +34,8 @@ File <../../inv/magic/inverter.mag> is already locked by pid 82324.  Opening rea
 Extracting ../../inv/magic/inverter into ../../inv/magic/inverter.ext:
 Extracting ../../nand/magic/nand into ../../nand/magic/nand.ext:
 Extracting mux21 into mux21.ext:
-mux21: 3 warnings
-Total of 3 warnings.
+mux21: 2 warnings
+Total of 2 warnings.
 exttosim finished.
 Devices merged: 0
 exttosim finished.
