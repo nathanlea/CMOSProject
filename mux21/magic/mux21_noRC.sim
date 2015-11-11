@@ -13,24 +13,3 @@ p S nand_0/vdd nand_1/B 2 20 10 53
 p B nand_1/B nand_0/vdd 2 20 18 53
 n S nand_0/gnd nand_0/a_9_6# 2 20 10 7
 n B nand_0/a_9_6# nand_1/B 2 20 15 7
-C nand_0/vdd nand_1/B 2.097720
-C nand_2/vdd S' 5.711850
-R nand_0/a_9_6# 547
-R B 949
-C S GND 3.377640
-R S 2837
-R nand_1/a_9_6# 547
-R out 672
-C nand_1/B GND 3.001320
-R nand_1/B 1621
-C nand_1/A GND 6.647760
-R nand_1/A 1584
-C nand_0/vdd GND 10.667521
-R nand_0/vdd 4676
-R nand_2/a_9_6# 547
-C nand_0/gnd GND 8.607600
-R nand_0/gnd 4806
-C S' GND 2.145240
-R S' 1526
-C nand_2/vdd GND 8.659440
-R nand_2/vdd 3983
