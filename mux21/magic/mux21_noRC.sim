@@ -10,6 +10,6 @@ p nand_1/B out nand_0/vdd 2 20 50 53
 n nand_1/A nand_0/gnd nand_1/a_9_6# 2 20 42 7
 n nand_1/B nand_1/a_9_6# out 2 20 47 7
 p S nand_0/vdd nand_1/B 2 20 10 53
-p B nand_1/B nand_0/vdd 2 20 18 53
+p A nand_1/B nand_0/vdd 2 20 18 53
 n S nand_0/gnd nand_0/a_9_6# 2 20 10 7
-n B nand_0/a_9_6# nand_1/B 2 20 15 7
+n A nand_0/a_9_6# nand_1/B 2 20 15 7

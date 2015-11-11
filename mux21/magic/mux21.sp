@@ -50,13 +50,13 @@ M1009 out nand_1/B nand_1/a_9_6# Gnd CMOSNTT w=20 l=2
 +  ad=100 pd=50 as=0 ps=0
 M1010 nand_1/B S nand_0/vdd nand_0/vdd CMOSPTT w=20 l=2
 +  ad=120 pd=52 as=0 ps=0
-M1011 nand_0/vdd B nand_1/B nand_0/vdd CMOSPTT w=20 l=2
+M1011 nand_0/vdd A nand_1/B nand_0/vdd CMOSPTT w=20 l=2
 +  ad=0 pd=0 as=0 ps=0
 M1012 nand_0/a_9_6# S nand_0/gnd Gnd CMOSNTT w=20 l=2
 +  ad=60 pd=46 as=0 ps=0
-M1013 nand_1/B B nand_0/a_9_6# Gnd CMOSNTT w=20 l=2
+M1013 nand_1/B A nand_0/a_9_6# Gnd CMOSNTT w=20 l=2
 +  ad=100 pd=50 as=0 ps=0
-C0 nand_0/vdd nand_1/B 2.097720fF
+C0 nand_1/B nand_0/vdd 2.097720fF
 C1 nand_2/vdd S' 5.711850fF
 C2 S gnd! 3.377640fF
 C3 nand_1/B gnd! 3.001320fF
