@@ -1,0 +1,13 @@
+
+Subcircuit summary:
+Circuit 1: ./CMOSProject/mux21/magic/mux21 |Circuit 2: ./CMOSProject/mux21/sue/21mux.s 
+-------------------------------------------|-------------------------------------------
+p (7)                                      |p (7)                                      
+n (7)                                      |n (7)                                      
+Number of devices: 14                      |Number of devices: 14                      
+Number of nets: 12                         |Number of nets: 12                         
+---------------------------------------------------------------------------------------
+Circuits match uniquely.
+Netlists match uniquely.
+Cell pin lists are equivalent.
+Circuits match uniquely.
