@@ -1,0 +1,38 @@
+
+Subcircuit summary:
+Circuit 1: dffpos.sim                      |Circuit 2: ../magic/dffpos_noRC.sim        
+-------------------------------------------|-------------------------------------------
+n (11)                                     |n (11)                                     
+p (11)                                     |p (11)                                     
+Number of devices: 22                      |Number of devices: 22                      
+Number of nets: 17                         |Number of nets: 17                         
+---------------------------------------------------------------------------------------
+Circuits match uniquely.
+Property errors were found.
+Netlists match uniquely.
+There were property errors.
+n4 vs. n@-29,-84:
+ width circuit1: 5.47491e-317   circuit2: 5.53078e-317   (delta=1.02%, cutoff=1%)
+ length circuit1: 5.47494e-317   circuit2: 5.53081e-317   (delta=1.02%, cutoff=1%)
+n3 vs. n@7,-84:
+ width circuit1: 5.45992e-317   circuit2: 5.53411e-317   (delta=1.35%, cutoff=1%)
+ length circuit1: 5.45996e-317   circuit2: 5.53414e-317   (delta=1.35%, cutoff=1%)
+n1 vs. n@-2,-84:
+ width circuit1: 5.42667e-317   circuit2: 5.53358e-317   (delta=1.95%, cutoff=1%)
+ length circuit1: 5.42671e-317   circuit2: 5.53361e-317   (delta=1.95%, cutoff=1%)
+n5 vs. n@23,-84:
+ width circuit1: 5.47662e-317   circuit2: 5.53472e-317   (delta=1.06%, cutoff=1%)
+ length circuit1: 5.47665e-317   circuit2: 5.53475e-317   (delta=1.06%, cutoff=1%)
+n6 vs. n@28,-84:
+ width circuit1: 5.47751e-317   circuit2: 5.53525e-317   (delta=1.05%, cutoff=1%)
+ length circuit1: 5.47754e-317   circuit2: 5.53528e-317   (delta=1.05%, cutoff=1%)
+n2 vs. n@-7,-84:
+ width circuit1: 5.45911e-317   circuit2: 5.53305e-317   (delta=1.35%, cutoff=1%)
+ length circuit1: 5.45914e-317   circuit2: 5.53308e-317   (delta=1.35%, cutoff=1%)
+n7 vs. n@51,-84:
+ width circuit1: 5.48093e-317   circuit2: 5.53692e-317   (delta=1.02%, cutoff=1%)
+ length circuit1: 5.48096e-317   circuit2: 5.53695e-317   (delta=1.02%, cutoff=1%)
+Cell pin lists are equivalent.
+Circuits match uniquely.
+Property errors were found.
+The following cells had property errors: dffpos.sim
