@@ -7,7 +7,7 @@
 ( @@version : 2000d );
 ( @@techdesc : SCMOS: Submit as technology.lambda: SCN3ME_SUBM.30 [to process: AMIc5] );
 ( @@style : lambda=0.30(p) );
-( @@date : Fri Nov 13 12:18:29 2015 );
+( @@date : Fri Nov 13 12:28:10 2015 );
 DS 1 15 2;
 9 dffpos;
 L CWN;
@@ -288,7 +288,7 @@ L CMF;
     B 16 4 128 -198;
     B 364 12 50 -218;
     B 16 96 -128 -288;
-    B 16 80 -96 -296;
+    B 16 92 -96 -302;
     B 12 44 -30 -246;
     B 16 4 84 -226;
     B 76 12 194 -242;
@@ -321,7 +321,7 @@ L CMS;
 94 gnd 24 -364 CMF;
 94 D -148 -180 CMF;
 94 Q 224 -192 CMS;
-94 clk -132 -200 CMS;
+94 clk 64 60 CMS;
 DF;
 C 1;
 End
