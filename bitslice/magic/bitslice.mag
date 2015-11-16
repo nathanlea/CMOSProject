@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1447693568
+timestamp 1447694408
 << nwell >>
 rect -98 64 -13 75
 rect -98 14 34 64
@@ -47,19 +47,19 @@ rect 32 -85 36 -77
 rect -86 -89 36 -85
 rect -86 -140 -82 -89
 rect -30 -203 -26 -197
-use ../../XOR2/magic/xor2  xor2_0 ../../XOR2/magic
+use ../../XOR2/magic/xor2  xor2_0
 timestamp 1160719867
 transform -1 0 -23 0 -1 123
 box 10 -3 75 105
-use ../../mux21/magic/mux21  mux21_0 ../../mux21/magic
+use ../../mux21/magic/mux21  mux21_0
 timestamp 1447275876
 transform 1 0 -29 0 1 108
 box -1 -90 63 84
-use ../../FA/magic/fa  fa_0 ../../FA/magic
+use ../../FA/magic/fa  fa_0
 timestamp 1014102789
 transform 1 0 -90 0 1 -85
 box -5 -3 124 105
-use ../../dffpos/magic/dffpos  dffpos_0 ../../dffpos/magic
+use ../../dffpos/magic/dffpos  dffpos_0
 timestamp 1447691457
 transform 1 0 -44 0 -1 -184
 box -38 -93 62 16
@@ -75,4 +75,5 @@ rlabel metal2 -54 129 -54 129 1 A
 rlabel metal1 -55 139 -55 139 1 S
 rlabel metal1 -55 146 -55 146 1 B
 rlabel metal1 -102 88 -102 88 3 subtract
+rlabel metal1 34 -40 34 -40 1 sum
 << end >>

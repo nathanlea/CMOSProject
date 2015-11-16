@@ -1,5 +1,5 @@
-( @@user : khobble );
-( @@machine : gondor.ecen.okstate.edu );
+( @@user : nathahl );
+( @@machine : combe.ecen.okstate.edu );
 ( @@source : bitslice.mag );
 ( @@tool : Magic 8.0.209 );
 ( @@compiled : Fri Sep 11 02:08:49 CDT 2015 );
@@ -7,7 +7,7 @@
 ( @@version : 2000d );
 ( @@techdesc : SCMOS: Submit as technology.lambda: SCN3ME_SUBM.30 [to process: AMIc5] );
 ( @@style : lambda=0.30(p) );
-( @@date : Mon Nov 16 11:09:21 2015 );
+( @@date : Mon Nov 16 11:20:26 2015 );
 DS 1 15 2;
 9 bitslice;
 L CWN;
@@ -76,6 +76,7 @@ L CMS;
 94 S -220 556 CMF;
 94 B -220 584 CMF;
 94 subtract -408 352 CMF;
+94 sum 136 -160 CMF;
 91 xor2_0;
 C 2 R -1 0 T -92 492;
 91 mux21_0;

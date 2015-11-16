@@ -33,7 +33,7 @@ p fa_0/a_25_6# fa_0/a_46_74# fa_0/a_70_6# 2 20 -22 -11
 p subtract fa_0/a_70_6# fa_0/a_79_74# 2 20 -13 -11
 p fa_0/B fa_0/a_79_74# fa_0/a_84_74# 2 20 -8 -11
 p fa_0/A fa_0/a_84_74# vdd 2 20 -3 -11
-p fa_0/a_70_6# vdd fa_0/Sum 2 20 5 -11
+p fa_0/a_70_6# vdd sum 2 20 5 -11
 p fa_0/a_25_6# vdd Cout 2 20 21 -11
 n fa_0/A fa_0/a_2_6# gnd 2 10 -83 -79
 n fa_0/B gnd fa_0/a_2_6# 2 10 -75 -79
@@ -47,7 +47,7 @@ n fa_0/a_25_6# fa_0/a_46_6# fa_0/a_70_6# 2 10 -22 -79
 n subtract fa_0/a_70_6# fa_0/a_79_6# 2 10 -13 -79
 n fa_0/B fa_0/a_79_6# fa_0/a_84_6# 2 10 -8 -79
 n fa_0/A fa_0/a_84_6# gnd 2 10 -3 -79
-n fa_0/a_70_6# gnd fa_0/Sum 2 10 5 -79
+n fa_0/a_70_6# gnd sum 2 10 5 -79
 n fa_0/a_25_6# gnd Cout 2 10 21 -79
 p mux21_0/A vdd mux21_0/nand_1/A 2 20 22 50
 p mux21_0/nand_2/B mux21_0/nand_1/A vdd 2 20 14 50
