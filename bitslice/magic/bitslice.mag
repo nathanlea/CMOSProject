@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1447694408
+timestamp 1447695066
 << nwell >>
 rect -98 64 -13 75
 rect -98 14 34 64
@@ -20,7 +20,7 @@ rect -96 12 34 26
 rect -104 -32 -68 -28
 rect -103 -42 -77 -38
 rect 8 -42 36 -38
-rect -93 -52 -83 -48
+rect -89 -52 -83 -48
 rect 32 -73 36 -42
 rect 32 -78 36 -77
 rect -94 -97 32 -82
@@ -32,6 +32,7 @@ rect 29 132 33 136
 rect -36 86 -32 90
 rect -92 76 -88 80
 rect -107 -42 -103 -38
+rect -93 -52 -89 -48
 rect 32 -77 36 -73
 << metal2 >>
 rect 33 132 43 136
@@ -41,25 +42,25 @@ rect -107 76 -92 80
 rect -107 -38 -103 76
 rect 39 23 43 132
 rect -93 19 43 23
-rect -93 -52 -89 19
+rect -93 -48 -89 19
 rect 25 -61 47 -58
 rect 32 -85 36 -77
 rect -86 -89 36 -85
 rect -86 -140 -82 -89
 rect -30 -203 -26 -197
-use ../../XOR2/magic/xor2  xor2_0
+use ../../XOR2/magic/xor2  xor2_0 ../../XOR2/magic
 timestamp 1160719867
 transform -1 0 -23 0 -1 123
 box 10 -3 75 105
-use ../../mux21/magic/mux21  mux21_0
+use ../../mux21/magic/mux21  mux21_0 ../../mux21/magic
 timestamp 1447275876
 transform 1 0 -29 0 1 108
 box -1 -90 63 84
-use ../../FA/magic/fa  fa_0
+use ../../FA/magic/fa  fa_0 ../../FA/magic
 timestamp 1014102789
 transform 1 0 -90 0 1 -85
 box -5 -3 124 105
-use ../../dffpos/magic/dffpos  dffpos_0
+use ../../dffpos/magic/dffpos  dffpos_0 ../../dffpos/magic
 timestamp 1447691457
 transform 1 0 -44 0 -1 -184
 box -38 -93 62 16

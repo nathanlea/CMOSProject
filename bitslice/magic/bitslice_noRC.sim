@@ -55,10 +55,10 @@ n mux21_0/A gnd mux21_0/nand_2/a_9_6# 2 20 22 96
 n mux21_0/nand_2/B mux21_0/nand_2/a_9_6# mux21_0/nand_1/A 2 20 17 96
 p S vdd mux21_0/nand_2/B 2 20 -18 48
 n S gnd mux21_0/nand_2/B 2 10 -18 94
-p mux21_0/nand_1/A vdd mux21_0/out 2 20 13 161
-p mux21_0/nand_1/B mux21_0/out vdd 2 20 21 161
+p mux21_0/nand_1/A vdd fa_0/A 2 20 13 161
+p mux21_0/nand_1/B fa_0/A vdd 2 20 21 161
 n mux21_0/nand_1/A gnd mux21_0/nand_1/a_9_6# 2 20 13 115
-n mux21_0/nand_1/B mux21_0/nand_1/a_9_6# mux21_0/out 2 20 18 115
+n mux21_0/nand_1/B mux21_0/nand_1/a_9_6# fa_0/A 2 20 18 115
 p S vdd mux21_0/nand_1/B 2 20 -19 161
 p B mux21_0/nand_1/B vdd 2 20 -11 161
 n S gnd mux21_0/nand_0/a_9_6# 2 20 -19 115
