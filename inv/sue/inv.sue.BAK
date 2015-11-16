@@ -1,4 +1,4 @@
-# SUE version MMI_SUE5.6.18
+# SUE version MMI_SUE4.2.10
 
 proc SCHEMATIC_inv {} {
   make nmos -origin {390 400}
@@ -19,14 +19,14 @@ proc SCHEMATIC_inv {} {
 
 proc ICON_inv args {
   icon_setup $args {{origin {0 0}} {orient R0} {name {}} {M {}} {dpc {}}}
-  icon_term -type input -origin {-60 0} -name A
-  icon_term -type output -origin {60 0} -name Y
-  icon_property -origin {0 0} -size large -anchor center -label inv
-  icon_line -60 -60 60 -60 60 60 -60 60 -60 -60
-  icon_property -origin {-50 0} -label A
-  icon_property -origin {50 0} -anchor e -label Y
-  icon_property -origin {-60 280} -type user -name name
-  icon_property -origin {-60 300} -type user -name M
-  icon_property -origin {-60 320} -type user -name dpc
+  icon_term -type input -origin {-40 0} -name A
+  icon_term -type output -origin {40 0} -name Y
+  icon_property -origin {10 150} -type user -name name
+  icon_property -origin {10 170} -type user -name M
+  icon_property -origin {10 190} -type user -name dpc
+  icon_line -40 -20 -40 30 40 30 40 -20 -40 -20 -40 -20
+  icon_property -origin {-30 0} -size small -label A
+  icon_property -origin {20 0} -size small -label Y
+  icon_property -origin {-20 20} -size small -label Inverter
 }
 

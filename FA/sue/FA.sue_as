@@ -1,4 +1,4 @@
-# SUE version MMI_SUE5.6.18
+# SUE version MMI_SUE5.6.18 (auto-save)
 
 proc SCHEMATIC_FA {} {
   make nmos -W 3 -origin {430 370}

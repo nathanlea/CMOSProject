@@ -1,41 +1,41 @@
-| units: 1.0  tech: scmos  format: MIT
+| units: 30.0  tech: scmos  format: MIT
 A A input
 A B input
 A S input
 A Out output
 | begin nand2 450 180
 | device nand2.pmos 0 -100
-p B vdd net_3 60 200
+p B vdd net_1 1 2
 | device nand2.nmos 0 0
-n B nand2.net_1 net_3 60 200
+n B nand2.net_1 net_1 1 2
 | device nand2.pmos_1 160 -100
-p S vdd net_3 60 200
+p S vdd net_1 1 2
 | device nand2.nmos_1 0 100
-n S gnd nand2.net_1 60 200
+n S gnd nand2.net_1 1 2
 | end nand2
 | begin nand2_1 450 340
 | device nand2_1.pmos 0 -100
-p net_2 vdd net_1 60 200
+p net_3 vdd net_2 1 2
 | device nand2_1.nmos 0 0
-n net_2 nand2_1.net_1 net_1 60 200
+n net_3 nand2_1.net_1 net_2 1 2
 | device nand2_1.pmos_1 160 -100
-p A vdd net_1 60 200
+p A vdd net_2 1 2
 | device nand2_1.nmos_1 0 100
-n A gnd nand2_1.net_1 60 200
+n A gnd nand2_1.net_1 1 2
 | end nand2_1
 | begin nand2_2 620 260
 | device nand2_2.pmos 0 -100
-p net_3 vdd Out 60 200
+p net_1 vdd Out 1 2
 | device nand2_2.nmos 0 0
-n net_3 nand2_2.net_1 Out 60 200
+n net_1 nand2_2.net_1 Out 1 2
 | device nand2_2.pmos_1 160 -100
-p net_1 vdd Out 60 200
+p net_2 vdd Out 1 2
 | device nand2_2.nmos_1 0 100
-n net_1 gnd nand2_2.net_1 60 200
+n net_2 gnd nand2_2.net_1 1 2
 | end nand2_2
 | begin inverter 310 260
 | device inverter.nmos 550 360
-n S gnd net_2 60 100
+n S gnd net_3 1 1
 | device inverter.pmos 550 200
-p S vdd net_2 60 200
+p S vdd net_3 1 2
 | end inverter

@@ -8,5 +8,8 @@
 
 # Special SUE version which includes file modification times.
 
-set auto_index(SCHEMATIC_21mux) [list source [file join $dir 21mux.sue]]
-set mtimes {{21mux.sue 1447034190}}
+set auto_index(SCHEMATIC_inv) [list source [file join $dir inv.sue]]
+set auto_index(ICON_inv) [list source [file join $dir inv.sue]]
+set auto_index(SCHEMATIC_FA) [list source [file join $dir FA.sue]]
+set auto_index(ICON_FA) [list source [file join $dir FA.sue]]
+set mtimes {{inv.sue 1444678780} {FA.sue 1444678780}}

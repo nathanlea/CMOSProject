@@ -10,4 +10,4 @@
 
 set auto_index(SCHEMATIC_xor2) [list source [file join $dir xor2.sue]]
 set auto_index(ICON_xor2) [list source [file join $dir xor2.sue]]
-set mtimes {{xor2.sue 1320693223}}
+set mtimes {{xor2.sue 1444678780}}

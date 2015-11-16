@@ -1,0 +1,69 @@
+# SUE version MMI_SUE5.6.18
+
+proc SCHEMATIC_bitslice {} {
+  make xor2 -origin {180 290}
+  make 21mux -origin {500 100}
+  make FA -origin {500 410}
+  make dffpos -origin {500 610}
+  make input -orient R90 -name S -origin {500 -30}
+  make input -name B -origin {300 60}
+  make input -name A -origin {110 210}
+  make input -name subtract -origin {70 260}
+  make input -name Clk -origin {330 530}
+  make output -name Out -origin {780 530}
+  make output -name Cout -origin {740 430}
+  make input -name Cin -origin {80 430}
+  make_wire 700 530 700 -10
+  make_wire 600 530 700 530
+  make_wire 360 100 410 100
+  make_wire 410 60 410 100
+  make_wire 360 -10 360 100
+  make_wire 360 -10 700 -10
+  make_wire 300 240 350 240
+  make_wire 350 240 350 390
+  make_wire 400 390 350 390
+  make_wire 590 100 630 100
+  make_wire 630 100 630 330
+  make_wire 630 330 300 330
+  make_wire 300 330 300 410
+  make_wire 300 410 400 410
+  make_wire 600 400 640 400
+  make_wire 640 400 640 480
+  make_wire 640 480 370 480
+  make_wire 370 480 370 560
+  make_wire 370 560 400 560
+  make_wire 500 -30 500 40
+  make_wire 300 60 410 60
+  make_wire 110 210 180 210
+  make_wire 330 530 400 530
+  make_wire 700 530 780 530
+  make_wire 600 430 740 430
+  make_wire 180 260 70 260
+  make_wire 400 430 80 430
+}
+
+proc ICON_bitslice args {
+  icon_setup $args {{origin {0 0}} {orient R0} {name {}} {M {}} {dpc {}}}
+  icon_term -type input -origin {-160 -90} -name B
+  icon_term -type input -origin {-160 -50} -name A
+  icon_term -type input -origin {-160 -10} -name subtract
+  icon_term -type input -origin {160 -50} -orient RX -name Cin
+  icon_term -type input -origin {-160 30} -name Clk
+  icon_term -type output -origin {160 -10} -name Cout
+  icon_term -type output -origin {160 30} -name Out
+  icon_term -type input -origin {-160 70} -name S
+  icon_property -origin {0 -10} -size large -anchor center -label bitslice
+  icon_line -160 -150 160 -150 160 130 -160 130 -160 -150
+  icon_property -origin {-150 -90} -label B
+  icon_property -origin {-150 -50} -label A
+  icon_property -origin {-150 -10} -label subtract
+  icon_property -origin {150 -50} -anchor e -label Cin
+  icon_property -origin {-150 30} -label Clk
+  icon_property -origin {150 -10} -anchor e -label Cout
+  icon_property -origin {150 30} -anchor e -label Out
+  icon_property -origin {-150 70} -label S
+  icon_property -origin {-160 350} -type user -name name
+  icon_property -origin {-160 370} -type user -name M
+  icon_property -origin {-160 390} -type user -name dpc
+}
+

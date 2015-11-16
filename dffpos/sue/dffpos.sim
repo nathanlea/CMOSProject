@@ -1,48 +1,48 @@
-| units: 1.0  tech: scmos  format: MIT
+| units: 30.0  tech: scmos  format: MIT
 A Clk input
 A D input
 A Q output
 | device nmos 420 160
-n net_2 gnd net_11 60 300
+n net_2 gnd net_11 1 3
 | device nmos_1 420 80
-n Clk net_11 net_3 60 300
+n Clk net_11 net_3 1 3
 | device nmos_2 510 440
-n net_3 gnd net_2 60 300
+n net_3 gnd net_2 1 3
 | device pmos 420 -20
-p Clk_b net_8 net_3 60 300
+p Clk_b net_8 net_3 1 3
 | device pmos_1 420 -100
-p net_2 vdd net_8 60 300
+p net_2 vdd net_8 1 3
 | device nmos_3 160 40
-n Clk gnd Clk_b 60 600
+n Clk gnd Clk_b 1 6
 | device pmos_2 160 -60
-p Clk vdd Clk_b 60 1200
+p Clk vdd Clk_b 1 12
 | device nmos_4 890 530
-n net_2 gnd net_9 60 300
+n net_2 gnd net_9 1 3
 | device nmos_5 890 450
-n Clk net_9 net_1 60 300
+n Clk net_9 net_1 1 3
 | device pmos_3 890 350
-p Clk_b net_6 net_1 60 600
+p Clk_b net_6 net_1 1 6
 | device pmos_4 890 270
-p net_2 vdd net_6 60 600
+p net_2 vdd net_6 1 6
 | device pmos_5 510 360
-p net_3 vdd net_2 60 600
+p net_3 vdd net_2 1 6
 | device nmos_6 1190 440
-n net_1 gnd Q 60 600
+n net_1 gnd Q 1 6
 | device pmos_6 1190 360
-p net_1 vdd Q 60 1200
+p net_1 vdd Q 1 12
 | device nmos_7 250 530
-n D gnd net_10 60 300
+n D gnd net_10 1 3
 | device nmos_8 250 450
-n Clk_b net_10 net_3 60 300
+n Clk_b net_10 net_3 1 3
 | device pmos_7 250 350
-p Clk net_7 net_3 60 600
+p Clk net_7 net_3 1 6
 | device pmos_8 250 270
-p D vdd net_7 60 600
+p D vdd net_7 1 6
 | device nmos_9 1100 160
-n Q gnd net_5 60 300
+n Q gnd net_5 1 3
 | device nmos_10 1100 80
-n Clk_b net_5 net_1 60 300
+n Clk_b net_5 net_1 1 3
 | device pmos_9 1100 -20
-p Clk net_4 net_1 60 300
+p Clk net_4 net_1 1 3
 | device pmos_10 1100 -100
-p Q vdd net_4 60 300
+p Q vdd net_4 1 3

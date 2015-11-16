@@ -1,0 +1,7 @@
+| units: 30.0  tech: scmos  format: MIT
+A A input
+A Y output
+| device nmos 390 400
+n A gnd Y 1 1
+| device pmos 390 270
+p A vdd Y 1 2
