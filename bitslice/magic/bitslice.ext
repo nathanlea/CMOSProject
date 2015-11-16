@@ -25,28 +25,28 @@ node "S" 1 2023.2 -56 138 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 120 68 0 0 0 0
 node "B" 1 2041.2 -56 145 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 99 72 0 0 0 0
 node "vdd" 1 4658.4 -30 184 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 384 140 0 0 0 0
 node "w_n98_14#" 2110 25091.5 -98 14 nw 0 0 0 0 7535 386 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-cap "m1_n107_n42#" "subtract" 4068.24
+cap "subtract" "m1_n107_n42#" 4068.24
+cap "Cout" "m1_10_n149#" 218.34
+cap "subtract" "m1_29_132#" 303.36
+cap "clk" "vdd" 171.24
+cap "Cout" "m1_8_n42#" 259.32
+cap "m1_29_132#" "vdd" 6028.56
 cap "m1_29_132#" "m1_10_n149#" 1586.1
 cap "m1_29_132#" "m1_n107_n42#" 303.36
-cap "m1_29_132#" "subtract" 303.36
 cap "w_n98_14#" "vdd" 8938.8
-cap "m1_8_n42#" "Cout" 259.32
+cap "gnd" "A" 787.92
 cap "m1_8_n42#" "gnd" 5771.64
 cap "m1_29_132#" "m1_n93_n52#" 176.16
-cap "m1_29_132#" "vdd" 6028.56
-cap "clk" "vdd" 171.24
-cap "gnd" "A" 787.92
-cap "m1_10_n149#" "Cout" 218.34
 cap "clk" "vdd" -12.24
-cap "fa_0/vdd" "m1_29_132#" 149.04
-cap "fa_0/B" "fa_0/C" 38.88
 cap "fa_0/A" "fa_0/B" 38.88
+cap "fa_0/B" "fa_0/C" 38.88
 cap "fa_0/A" "fa_0/C" 38.88
+cap "fa_0/vdd" "m1_29_132#" 149.04
 cap "fa_0/Sum" "Cout" 36.72
+cap "vdd" "m1_29_132#" 124.2
 cap "vdd" "mux21_0/inverter_0/Y" 144
 cap "vdd" "mux21_0/inverter_0/A" 158.4
 cap "subtract" "xor2_0/Y" 5.68434e-14
-cap "vdd" "m1_29_132#" 124.2
 merge "mux21_0/gnd" "xor2_0/gnd" -24616.8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1898 -760 0 0 0 0
 merge "xor2_0/gnd" "mux21_0/inverter_0/gnd"
 merge "mux21_0/inverter_0/gnd" "fa_0/gnd"
