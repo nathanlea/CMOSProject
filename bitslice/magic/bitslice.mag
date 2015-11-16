@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1447695066
+timestamp 1447696045
 << nwell >>
 rect -98 64 -13 75
 rect -98 14 34 64
@@ -73,8 +73,9 @@ rlabel metal2 -28 -202 -28 -202 1 clk
 rlabel metal1 -24 -196 -24 -196 1 vdd
 rlabel metal2 45 -60 45 -60 7 Cout
 rlabel metal2 -54 129 -54 129 1 A
-rlabel metal1 -55 139 -55 139 1 S
 rlabel metal1 -55 146 -55 146 1 B
 rlabel metal1 -102 88 -102 88 3 subtract
 rlabel metal1 34 -40 34 -40 1 sum
+rlabel metal1 -55 139 -55 139 1 S
+rlabel metal2 -98 78 -98 78 1 Y
 << end >>
