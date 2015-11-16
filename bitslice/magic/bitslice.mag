@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1447696045
+timestamp 1447696599
 << nwell >>
 rect -98 64 -13 75
 rect -98 14 34 64
@@ -34,6 +34,7 @@ rect -92 76 -88 80
 rect -107 -42 -103 -38
 rect -93 -52 -89 -48
 rect 32 -77 36 -73
+rect -85 -140 -81 -136
 << metal2 >>
 rect 33 132 43 136
 rect -56 128 -32 131
@@ -46,7 +47,8 @@ rect -93 -48 -89 19
 rect 25 -61 47 -58
 rect 32 -85 36 -77
 rect -86 -89 36 -85
-rect -86 -140 -82 -89
+rect -86 -136 -82 -89
+rect -86 -140 -85 -136
 rect -30 -203 -26 -197
 use ../../XOR2/magic/xor2  xor2_0 ../../XOR2/magic
 timestamp 1160719867

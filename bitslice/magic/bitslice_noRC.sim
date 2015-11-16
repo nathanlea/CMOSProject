@@ -1,6 +1,6 @@
 | units: 30 tech: scmos format: MIT
 p clk dffpos_0/a_n34_n84# vdd 2 40 -73 -150
-p dffpos_0/D vdd dffpos_0/a_n19_n15# 2 20 -65 -170
+p sum vdd dffpos_0/a_n19_n15# 2 20 -65 -170
 p clk dffpos_0/a_n19_n15# dffpos_0/a_n14_n84# 2 20 -59 -170
 p dffpos_0/a_n34_n84# dffpos_0/a_n14_n84# dffpos_0/a_n5_n15# 2 20 -51 -170
 p dffpos_0/a_n2_n86# dffpos_0/a_n5_n15# vdd 2 20 -45 -170
@@ -11,7 +11,7 @@ p clk dffpos_0/a_30_n84# dffpos_0/a_40_n5# 2 10 -6 -180
 p mux21_0/A dffpos_0/a_40_n5# vdd 2 10 -1 -180
 n clk dffpos_0/a_n34_n84# gnd 2 20 -73 -101
 p dffpos_0/a_30_n84# vdd mux21_0/A 2 40 7 -150
-n dffpos_0/D gnd dffpos_0/a_n19_n84# 2 10 -65 -101
+n sum gnd dffpos_0/a_n19_n84# 2 10 -65 -101
 n dffpos_0/a_n34_n84# dffpos_0/a_n19_n84# dffpos_0/a_n14_n84# 2 10 -60 -101
 n clk dffpos_0/a_n14_n84# dffpos_0/a_n5_n84# 2 10 -51 -101
 n dffpos_0/a_n2_n86# dffpos_0/a_n5_n84# gnd 2 10 -46 -101

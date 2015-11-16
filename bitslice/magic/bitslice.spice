@@ -4,7 +4,7 @@
 
 M1000 vdd clk dffpos_0/a_n34_n84# Vdd pfet w=40 l=2
 +  ad=2490 pd=1082 as=200 ps=90
-M1001 dffpos_0/a_n19_n15# dffpos_0/D vdd Vdd pfet w=20 l=2
+M1001 dffpos_0/a_n19_n15# sum vdd Vdd pfet w=20 l=2
 +  ad=80 pd=48 as=0 ps=0
 M1002 dffpos_0/a_n14_n84# clk dffpos_0/a_n19_n15# Vdd pfet w=20 l=2
 +  ad=120 pd=52 as=0 ps=0
@@ -26,7 +26,7 @@ M1010 gnd clk dffpos_0/a_n34_n84# Gnd nfet w=20 l=2
 +  ad=1260 pd=614 as=100 ps=50
 M1011 mux21_0/A dffpos_0/a_30_n84# vdd Vdd pfet w=40 l=2
 +  ad=200 pd=90 as=0 ps=0
-M1012 dffpos_0/a_n19_n84# dffpos_0/D gnd Gnd nfet w=10 l=2
+M1012 dffpos_0/a_n19_n84# sum gnd Gnd nfet w=10 l=2
 +  ad=30 pd=26 as=0 ps=0
 M1013 dffpos_0/a_n14_n84# dffpos_0/a_n34_n84# dffpos_0/a_n19_n84# Gnd nfet w=10 l=2
 +  ad=70 pd=34 as=0 ps=0
@@ -154,18 +154,18 @@ M1074 gnd subtract xor2_0/a_50_6# Gnd nfet w=20 l=2
 +  ad=0 pd=0 as=0 ps=0
 M1075 xor2_0/a_28_44# subtract gnd Gnd nfet w=20 l=2
 +  ad=100 pd=50 as=0 ps=0
-C0 dffpos_0/a_30_n84# dffpos_0/a_n34_n84# 2.081040fF
-C1 sum gnd 5.771640fF
-C2 vdd xor2_0/a_28_44# 2.119800fF
-C3 vdd fa_0/A 8.329680fF
-C4 vdd mux21_0/nand_1/B 2.097720fF
-C5 subtract fa_0/a_70_6# 2.233260fF
-C6 vdd fa_0/a_25_6# 3.134880fF
-C7 subtract Y 5.482200fF
+C0 vdd fa_0/a_25_6# 3.134880fF
+C1 gnd sum 5.771640fF
+C2 Y subtract 5.482200fF
+C3 fa_0/A vdd 8.329680fF
+C4 mux21_0/nand_1/B vdd 2.097720fF
+C5 vdd xor2_0/a_28_44# 2.119800fF
+C6 vdd xor2_0/a_17_6# 2.059560fF
+C7 mux21_0/nand_2/B vdd 5.855850fF
 C8 dffpos_0/a_n2_n86# clk 3.159600fF
-C9 dffpos_0/a_n34_n84# clk 2.571480fF
-C10 vdd xor2_0/a_17_6# 2.059560fF
-C11 mux21_0/nand_2/B vdd 5.855850fF
+C9 dffpos_0/a_30_n84# dffpos_0/a_n34_n84# 2.081040fF
+C10 fa_0/a_70_6# subtract 2.233260fF
+C11 dffpos_0/a_n34_n84# clk 2.571480fF
 C12 gnd gnd! 33.481316fF
 C13 Y gnd! 15.487440fF
 C14 subtract gnd! 16.205040fF
@@ -177,7 +177,7 @@ C19 mux21_0/nand_1/B gnd! 3.001320fF
 C20 mux21_0/nand_1/A gnd! 6.037200fF
 C21 mux21_0/nand_2/B gnd! 2.145240fF
 C22 mux21_0/A gnd! 16.209900fF
-C23 sum gnd! 9.702840fF
+C23 sum gnd! 9.174000fF
 C24 fa_0/a_70_6# gnd! 3.242790fF
 C25 fa_0/a_25_6# gnd! 9.314280fF
 C26 vdd gnd! 51.562477fF
@@ -185,5 +185,4 @@ C27 dffpos_0/a_30_n84# gnd! 3.784590fF
 C28 dffpos_0/a_n14_n84# gnd! 4.801770fF
 C29 dffpos_0/a_n2_n86# gnd! 5.164560fF
 C30 dffpos_0/a_n34_n84# gnd! 8.655120fF
-C31 dffpos_0/D gnd! 2.954880fF
-C32 clk gnd! 11.765740fF
+C31 clk gnd! 11.765740fF

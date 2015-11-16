@@ -1,6 +1,6 @@
 | units: 30 tech: scmos format: MIT
 p clk dffpos_0/a_n34_n84# vdd 2 40 -73 -150
-p dffpos_0/D vdd dffpos_0/a_n19_n15# 2 20 -65 -170
+p sum vdd dffpos_0/a_n19_n15# 2 20 -65 -170
 p clk dffpos_0/a_n19_n15# dffpos_0/a_n14_n84# 2 20 -59 -170
 p dffpos_0/a_n34_n84# dffpos_0/a_n14_n84# dffpos_0/a_n5_n15# 2 20 -51 -170
 p dffpos_0/a_n2_n86# dffpos_0/a_n5_n15# vdd 2 20 -45 -170
@@ -11,7 +11,7 @@ p clk dffpos_0/a_30_n84# dffpos_0/a_40_n5# 2 10 -6 -180
 p mux21_0/A dffpos_0/a_40_n5# vdd 2 10 -1 -180
 n clk dffpos_0/a_n34_n84# gnd 2 20 -73 -101
 p dffpos_0/a_30_n84# vdd mux21_0/A 2 40 7 -150
-n dffpos_0/D gnd dffpos_0/a_n19_n84# 2 10 -65 -101
+n sum gnd dffpos_0/a_n19_n84# 2 10 -65 -101
 n dffpos_0/a_n34_n84# dffpos_0/a_n19_n84# dffpos_0/a_n14_n84# 2 10 -60 -101
 n clk dffpos_0/a_n14_n84# dffpos_0/a_n5_n84# 2 10 -51 -101
 n dffpos_0/a_n2_n86# dffpos_0/a_n5_n84# gnd 2 10 -46 -101
@@ -75,10 +75,10 @@ n xor2_0/a_17_6# xor2_0/a_33_6# Y 2 20 -60 116
 n A Y xor2_0/a_50_6# 2 20 -72 116
 n subtract xor2_0/a_50_6# gnd 2 20 -77 116
 n subtract gnd xor2_0/a_28_44# 2 20 -86 116
-C subtract Y 5.482200
 C sum gnd 5.771640
-C vdd xor2_0/a_17_6# 2.059560
+C Y subtract 5.482200
 C vdd xor2_0/a_28_44# 2.119800
+C vdd xor2_0/a_17_6# 2.059560
 C fa_0/a_70_6# subtract 2.233260
 C vdd fa_0/a_25_6# 3.134880
 C dffpos_0/a_n34_n84# dffpos_0/a_30_n84# 2.081040
@@ -124,8 +124,8 @@ R fa_0/a_46_6# 525
 R fa_0/a_33_6# 274
 R fa_0/a_2_6# 542
 R Cout 578
-C sum GND 9.702840
-R sum 583
+C sum GND 9.174000
+R sum 1791
 R fa_0/a_84_74# 683
 R fa_0/a_79_74# 683
 R fa_0/a_46_74# 940
@@ -153,7 +153,5 @@ C dffpos_0/a_n2_n86# GND 5.164560
 R dffpos_0/a_n2_n86# 3268
 C dffpos_0/a_n34_n84# GND 8.655120
 R dffpos_0/a_n34_n84# 3986
-C dffpos_0/D GND 2.954880
-R dffpos_0/D 1210
 C clk GND 11.765740
 R clk 3491
