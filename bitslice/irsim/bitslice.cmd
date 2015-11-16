@@ -1,0 +1,68 @@
+stepsize 50.0
+ana A B subtact S clk Y Cout sum out 
+l A
+l B
+h S
+l subtract
+clock Clk 0 1
+c
+c
+h subtract
+c
+c
+l subtract
+h B
+c
+c
+h subtract
+c
+c
+h A
+l B
+l subtract
+c
+c
+h subtract
+c
+c
+h B
+l subtract
+c
+c
+h subtract
+c
+c
+l A
+l B
+l S
+l subtract
+c
+c
+h subtract
+c
+c
+l subtract
+h B
+c
+c
+h subtract
+c
+c
+h A
+l B
+l subtract
+c
+c
+h subtract
+c
+c
+h B
+l subtract
+c
+c
+h subtract
+c
+c
+
+
+
