@@ -8,9 +8,9 @@ p dffpos_0/a_n14_n84# vdd dffpos_0/a_n2_n86# 2 20 -37 -170
 p dffpos_0/a_n2_n86# vdd dffpos_0/a_25_n15# 2 20 -21 -170
 p dffpos_0/a_n34_n84# dffpos_0/a_25_n15# dffpos_0/a_30_n84# 2 20 -16 -170
 p clk dffpos_0/a_30_n84# dffpos_0/a_40_n5# 2 10 -6 -180
-p mux21_0/A dffpos_0/a_40_n5# vdd 2 10 -1 -180
+p out dffpos_0/a_40_n5# vdd 2 10 -1 -180
 n clk dffpos_0/a_n34_n84# gnd 2 20 -73 -101
-p dffpos_0/a_30_n84# vdd mux21_0/A 2 40 7 -150
+p dffpos_0/a_30_n84# vdd out 2 40 7 -150
 n sum gnd dffpos_0/a_n19_n84# 2 10 -65 -101
 n dffpos_0/a_n34_n84# dffpos_0/a_n19_n84# dffpos_0/a_n14_n84# 2 10 -60 -101
 n clk dffpos_0/a_n14_n84# dffpos_0/a_n5_n84# 2 10 -51 -101
@@ -19,8 +19,8 @@ n dffpos_0/a_n14_n84# gnd dffpos_0/a_n2_n86# 2 10 -37 -101
 n dffpos_0/a_n2_n86# gnd dffpos_0/a_25_n84# 2 10 -21 -101
 n clk dffpos_0/a_25_n84# dffpos_0/a_30_n84# 2 10 -16 -101
 n dffpos_0/a_n34_n84# dffpos_0/a_30_n84# dffpos_0/a_40_n84# 2 10 -6 -101
-n mux21_0/A dffpos_0/a_40_n84# gnd 2 10 -1 -101
-n dffpos_0/a_30_n84# gnd mux21_0/A 2 20 7 -101
+n out dffpos_0/a_40_n84# gnd 2 10 -1 -101
+n dffpos_0/a_30_n84# gnd out 2 20 7 -101
 p fa_0/A fa_0/a_2_74# vdd 2 20 -83 -11
 p Y vdd fa_0/a_2_74# 2 20 -75 -11
 p subtract fa_0/a_2_74# fa_0/a_25_6# 2 20 -67 -11
@@ -49,9 +49,9 @@ n Y fa_0/a_79_6# fa_0/a_84_6# 2 10 -8 -79
 n fa_0/A fa_0/a_84_6# gnd 2 10 -3 -79
 n fa_0/a_70_6# gnd sum 2 10 5 -79
 n fa_0/a_25_6# gnd Cout 2 10 21 -79
-p mux21_0/A vdd mux21_0/nand_1/A 2 20 22 50
+p out vdd mux21_0/nand_1/A 2 20 22 50
 p mux21_0/nand_2/B mux21_0/nand_1/A vdd 2 20 14 50
-n mux21_0/A gnd mux21_0/nand_2/a_9_6# 2 20 22 96
+n out gnd mux21_0/nand_2/a_9_6# 2 20 22 96
 n mux21_0/nand_2/B mux21_0/nand_2/a_9_6# mux21_0/nand_1/A 2 20 17 96
 p S vdd mux21_0/nand_2/B 2 20 -18 48
 n S gnd mux21_0/nand_2/B 2 10 -18 94
@@ -75,11 +75,6 @@ n xor2_0/a_17_6# xor2_0/a_33_6# Y 2 20 -60 116
 n A Y xor2_0/a_50_6# 2 20 -72 116
 n subtract xor2_0/a_50_6# gnd 2 20 -77 116
 n subtract gnd xor2_0/a_28_44# 2 20 -86 116
-C sum gnd 5.771640
-C Y subtract 5.482200
-C vdd xor2_0/a_28_44# 2.119800
-C vdd xor2_0/a_17_6# 2.059560
-C fa_0/a_70_6# subtract 2.233260
 C vdd fa_0/a_25_6# 3.134880
 C dffpos_0/a_n34_n84# dffpos_0/a_30_n84# 2.081040
 C vdd mux21_0/nand_2/B 5.855850
@@ -87,6 +82,11 @@ C clk dffpos_0/a_n2_n86# 3.159600
 C clk dffpos_0/a_n34_n84# 2.571480
 C vdd fa_0/A 8.329680
 C vdd mux21_0/nand_1/B 2.097720
+C subtract Y 5.482200
+C sum gnd 5.771640
+C vdd xor2_0/a_17_6# 2.059560
+C vdd xor2_0/a_28_44# 2.119800
+C fa_0/a_70_6# subtract 2.233260
 R xor2_0/a_50_6# 547
 R xor2_0/a_33_6# 547
 C gnd GND 33.481316
@@ -116,8 +116,8 @@ R mux21_0/nand_1/A 1584
 R mux21_0/nand_2/a_9_6# 547
 C mux21_0/nand_2/B GND 2.145240
 R mux21_0/nand_2/B 1526
-C mux21_0/A GND 16.209900
-R mux21_0/A 3382
+C out GND 16.209900
+R out 3382
 R fa_0/a_84_6# 274
 R fa_0/a_79_6# 274
 R fa_0/a_46_6# 525

@@ -1,4 +1,4 @@
-timestamp 1447696599
+timestamp 1447697366
 version 8.0
 tech scmos
 style AMI0.5um(amic5)from:T01X
@@ -14,7 +14,7 @@ node "vdd" 2 7120.8 -82 -198 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 600 212 0 0 0 0
 node "gnd" 1 13402.8 -94 -97 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1890 282 0 0 0 0
 node "sum" 6 7354.08 -85 -140 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 272 152 744 380 0 0
 node "vdd" 1 4352.4 -96 12 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1820 288 0 0 0 0
-node "m1_10_n149#" 7 15163.2 10 -149 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 806 524 0 0 0 0
+node "out" 7 15163.2 10 -149 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 806 524 0 0 0 0
 node "Y" 4 6494.04 -107 -42 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 136 84 548 282 0 0
 node "A" 2 3410.64 -44 86 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 48 32 240 138 0 0
 node "subtract" 4 10242 -104 -32 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 648 338 0 0 0 0
@@ -27,24 +27,24 @@ node "w_n98_14#" 2110 25091.5 -98 14 nw 0 0 0 0 7535 386 0 0 0 0 0 0 0 0 0 0 0 0
 cap "vdd" "clk" 171.24
 cap "subtract" "m1_n93_n52#" 303.36
 cap "vdd" "m1_n93_n52#" 6028.56
-cap "m1_10_n149#" "m1_n93_n52#" 1586.1
+cap "out" "m1_n93_n52#" 1586.1
 cap "Y" "m1_n93_n52#" 303.36
 cap "Cout" "sum" 259.32
-cap "Cout" "m1_10_n149#" 218.34
+cap "Cout" "out" 218.34
 cap "gnd" "sum" 5771.64
 cap "A" "gnd" 787.92
 cap "vdd" "w_n98_14#" 8938.8
 cap "subtract" "Y" 4068.24
 cap "vdd" "clk" -12.24
+cap "fa_0/A" "fa_0/B" 38.88
 cap "fa_0/B" "fa_0/C" 38.88
 cap "fa_0/A" "fa_0/C" 38.88
-cap "fa_0/A" "fa_0/B" 38.88
 cap "fa_0/vdd" "fa_0/A" 149.04
 cap "sum" "Cout" 36.72
-cap "vdd" "m1_n93_n52#" 124.2
 cap "vdd" "mux21_0/inverter_0/Y" 144
 cap "subtract" "Y" 5.68434e-14
 cap "vdd" "mux21_0/inverter_0/A" 158.4
+cap "vdd" "m1_n93_n52#" 124.2
 merge "mux21_0/gnd" "xor2_0/gnd" -24616.8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1898 -760 0 0 0 0
 merge "xor2_0/gnd" "mux21_0/inverter_0/gnd"
 merge "mux21_0/inverter_0/gnd" "fa_0/gnd"
@@ -58,7 +58,7 @@ merge "xor2_0/vdd" "w_n98_14#"
 merge "w_n98_14#" "dffpos_0/vdd"
 merge "dffpos_0/vdd" "vdd"
 merge "mux21_0/A" "dffpos_0/Q" -6447.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -322 -226 0 0 0 0
-merge "dffpos_0/Q" "m1_10_n149#"
+merge "dffpos_0/Q" "out"
 merge "xor2_0/Y" "fa_0/B" -831.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -28 -30 0 0 0 0
 merge "fa_0/B" "Y"
 merge "mux21_0/B" "B" -543.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -21 -20 0 0 0 0

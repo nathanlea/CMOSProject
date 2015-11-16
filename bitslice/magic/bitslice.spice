@@ -20,11 +20,11 @@ M1007 dffpos_0/a_30_n84# dffpos_0/a_n34_n84# dffpos_0/a_25_n15# Vdd pfet w=20 l=
 +  ad=150 pd=56 as=0 ps=0
 M1008 dffpos_0/a_40_n5# clk dffpos_0/a_30_n84# Vdd pfet w=10 l=2
 +  ad=30 pd=26 as=0 ps=0
-M1009 vdd mux21_0/A dffpos_0/a_40_n5# Vdd pfet w=10 l=2
+M1009 vdd out dffpos_0/a_40_n5# Vdd pfet w=10 l=2
 +  ad=0 pd=0 as=0 ps=0
 M1010 gnd clk dffpos_0/a_n34_n84# Gnd nfet w=20 l=2
 +  ad=1260 pd=614 as=100 ps=50
-M1011 mux21_0/A dffpos_0/a_30_n84# vdd Vdd pfet w=40 l=2
+M1011 out dffpos_0/a_30_n84# vdd Vdd pfet w=40 l=2
 +  ad=200 pd=90 as=0 ps=0
 M1012 dffpos_0/a_n19_n84# sum gnd Gnd nfet w=10 l=2
 +  ad=30 pd=26 as=0 ps=0
@@ -42,9 +42,9 @@ M1018 dffpos_0/a_30_n84# clk dffpos_0/a_25_n84# Gnd nfet w=10 l=2
 +  ad=80 pd=36 as=0 ps=0
 M1019 dffpos_0/a_40_n84# dffpos_0/a_n34_n84# dffpos_0/a_30_n84# Gnd nfet w=10 l=2
 +  ad=30 pd=26 as=0 ps=0
-M1020 gnd mux21_0/A dffpos_0/a_40_n84# Gnd nfet w=10 l=2
+M1020 gnd out dffpos_0/a_40_n84# Gnd nfet w=10 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1021 mux21_0/A dffpos_0/a_30_n84# gnd Gnd nfet w=20 l=2
+M1021 out dffpos_0/a_30_n84# gnd Gnd nfet w=20 l=2
 +  ad=100 pd=50 as=0 ps=0
 M1022 vdd fa_0/A fa_0/a_2_74# vdd pfet w=20 l=2
 +  ad=0 pd=0 as=220 ps=102
@@ -102,11 +102,11 @@ M1048 sum fa_0/a_70_6# gnd Gnd nfet w=10 l=2
 +  ad=50 pd=30 as=0 ps=0
 M1049 Cout fa_0/a_25_6# gnd Gnd nfet w=10 l=2
 +  ad=50 pd=30 as=0 ps=0
-M1050 mux21_0/nand_1/A mux21_0/A vdd vdd pfet w=20 l=2
+M1050 mux21_0/nand_1/A out vdd vdd pfet w=20 l=2
 +  ad=120 pd=52 as=0 ps=0
 M1051 vdd mux21_0/nand_2/B mux21_0/nand_1/A vdd pfet w=20 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1052 mux21_0/nand_2/a_9_6# mux21_0/A gnd Gnd nfet w=20 l=2
+M1052 mux21_0/nand_2/a_9_6# out gnd Gnd nfet w=20 l=2
 +  ad=60 pd=46 as=0 ps=0
 M1053 mux21_0/nand_1/A mux21_0/nand_2/B mux21_0/nand_2/a_9_6# Gnd nfet w=20 l=2
 +  ad=100 pd=50 as=0 ps=0
@@ -154,18 +154,18 @@ M1074 gnd subtract xor2_0/a_50_6# Gnd nfet w=20 l=2
 +  ad=0 pd=0 as=0 ps=0
 M1075 xor2_0/a_28_44# subtract gnd Gnd nfet w=20 l=2
 +  ad=100 pd=50 as=0 ps=0
-C0 vdd fa_0/a_25_6# 3.134880fF
-C1 gnd sum 5.771640fF
-C2 Y subtract 5.482200fF
-C3 fa_0/A vdd 8.329680fF
-C4 mux21_0/nand_1/B vdd 2.097720fF
-C5 vdd xor2_0/a_28_44# 2.119800fF
-C6 vdd xor2_0/a_17_6# 2.059560fF
-C7 mux21_0/nand_2/B vdd 5.855850fF
-C8 dffpos_0/a_n2_n86# clk 3.159600fF
-C9 dffpos_0/a_30_n84# dffpos_0/a_n34_n84# 2.081040fF
-C10 fa_0/a_70_6# subtract 2.233260fF
-C11 dffpos_0/a_n34_n84# clk 2.571480fF
+C0 fa_0/A vdd 8.329680fF
+C1 vdd xor2_0/a_17_6# 2.059560fF
+C2 subtract fa_0/a_70_6# 2.233260fF
+C3 xor2_0/a_28_44# vdd 2.119800fF
+C4 vdd fa_0/a_25_6# 3.134880fF
+C5 mux21_0/nand_2/B vdd 5.855850fF
+C6 mux21_0/nand_1/B vdd 2.097720fF
+C7 dffpos_0/a_30_n84# dffpos_0/a_n34_n84# 2.081040fF
+C8 subtract Y 5.482200fF
+C9 clk dffpos_0/a_n2_n86# 3.159600fF
+C10 clk dffpos_0/a_n34_n84# 2.571480fF
+C11 sum gnd 5.771640fF
 C12 gnd gnd! 33.481316fF
 C13 Y gnd! 15.487440fF
 C14 subtract gnd! 16.205040fF
@@ -176,7 +176,7 @@ C18 fa_0/A gnd! 7.718070fF
 C19 mux21_0/nand_1/B gnd! 3.001320fF
 C20 mux21_0/nand_1/A gnd! 6.037200fF
 C21 mux21_0/nand_2/B gnd! 2.145240fF
-C22 mux21_0/A gnd! 16.209900fF
+C22 out gnd! 16.209900fF
 C23 sum gnd! 9.174000fF
 C24 fa_0/a_70_6# gnd! 3.242790fF
 C25 fa_0/a_25_6# gnd! 9.314280fF

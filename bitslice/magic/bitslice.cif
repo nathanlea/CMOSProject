@@ -7,7 +7,7 @@
 ( @@version : 2000d );
 ( @@techdesc : SCMOS: Submit as technology.lambda: SCN3ME_SUBM.30 [to process: AMIc5] );
 ( @@style : lambda=0.30(p) );
-( @@date : Mon Nov 16 11:56:53 2015 );
+( @@date : Mon Nov 16 12:10:45 2015 );
 DS 1 15 2;
 9 bitslice;
 L CWN;
@@ -82,6 +82,7 @@ L CMS;
 94 sum 136 -160 CMF;
 94 S -220 556 CMF;
 94 Y -392 312 CMS;
+94 out 152 -588 CMF;
 91 xor2_0;
 C 2 R -1 0 T -92 492;
 91 mux21_0;
