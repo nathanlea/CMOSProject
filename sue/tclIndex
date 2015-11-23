@@ -23,4 +23,4 @@ set auto_index(SCHEMATIC_FA) [list source [file join $dir FA.sue]]
 set auto_index(ICON_FA) [list source [file join $dir FA.sue]]
 set auto_index(SCHEMATIC_nand) [list source [file join $dir nand.sue]]
 set auto_index(ICON_nand) [list source [file join $dir nand.sue]]
-set mtimes {{xor2.sue 1444678780} {dffpos.sue 1444678780} {project.sue 1447714566} {21mux.sue 1447714577} {inv.sue 1447714577} {bitslice.sue 1447714056} {FA.sue 1447714577} {nand.sue 1444678780}}
+set mtimes {{xor2.sue 1444678780} {dffpos.sue 1444678780} {project.sue 1448302429} {21mux.sue 1447714577} {inv.sue 1447714577} {bitslice.sue 1447714056} {FA.sue 1447714577} {nand.sue 1444678780}}

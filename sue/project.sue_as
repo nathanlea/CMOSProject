@@ -21,7 +21,7 @@ proc SCHEMATIC_project {} {
   make output -name {Out[7]} -origin {820 1290}
   make output -name {Out[6]} -origin {820 1000}
   make output -name {Out[5]} -origin {820 730}
-  make output -name {Out[4]} -origin {820 480}
+  make output -name {Out[4]} -origin {820 470}
   make output -name {Out[3]} -origin {820 220}
   make output -name {Out[2]} -origin {820 -40}
   make output -name {Out[1]} -origin {820 -320}
@@ -120,7 +120,6 @@ proc SCHEMATIC_project {} {
   make_wire 820 1290 670 1290
   make_wire 670 -600 890 -600
   make_wire 670 -40 820 -40
-  make_wire 670 480 820 480
   make_wire 670 730 820 730
   make_wire 140 -720 350 -720
   make_wire 140 -680 350 -680
@@ -142,5 +141,6 @@ proc SCHEMATIC_project {} {
   make_wire -280 -600 -230 -600
   make_wire -110 -600 300 -600
   make_wire 300 -600 350 -600
+  make_wire 670 470 820 470
 }
 
