@@ -1,26 +1,16 @@
 # SUE version MMI_SUE5.6.18
 
 proc SCHEMATIC_project {} {
-  make input -name {B[7:0]} -origin {-50 -720}
-  make input -name {A[7:0]} -origin {-50 -680}
+  make input -name {B[7:0]} -origin {-50 -730}
+  make input -name {A[7:0]} -origin {-50 -700}
   make input -name subtract -origin {-50 -640}
-  make bitslice -origin {510 190}
-  make bitslice -origin {510 440}
-  make bitslice -origin {510 700}
-  make bitslice -origin {510 -70}
-  make bitslice -origin {510 970}
-  make bitslice -origin {510 1260}
-  make bitslice -origin {510 -350}
-  make bitslice -origin {510 -630}
   make output -name Cout -origin {770 1250}
-  make output -name {Out[7:0]} -origin {900 -600}
+  make output -name {Out[7:0]} -origin {960 -600}
   make nand -origin {-390 -590}
-  make inv -origin {-240 -600}
   make input -name Clk -origin {-470 -580}
   make input -name loadR -origin {-470 -600}
   make input -name S -origin {-90 -560}
   make name_net_s -name {[0]} -origin {160 -730}
-  make name_net_s -name {[0]} -origin {200 -690}
   make name_net_s -name {[1]} -origin {160 -450}
   make name_net_s -name {[1]} -origin {200 -410}
   make name_net_s -name {[2]} -origin {160 -170}
@@ -42,7 +32,17 @@ proc SCHEMATIC_project {} {
   make name_net_s -name {[3]} -origin {820 290}
   make name_net_s -name {[2]} -origin {820 10}
   make name_net_s -name {[1]} -origin {820 -260}
-  make name_net_s -name {[0]} -origin {820 -530}
+  make name_net_s -name {[0]} -origin {820 -540}
+  make inv -origin {-240 -600}
+  make bitslice -origin {510 190}
+  make bitslice -origin {510 440}
+  make bitslice -origin {510 700}
+  make bitslice -origin {510 -70}
+  make bitslice -origin {510 970}
+  make bitslice -origin {510 1260}
+  make bitslice -origin {510 -350}
+  make bitslice -origin {510 -630}
+  make name_net_s -name {[0]} -origin {210 -690}
   make_wire 330 -560 330 -280
   make_wire 330 -280 330 0
   make_wire 330 0 330 260
@@ -64,12 +64,8 @@ proc SCHEMATIC_project {} {
   make_wire 130 390 130 650
   make_wire 130 650 130 920
   make_wire 130 920 130 1210
-  make_wire -50 -680 130 -680
   make_wire 130 920 200 920
-  make_wire 200 -690 200 -680
-  make_wire -50 -720 0 -720
   make_wire 180 1170 0 1170
-  make_wire 180 1170 330 1170
   make_wire 0 880 0 1170
   make_wire 200 910 200 920
   make_wire 200 1200 200 1210
@@ -98,7 +94,6 @@ proc SCHEMATIC_project {} {
   make_wire 160 -160 350 -160
   make_wire 130 -120 200 -120
   make_wire 200 -120 350 -120
-  make_wire 330 1170 350 1170
   make_wire 330 260 350 260
   make_wire 300 1290 350 1290
   make_wire 300 730 300 1000
@@ -121,8 +116,6 @@ proc SCHEMATIC_project {} {
   make_wire 260 430 350 430
   make_wire 300 -320 350 -320
   make_wire 330 1330 350 1330
-  make_wire 330 1040 330 1170
-  make_wire 330 1170 330 1330
   make_wire 0 880 170 880
   make_wire 170 880 350 880
   make_wire 130 650 200 650
@@ -136,8 +129,6 @@ proc SCHEMATIC_project {} {
   make_wire 260 -80 350 -80
   make_wire 300 220 350 220
   make_wire 330 -560 350 -560
-  make_wire 130 -680 200 -680
-  make_wire 200 -680 350 -680
   make_wire 0 350 160 350
   make_wire 160 350 350 350
   make_wire 260 1250 350 1250
@@ -180,18 +171,11 @@ proc SCHEMATIC_project {} {
   make_wire 670 960 740 960
   make_wire 740 1210 670 1210
   make_wire 740 960 740 1210
-  make_wire 890 -600 900 -600
-  make_wire 890 -600 890 -320
-  make_wire 890 -320 890 -40
-  make_wire 890 220 890 -40
   make_wire 890 220 890 480
   make_wire 890 480 890 730
   make_wire 890 1000 890 730
   make_wire 890 1290 890 1000
   make_wire 670 1250 770 1250
-  make_wire 820 1350 820 1290
-  make_wire 820 1290 670 1290
-  make_wire 820 1290 890 1290
   make_wire 820 1050 820 1000
   make_wire 820 1000 670 1000
   make_wire 820 1000 890 1000
@@ -201,18 +185,6 @@ proc SCHEMATIC_project {} {
   make_wire 820 530 820 480
   make_wire 820 480 670 480
   make_wire 820 480 890 480
-  make_wire 820 290 820 220
-  make_wire 820 220 670 220
-  make_wire 820 220 890 220
-  make_wire 820 10 820 -40
-  make_wire 820 -40 670 -40
-  make_wire 820 -40 890 -40
-  make_wire 820 -260 820 -320
-  make_wire 820 -320 670 -320
-  make_wire 820 -320 890 -320
-  make_wire 820 -530 820 -600
-  make_wire 820 -600 890 -600
-  make_wire 820 -600 670 -600
   make_wire 300 -600 350 -600
   make_wire -330 -600 -300 -600
   make_wire -470 -600 -440 -600
@@ -220,5 +192,33 @@ proc SCHEMATIC_project {} {
   make_wire -170 -600 300 -600
   make_wire -90 -560 -100 -560
   make_wire 330 -560 -90 -560
+  make_wire 820 -320 670 -320
+  make_wire 670 -40 820 -40
+  make_wire 820 -40 890 -40
+  make_wire 820 -40 820 10
+  make_wire 820 290 820 220
+  make_wire 820 220 890 220
+  make_wire 820 220 670 220
+  make_wire 890 220 890 -40
+  make_wire 180 1170 350 1170
+  make_wire 330 1040 330 1330
+  make_wire 820 1290 820 1350
+  make_wire 820 1290 670 1290
+  make_wire 820 1290 890 1290
+  make_wire 820 -540 820 -600
+  make_wire 820 -600 670 -600
+  make_wire 820 -600 890 -600
+  make_wire 890 -600 960 -600
+  make_wire 820 -320 890 -320
+  make_wire 890 -600 890 -320
+  make_wire 890 -320 890 -40
+  make_wire 820 -320 820 -260
+  make_wire 210 -690 210 -680
+  make_wire 210 -680 350 -680
+  make_wire 210 -680 130 -680
+  make_wire 130 -700 130 -680
+  make_wire -50 -700 130 -700
+  make_wire 0 -730 0 -720
+  make_wire -50 -730 0 -730
 }
 

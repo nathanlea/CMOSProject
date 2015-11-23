@@ -28,59 +28,59 @@ A Out[4] output
 A Out[5] output
 A Out[6] output
 A Out[7] output
-| begin nand -390 -590
+| begin nand -340 -590
 | device nand.nmos 410 570
 n loadR gnd nand.net_1 1 1
 | device nand.nmos_1 410 490
-n Clk nand.net_1 net_7 1 1
+n Clk nand.net_1 net_5 1 1
 | device nand.pmos 410 380
-p loadR vdd net_7 1 2
+p loadR vdd net_5 1 2
 | device nand.pmos_1 590 380
-p Clk vdd net_7 1 2
+p Clk vdd net_5 1 2
 | end nand
-| begin inv -240 -600
+| begin inv -170 -600
 | device inv.nmos 390 400
-n net_7 gnd uc_net_6 1 1
+n net_5 gnd net_4 1 1
 | device inv.pmos 390 270
-p net_7 vdd uc_net_6 1 2
+p net_5 vdd net_4 1 2
 | end inv
 | begin bitslice 510 190
 | begin bitslice.xor2 180 290
 | device bitslice.xor2.pmos -150 210
-p bitslice.subtract vdd bitslice.xor2.net_6 1 12
+p subtract vdd bitslice.xor2.net_4 1 12
 | device bitslice.xor2.pmos_1 -150 290
-p bitslice.xor2.net_1 bitslice.xor2.net_6 bitslice.net_3 1 12
+p bitslice.xor2.net_1 bitslice.xor2.net_4 bitslice.net_2 1 12
 | device bitslice.xor2.pmos_2 -320 290
-p bitslice.A bitslice.xor2.net_2 bitslice.net_3 1 12
+p A[3] bitslice.xor2.net_6 bitslice.net_2 1 12
 | device bitslice.xor2.pmos_3 -320 210
-p bitslice.xor2.net_3 vdd bitslice.xor2.net_2 1 12
+p bitslice.xor2.net_3 vdd bitslice.xor2.net_6 1 12
 | device bitslice.xor2.nmos -150 450
-n bitslice.subtract gnd bitslice.xor2.net_4 1 6
+n subtract gnd bitslice.xor2.net_2 1 6
 | device bitslice.xor2.nmos_1 -320 450
 n bitslice.xor2.net_3 gnd bitslice.xor2.net_5 1 6
 | device bitslice.xor2.nmos_2 -150 370
-n bitslice.A bitslice.xor2.net_4 bitslice.net_3 1 6
+n A[3] bitslice.xor2.net_2 bitslice.net_2 1 6
 | device bitslice.xor2.nmos_3 -320 370
-n bitslice.xor2.net_1 bitslice.xor2.net_5 bitslice.net_3 1 6
+n bitslice.xor2.net_1 bitslice.xor2.net_5 bitslice.net_2 1 6
 | device bitslice.xor2.pmos_4 -580 210
-p bitslice.A vdd bitslice.xor2.net_1 1 12
+p A[3] vdd bitslice.xor2.net_1 1 12
 | device bitslice.xor2.nmos_4 -580 430
-n bitslice.A gnd bitslice.xor2.net_1 1 6
+n A[3] gnd bitslice.xor2.net_1 1 6
 | device bitslice.xor2.pmos_5 80 210
-p bitslice.subtract vdd bitslice.xor2.net_3 1 12
+p subtract vdd bitslice.xor2.net_3 1 12
 | device bitslice.xor2.nmos_5 80 430
-n bitslice.subtract gnd bitslice.xor2.net_3 1 6
+n subtract gnd bitslice.xor2.net_3 1 6
 | end bitslice.xor2
 | begin bitslice.21mux 500 100
 | begin bitslice.21mux.nand2 450 180
 | device bitslice.21mux.nand2.pmos 0 -100
-p bitslice.B vdd bitslice.21mux.net_1 1 2
+p B[3] vdd bitslice.21mux.net_1 1 2
 | device bitslice.21mux.nand2.nmos 0 0
-n bitslice.B bitslice.21mux.nand2.net_1 bitslice.21mux.net_1 1 2
+n B[3] bitslice.21mux.nand2.net_1 bitslice.21mux.net_1 1 2
 | device bitslice.21mux.nand2.pmos_1 160 -100
-p bitslice.S vdd bitslice.21mux.net_1 1 2
+p S vdd bitslice.21mux.net_1 1 2
 | device bitslice.21mux.nand2.nmos_1 0 100
-n bitslice.S gnd bitslice.21mux.nand2.net_1 1 2
+n S gnd bitslice.21mux.nand2.net_1 1 2
 | end bitslice.21mux.nand2
 | begin bitslice.21mux.nand2_1 450 340
 | device bitslice.21mux.nand2_1.pmos 0 -100
@@ -88,173 +88,173 @@ p bitslice.21mux.net_3 vdd bitslice.21mux.net_2 1 2
 | device bitslice.21mux.nand2_1.nmos 0 0
 n bitslice.21mux.net_3 bitslice.21mux.nand2_1.net_1 bitslice.21mux.net_2 1 2
 | device bitslice.21mux.nand2_1.pmos_1 160 -100
-p bitslice.Out vdd bitslice.21mux.net_2 1 2
+p Out[3] vdd bitslice.21mux.net_2 1 2
 | device bitslice.21mux.nand2_1.nmos_1 0 100
-n bitslice.Out gnd bitslice.21mux.nand2_1.net_1 1 2
+n Out[3] gnd bitslice.21mux.nand2_1.net_1 1 2
 | end bitslice.21mux.nand2_1
 | begin bitslice.21mux.nand2_2 620 260
 | device bitslice.21mux.nand2_2.pmos 0 -100
-p bitslice.21mux.net_1 vdd bitslice.net_2 1 2
+p bitslice.21mux.net_1 vdd bitslice.net_1 1 2
 | device bitslice.21mux.nand2_2.nmos 0 0
-n bitslice.21mux.net_1 bitslice.21mux.nand2_2.net_1 bitslice.net_2 1 2
+n bitslice.21mux.net_1 bitslice.21mux.nand2_2.net_1 bitslice.net_1 1 2
 | device bitslice.21mux.nand2_2.pmos_1 160 -100
-p bitslice.21mux.net_2 vdd bitslice.net_2 1 2
+p bitslice.21mux.net_2 vdd bitslice.net_1 1 2
 | device bitslice.21mux.nand2_2.nmos_1 0 100
 n bitslice.21mux.net_2 gnd bitslice.21mux.nand2_2.net_1 1 2
 | end bitslice.21mux.nand2_2
 | begin bitslice.21mux.inverter 310 260
 | device bitslice.21mux.inverter.nmos 550 360
-n bitslice.S gnd bitslice.21mux.net_3 1 1
+n S gnd bitslice.21mux.net_3 1 1
 | device bitslice.21mux.inverter.pmos 550 200
-p bitslice.S vdd bitslice.21mux.net_3 1 2
+p S vdd bitslice.21mux.net_3 1 2
 | end bitslice.21mux.inverter
 | end bitslice.21mux
 | begin bitslice.FA 500 410
 | device bitslice.FA.nmos 430 370
-n bitslice.FA.net_4 bitslice.FA.net_3 bitslice.FA.net_5 1 3
+n bitslice.FA.net_2 bitslice.FA.net_9 bitslice.FA.net_10 1 3
 | device bitslice.FA.nmos_1 250 450
-n bitslice.net_3 gnd bitslice.FA.net_3 1 3
+n bitslice.net_2 gnd bitslice.FA.net_9 1 3
 | device bitslice.FA.nmos_2 430 450
-n bitslice.net_2 gnd bitslice.FA.net_3 1 3
+n bitslice.net_1 gnd bitslice.FA.net_9 1 3
 | device bitslice.FA.nmos_3 610 450
-n bitslice.Cin gnd bitslice.FA.net_3 1 3
+n net_3 gnd bitslice.FA.net_9 1 3
 | device bitslice.FA.nmos_4 810 370
-n bitslice.Cin bitslice.FA.net_10 bitslice.FA.net_5 1 3
+n net_3 bitslice.FA.net_12 bitslice.FA.net_10 1 3
 | device bitslice.FA.nmos_5 810 450
-n bitslice.net_2 bitslice.FA.net_11 bitslice.FA.net_10 1 3
+n bitslice.net_1 bitslice.FA.net_8 bitslice.FA.net_12 1 3
 | device bitslice.FA.nmos_6 810 530
-n bitslice.net_3 gnd bitslice.FA.net_11 1 3
+n bitslice.net_2 gnd bitslice.FA.net_8 1 3
 | device bitslice.FA.nmos_7 -250 370
-n bitslice.Cin bitslice.FA.net_6 bitslice.FA.net_4 1 3
+n net_3 bitslice.FA.net_5 bitslice.FA.net_2 1 3
 | device bitslice.FA.nmos_8 -320 450
-n bitslice.net_3 gnd bitslice.FA.net_6 1 3
+n bitslice.net_2 gnd bitslice.FA.net_5 1 3
 | device bitslice.FA.nmos_9 -150 450
-n bitslice.net_2 gnd bitslice.FA.net_6 1 3
+n bitslice.net_1 gnd bitslice.FA.net_5 1 3
 | device bitslice.FA.nmos_10 40 370
-n bitslice.net_2 bitslice.FA.net_8 bitslice.FA.net_4 1 3
+n bitslice.net_1 bitslice.FA.net_4 bitslice.FA.net_2 1 3
 | device bitslice.FA.nmos_11 40 450
-n bitslice.net_3 gnd bitslice.FA.net_8 1 3
+n bitslice.net_2 gnd bitslice.FA.net_4 1 3
 | device bitslice.FA.pmos 250 210
-p bitslice.net_3 vdd bitslice.FA.net_2 1 6
+p bitslice.net_2 vdd bitslice.FA.net_11 1 6
 | device bitslice.FA.pmos_1 430 210
-p bitslice.net_2 vdd bitslice.FA.net_2 1 6
+p bitslice.net_1 vdd bitslice.FA.net_11 1 6
 | device bitslice.FA.pmos_2 610 210
-p bitslice.Cin vdd bitslice.FA.net_2 1 6
+p net_3 vdd bitslice.FA.net_11 1 6
 | device bitslice.FA.pmos_3 430 290
-p bitslice.FA.net_4 bitslice.FA.net_2 bitslice.FA.net_5 1 6
+p bitslice.FA.net_2 bitslice.FA.net_11 bitslice.FA.net_10 1 6
 | device bitslice.FA.pmos_4 810 210
-p bitslice.net_2 bitslice.FA.net_12 bitslice.FA.net_1 1 6
+p bitslice.net_1 bitslice.FA.net_3 bitslice.FA.net_1 1 6
 | device bitslice.FA.pmos_5 810 290
-p bitslice.Cin bitslice.FA.net_1 bitslice.FA.net_5 1 6
+p net_3 bitslice.FA.net_1 bitslice.FA.net_10 1 6
 | device bitslice.FA.pmos_6 810 130
-p bitslice.net_3 vdd bitslice.FA.net_12 1 6
+p bitslice.net_2 vdd bitslice.FA.net_3 1 6
 | device bitslice.FA.pmos_7 -320 210
-p bitslice.net_3 vdd bitslice.FA.net_7 1 6
+p bitslice.net_2 vdd bitslice.FA.net_6 1 6
 | device bitslice.FA.pmos_8 -150 210
-p bitslice.net_2 vdd bitslice.FA.net_7 1 6
+p bitslice.net_1 vdd bitslice.FA.net_6 1 6
 | device bitslice.FA.pmos_9 -250 290
-p bitslice.Cin bitslice.FA.net_7 bitslice.FA.net_4 1 6
+p net_3 bitslice.FA.net_6 bitslice.FA.net_2 1 6
 | device bitslice.FA.pmos_10 40 290
-p bitslice.net_2 bitslice.FA.net_9 bitslice.FA.net_4 1 6
+p bitslice.net_1 bitslice.FA.net_7 bitslice.FA.net_2 1 6
 | device bitslice.FA.pmos_11 40 210
-p bitslice.net_3 vdd bitslice.FA.net_9 1 6
+p bitslice.net_2 vdd bitslice.FA.net_7 1 6
 | begin bitslice.FA.inv 890 680
 | device bitslice.FA.inv.nmos 390 400
-n bitslice.FA.net_4 gnd bitslice.Cout 1 1
+n bitslice.FA.net_2 gnd net_9 1 1
 | device bitslice.FA.inv.pmos 390 270
-p bitslice.FA.net_4 vdd bitslice.Cout 1 2
+p bitslice.FA.net_2 vdd net_9 1 2
 | end bitslice.FA.inv
 | begin bitslice.FA.inv_1 900 330
 | device bitslice.FA.inv_1.nmos 390 400
-n bitslice.FA.net_5 gnd bitslice.net_1 1 1
+n bitslice.FA.net_10 gnd bitslice.net_3 1 1
 | device bitslice.FA.inv_1.pmos 390 270
-p bitslice.FA.net_5 vdd bitslice.net_1 1 2
+p bitslice.FA.net_10 vdd bitslice.net_3 1 2
 | end bitslice.FA.inv_1
 | end bitslice.FA
 | begin bitslice.dffpos 500 610
 | device bitslice.dffpos.nmos 420 160
-n bitslice.dffpos.net_2 gnd bitslice.dffpos.net_11 1 3
+n bitslice.dffpos.net_1 gnd bitslice.dffpos.net_10 1 3
 | device bitslice.dffpos.nmos_1 420 80
-n bitslice.Clk bitslice.dffpos.net_11 bitslice.dffpos.net_3 1 3
+n net_4 bitslice.dffpos.net_10 bitslice.dffpos.net_4 1 3
 | device bitslice.dffpos.nmos_2 510 440
-n bitslice.dffpos.net_3 gnd bitslice.dffpos.net_2 1 3
+n bitslice.dffpos.net_4 gnd bitslice.dffpos.net_1 1 3
 | device bitslice.dffpos.pmos 420 -20
-p bitslice.dffpos.Clk_b bitslice.dffpos.net_8 bitslice.dffpos.net_3 1 3
+p bitslice.dffpos.Clk_b bitslice.dffpos.net_6 bitslice.dffpos.net_4 1 3
 | device bitslice.dffpos.pmos_1 420 -100
-p bitslice.dffpos.net_2 vdd bitslice.dffpos.net_8 1 3
+p bitslice.dffpos.net_1 vdd bitslice.dffpos.net_6 1 3
 | device bitslice.dffpos.nmos_3 160 40
-n bitslice.Clk gnd bitslice.dffpos.Clk_b 1 6
+n net_4 gnd bitslice.dffpos.Clk_b 1 6
 | device bitslice.dffpos.pmos_2 160 -60
-p bitslice.Clk vdd bitslice.dffpos.Clk_b 1 12
+p net_4 vdd bitslice.dffpos.Clk_b 1 12
 | device bitslice.dffpos.nmos_4 890 530
-n bitslice.dffpos.net_2 gnd bitslice.dffpos.net_9 1 3
+n bitslice.dffpos.net_1 gnd bitslice.dffpos.net_5 1 3
 | device bitslice.dffpos.nmos_5 890 450
-n bitslice.Clk bitslice.dffpos.net_9 bitslice.dffpos.net_1 1 3
+n net_4 bitslice.dffpos.net_5 bitslice.dffpos.net_3 1 3
 | device bitslice.dffpos.pmos_3 890 350
-p bitslice.dffpos.Clk_b bitslice.dffpos.net_6 bitslice.dffpos.net_1 1 6
+p bitslice.dffpos.Clk_b bitslice.dffpos.net_9 bitslice.dffpos.net_3 1 6
 | device bitslice.dffpos.pmos_4 890 270
-p bitslice.dffpos.net_2 vdd bitslice.dffpos.net_6 1 6
+p bitslice.dffpos.net_1 vdd bitslice.dffpos.net_9 1 6
 | device bitslice.dffpos.pmos_5 510 360
-p bitslice.dffpos.net_3 vdd bitslice.dffpos.net_2 1 6
+p bitslice.dffpos.net_4 vdd bitslice.dffpos.net_1 1 6
 | device bitslice.dffpos.nmos_6 1190 440
-n bitslice.dffpos.net_1 gnd bitslice.Out 1 6
+n bitslice.dffpos.net_3 gnd Out[3] 1 6
 | device bitslice.dffpos.pmos_6 1190 360
-p bitslice.dffpos.net_1 vdd bitslice.Out 1 12
+p bitslice.dffpos.net_3 vdd Out[3] 1 12
 | device bitslice.dffpos.nmos_7 250 530
-n bitslice.net_1 gnd bitslice.dffpos.net_10 1 3
+n bitslice.net_3 gnd bitslice.dffpos.net_2 1 3
 | device bitslice.dffpos.nmos_8 250 450
-n bitslice.dffpos.Clk_b bitslice.dffpos.net_10 bitslice.dffpos.net_3 1 3
+n bitslice.dffpos.Clk_b bitslice.dffpos.net_2 bitslice.dffpos.net_4 1 3
 | device bitslice.dffpos.pmos_7 250 350
-p bitslice.Clk bitslice.dffpos.net_7 bitslice.dffpos.net_3 1 6
+p net_4 bitslice.dffpos.net_8 bitslice.dffpos.net_4 1 6
 | device bitslice.dffpos.pmos_8 250 270
-p bitslice.net_1 vdd bitslice.dffpos.net_7 1 6
+p bitslice.net_3 vdd bitslice.dffpos.net_8 1 6
 | device bitslice.dffpos.nmos_9 1100 160
-n bitslice.Out gnd bitslice.dffpos.net_5 1 3
+n Out[3] gnd bitslice.dffpos.net_11 1 3
 | device bitslice.dffpos.nmos_10 1100 80
-n bitslice.dffpos.Clk_b bitslice.dffpos.net_5 bitslice.dffpos.net_1 1 3
+n bitslice.dffpos.Clk_b bitslice.dffpos.net_11 bitslice.dffpos.net_3 1 3
 | device bitslice.dffpos.pmos_9 1100 -20
-p bitslice.Clk bitslice.dffpos.net_4 bitslice.dffpos.net_1 1 3
+p net_4 bitslice.dffpos.net_7 bitslice.dffpos.net_3 1 3
 | device bitslice.dffpos.pmos_10 1100 -100
-p bitslice.Out vdd bitslice.dffpos.net_4 1 3
+p Out[3] vdd bitslice.dffpos.net_7 1 3
 | end bitslice.dffpos
 | end bitslice
 | begin bitslice_1 510 440
 | begin bitslice_1.xor2 180 290
 | device bitslice_1.xor2.pmos -150 210
-p bitslice_1.subtract vdd bitslice_1.xor2.net_6 1 12
+p subtract vdd bitslice_1.xor2.net_4 1 12
 | device bitslice_1.xor2.pmos_1 -150 290
-p bitslice_1.xor2.net_1 bitslice_1.xor2.net_6 bitslice_1.net_3 1 12
+p bitslice_1.xor2.net_1 bitslice_1.xor2.net_4 bitslice_1.net_2 1 12
 | device bitslice_1.xor2.pmos_2 -320 290
-p bitslice_1.A bitslice_1.xor2.net_2 bitslice_1.net_3 1 12
+p A[4] bitslice_1.xor2.net_6 bitslice_1.net_2 1 12
 | device bitslice_1.xor2.pmos_3 -320 210
-p bitslice_1.xor2.net_3 vdd bitslice_1.xor2.net_2 1 12
+p bitslice_1.xor2.net_3 vdd bitslice_1.xor2.net_6 1 12
 | device bitslice_1.xor2.nmos -150 450
-n bitslice_1.subtract gnd bitslice_1.xor2.net_4 1 6
+n subtract gnd bitslice_1.xor2.net_2 1 6
 | device bitslice_1.xor2.nmos_1 -320 450
 n bitslice_1.xor2.net_3 gnd bitslice_1.xor2.net_5 1 6
 | device bitslice_1.xor2.nmos_2 -150 370
-n bitslice_1.A bitslice_1.xor2.net_4 bitslice_1.net_3 1 6
+n A[4] bitslice_1.xor2.net_2 bitslice_1.net_2 1 6
 | device bitslice_1.xor2.nmos_3 -320 370
-n bitslice_1.xor2.net_1 bitslice_1.xor2.net_5 bitslice_1.net_3 1 6
+n bitslice_1.xor2.net_1 bitslice_1.xor2.net_5 bitslice_1.net_2 1 6
 | device bitslice_1.xor2.pmos_4 -580 210
-p bitslice_1.A vdd bitslice_1.xor2.net_1 1 12
+p A[4] vdd bitslice_1.xor2.net_1 1 12
 | device bitslice_1.xor2.nmos_4 -580 430
-n bitslice_1.A gnd bitslice_1.xor2.net_1 1 6
+n A[4] gnd bitslice_1.xor2.net_1 1 6
 | device bitslice_1.xor2.pmos_5 80 210
-p bitslice_1.subtract vdd bitslice_1.xor2.net_3 1 12
+p subtract vdd bitslice_1.xor2.net_3 1 12
 | device bitslice_1.xor2.nmos_5 80 430
-n bitslice_1.subtract gnd bitslice_1.xor2.net_3 1 6
+n subtract gnd bitslice_1.xor2.net_3 1 6
 | end bitslice_1.xor2
 | begin bitslice_1.21mux 500 100
 | begin bitslice_1.21mux.nand2 450 180
 | device bitslice_1.21mux.nand2.pmos 0 -100
-p bitslice_1.B vdd bitslice_1.21mux.net_1 1 2
+p B[4] vdd bitslice_1.21mux.net_1 1 2
 | device bitslice_1.21mux.nand2.nmos 0 0
-n bitslice_1.B bitslice_1.21mux.nand2.net_1 bitslice_1.21mux.net_1 1 2
+n B[4] bitslice_1.21mux.nand2.net_1 bitslice_1.21mux.net_1 1 2
 | device bitslice_1.21mux.nand2.pmos_1 160 -100
-p bitslice_1.S vdd bitslice_1.21mux.net_1 1 2
+p S vdd bitslice_1.21mux.net_1 1 2
 | device bitslice_1.21mux.nand2.nmos_1 0 100
-n bitslice_1.S gnd bitslice_1.21mux.nand2.net_1 1 2
+n S gnd bitslice_1.21mux.nand2.net_1 1 2
 | end bitslice_1.21mux.nand2
 | begin bitslice_1.21mux.nand2_1 450 340
 | device bitslice_1.21mux.nand2_1.pmos 0 -100
@@ -262,173 +262,173 @@ p bitslice_1.21mux.net_3 vdd bitslice_1.21mux.net_2 1 2
 | device bitslice_1.21mux.nand2_1.nmos 0 0
 n bitslice_1.21mux.net_3 bitslice_1.21mux.nand2_1.net_1 bitslice_1.21mux.net_2 1 2
 | device bitslice_1.21mux.nand2_1.pmos_1 160 -100
-p bitslice_1.Out vdd bitslice_1.21mux.net_2 1 2
+p uc_net_2 vdd bitslice_1.21mux.net_2 1 2
 | device bitslice_1.21mux.nand2_1.nmos_1 0 100
-n bitslice_1.Out gnd bitslice_1.21mux.nand2_1.net_1 1 2
+n uc_net_2 gnd bitslice_1.21mux.nand2_1.net_1 1 2
 | end bitslice_1.21mux.nand2_1
 | begin bitslice_1.21mux.nand2_2 620 260
 | device bitslice_1.21mux.nand2_2.pmos 0 -100
-p bitslice_1.21mux.net_1 vdd bitslice_1.net_2 1 2
+p bitslice_1.21mux.net_1 vdd bitslice_1.net_1 1 2
 | device bitslice_1.21mux.nand2_2.nmos 0 0
-n bitslice_1.21mux.net_1 bitslice_1.21mux.nand2_2.net_1 bitslice_1.net_2 1 2
+n bitslice_1.21mux.net_1 bitslice_1.21mux.nand2_2.net_1 bitslice_1.net_1 1 2
 | device bitslice_1.21mux.nand2_2.pmos_1 160 -100
-p bitslice_1.21mux.net_2 vdd bitslice_1.net_2 1 2
+p bitslice_1.21mux.net_2 vdd bitslice_1.net_1 1 2
 | device bitslice_1.21mux.nand2_2.nmos_1 0 100
 n bitslice_1.21mux.net_2 gnd bitslice_1.21mux.nand2_2.net_1 1 2
 | end bitslice_1.21mux.nand2_2
 | begin bitslice_1.21mux.inverter 310 260
 | device bitslice_1.21mux.inverter.nmos 550 360
-n bitslice_1.S gnd bitslice_1.21mux.net_3 1 1
+n S gnd bitslice_1.21mux.net_3 1 1
 | device bitslice_1.21mux.inverter.pmos 550 200
-p bitslice_1.S vdd bitslice_1.21mux.net_3 1 2
+p S vdd bitslice_1.21mux.net_3 1 2
 | end bitslice_1.21mux.inverter
 | end bitslice_1.21mux
 | begin bitslice_1.FA 500 410
 | device bitslice_1.FA.nmos 430 370
-n bitslice_1.FA.net_4 bitslice_1.FA.net_3 bitslice_1.FA.net_5 1 3
+n bitslice_1.FA.net_2 bitslice_1.FA.net_9 bitslice_1.FA.net_10 1 3
 | device bitslice_1.FA.nmos_1 250 450
-n bitslice_1.net_3 gnd bitslice_1.FA.net_3 1 3
+n bitslice_1.net_2 gnd bitslice_1.FA.net_9 1 3
 | device bitslice_1.FA.nmos_2 430 450
-n bitslice_1.net_2 gnd bitslice_1.FA.net_3 1 3
+n bitslice_1.net_1 gnd bitslice_1.FA.net_9 1 3
 | device bitslice_1.FA.nmos_3 610 450
-n bitslice_1.Cin gnd bitslice_1.FA.net_3 1 3
+n net_9 gnd bitslice_1.FA.net_9 1 3
 | device bitslice_1.FA.nmos_4 810 370
-n bitslice_1.Cin bitslice_1.FA.net_10 bitslice_1.FA.net_5 1 3
+n net_9 bitslice_1.FA.net_12 bitslice_1.FA.net_10 1 3
 | device bitslice_1.FA.nmos_5 810 450
-n bitslice_1.net_2 bitslice_1.FA.net_11 bitslice_1.FA.net_10 1 3
+n bitslice_1.net_1 bitslice_1.FA.net_8 bitslice_1.FA.net_12 1 3
 | device bitslice_1.FA.nmos_6 810 530
-n bitslice_1.net_3 gnd bitslice_1.FA.net_11 1 3
+n bitslice_1.net_2 gnd bitslice_1.FA.net_8 1 3
 | device bitslice_1.FA.nmos_7 -250 370
-n bitslice_1.Cin bitslice_1.FA.net_6 bitslice_1.FA.net_4 1 3
+n net_9 bitslice_1.FA.net_5 bitslice_1.FA.net_2 1 3
 | device bitslice_1.FA.nmos_8 -320 450
-n bitslice_1.net_3 gnd bitslice_1.FA.net_6 1 3
+n bitslice_1.net_2 gnd bitslice_1.FA.net_5 1 3
 | device bitslice_1.FA.nmos_9 -150 450
-n bitslice_1.net_2 gnd bitslice_1.FA.net_6 1 3
+n bitslice_1.net_1 gnd bitslice_1.FA.net_5 1 3
 | device bitslice_1.FA.nmos_10 40 370
-n bitslice_1.net_2 bitslice_1.FA.net_8 bitslice_1.FA.net_4 1 3
+n bitslice_1.net_1 bitslice_1.FA.net_4 bitslice_1.FA.net_2 1 3
 | device bitslice_1.FA.nmos_11 40 450
-n bitslice_1.net_3 gnd bitslice_1.FA.net_8 1 3
+n bitslice_1.net_2 gnd bitslice_1.FA.net_4 1 3
 | device bitslice_1.FA.pmos 250 210
-p bitslice_1.net_3 vdd bitslice_1.FA.net_2 1 6
+p bitslice_1.net_2 vdd bitslice_1.FA.net_11 1 6
 | device bitslice_1.FA.pmos_1 430 210
-p bitslice_1.net_2 vdd bitslice_1.FA.net_2 1 6
+p bitslice_1.net_1 vdd bitslice_1.FA.net_11 1 6
 | device bitslice_1.FA.pmos_2 610 210
-p bitslice_1.Cin vdd bitslice_1.FA.net_2 1 6
+p net_9 vdd bitslice_1.FA.net_11 1 6
 | device bitslice_1.FA.pmos_3 430 290
-p bitslice_1.FA.net_4 bitslice_1.FA.net_2 bitslice_1.FA.net_5 1 6
+p bitslice_1.FA.net_2 bitslice_1.FA.net_11 bitslice_1.FA.net_10 1 6
 | device bitslice_1.FA.pmos_4 810 210
-p bitslice_1.net_2 bitslice_1.FA.net_12 bitslice_1.FA.net_1 1 6
+p bitslice_1.net_1 bitslice_1.FA.net_3 bitslice_1.FA.net_1 1 6
 | device bitslice_1.FA.pmos_5 810 290
-p bitslice_1.Cin bitslice_1.FA.net_1 bitslice_1.FA.net_5 1 6
+p net_9 bitslice_1.FA.net_1 bitslice_1.FA.net_10 1 6
 | device bitslice_1.FA.pmos_6 810 130
-p bitslice_1.net_3 vdd bitslice_1.FA.net_12 1 6
+p bitslice_1.net_2 vdd bitslice_1.FA.net_3 1 6
 | device bitslice_1.FA.pmos_7 -320 210
-p bitslice_1.net_3 vdd bitslice_1.FA.net_7 1 6
+p bitslice_1.net_2 vdd bitslice_1.FA.net_6 1 6
 | device bitslice_1.FA.pmos_8 -150 210
-p bitslice_1.net_2 vdd bitslice_1.FA.net_7 1 6
+p bitslice_1.net_1 vdd bitslice_1.FA.net_6 1 6
 | device bitslice_1.FA.pmos_9 -250 290
-p bitslice_1.Cin bitslice_1.FA.net_7 bitslice_1.FA.net_4 1 6
+p net_9 bitslice_1.FA.net_6 bitslice_1.FA.net_2 1 6
 | device bitslice_1.FA.pmos_10 40 290
-p bitslice_1.net_2 bitslice_1.FA.net_9 bitslice_1.FA.net_4 1 6
+p bitslice_1.net_1 bitslice_1.FA.net_7 bitslice_1.FA.net_2 1 6
 | device bitslice_1.FA.pmos_11 40 210
-p bitslice_1.net_3 vdd bitslice_1.FA.net_9 1 6
+p bitslice_1.net_2 vdd bitslice_1.FA.net_7 1 6
 | begin bitslice_1.FA.inv 890 680
 | device bitslice_1.FA.inv.nmos 390 400
-n bitslice_1.FA.net_4 gnd bitslice_1.Cout 1 1
+n bitslice_1.FA.net_2 gnd net_10 1 1
 | device bitslice_1.FA.inv.pmos 390 270
-p bitslice_1.FA.net_4 vdd bitslice_1.Cout 1 2
+p bitslice_1.FA.net_2 vdd net_10 1 2
 | end bitslice_1.FA.inv
 | begin bitslice_1.FA.inv_1 900 330
 | device bitslice_1.FA.inv_1.nmos 390 400
-n bitslice_1.FA.net_5 gnd bitslice_1.net_1 1 1
+n bitslice_1.FA.net_10 gnd bitslice_1.net_3 1 1
 | device bitslice_1.FA.inv_1.pmos 390 270
-p bitslice_1.FA.net_5 vdd bitslice_1.net_1 1 2
+p bitslice_1.FA.net_10 vdd bitslice_1.net_3 1 2
 | end bitslice_1.FA.inv_1
 | end bitslice_1.FA
 | begin bitslice_1.dffpos 500 610
 | device bitslice_1.dffpos.nmos 420 160
-n bitslice_1.dffpos.net_2 gnd bitslice_1.dffpos.net_11 1 3
+n bitslice_1.dffpos.net_1 gnd bitslice_1.dffpos.net_10 1 3
 | device bitslice_1.dffpos.nmos_1 420 80
-n bitslice_1.Clk bitslice_1.dffpos.net_11 bitslice_1.dffpos.net_3 1 3
+n net_4 bitslice_1.dffpos.net_10 bitslice_1.dffpos.net_4 1 3
 | device bitslice_1.dffpos.nmos_2 510 440
-n bitslice_1.dffpos.net_3 gnd bitslice_1.dffpos.net_2 1 3
+n bitslice_1.dffpos.net_4 gnd bitslice_1.dffpos.net_1 1 3
 | device bitslice_1.dffpos.pmos 420 -20
-p bitslice_1.dffpos.Clk_b bitslice_1.dffpos.net_8 bitslice_1.dffpos.net_3 1 3
+p bitslice_1.dffpos.Clk_b bitslice_1.dffpos.net_6 bitslice_1.dffpos.net_4 1 3
 | device bitslice_1.dffpos.pmos_1 420 -100
-p bitslice_1.dffpos.net_2 vdd bitslice_1.dffpos.net_8 1 3
+p bitslice_1.dffpos.net_1 vdd bitslice_1.dffpos.net_6 1 3
 | device bitslice_1.dffpos.nmos_3 160 40
-n bitslice_1.Clk gnd bitslice_1.dffpos.Clk_b 1 6
+n net_4 gnd bitslice_1.dffpos.Clk_b 1 6
 | device bitslice_1.dffpos.pmos_2 160 -60
-p bitslice_1.Clk vdd bitslice_1.dffpos.Clk_b 1 12
+p net_4 vdd bitslice_1.dffpos.Clk_b 1 12
 | device bitslice_1.dffpos.nmos_4 890 530
-n bitslice_1.dffpos.net_2 gnd bitslice_1.dffpos.net_9 1 3
+n bitslice_1.dffpos.net_1 gnd bitslice_1.dffpos.net_5 1 3
 | device bitslice_1.dffpos.nmos_5 890 450
-n bitslice_1.Clk bitslice_1.dffpos.net_9 bitslice_1.dffpos.net_1 1 3
+n net_4 bitslice_1.dffpos.net_5 bitslice_1.dffpos.net_3 1 3
 | device bitslice_1.dffpos.pmos_3 890 350
-p bitslice_1.dffpos.Clk_b bitslice_1.dffpos.net_6 bitslice_1.dffpos.net_1 1 6
+p bitslice_1.dffpos.Clk_b bitslice_1.dffpos.net_9 bitslice_1.dffpos.net_3 1 6
 | device bitslice_1.dffpos.pmos_4 890 270
-p bitslice_1.dffpos.net_2 vdd bitslice_1.dffpos.net_6 1 6
+p bitslice_1.dffpos.net_1 vdd bitslice_1.dffpos.net_9 1 6
 | device bitslice_1.dffpos.pmos_5 510 360
-p bitslice_1.dffpos.net_3 vdd bitslice_1.dffpos.net_2 1 6
+p bitslice_1.dffpos.net_4 vdd bitslice_1.dffpos.net_1 1 6
 | device bitslice_1.dffpos.nmos_6 1190 440
-n bitslice_1.dffpos.net_1 gnd bitslice_1.Out 1 6
+n bitslice_1.dffpos.net_3 gnd uc_net_2 1 6
 | device bitslice_1.dffpos.pmos_6 1190 360
-p bitslice_1.dffpos.net_1 vdd bitslice_1.Out 1 12
+p bitslice_1.dffpos.net_3 vdd uc_net_2 1 12
 | device bitslice_1.dffpos.nmos_7 250 530
-n bitslice_1.net_1 gnd bitslice_1.dffpos.net_10 1 3
+n bitslice_1.net_3 gnd bitslice_1.dffpos.net_2 1 3
 | device bitslice_1.dffpos.nmos_8 250 450
-n bitslice_1.dffpos.Clk_b bitslice_1.dffpos.net_10 bitslice_1.dffpos.net_3 1 3
+n bitslice_1.dffpos.Clk_b bitslice_1.dffpos.net_2 bitslice_1.dffpos.net_4 1 3
 | device bitslice_1.dffpos.pmos_7 250 350
-p bitslice_1.Clk bitslice_1.dffpos.net_7 bitslice_1.dffpos.net_3 1 6
+p net_4 bitslice_1.dffpos.net_8 bitslice_1.dffpos.net_4 1 6
 | device bitslice_1.dffpos.pmos_8 250 270
-p bitslice_1.net_1 vdd bitslice_1.dffpos.net_7 1 6
+p bitslice_1.net_3 vdd bitslice_1.dffpos.net_8 1 6
 | device bitslice_1.dffpos.nmos_9 1100 160
-n bitslice_1.Out gnd bitslice_1.dffpos.net_5 1 3
+n uc_net_2 gnd bitslice_1.dffpos.net_11 1 3
 | device bitslice_1.dffpos.nmos_10 1100 80
-n bitslice_1.dffpos.Clk_b bitslice_1.dffpos.net_5 bitslice_1.dffpos.net_1 1 3
+n bitslice_1.dffpos.Clk_b bitslice_1.dffpos.net_11 bitslice_1.dffpos.net_3 1 3
 | device bitslice_1.dffpos.pmos_9 1100 -20
-p bitslice_1.Clk bitslice_1.dffpos.net_4 bitslice_1.dffpos.net_1 1 3
+p net_4 bitslice_1.dffpos.net_7 bitslice_1.dffpos.net_3 1 3
 | device bitslice_1.dffpos.pmos_10 1100 -100
-p bitslice_1.Out vdd bitslice_1.dffpos.net_4 1 3
+p uc_net_2 vdd bitslice_1.dffpos.net_7 1 3
 | end bitslice_1.dffpos
 | end bitslice_1
 | begin bitslice_2 510 700
 | begin bitslice_2.xor2 180 290
 | device bitslice_2.xor2.pmos -150 210
-p bitslice_2.subtract vdd bitslice_2.xor2.net_6 1 12
+p subtract vdd bitslice_2.xor2.net_4 1 12
 | device bitslice_2.xor2.pmos_1 -150 290
-p bitslice_2.xor2.net_1 bitslice_2.xor2.net_6 bitslice_2.net_3 1 12
+p bitslice_2.xor2.net_1 bitslice_2.xor2.net_4 bitslice_2.net_2 1 12
 | device bitslice_2.xor2.pmos_2 -320 290
-p bitslice_2.A bitslice_2.xor2.net_2 bitslice_2.net_3 1 12
+p A[5] bitslice_2.xor2.net_6 bitslice_2.net_2 1 12
 | device bitslice_2.xor2.pmos_3 -320 210
-p bitslice_2.xor2.net_3 vdd bitslice_2.xor2.net_2 1 12
+p bitslice_2.xor2.net_3 vdd bitslice_2.xor2.net_6 1 12
 | device bitslice_2.xor2.nmos -150 450
-n bitslice_2.subtract gnd bitslice_2.xor2.net_4 1 6
+n subtract gnd bitslice_2.xor2.net_2 1 6
 | device bitslice_2.xor2.nmos_1 -320 450
 n bitslice_2.xor2.net_3 gnd bitslice_2.xor2.net_5 1 6
 | device bitslice_2.xor2.nmos_2 -150 370
-n bitslice_2.A bitslice_2.xor2.net_4 bitslice_2.net_3 1 6
+n A[5] bitslice_2.xor2.net_2 bitslice_2.net_2 1 6
 | device bitslice_2.xor2.nmos_3 -320 370
-n bitslice_2.xor2.net_1 bitslice_2.xor2.net_5 bitslice_2.net_3 1 6
+n bitslice_2.xor2.net_1 bitslice_2.xor2.net_5 bitslice_2.net_2 1 6
 | device bitslice_2.xor2.pmos_4 -580 210
-p bitslice_2.A vdd bitslice_2.xor2.net_1 1 12
+p A[5] vdd bitslice_2.xor2.net_1 1 12
 | device bitslice_2.xor2.nmos_4 -580 430
-n bitslice_2.A gnd bitslice_2.xor2.net_1 1 6
+n A[5] gnd bitslice_2.xor2.net_1 1 6
 | device bitslice_2.xor2.pmos_5 80 210
-p bitslice_2.subtract vdd bitslice_2.xor2.net_3 1 12
+p subtract vdd bitslice_2.xor2.net_3 1 12
 | device bitslice_2.xor2.nmos_5 80 430
-n bitslice_2.subtract gnd bitslice_2.xor2.net_3 1 6
+n subtract gnd bitslice_2.xor2.net_3 1 6
 | end bitslice_2.xor2
 | begin bitslice_2.21mux 500 100
 | begin bitslice_2.21mux.nand2 450 180
 | device bitslice_2.21mux.nand2.pmos 0 -100
-p bitslice_2.B vdd bitslice_2.21mux.net_1 1 2
+p B[5] vdd bitslice_2.21mux.net_1 1 2
 | device bitslice_2.21mux.nand2.nmos 0 0
-n bitslice_2.B bitslice_2.21mux.nand2.net_1 bitslice_2.21mux.net_1 1 2
+n B[5] bitslice_2.21mux.nand2.net_1 bitslice_2.21mux.net_1 1 2
 | device bitslice_2.21mux.nand2.pmos_1 160 -100
-p bitslice_2.S vdd bitslice_2.21mux.net_1 1 2
+p S vdd bitslice_2.21mux.net_1 1 2
 | device bitslice_2.21mux.nand2.nmos_1 0 100
-n bitslice_2.S gnd bitslice_2.21mux.nand2.net_1 1 2
+n S gnd bitslice_2.21mux.nand2.net_1 1 2
 | end bitslice_2.21mux.nand2
 | begin bitslice_2.21mux.nand2_1 450 340
 | device bitslice_2.21mux.nand2_1.pmos 0 -100
@@ -436,173 +436,173 @@ p bitslice_2.21mux.net_3 vdd bitslice_2.21mux.net_2 1 2
 | device bitslice_2.21mux.nand2_1.nmos 0 0
 n bitslice_2.21mux.net_3 bitslice_2.21mux.nand2_1.net_1 bitslice_2.21mux.net_2 1 2
 | device bitslice_2.21mux.nand2_1.pmos_1 160 -100
-p bitslice_2.Out vdd bitslice_2.21mux.net_2 1 2
+p Out[5] vdd bitslice_2.21mux.net_2 1 2
 | device bitslice_2.21mux.nand2_1.nmos_1 0 100
-n bitslice_2.Out gnd bitslice_2.21mux.nand2_1.net_1 1 2
+n Out[5] gnd bitslice_2.21mux.nand2_1.net_1 1 2
 | end bitslice_2.21mux.nand2_1
 | begin bitslice_2.21mux.nand2_2 620 260
 | device bitslice_2.21mux.nand2_2.pmos 0 -100
-p bitslice_2.21mux.net_1 vdd bitslice_2.net_2 1 2
+p bitslice_2.21mux.net_1 vdd bitslice_2.net_1 1 2
 | device bitslice_2.21mux.nand2_2.nmos 0 0
-n bitslice_2.21mux.net_1 bitslice_2.21mux.nand2_2.net_1 bitslice_2.net_2 1 2
+n bitslice_2.21mux.net_1 bitslice_2.21mux.nand2_2.net_1 bitslice_2.net_1 1 2
 | device bitslice_2.21mux.nand2_2.pmos_1 160 -100
-p bitslice_2.21mux.net_2 vdd bitslice_2.net_2 1 2
+p bitslice_2.21mux.net_2 vdd bitslice_2.net_1 1 2
 | device bitslice_2.21mux.nand2_2.nmos_1 0 100
 n bitslice_2.21mux.net_2 gnd bitslice_2.21mux.nand2_2.net_1 1 2
 | end bitslice_2.21mux.nand2_2
 | begin bitslice_2.21mux.inverter 310 260
 | device bitslice_2.21mux.inverter.nmos 550 360
-n bitslice_2.S gnd bitslice_2.21mux.net_3 1 1
+n S gnd bitslice_2.21mux.net_3 1 1
 | device bitslice_2.21mux.inverter.pmos 550 200
-p bitslice_2.S vdd bitslice_2.21mux.net_3 1 2
+p S vdd bitslice_2.21mux.net_3 1 2
 | end bitslice_2.21mux.inverter
 | end bitslice_2.21mux
 | begin bitslice_2.FA 500 410
 | device bitslice_2.FA.nmos 430 370
-n bitslice_2.FA.net_4 bitslice_2.FA.net_3 bitslice_2.FA.net_5 1 3
+n bitslice_2.FA.net_2 bitslice_2.FA.net_9 bitslice_2.FA.net_10 1 3
 | device bitslice_2.FA.nmos_1 250 450
-n bitslice_2.net_3 gnd bitslice_2.FA.net_3 1 3
+n bitslice_2.net_2 gnd bitslice_2.FA.net_9 1 3
 | device bitslice_2.FA.nmos_2 430 450
-n bitslice_2.net_2 gnd bitslice_2.FA.net_3 1 3
+n bitslice_2.net_1 gnd bitslice_2.FA.net_9 1 3
 | device bitslice_2.FA.nmos_3 610 450
-n bitslice_2.Cin gnd bitslice_2.FA.net_3 1 3
+n net_10 gnd bitslice_2.FA.net_9 1 3
 | device bitslice_2.FA.nmos_4 810 370
-n bitslice_2.Cin bitslice_2.FA.net_10 bitslice_2.FA.net_5 1 3
+n net_10 bitslice_2.FA.net_12 bitslice_2.FA.net_10 1 3
 | device bitslice_2.FA.nmos_5 810 450
-n bitslice_2.net_2 bitslice_2.FA.net_11 bitslice_2.FA.net_10 1 3
+n bitslice_2.net_1 bitslice_2.FA.net_8 bitslice_2.FA.net_12 1 3
 | device bitslice_2.FA.nmos_6 810 530
-n bitslice_2.net_3 gnd bitslice_2.FA.net_11 1 3
+n bitslice_2.net_2 gnd bitslice_2.FA.net_8 1 3
 | device bitslice_2.FA.nmos_7 -250 370
-n bitslice_2.Cin bitslice_2.FA.net_6 bitslice_2.FA.net_4 1 3
+n net_10 bitslice_2.FA.net_5 bitslice_2.FA.net_2 1 3
 | device bitslice_2.FA.nmos_8 -320 450
-n bitslice_2.net_3 gnd bitslice_2.FA.net_6 1 3
+n bitslice_2.net_2 gnd bitslice_2.FA.net_5 1 3
 | device bitslice_2.FA.nmos_9 -150 450
-n bitslice_2.net_2 gnd bitslice_2.FA.net_6 1 3
+n bitslice_2.net_1 gnd bitslice_2.FA.net_5 1 3
 | device bitslice_2.FA.nmos_10 40 370
-n bitslice_2.net_2 bitslice_2.FA.net_8 bitslice_2.FA.net_4 1 3
+n bitslice_2.net_1 bitslice_2.FA.net_4 bitslice_2.FA.net_2 1 3
 | device bitslice_2.FA.nmos_11 40 450
-n bitslice_2.net_3 gnd bitslice_2.FA.net_8 1 3
+n bitslice_2.net_2 gnd bitslice_2.FA.net_4 1 3
 | device bitslice_2.FA.pmos 250 210
-p bitslice_2.net_3 vdd bitslice_2.FA.net_2 1 6
+p bitslice_2.net_2 vdd bitslice_2.FA.net_11 1 6
 | device bitslice_2.FA.pmos_1 430 210
-p bitslice_2.net_2 vdd bitslice_2.FA.net_2 1 6
+p bitslice_2.net_1 vdd bitslice_2.FA.net_11 1 6
 | device bitslice_2.FA.pmos_2 610 210
-p bitslice_2.Cin vdd bitslice_2.FA.net_2 1 6
+p net_10 vdd bitslice_2.FA.net_11 1 6
 | device bitslice_2.FA.pmos_3 430 290
-p bitslice_2.FA.net_4 bitslice_2.FA.net_2 bitslice_2.FA.net_5 1 6
+p bitslice_2.FA.net_2 bitslice_2.FA.net_11 bitslice_2.FA.net_10 1 6
 | device bitslice_2.FA.pmos_4 810 210
-p bitslice_2.net_2 bitslice_2.FA.net_12 bitslice_2.FA.net_1 1 6
+p bitslice_2.net_1 bitslice_2.FA.net_3 bitslice_2.FA.net_1 1 6
 | device bitslice_2.FA.pmos_5 810 290
-p bitslice_2.Cin bitslice_2.FA.net_1 bitslice_2.FA.net_5 1 6
+p net_10 bitslice_2.FA.net_1 bitslice_2.FA.net_10 1 6
 | device bitslice_2.FA.pmos_6 810 130
-p bitslice_2.net_3 vdd bitslice_2.FA.net_12 1 6
+p bitslice_2.net_2 vdd bitslice_2.FA.net_3 1 6
 | device bitslice_2.FA.pmos_7 -320 210
-p bitslice_2.net_3 vdd bitslice_2.FA.net_7 1 6
+p bitslice_2.net_2 vdd bitslice_2.FA.net_6 1 6
 | device bitslice_2.FA.pmos_8 -150 210
-p bitslice_2.net_2 vdd bitslice_2.FA.net_7 1 6
+p bitslice_2.net_1 vdd bitslice_2.FA.net_6 1 6
 | device bitslice_2.FA.pmos_9 -250 290
-p bitslice_2.Cin bitslice_2.FA.net_7 bitslice_2.FA.net_4 1 6
+p net_10 bitslice_2.FA.net_6 bitslice_2.FA.net_2 1 6
 | device bitslice_2.FA.pmos_10 40 290
-p bitslice_2.net_2 bitslice_2.FA.net_9 bitslice_2.FA.net_4 1 6
+p bitslice_2.net_1 bitslice_2.FA.net_7 bitslice_2.FA.net_2 1 6
 | device bitslice_2.FA.pmos_11 40 210
-p bitslice_2.net_3 vdd bitslice_2.FA.net_9 1 6
+p bitslice_2.net_2 vdd bitslice_2.FA.net_7 1 6
 | begin bitslice_2.FA.inv 890 680
 | device bitslice_2.FA.inv.nmos 390 400
-n bitslice_2.FA.net_4 gnd bitslice_2.Cout 1 1
+n bitslice_2.FA.net_2 gnd net_1 1 1
 | device bitslice_2.FA.inv.pmos 390 270
-p bitslice_2.FA.net_4 vdd bitslice_2.Cout 1 2
+p bitslice_2.FA.net_2 vdd net_1 1 2
 | end bitslice_2.FA.inv
 | begin bitslice_2.FA.inv_1 900 330
 | device bitslice_2.FA.inv_1.nmos 390 400
-n bitslice_2.FA.net_5 gnd bitslice_2.net_1 1 1
+n bitslice_2.FA.net_10 gnd bitslice_2.net_3 1 1
 | device bitslice_2.FA.inv_1.pmos 390 270
-p bitslice_2.FA.net_5 vdd bitslice_2.net_1 1 2
+p bitslice_2.FA.net_10 vdd bitslice_2.net_3 1 2
 | end bitslice_2.FA.inv_1
 | end bitslice_2.FA
 | begin bitslice_2.dffpos 500 610
 | device bitslice_2.dffpos.nmos 420 160
-n bitslice_2.dffpos.net_2 gnd bitslice_2.dffpos.net_11 1 3
+n bitslice_2.dffpos.net_1 gnd bitslice_2.dffpos.net_10 1 3
 | device bitslice_2.dffpos.nmos_1 420 80
-n bitslice_2.Clk bitslice_2.dffpos.net_11 bitslice_2.dffpos.net_3 1 3
+n net_4 bitslice_2.dffpos.net_10 bitslice_2.dffpos.net_4 1 3
 | device bitslice_2.dffpos.nmos_2 510 440
-n bitslice_2.dffpos.net_3 gnd bitslice_2.dffpos.net_2 1 3
+n bitslice_2.dffpos.net_4 gnd bitslice_2.dffpos.net_1 1 3
 | device bitslice_2.dffpos.pmos 420 -20
-p bitslice_2.dffpos.Clk_b bitslice_2.dffpos.net_8 bitslice_2.dffpos.net_3 1 3
+p bitslice_2.dffpos.Clk_b bitslice_2.dffpos.net_6 bitslice_2.dffpos.net_4 1 3
 | device bitslice_2.dffpos.pmos_1 420 -100
-p bitslice_2.dffpos.net_2 vdd bitslice_2.dffpos.net_8 1 3
+p bitslice_2.dffpos.net_1 vdd bitslice_2.dffpos.net_6 1 3
 | device bitslice_2.dffpos.nmos_3 160 40
-n bitslice_2.Clk gnd bitslice_2.dffpos.Clk_b 1 6
+n net_4 gnd bitslice_2.dffpos.Clk_b 1 6
 | device bitslice_2.dffpos.pmos_2 160 -60
-p bitslice_2.Clk vdd bitslice_2.dffpos.Clk_b 1 12
+p net_4 vdd bitslice_2.dffpos.Clk_b 1 12
 | device bitslice_2.dffpos.nmos_4 890 530
-n bitslice_2.dffpos.net_2 gnd bitslice_2.dffpos.net_9 1 3
+n bitslice_2.dffpos.net_1 gnd bitslice_2.dffpos.net_5 1 3
 | device bitslice_2.dffpos.nmos_5 890 450
-n bitslice_2.Clk bitslice_2.dffpos.net_9 bitslice_2.dffpos.net_1 1 3
+n net_4 bitslice_2.dffpos.net_5 bitslice_2.dffpos.net_3 1 3
 | device bitslice_2.dffpos.pmos_3 890 350
-p bitslice_2.dffpos.Clk_b bitslice_2.dffpos.net_6 bitslice_2.dffpos.net_1 1 6
+p bitslice_2.dffpos.Clk_b bitslice_2.dffpos.net_9 bitslice_2.dffpos.net_3 1 6
 | device bitslice_2.dffpos.pmos_4 890 270
-p bitslice_2.dffpos.net_2 vdd bitslice_2.dffpos.net_6 1 6
+p bitslice_2.dffpos.net_1 vdd bitslice_2.dffpos.net_9 1 6
 | device bitslice_2.dffpos.pmos_5 510 360
-p bitslice_2.dffpos.net_3 vdd bitslice_2.dffpos.net_2 1 6
+p bitslice_2.dffpos.net_4 vdd bitslice_2.dffpos.net_1 1 6
 | device bitslice_2.dffpos.nmos_6 1190 440
-n bitslice_2.dffpos.net_1 gnd bitslice_2.Out 1 6
+n bitslice_2.dffpos.net_3 gnd Out[5] 1 6
 | device bitslice_2.dffpos.pmos_6 1190 360
-p bitslice_2.dffpos.net_1 vdd bitslice_2.Out 1 12
+p bitslice_2.dffpos.net_3 vdd Out[5] 1 12
 | device bitslice_2.dffpos.nmos_7 250 530
-n bitslice_2.net_1 gnd bitslice_2.dffpos.net_10 1 3
+n bitslice_2.net_3 gnd bitslice_2.dffpos.net_2 1 3
 | device bitslice_2.dffpos.nmos_8 250 450
-n bitslice_2.dffpos.Clk_b bitslice_2.dffpos.net_10 bitslice_2.dffpos.net_3 1 3
+n bitslice_2.dffpos.Clk_b bitslice_2.dffpos.net_2 bitslice_2.dffpos.net_4 1 3
 | device bitslice_2.dffpos.pmos_7 250 350
-p bitslice_2.Clk bitslice_2.dffpos.net_7 bitslice_2.dffpos.net_3 1 6
+p net_4 bitslice_2.dffpos.net_8 bitslice_2.dffpos.net_4 1 6
 | device bitslice_2.dffpos.pmos_8 250 270
-p bitslice_2.net_1 vdd bitslice_2.dffpos.net_7 1 6
+p bitslice_2.net_3 vdd bitslice_2.dffpos.net_8 1 6
 | device bitslice_2.dffpos.nmos_9 1100 160
-n bitslice_2.Out gnd bitslice_2.dffpos.net_5 1 3
+n Out[5] gnd bitslice_2.dffpos.net_11 1 3
 | device bitslice_2.dffpos.nmos_10 1100 80
-n bitslice_2.dffpos.Clk_b bitslice_2.dffpos.net_5 bitslice_2.dffpos.net_1 1 3
+n bitslice_2.dffpos.Clk_b bitslice_2.dffpos.net_11 bitslice_2.dffpos.net_3 1 3
 | device bitslice_2.dffpos.pmos_9 1100 -20
-p bitslice_2.Clk bitslice_2.dffpos.net_4 bitslice_2.dffpos.net_1 1 3
+p net_4 bitslice_2.dffpos.net_7 bitslice_2.dffpos.net_3 1 3
 | device bitslice_2.dffpos.pmos_10 1100 -100
-p bitslice_2.Out vdd bitslice_2.dffpos.net_4 1 3
+p Out[5] vdd bitslice_2.dffpos.net_7 1 3
 | end bitslice_2.dffpos
 | end bitslice_2
 | begin bitslice_3 510 -70
 | begin bitslice_3.xor2 180 290
 | device bitslice_3.xor2.pmos -150 210
-p bitslice_3.subtract vdd bitslice_3.xor2.net_6 1 12
+p subtract vdd bitslice_3.xor2.net_4 1 12
 | device bitslice_3.xor2.pmos_1 -150 290
-p bitslice_3.xor2.net_1 bitslice_3.xor2.net_6 bitslice_3.net_3 1 12
+p bitslice_3.xor2.net_1 bitslice_3.xor2.net_4 bitslice_3.net_2 1 12
 | device bitslice_3.xor2.pmos_2 -320 290
-p bitslice_3.A bitslice_3.xor2.net_2 bitslice_3.net_3 1 12
+p A[2] bitslice_3.xor2.net_6 bitslice_3.net_2 1 12
 | device bitslice_3.xor2.pmos_3 -320 210
-p bitslice_3.xor2.net_3 vdd bitslice_3.xor2.net_2 1 12
+p bitslice_3.xor2.net_3 vdd bitslice_3.xor2.net_6 1 12
 | device bitslice_3.xor2.nmos -150 450
-n bitslice_3.subtract gnd bitslice_3.xor2.net_4 1 6
+n subtract gnd bitslice_3.xor2.net_2 1 6
 | device bitslice_3.xor2.nmos_1 -320 450
 n bitslice_3.xor2.net_3 gnd bitslice_3.xor2.net_5 1 6
 | device bitslice_3.xor2.nmos_2 -150 370
-n bitslice_3.A bitslice_3.xor2.net_4 bitslice_3.net_3 1 6
+n A[2] bitslice_3.xor2.net_2 bitslice_3.net_2 1 6
 | device bitslice_3.xor2.nmos_3 -320 370
-n bitslice_3.xor2.net_1 bitslice_3.xor2.net_5 bitslice_3.net_3 1 6
+n bitslice_3.xor2.net_1 bitslice_3.xor2.net_5 bitslice_3.net_2 1 6
 | device bitslice_3.xor2.pmos_4 -580 210
-p bitslice_3.A vdd bitslice_3.xor2.net_1 1 12
+p A[2] vdd bitslice_3.xor2.net_1 1 12
 | device bitslice_3.xor2.nmos_4 -580 430
-n bitslice_3.A gnd bitslice_3.xor2.net_1 1 6
+n A[2] gnd bitslice_3.xor2.net_1 1 6
 | device bitslice_3.xor2.pmos_5 80 210
-p bitslice_3.subtract vdd bitslice_3.xor2.net_3 1 12
+p subtract vdd bitslice_3.xor2.net_3 1 12
 | device bitslice_3.xor2.nmos_5 80 430
-n bitslice_3.subtract gnd bitslice_3.xor2.net_3 1 6
+n subtract gnd bitslice_3.xor2.net_3 1 6
 | end bitslice_3.xor2
 | begin bitslice_3.21mux 500 100
 | begin bitslice_3.21mux.nand2 450 180
 | device bitslice_3.21mux.nand2.pmos 0 -100
-p bitslice_3.B vdd bitslice_3.21mux.net_1 1 2
+p B[2] vdd bitslice_3.21mux.net_1 1 2
 | device bitslice_3.21mux.nand2.nmos 0 0
-n bitslice_3.B bitslice_3.21mux.nand2.net_1 bitslice_3.21mux.net_1 1 2
+n B[2] bitslice_3.21mux.nand2.net_1 bitslice_3.21mux.net_1 1 2
 | device bitslice_3.21mux.nand2.pmos_1 160 -100
-p bitslice_3.S vdd bitslice_3.21mux.net_1 1 2
+p S vdd bitslice_3.21mux.net_1 1 2
 | device bitslice_3.21mux.nand2.nmos_1 0 100
-n bitslice_3.S gnd bitslice_3.21mux.nand2.net_1 1 2
+n S gnd bitslice_3.21mux.nand2.net_1 1 2
 | end bitslice_3.21mux.nand2
 | begin bitslice_3.21mux.nand2_1 450 340
 | device bitslice_3.21mux.nand2_1.pmos 0 -100
@@ -610,173 +610,173 @@ p bitslice_3.21mux.net_3 vdd bitslice_3.21mux.net_2 1 2
 | device bitslice_3.21mux.nand2_1.nmos 0 0
 n bitslice_3.21mux.net_3 bitslice_3.21mux.nand2_1.net_1 bitslice_3.21mux.net_2 1 2
 | device bitslice_3.21mux.nand2_1.pmos_1 160 -100
-p bitslice_3.Out vdd bitslice_3.21mux.net_2 1 2
+p Out[2] vdd bitslice_3.21mux.net_2 1 2
 | device bitslice_3.21mux.nand2_1.nmos_1 0 100
-n bitslice_3.Out gnd bitslice_3.21mux.nand2_1.net_1 1 2
+n Out[2] gnd bitslice_3.21mux.nand2_1.net_1 1 2
 | end bitslice_3.21mux.nand2_1
 | begin bitslice_3.21mux.nand2_2 620 260
 | device bitslice_3.21mux.nand2_2.pmos 0 -100
-p bitslice_3.21mux.net_1 vdd bitslice_3.net_2 1 2
+p bitslice_3.21mux.net_1 vdd bitslice_3.net_1 1 2
 | device bitslice_3.21mux.nand2_2.nmos 0 0
-n bitslice_3.21mux.net_1 bitslice_3.21mux.nand2_2.net_1 bitslice_3.net_2 1 2
+n bitslice_3.21mux.net_1 bitslice_3.21mux.nand2_2.net_1 bitslice_3.net_1 1 2
 | device bitslice_3.21mux.nand2_2.pmos_1 160 -100
-p bitslice_3.21mux.net_2 vdd bitslice_3.net_2 1 2
+p bitslice_3.21mux.net_2 vdd bitslice_3.net_1 1 2
 | device bitslice_3.21mux.nand2_2.nmos_1 0 100
 n bitslice_3.21mux.net_2 gnd bitslice_3.21mux.nand2_2.net_1 1 2
 | end bitslice_3.21mux.nand2_2
 | begin bitslice_3.21mux.inverter 310 260
 | device bitslice_3.21mux.inverter.nmos 550 360
-n bitslice_3.S gnd bitslice_3.21mux.net_3 1 1
+n S gnd bitslice_3.21mux.net_3 1 1
 | device bitslice_3.21mux.inverter.pmos 550 200
-p bitslice_3.S vdd bitslice_3.21mux.net_3 1 2
+p S vdd bitslice_3.21mux.net_3 1 2
 | end bitslice_3.21mux.inverter
 | end bitslice_3.21mux
 | begin bitslice_3.FA 500 410
 | device bitslice_3.FA.nmos 430 370
-n bitslice_3.FA.net_4 bitslice_3.FA.net_3 bitslice_3.FA.net_5 1 3
+n bitslice_3.FA.net_2 bitslice_3.FA.net_9 bitslice_3.FA.net_10 1 3
 | device bitslice_3.FA.nmos_1 250 450
-n bitslice_3.net_3 gnd bitslice_3.FA.net_3 1 3
+n bitslice_3.net_2 gnd bitslice_3.FA.net_9 1 3
 | device bitslice_3.FA.nmos_2 430 450
-n bitslice_3.net_2 gnd bitslice_3.FA.net_3 1 3
+n bitslice_3.net_1 gnd bitslice_3.FA.net_9 1 3
 | device bitslice_3.FA.nmos_3 610 450
-n bitslice_3.Cin gnd bitslice_3.FA.net_3 1 3
+n net_7 gnd bitslice_3.FA.net_9 1 3
 | device bitslice_3.FA.nmos_4 810 370
-n bitslice_3.Cin bitslice_3.FA.net_10 bitslice_3.FA.net_5 1 3
+n net_7 bitslice_3.FA.net_12 bitslice_3.FA.net_10 1 3
 | device bitslice_3.FA.nmos_5 810 450
-n bitslice_3.net_2 bitslice_3.FA.net_11 bitslice_3.FA.net_10 1 3
+n bitslice_3.net_1 bitslice_3.FA.net_8 bitslice_3.FA.net_12 1 3
 | device bitslice_3.FA.nmos_6 810 530
-n bitslice_3.net_3 gnd bitslice_3.FA.net_11 1 3
+n bitslice_3.net_2 gnd bitslice_3.FA.net_8 1 3
 | device bitslice_3.FA.nmos_7 -250 370
-n bitslice_3.Cin bitslice_3.FA.net_6 bitslice_3.FA.net_4 1 3
+n net_7 bitslice_3.FA.net_5 bitslice_3.FA.net_2 1 3
 | device bitslice_3.FA.nmos_8 -320 450
-n bitslice_3.net_3 gnd bitslice_3.FA.net_6 1 3
+n bitslice_3.net_2 gnd bitslice_3.FA.net_5 1 3
 | device bitslice_3.FA.nmos_9 -150 450
-n bitslice_3.net_2 gnd bitslice_3.FA.net_6 1 3
+n bitslice_3.net_1 gnd bitslice_3.FA.net_5 1 3
 | device bitslice_3.FA.nmos_10 40 370
-n bitslice_3.net_2 bitslice_3.FA.net_8 bitslice_3.FA.net_4 1 3
+n bitslice_3.net_1 bitslice_3.FA.net_4 bitslice_3.FA.net_2 1 3
 | device bitslice_3.FA.nmos_11 40 450
-n bitslice_3.net_3 gnd bitslice_3.FA.net_8 1 3
+n bitslice_3.net_2 gnd bitslice_3.FA.net_4 1 3
 | device bitslice_3.FA.pmos 250 210
-p bitslice_3.net_3 vdd bitslice_3.FA.net_2 1 6
+p bitslice_3.net_2 vdd bitslice_3.FA.net_11 1 6
 | device bitslice_3.FA.pmos_1 430 210
-p bitslice_3.net_2 vdd bitslice_3.FA.net_2 1 6
+p bitslice_3.net_1 vdd bitslice_3.FA.net_11 1 6
 | device bitslice_3.FA.pmos_2 610 210
-p bitslice_3.Cin vdd bitslice_3.FA.net_2 1 6
+p net_7 vdd bitslice_3.FA.net_11 1 6
 | device bitslice_3.FA.pmos_3 430 290
-p bitslice_3.FA.net_4 bitslice_3.FA.net_2 bitslice_3.FA.net_5 1 6
+p bitslice_3.FA.net_2 bitslice_3.FA.net_11 bitslice_3.FA.net_10 1 6
 | device bitslice_3.FA.pmos_4 810 210
-p bitslice_3.net_2 bitslice_3.FA.net_12 bitslice_3.FA.net_1 1 6
+p bitslice_3.net_1 bitslice_3.FA.net_3 bitslice_3.FA.net_1 1 6
 | device bitslice_3.FA.pmos_5 810 290
-p bitslice_3.Cin bitslice_3.FA.net_1 bitslice_3.FA.net_5 1 6
+p net_7 bitslice_3.FA.net_1 bitslice_3.FA.net_10 1 6
 | device bitslice_3.FA.pmos_6 810 130
-p bitslice_3.net_3 vdd bitslice_3.FA.net_12 1 6
+p bitslice_3.net_2 vdd bitslice_3.FA.net_3 1 6
 | device bitslice_3.FA.pmos_7 -320 210
-p bitslice_3.net_3 vdd bitslice_3.FA.net_7 1 6
+p bitslice_3.net_2 vdd bitslice_3.FA.net_6 1 6
 | device bitslice_3.FA.pmos_8 -150 210
-p bitslice_3.net_2 vdd bitslice_3.FA.net_7 1 6
+p bitslice_3.net_1 vdd bitslice_3.FA.net_6 1 6
 | device bitslice_3.FA.pmos_9 -250 290
-p bitslice_3.Cin bitslice_3.FA.net_7 bitslice_3.FA.net_4 1 6
+p net_7 bitslice_3.FA.net_6 bitslice_3.FA.net_2 1 6
 | device bitslice_3.FA.pmos_10 40 290
-p bitslice_3.net_2 bitslice_3.FA.net_9 bitslice_3.FA.net_4 1 6
+p bitslice_3.net_1 bitslice_3.FA.net_7 bitslice_3.FA.net_2 1 6
 | device bitslice_3.FA.pmos_11 40 210
-p bitslice_3.net_3 vdd bitslice_3.FA.net_9 1 6
+p bitslice_3.net_2 vdd bitslice_3.FA.net_7 1 6
 | begin bitslice_3.FA.inv 890 680
 | device bitslice_3.FA.inv.nmos 390 400
-n bitslice_3.FA.net_4 gnd bitslice_3.Cout 1 1
+n bitslice_3.FA.net_2 gnd net_3 1 1
 | device bitslice_3.FA.inv.pmos 390 270
-p bitslice_3.FA.net_4 vdd bitslice_3.Cout 1 2
+p bitslice_3.FA.net_2 vdd net_3 1 2
 | end bitslice_3.FA.inv
 | begin bitslice_3.FA.inv_1 900 330
 | device bitslice_3.FA.inv_1.nmos 390 400
-n bitslice_3.FA.net_5 gnd bitslice_3.net_1 1 1
+n bitslice_3.FA.net_10 gnd bitslice_3.net_3 1 1
 | device bitslice_3.FA.inv_1.pmos 390 270
-p bitslice_3.FA.net_5 vdd bitslice_3.net_1 1 2
+p bitslice_3.FA.net_10 vdd bitslice_3.net_3 1 2
 | end bitslice_3.FA.inv_1
 | end bitslice_3.FA
 | begin bitslice_3.dffpos 500 610
 | device bitslice_3.dffpos.nmos 420 160
-n bitslice_3.dffpos.net_2 gnd bitslice_3.dffpos.net_11 1 3
+n bitslice_3.dffpos.net_1 gnd bitslice_3.dffpos.net_10 1 3
 | device bitslice_3.dffpos.nmos_1 420 80
-n bitslice_3.Clk bitslice_3.dffpos.net_11 bitslice_3.dffpos.net_3 1 3
+n net_4 bitslice_3.dffpos.net_10 bitslice_3.dffpos.net_4 1 3
 | device bitslice_3.dffpos.nmos_2 510 440
-n bitslice_3.dffpos.net_3 gnd bitslice_3.dffpos.net_2 1 3
+n bitslice_3.dffpos.net_4 gnd bitslice_3.dffpos.net_1 1 3
 | device bitslice_3.dffpos.pmos 420 -20
-p bitslice_3.dffpos.Clk_b bitslice_3.dffpos.net_8 bitslice_3.dffpos.net_3 1 3
+p bitslice_3.dffpos.Clk_b bitslice_3.dffpos.net_6 bitslice_3.dffpos.net_4 1 3
 | device bitslice_3.dffpos.pmos_1 420 -100
-p bitslice_3.dffpos.net_2 vdd bitslice_3.dffpos.net_8 1 3
+p bitslice_3.dffpos.net_1 vdd bitslice_3.dffpos.net_6 1 3
 | device bitslice_3.dffpos.nmos_3 160 40
-n bitslice_3.Clk gnd bitslice_3.dffpos.Clk_b 1 6
+n net_4 gnd bitslice_3.dffpos.Clk_b 1 6
 | device bitslice_3.dffpos.pmos_2 160 -60
-p bitslice_3.Clk vdd bitslice_3.dffpos.Clk_b 1 12
+p net_4 vdd bitslice_3.dffpos.Clk_b 1 12
 | device bitslice_3.dffpos.nmos_4 890 530
-n bitslice_3.dffpos.net_2 gnd bitslice_3.dffpos.net_9 1 3
+n bitslice_3.dffpos.net_1 gnd bitslice_3.dffpos.net_5 1 3
 | device bitslice_3.dffpos.nmos_5 890 450
-n bitslice_3.Clk bitslice_3.dffpos.net_9 bitslice_3.dffpos.net_1 1 3
+n net_4 bitslice_3.dffpos.net_5 bitslice_3.dffpos.net_3 1 3
 | device bitslice_3.dffpos.pmos_3 890 350
-p bitslice_3.dffpos.Clk_b bitslice_3.dffpos.net_6 bitslice_3.dffpos.net_1 1 6
+p bitslice_3.dffpos.Clk_b bitslice_3.dffpos.net_9 bitslice_3.dffpos.net_3 1 6
 | device bitslice_3.dffpos.pmos_4 890 270
-p bitslice_3.dffpos.net_2 vdd bitslice_3.dffpos.net_6 1 6
+p bitslice_3.dffpos.net_1 vdd bitslice_3.dffpos.net_9 1 6
 | device bitslice_3.dffpos.pmos_5 510 360
-p bitslice_3.dffpos.net_3 vdd bitslice_3.dffpos.net_2 1 6
+p bitslice_3.dffpos.net_4 vdd bitslice_3.dffpos.net_1 1 6
 | device bitslice_3.dffpos.nmos_6 1190 440
-n bitslice_3.dffpos.net_1 gnd bitslice_3.Out 1 6
+n bitslice_3.dffpos.net_3 gnd Out[2] 1 6
 | device bitslice_3.dffpos.pmos_6 1190 360
-p bitslice_3.dffpos.net_1 vdd bitslice_3.Out 1 12
+p bitslice_3.dffpos.net_3 vdd Out[2] 1 12
 | device bitslice_3.dffpos.nmos_7 250 530
-n bitslice_3.net_1 gnd bitslice_3.dffpos.net_10 1 3
+n bitslice_3.net_3 gnd bitslice_3.dffpos.net_2 1 3
 | device bitslice_3.dffpos.nmos_8 250 450
-n bitslice_3.dffpos.Clk_b bitslice_3.dffpos.net_10 bitslice_3.dffpos.net_3 1 3
+n bitslice_3.dffpos.Clk_b bitslice_3.dffpos.net_2 bitslice_3.dffpos.net_4 1 3
 | device bitslice_3.dffpos.pmos_7 250 350
-p bitslice_3.Clk bitslice_3.dffpos.net_7 bitslice_3.dffpos.net_3 1 6
+p net_4 bitslice_3.dffpos.net_8 bitslice_3.dffpos.net_4 1 6
 | device bitslice_3.dffpos.pmos_8 250 270
-p bitslice_3.net_1 vdd bitslice_3.dffpos.net_7 1 6
+p bitslice_3.net_3 vdd bitslice_3.dffpos.net_8 1 6
 | device bitslice_3.dffpos.nmos_9 1100 160
-n bitslice_3.Out gnd bitslice_3.dffpos.net_5 1 3
+n Out[2] gnd bitslice_3.dffpos.net_11 1 3
 | device bitslice_3.dffpos.nmos_10 1100 80
-n bitslice_3.dffpos.Clk_b bitslice_3.dffpos.net_5 bitslice_3.dffpos.net_1 1 3
+n bitslice_3.dffpos.Clk_b bitslice_3.dffpos.net_11 bitslice_3.dffpos.net_3 1 3
 | device bitslice_3.dffpos.pmos_9 1100 -20
-p bitslice_3.Clk bitslice_3.dffpos.net_4 bitslice_3.dffpos.net_1 1 3
+p net_4 bitslice_3.dffpos.net_7 bitslice_3.dffpos.net_3 1 3
 | device bitslice_3.dffpos.pmos_10 1100 -100
-p bitslice_3.Out vdd bitslice_3.dffpos.net_4 1 3
+p Out[2] vdd bitslice_3.dffpos.net_7 1 3
 | end bitslice_3.dffpos
 | end bitslice_3
 | begin bitslice_4 510 970
 | begin bitslice_4.xor2 180 290
 | device bitslice_4.xor2.pmos -150 210
-p bitslice_4.subtract vdd bitslice_4.xor2.net_6 1 12
+p subtract vdd bitslice_4.xor2.net_4 1 12
 | device bitslice_4.xor2.pmos_1 -150 290
-p bitslice_4.xor2.net_1 bitslice_4.xor2.net_6 bitslice_4.net_3 1 12
+p bitslice_4.xor2.net_1 bitslice_4.xor2.net_4 bitslice_4.net_2 1 12
 | device bitslice_4.xor2.pmos_2 -320 290
-p bitslice_4.A bitslice_4.xor2.net_2 bitslice_4.net_3 1 12
+p A[6] bitslice_4.xor2.net_6 bitslice_4.net_2 1 12
 | device bitslice_4.xor2.pmos_3 -320 210
-p bitslice_4.xor2.net_3 vdd bitslice_4.xor2.net_2 1 12
+p bitslice_4.xor2.net_3 vdd bitslice_4.xor2.net_6 1 12
 | device bitslice_4.xor2.nmos -150 450
-n bitslice_4.subtract gnd bitslice_4.xor2.net_4 1 6
+n subtract gnd bitslice_4.xor2.net_2 1 6
 | device bitslice_4.xor2.nmos_1 -320 450
 n bitslice_4.xor2.net_3 gnd bitslice_4.xor2.net_5 1 6
 | device bitslice_4.xor2.nmos_2 -150 370
-n bitslice_4.A bitslice_4.xor2.net_4 bitslice_4.net_3 1 6
+n A[6] bitslice_4.xor2.net_2 bitslice_4.net_2 1 6
 | device bitslice_4.xor2.nmos_3 -320 370
-n bitslice_4.xor2.net_1 bitslice_4.xor2.net_5 bitslice_4.net_3 1 6
+n bitslice_4.xor2.net_1 bitslice_4.xor2.net_5 bitslice_4.net_2 1 6
 | device bitslice_4.xor2.pmos_4 -580 210
-p bitslice_4.A vdd bitslice_4.xor2.net_1 1 12
+p A[6] vdd bitslice_4.xor2.net_1 1 12
 | device bitslice_4.xor2.nmos_4 -580 430
-n bitslice_4.A gnd bitslice_4.xor2.net_1 1 6
+n A[6] gnd bitslice_4.xor2.net_1 1 6
 | device bitslice_4.xor2.pmos_5 80 210
-p bitslice_4.subtract vdd bitslice_4.xor2.net_3 1 12
+p subtract vdd bitslice_4.xor2.net_3 1 12
 | device bitslice_4.xor2.nmos_5 80 430
-n bitslice_4.subtract gnd bitslice_4.xor2.net_3 1 6
+n subtract gnd bitslice_4.xor2.net_3 1 6
 | end bitslice_4.xor2
 | begin bitslice_4.21mux 500 100
 | begin bitslice_4.21mux.nand2 450 180
 | device bitslice_4.21mux.nand2.pmos 0 -100
-p bitslice_4.B vdd bitslice_4.21mux.net_1 1 2
+p B[6] vdd bitslice_4.21mux.net_1 1 2
 | device bitslice_4.21mux.nand2.nmos 0 0
-n bitslice_4.B bitslice_4.21mux.nand2.net_1 bitslice_4.21mux.net_1 1 2
+n B[6] bitslice_4.21mux.nand2.net_1 bitslice_4.21mux.net_1 1 2
 | device bitslice_4.21mux.nand2.pmos_1 160 -100
-p bitslice_4.S vdd bitslice_4.21mux.net_1 1 2
+p S vdd bitslice_4.21mux.net_1 1 2
 | device bitslice_4.21mux.nand2.nmos_1 0 100
-n bitslice_4.S gnd bitslice_4.21mux.nand2.net_1 1 2
+n S gnd bitslice_4.21mux.nand2.net_1 1 2
 | end bitslice_4.21mux.nand2
 | begin bitslice_4.21mux.nand2_1 450 340
 | device bitslice_4.21mux.nand2_1.pmos 0 -100
@@ -784,173 +784,173 @@ p bitslice_4.21mux.net_3 vdd bitslice_4.21mux.net_2 1 2
 | device bitslice_4.21mux.nand2_1.nmos 0 0
 n bitslice_4.21mux.net_3 bitslice_4.21mux.nand2_1.net_1 bitslice_4.21mux.net_2 1 2
 | device bitslice_4.21mux.nand2_1.pmos_1 160 -100
-p bitslice_4.Out vdd bitslice_4.21mux.net_2 1 2
+p Out[6] vdd bitslice_4.21mux.net_2 1 2
 | device bitslice_4.21mux.nand2_1.nmos_1 0 100
-n bitslice_4.Out gnd bitslice_4.21mux.nand2_1.net_1 1 2
+n Out[6] gnd bitslice_4.21mux.nand2_1.net_1 1 2
 | end bitslice_4.21mux.nand2_1
 | begin bitslice_4.21mux.nand2_2 620 260
 | device bitslice_4.21mux.nand2_2.pmos 0 -100
-p bitslice_4.21mux.net_1 vdd bitslice_4.net_2 1 2
+p bitslice_4.21mux.net_1 vdd bitslice_4.net_1 1 2
 | device bitslice_4.21mux.nand2_2.nmos 0 0
-n bitslice_4.21mux.net_1 bitslice_4.21mux.nand2_2.net_1 bitslice_4.net_2 1 2
+n bitslice_4.21mux.net_1 bitslice_4.21mux.nand2_2.net_1 bitslice_4.net_1 1 2
 | device bitslice_4.21mux.nand2_2.pmos_1 160 -100
-p bitslice_4.21mux.net_2 vdd bitslice_4.net_2 1 2
+p bitslice_4.21mux.net_2 vdd bitslice_4.net_1 1 2
 | device bitslice_4.21mux.nand2_2.nmos_1 0 100
 n bitslice_4.21mux.net_2 gnd bitslice_4.21mux.nand2_2.net_1 1 2
 | end bitslice_4.21mux.nand2_2
 | begin bitslice_4.21mux.inverter 310 260
 | device bitslice_4.21mux.inverter.nmos 550 360
-n bitslice_4.S gnd bitslice_4.21mux.net_3 1 1
+n S gnd bitslice_4.21mux.net_3 1 1
 | device bitslice_4.21mux.inverter.pmos 550 200
-p bitslice_4.S vdd bitslice_4.21mux.net_3 1 2
+p S vdd bitslice_4.21mux.net_3 1 2
 | end bitslice_4.21mux.inverter
 | end bitslice_4.21mux
 | begin bitslice_4.FA 500 410
 | device bitslice_4.FA.nmos 430 370
-n bitslice_4.FA.net_4 bitslice_4.FA.net_3 bitslice_4.FA.net_5 1 3
+n bitslice_4.FA.net_2 bitslice_4.FA.net_9 bitslice_4.FA.net_10 1 3
 | device bitslice_4.FA.nmos_1 250 450
-n bitslice_4.net_3 gnd bitslice_4.FA.net_3 1 3
+n bitslice_4.net_2 gnd bitslice_4.FA.net_9 1 3
 | device bitslice_4.FA.nmos_2 430 450
-n bitslice_4.net_2 gnd bitslice_4.FA.net_3 1 3
+n bitslice_4.net_1 gnd bitslice_4.FA.net_9 1 3
 | device bitslice_4.FA.nmos_3 610 450
-n bitslice_4.Cin gnd bitslice_4.FA.net_3 1 3
+n net_1 gnd bitslice_4.FA.net_9 1 3
 | device bitslice_4.FA.nmos_4 810 370
-n bitslice_4.Cin bitslice_4.FA.net_10 bitslice_4.FA.net_5 1 3
+n net_1 bitslice_4.FA.net_12 bitslice_4.FA.net_10 1 3
 | device bitslice_4.FA.nmos_5 810 450
-n bitslice_4.net_2 bitslice_4.FA.net_11 bitslice_4.FA.net_10 1 3
+n bitslice_4.net_1 bitslice_4.FA.net_8 bitslice_4.FA.net_12 1 3
 | device bitslice_4.FA.nmos_6 810 530
-n bitslice_4.net_3 gnd bitslice_4.FA.net_11 1 3
+n bitslice_4.net_2 gnd bitslice_4.FA.net_8 1 3
 | device bitslice_4.FA.nmos_7 -250 370
-n bitslice_4.Cin bitslice_4.FA.net_6 bitslice_4.FA.net_4 1 3
+n net_1 bitslice_4.FA.net_5 bitslice_4.FA.net_2 1 3
 | device bitslice_4.FA.nmos_8 -320 450
-n bitslice_4.net_3 gnd bitslice_4.FA.net_6 1 3
+n bitslice_4.net_2 gnd bitslice_4.FA.net_5 1 3
 | device bitslice_4.FA.nmos_9 -150 450
-n bitslice_4.net_2 gnd bitslice_4.FA.net_6 1 3
+n bitslice_4.net_1 gnd bitslice_4.FA.net_5 1 3
 | device bitslice_4.FA.nmos_10 40 370
-n bitslice_4.net_2 bitslice_4.FA.net_8 bitslice_4.FA.net_4 1 3
+n bitslice_4.net_1 bitslice_4.FA.net_4 bitslice_4.FA.net_2 1 3
 | device bitslice_4.FA.nmos_11 40 450
-n bitslice_4.net_3 gnd bitslice_4.FA.net_8 1 3
+n bitslice_4.net_2 gnd bitslice_4.FA.net_4 1 3
 | device bitslice_4.FA.pmos 250 210
-p bitslice_4.net_3 vdd bitslice_4.FA.net_2 1 6
+p bitslice_4.net_2 vdd bitslice_4.FA.net_11 1 6
 | device bitslice_4.FA.pmos_1 430 210
-p bitslice_4.net_2 vdd bitslice_4.FA.net_2 1 6
+p bitslice_4.net_1 vdd bitslice_4.FA.net_11 1 6
 | device bitslice_4.FA.pmos_2 610 210
-p bitslice_4.Cin vdd bitslice_4.FA.net_2 1 6
+p net_1 vdd bitslice_4.FA.net_11 1 6
 | device bitslice_4.FA.pmos_3 430 290
-p bitslice_4.FA.net_4 bitslice_4.FA.net_2 bitslice_4.FA.net_5 1 6
+p bitslice_4.FA.net_2 bitslice_4.FA.net_11 bitslice_4.FA.net_10 1 6
 | device bitslice_4.FA.pmos_4 810 210
-p bitslice_4.net_2 bitslice_4.FA.net_12 bitslice_4.FA.net_1 1 6
+p bitslice_4.net_1 bitslice_4.FA.net_3 bitslice_4.FA.net_1 1 6
 | device bitslice_4.FA.pmos_5 810 290
-p bitslice_4.Cin bitslice_4.FA.net_1 bitslice_4.FA.net_5 1 6
+p net_1 bitslice_4.FA.net_1 bitslice_4.FA.net_10 1 6
 | device bitslice_4.FA.pmos_6 810 130
-p bitslice_4.net_3 vdd bitslice_4.FA.net_12 1 6
+p bitslice_4.net_2 vdd bitslice_4.FA.net_3 1 6
 | device bitslice_4.FA.pmos_7 -320 210
-p bitslice_4.net_3 vdd bitslice_4.FA.net_7 1 6
+p bitslice_4.net_2 vdd bitslice_4.FA.net_6 1 6
 | device bitslice_4.FA.pmos_8 -150 210
-p bitslice_4.net_2 vdd bitslice_4.FA.net_7 1 6
+p bitslice_4.net_1 vdd bitslice_4.FA.net_6 1 6
 | device bitslice_4.FA.pmos_9 -250 290
-p bitslice_4.Cin bitslice_4.FA.net_7 bitslice_4.FA.net_4 1 6
+p net_1 bitslice_4.FA.net_6 bitslice_4.FA.net_2 1 6
 | device bitslice_4.FA.pmos_10 40 290
-p bitslice_4.net_2 bitslice_4.FA.net_9 bitslice_4.FA.net_4 1 6
+p bitslice_4.net_1 bitslice_4.FA.net_7 bitslice_4.FA.net_2 1 6
 | device bitslice_4.FA.pmos_11 40 210
-p bitslice_4.net_3 vdd bitslice_4.FA.net_9 1 6
+p bitslice_4.net_2 vdd bitslice_4.FA.net_7 1 6
 | begin bitslice_4.FA.inv 890 680
 | device bitslice_4.FA.inv.nmos 390 400
-n bitslice_4.FA.net_4 gnd bitslice_4.Cout 1 1
+n bitslice_4.FA.net_2 gnd net_8 1 1
 | device bitslice_4.FA.inv.pmos 390 270
-p bitslice_4.FA.net_4 vdd bitslice_4.Cout 1 2
+p bitslice_4.FA.net_2 vdd net_8 1 2
 | end bitslice_4.FA.inv
 | begin bitslice_4.FA.inv_1 900 330
 | device bitslice_4.FA.inv_1.nmos 390 400
-n bitslice_4.FA.net_5 gnd bitslice_4.net_1 1 1
+n bitslice_4.FA.net_10 gnd bitslice_4.net_3 1 1
 | device bitslice_4.FA.inv_1.pmos 390 270
-p bitslice_4.FA.net_5 vdd bitslice_4.net_1 1 2
+p bitslice_4.FA.net_10 vdd bitslice_4.net_3 1 2
 | end bitslice_4.FA.inv_1
 | end bitslice_4.FA
 | begin bitslice_4.dffpos 500 610
 | device bitslice_4.dffpos.nmos 420 160
-n bitslice_4.dffpos.net_2 gnd bitslice_4.dffpos.net_11 1 3
+n bitslice_4.dffpos.net_1 gnd bitslice_4.dffpos.net_10 1 3
 | device bitslice_4.dffpos.nmos_1 420 80
-n bitslice_4.Clk bitslice_4.dffpos.net_11 bitslice_4.dffpos.net_3 1 3
+n net_4 bitslice_4.dffpos.net_10 bitslice_4.dffpos.net_4 1 3
 | device bitslice_4.dffpos.nmos_2 510 440
-n bitslice_4.dffpos.net_3 gnd bitslice_4.dffpos.net_2 1 3
+n bitslice_4.dffpos.net_4 gnd bitslice_4.dffpos.net_1 1 3
 | device bitslice_4.dffpos.pmos 420 -20
-p bitslice_4.dffpos.Clk_b bitslice_4.dffpos.net_8 bitslice_4.dffpos.net_3 1 3
+p bitslice_4.dffpos.Clk_b bitslice_4.dffpos.net_6 bitslice_4.dffpos.net_4 1 3
 | device bitslice_4.dffpos.pmos_1 420 -100
-p bitslice_4.dffpos.net_2 vdd bitslice_4.dffpos.net_8 1 3
+p bitslice_4.dffpos.net_1 vdd bitslice_4.dffpos.net_6 1 3
 | device bitslice_4.dffpos.nmos_3 160 40
-n bitslice_4.Clk gnd bitslice_4.dffpos.Clk_b 1 6
+n net_4 gnd bitslice_4.dffpos.Clk_b 1 6
 | device bitslice_4.dffpos.pmos_2 160 -60
-p bitslice_4.Clk vdd bitslice_4.dffpos.Clk_b 1 12
+p net_4 vdd bitslice_4.dffpos.Clk_b 1 12
 | device bitslice_4.dffpos.nmos_4 890 530
-n bitslice_4.dffpos.net_2 gnd bitslice_4.dffpos.net_9 1 3
+n bitslice_4.dffpos.net_1 gnd bitslice_4.dffpos.net_5 1 3
 | device bitslice_4.dffpos.nmos_5 890 450
-n bitslice_4.Clk bitslice_4.dffpos.net_9 bitslice_4.dffpos.net_1 1 3
+n net_4 bitslice_4.dffpos.net_5 bitslice_4.dffpos.net_3 1 3
 | device bitslice_4.dffpos.pmos_3 890 350
-p bitslice_4.dffpos.Clk_b bitslice_4.dffpos.net_6 bitslice_4.dffpos.net_1 1 6
+p bitslice_4.dffpos.Clk_b bitslice_4.dffpos.net_9 bitslice_4.dffpos.net_3 1 6
 | device bitslice_4.dffpos.pmos_4 890 270
-p bitslice_4.dffpos.net_2 vdd bitslice_4.dffpos.net_6 1 6
+p bitslice_4.dffpos.net_1 vdd bitslice_4.dffpos.net_9 1 6
 | device bitslice_4.dffpos.pmos_5 510 360
-p bitslice_4.dffpos.net_3 vdd bitslice_4.dffpos.net_2 1 6
+p bitslice_4.dffpos.net_4 vdd bitslice_4.dffpos.net_1 1 6
 | device bitslice_4.dffpos.nmos_6 1190 440
-n bitslice_4.dffpos.net_1 gnd bitslice_4.Out 1 6
+n bitslice_4.dffpos.net_3 gnd Out[6] 1 6
 | device bitslice_4.dffpos.pmos_6 1190 360
-p bitslice_4.dffpos.net_1 vdd bitslice_4.Out 1 12
+p bitslice_4.dffpos.net_3 vdd Out[6] 1 12
 | device bitslice_4.dffpos.nmos_7 250 530
-n bitslice_4.net_1 gnd bitslice_4.dffpos.net_10 1 3
+n bitslice_4.net_3 gnd bitslice_4.dffpos.net_2 1 3
 | device bitslice_4.dffpos.nmos_8 250 450
-n bitslice_4.dffpos.Clk_b bitslice_4.dffpos.net_10 bitslice_4.dffpos.net_3 1 3
+n bitslice_4.dffpos.Clk_b bitslice_4.dffpos.net_2 bitslice_4.dffpos.net_4 1 3
 | device bitslice_4.dffpos.pmos_7 250 350
-p bitslice_4.Clk bitslice_4.dffpos.net_7 bitslice_4.dffpos.net_3 1 6
+p net_4 bitslice_4.dffpos.net_8 bitslice_4.dffpos.net_4 1 6
 | device bitslice_4.dffpos.pmos_8 250 270
-p bitslice_4.net_1 vdd bitslice_4.dffpos.net_7 1 6
+p bitslice_4.net_3 vdd bitslice_4.dffpos.net_8 1 6
 | device bitslice_4.dffpos.nmos_9 1100 160
-n bitslice_4.Out gnd bitslice_4.dffpos.net_5 1 3
+n Out[6] gnd bitslice_4.dffpos.net_11 1 3
 | device bitslice_4.dffpos.nmos_10 1100 80
-n bitslice_4.dffpos.Clk_b bitslice_4.dffpos.net_5 bitslice_4.dffpos.net_1 1 3
+n bitslice_4.dffpos.Clk_b bitslice_4.dffpos.net_11 bitslice_4.dffpos.net_3 1 3
 | device bitslice_4.dffpos.pmos_9 1100 -20
-p bitslice_4.Clk bitslice_4.dffpos.net_4 bitslice_4.dffpos.net_1 1 3
+p net_4 bitslice_4.dffpos.net_7 bitslice_4.dffpos.net_3 1 3
 | device bitslice_4.dffpos.pmos_10 1100 -100
-p bitslice_4.Out vdd bitslice_4.dffpos.net_4 1 3
+p Out[6] vdd bitslice_4.dffpos.net_7 1 3
 | end bitslice_4.dffpos
 | end bitslice_4
 | begin bitslice_5 510 1260
 | begin bitslice_5.xor2 180 290
 | device bitslice_5.xor2.pmos -150 210
-p bitslice_5.subtract vdd bitslice_5.xor2.net_6 1 12
+p subtract vdd bitslice_5.xor2.net_4 1 12
 | device bitslice_5.xor2.pmos_1 -150 290
-p bitslice_5.xor2.net_1 bitslice_5.xor2.net_6 bitslice_5.net_3 1 12
+p bitslice_5.xor2.net_1 bitslice_5.xor2.net_4 bitslice_5.net_2 1 12
 | device bitslice_5.xor2.pmos_2 -320 290
-p bitslice_5.A bitslice_5.xor2.net_2 bitslice_5.net_3 1 12
+p A[7] bitslice_5.xor2.net_6 bitslice_5.net_2 1 12
 | device bitslice_5.xor2.pmos_3 -320 210
-p bitslice_5.xor2.net_3 vdd bitslice_5.xor2.net_2 1 12
+p bitslice_5.xor2.net_3 vdd bitslice_5.xor2.net_6 1 12
 | device bitslice_5.xor2.nmos -150 450
-n bitslice_5.subtract gnd bitslice_5.xor2.net_4 1 6
+n subtract gnd bitslice_5.xor2.net_2 1 6
 | device bitslice_5.xor2.nmos_1 -320 450
 n bitslice_5.xor2.net_3 gnd bitslice_5.xor2.net_5 1 6
 | device bitslice_5.xor2.nmos_2 -150 370
-n bitslice_5.A bitslice_5.xor2.net_4 bitslice_5.net_3 1 6
+n A[7] bitslice_5.xor2.net_2 bitslice_5.net_2 1 6
 | device bitslice_5.xor2.nmos_3 -320 370
-n bitslice_5.xor2.net_1 bitslice_5.xor2.net_5 bitslice_5.net_3 1 6
+n bitslice_5.xor2.net_1 bitslice_5.xor2.net_5 bitslice_5.net_2 1 6
 | device bitslice_5.xor2.pmos_4 -580 210
-p bitslice_5.A vdd bitslice_5.xor2.net_1 1 12
+p A[7] vdd bitslice_5.xor2.net_1 1 12
 | device bitslice_5.xor2.nmos_4 -580 430
-n bitslice_5.A gnd bitslice_5.xor2.net_1 1 6
+n A[7] gnd bitslice_5.xor2.net_1 1 6
 | device bitslice_5.xor2.pmos_5 80 210
-p bitslice_5.subtract vdd bitslice_5.xor2.net_3 1 12
+p subtract vdd bitslice_5.xor2.net_3 1 12
 | device bitslice_5.xor2.nmos_5 80 430
-n bitslice_5.subtract gnd bitslice_5.xor2.net_3 1 6
+n subtract gnd bitslice_5.xor2.net_3 1 6
 | end bitslice_5.xor2
 | begin bitslice_5.21mux 500 100
 | begin bitslice_5.21mux.nand2 450 180
 | device bitslice_5.21mux.nand2.pmos 0 -100
-p bitslice_5.B vdd bitslice_5.21mux.net_1 1 2
+p B[7] vdd bitslice_5.21mux.net_1 1 2
 | device bitslice_5.21mux.nand2.nmos 0 0
-n bitslice_5.B bitslice_5.21mux.nand2.net_1 bitslice_5.21mux.net_1 1 2
+n B[7] bitslice_5.21mux.nand2.net_1 bitslice_5.21mux.net_1 1 2
 | device bitslice_5.21mux.nand2.pmos_1 160 -100
-p bitslice_5.S vdd bitslice_5.21mux.net_1 1 2
+p S vdd bitslice_5.21mux.net_1 1 2
 | device bitslice_5.21mux.nand2.nmos_1 0 100
-n bitslice_5.S gnd bitslice_5.21mux.nand2.net_1 1 2
+n S gnd bitslice_5.21mux.nand2.net_1 1 2
 | end bitslice_5.21mux.nand2
 | begin bitslice_5.21mux.nand2_1 450 340
 | device bitslice_5.21mux.nand2_1.pmos 0 -100
@@ -958,173 +958,173 @@ p bitslice_5.21mux.net_3 vdd bitslice_5.21mux.net_2 1 2
 | device bitslice_5.21mux.nand2_1.nmos 0 0
 n bitslice_5.21mux.net_3 bitslice_5.21mux.nand2_1.net_1 bitslice_5.21mux.net_2 1 2
 | device bitslice_5.21mux.nand2_1.pmos_1 160 -100
-p bitslice_5.Out vdd bitslice_5.21mux.net_2 1 2
+p Out[7] vdd bitslice_5.21mux.net_2 1 2
 | device bitslice_5.21mux.nand2_1.nmos_1 0 100
-n bitslice_5.Out gnd bitslice_5.21mux.nand2_1.net_1 1 2
+n Out[7] gnd bitslice_5.21mux.nand2_1.net_1 1 2
 | end bitslice_5.21mux.nand2_1
 | begin bitslice_5.21mux.nand2_2 620 260
 | device bitslice_5.21mux.nand2_2.pmos 0 -100
-p bitslice_5.21mux.net_1 vdd bitslice_5.net_2 1 2
+p bitslice_5.21mux.net_1 vdd bitslice_5.net_1 1 2
 | device bitslice_5.21mux.nand2_2.nmos 0 0
-n bitslice_5.21mux.net_1 bitslice_5.21mux.nand2_2.net_1 bitslice_5.net_2 1 2
+n bitslice_5.21mux.net_1 bitslice_5.21mux.nand2_2.net_1 bitslice_5.net_1 1 2
 | device bitslice_5.21mux.nand2_2.pmos_1 160 -100
-p bitslice_5.21mux.net_2 vdd bitslice_5.net_2 1 2
+p bitslice_5.21mux.net_2 vdd bitslice_5.net_1 1 2
 | device bitslice_5.21mux.nand2_2.nmos_1 0 100
 n bitslice_5.21mux.net_2 gnd bitslice_5.21mux.nand2_2.net_1 1 2
 | end bitslice_5.21mux.nand2_2
 | begin bitslice_5.21mux.inverter 310 260
 | device bitslice_5.21mux.inverter.nmos 550 360
-n bitslice_5.S gnd bitslice_5.21mux.net_3 1 1
+n S gnd bitslice_5.21mux.net_3 1 1
 | device bitslice_5.21mux.inverter.pmos 550 200
-p bitslice_5.S vdd bitslice_5.21mux.net_3 1 2
+p S vdd bitslice_5.21mux.net_3 1 2
 | end bitslice_5.21mux.inverter
 | end bitslice_5.21mux
 | begin bitslice_5.FA 500 410
 | device bitslice_5.FA.nmos 430 370
-n bitslice_5.FA.net_4 bitslice_5.FA.net_3 bitslice_5.FA.net_5 1 3
+n bitslice_5.FA.net_2 bitslice_5.FA.net_9 bitslice_5.FA.net_10 1 3
 | device bitslice_5.FA.nmos_1 250 450
-n bitslice_5.net_3 gnd bitslice_5.FA.net_3 1 3
+n bitslice_5.net_2 gnd bitslice_5.FA.net_9 1 3
 | device bitslice_5.FA.nmos_2 430 450
-n bitslice_5.net_2 gnd bitslice_5.FA.net_3 1 3
+n bitslice_5.net_1 gnd bitslice_5.FA.net_9 1 3
 | device bitslice_5.FA.nmos_3 610 450
-n bitslice_5.Cin gnd bitslice_5.FA.net_3 1 3
+n net_8 gnd bitslice_5.FA.net_9 1 3
 | device bitslice_5.FA.nmos_4 810 370
-n bitslice_5.Cin bitslice_5.FA.net_10 bitslice_5.FA.net_5 1 3
+n net_8 bitslice_5.FA.net_12 bitslice_5.FA.net_10 1 3
 | device bitslice_5.FA.nmos_5 810 450
-n bitslice_5.net_2 bitslice_5.FA.net_11 bitslice_5.FA.net_10 1 3
+n bitslice_5.net_1 bitslice_5.FA.net_8 bitslice_5.FA.net_12 1 3
 | device bitslice_5.FA.nmos_6 810 530
-n bitslice_5.net_3 gnd bitslice_5.FA.net_11 1 3
+n bitslice_5.net_2 gnd bitslice_5.FA.net_8 1 3
 | device bitslice_5.FA.nmos_7 -250 370
-n bitslice_5.Cin bitslice_5.FA.net_6 bitslice_5.FA.net_4 1 3
+n net_8 bitslice_5.FA.net_5 bitslice_5.FA.net_2 1 3
 | device bitslice_5.FA.nmos_8 -320 450
-n bitslice_5.net_3 gnd bitslice_5.FA.net_6 1 3
+n bitslice_5.net_2 gnd bitslice_5.FA.net_5 1 3
 | device bitslice_5.FA.nmos_9 -150 450
-n bitslice_5.net_2 gnd bitslice_5.FA.net_6 1 3
+n bitslice_5.net_1 gnd bitslice_5.FA.net_5 1 3
 | device bitslice_5.FA.nmos_10 40 370
-n bitslice_5.net_2 bitslice_5.FA.net_8 bitslice_5.FA.net_4 1 3
+n bitslice_5.net_1 bitslice_5.FA.net_4 bitslice_5.FA.net_2 1 3
 | device bitslice_5.FA.nmos_11 40 450
-n bitslice_5.net_3 gnd bitslice_5.FA.net_8 1 3
+n bitslice_5.net_2 gnd bitslice_5.FA.net_4 1 3
 | device bitslice_5.FA.pmos 250 210
-p bitslice_5.net_3 vdd bitslice_5.FA.net_2 1 6
+p bitslice_5.net_2 vdd bitslice_5.FA.net_11 1 6
 | device bitslice_5.FA.pmos_1 430 210
-p bitslice_5.net_2 vdd bitslice_5.FA.net_2 1 6
+p bitslice_5.net_1 vdd bitslice_5.FA.net_11 1 6
 | device bitslice_5.FA.pmos_2 610 210
-p bitslice_5.Cin vdd bitslice_5.FA.net_2 1 6
+p net_8 vdd bitslice_5.FA.net_11 1 6
 | device bitslice_5.FA.pmos_3 430 290
-p bitslice_5.FA.net_4 bitslice_5.FA.net_2 bitslice_5.FA.net_5 1 6
+p bitslice_5.FA.net_2 bitslice_5.FA.net_11 bitslice_5.FA.net_10 1 6
 | device bitslice_5.FA.pmos_4 810 210
-p bitslice_5.net_2 bitslice_5.FA.net_12 bitslice_5.FA.net_1 1 6
+p bitslice_5.net_1 bitslice_5.FA.net_3 bitslice_5.FA.net_1 1 6
 | device bitslice_5.FA.pmos_5 810 290
-p bitslice_5.Cin bitslice_5.FA.net_1 bitslice_5.FA.net_5 1 6
+p net_8 bitslice_5.FA.net_1 bitslice_5.FA.net_10 1 6
 | device bitslice_5.FA.pmos_6 810 130
-p bitslice_5.net_3 vdd bitslice_5.FA.net_12 1 6
+p bitslice_5.net_2 vdd bitslice_5.FA.net_3 1 6
 | device bitslice_5.FA.pmos_7 -320 210
-p bitslice_5.net_3 vdd bitslice_5.FA.net_7 1 6
+p bitslice_5.net_2 vdd bitslice_5.FA.net_6 1 6
 | device bitslice_5.FA.pmos_8 -150 210
-p bitslice_5.net_2 vdd bitslice_5.FA.net_7 1 6
+p bitslice_5.net_1 vdd bitslice_5.FA.net_6 1 6
 | device bitslice_5.FA.pmos_9 -250 290
-p bitslice_5.Cin bitslice_5.FA.net_7 bitslice_5.FA.net_4 1 6
+p net_8 bitslice_5.FA.net_6 bitslice_5.FA.net_2 1 6
 | device bitslice_5.FA.pmos_10 40 290
-p bitslice_5.net_2 bitslice_5.FA.net_9 bitslice_5.FA.net_4 1 6
+p bitslice_5.net_1 bitslice_5.FA.net_7 bitslice_5.FA.net_2 1 6
 | device bitslice_5.FA.pmos_11 40 210
-p bitslice_5.net_3 vdd bitslice_5.FA.net_9 1 6
+p bitslice_5.net_2 vdd bitslice_5.FA.net_7 1 6
 | begin bitslice_5.FA.inv 890 680
 | device bitslice_5.FA.inv.nmos 390 400
-n bitslice_5.FA.net_4 gnd bitslice_5.Cout 1 1
+n bitslice_5.FA.net_2 gnd Cout 1 1
 | device bitslice_5.FA.inv.pmos 390 270
-p bitslice_5.FA.net_4 vdd bitslice_5.Cout 1 2
+p bitslice_5.FA.net_2 vdd Cout 1 2
 | end bitslice_5.FA.inv
 | begin bitslice_5.FA.inv_1 900 330
 | device bitslice_5.FA.inv_1.nmos 390 400
-n bitslice_5.FA.net_5 gnd bitslice_5.net_1 1 1
+n bitslice_5.FA.net_10 gnd bitslice_5.net_3 1 1
 | device bitslice_5.FA.inv_1.pmos 390 270
-p bitslice_5.FA.net_5 vdd bitslice_5.net_1 1 2
+p bitslice_5.FA.net_10 vdd bitslice_5.net_3 1 2
 | end bitslice_5.FA.inv_1
 | end bitslice_5.FA
 | begin bitslice_5.dffpos 500 610
 | device bitslice_5.dffpos.nmos 420 160
-n bitslice_5.dffpos.net_2 gnd bitslice_5.dffpos.net_11 1 3
+n bitslice_5.dffpos.net_1 gnd bitslice_5.dffpos.net_10 1 3
 | device bitslice_5.dffpos.nmos_1 420 80
-n bitslice_5.Clk bitslice_5.dffpos.net_11 bitslice_5.dffpos.net_3 1 3
+n net_4 bitslice_5.dffpos.net_10 bitslice_5.dffpos.net_4 1 3
 | device bitslice_5.dffpos.nmos_2 510 440
-n bitslice_5.dffpos.net_3 gnd bitslice_5.dffpos.net_2 1 3
+n bitslice_5.dffpos.net_4 gnd bitslice_5.dffpos.net_1 1 3
 | device bitslice_5.dffpos.pmos 420 -20
-p bitslice_5.dffpos.Clk_b bitslice_5.dffpos.net_8 bitslice_5.dffpos.net_3 1 3
+p bitslice_5.dffpos.Clk_b bitslice_5.dffpos.net_6 bitslice_5.dffpos.net_4 1 3
 | device bitslice_5.dffpos.pmos_1 420 -100
-p bitslice_5.dffpos.net_2 vdd bitslice_5.dffpos.net_8 1 3
+p bitslice_5.dffpos.net_1 vdd bitslice_5.dffpos.net_6 1 3
 | device bitslice_5.dffpos.nmos_3 160 40
-n bitslice_5.Clk gnd bitslice_5.dffpos.Clk_b 1 6
+n net_4 gnd bitslice_5.dffpos.Clk_b 1 6
 | device bitslice_5.dffpos.pmos_2 160 -60
-p bitslice_5.Clk vdd bitslice_5.dffpos.Clk_b 1 12
+p net_4 vdd bitslice_5.dffpos.Clk_b 1 12
 | device bitslice_5.dffpos.nmos_4 890 530
-n bitslice_5.dffpos.net_2 gnd bitslice_5.dffpos.net_9 1 3
+n bitslice_5.dffpos.net_1 gnd bitslice_5.dffpos.net_5 1 3
 | device bitslice_5.dffpos.nmos_5 890 450
-n bitslice_5.Clk bitslice_5.dffpos.net_9 bitslice_5.dffpos.net_1 1 3
+n net_4 bitslice_5.dffpos.net_5 bitslice_5.dffpos.net_3 1 3
 | device bitslice_5.dffpos.pmos_3 890 350
-p bitslice_5.dffpos.Clk_b bitslice_5.dffpos.net_6 bitslice_5.dffpos.net_1 1 6
+p bitslice_5.dffpos.Clk_b bitslice_5.dffpos.net_9 bitslice_5.dffpos.net_3 1 6
 | device bitslice_5.dffpos.pmos_4 890 270
-p bitslice_5.dffpos.net_2 vdd bitslice_5.dffpos.net_6 1 6
+p bitslice_5.dffpos.net_1 vdd bitslice_5.dffpos.net_9 1 6
 | device bitslice_5.dffpos.pmos_5 510 360
-p bitslice_5.dffpos.net_3 vdd bitslice_5.dffpos.net_2 1 6
+p bitslice_5.dffpos.net_4 vdd bitslice_5.dffpos.net_1 1 6
 | device bitslice_5.dffpos.nmos_6 1190 440
-n bitslice_5.dffpos.net_1 gnd bitslice_5.Out 1 6
+n bitslice_5.dffpos.net_3 gnd Out[7] 1 6
 | device bitslice_5.dffpos.pmos_6 1190 360
-p bitslice_5.dffpos.net_1 vdd bitslice_5.Out 1 12
+p bitslice_5.dffpos.net_3 vdd Out[7] 1 12
 | device bitslice_5.dffpos.nmos_7 250 530
-n bitslice_5.net_1 gnd bitslice_5.dffpos.net_10 1 3
+n bitslice_5.net_3 gnd bitslice_5.dffpos.net_2 1 3
 | device bitslice_5.dffpos.nmos_8 250 450
-n bitslice_5.dffpos.Clk_b bitslice_5.dffpos.net_10 bitslice_5.dffpos.net_3 1 3
+n bitslice_5.dffpos.Clk_b bitslice_5.dffpos.net_2 bitslice_5.dffpos.net_4 1 3
 | device bitslice_5.dffpos.pmos_7 250 350
-p bitslice_5.Clk bitslice_5.dffpos.net_7 bitslice_5.dffpos.net_3 1 6
+p net_4 bitslice_5.dffpos.net_8 bitslice_5.dffpos.net_4 1 6
 | device bitslice_5.dffpos.pmos_8 250 270
-p bitslice_5.net_1 vdd bitslice_5.dffpos.net_7 1 6
+p bitslice_5.net_3 vdd bitslice_5.dffpos.net_8 1 6
 | device bitslice_5.dffpos.nmos_9 1100 160
-n bitslice_5.Out gnd bitslice_5.dffpos.net_5 1 3
+n Out[7] gnd bitslice_5.dffpos.net_11 1 3
 | device bitslice_5.dffpos.nmos_10 1100 80
-n bitslice_5.dffpos.Clk_b bitslice_5.dffpos.net_5 bitslice_5.dffpos.net_1 1 3
+n bitslice_5.dffpos.Clk_b bitslice_5.dffpos.net_11 bitslice_5.dffpos.net_3 1 3
 | device bitslice_5.dffpos.pmos_9 1100 -20
-p bitslice_5.Clk bitslice_5.dffpos.net_4 bitslice_5.dffpos.net_1 1 3
+p net_4 bitslice_5.dffpos.net_7 bitslice_5.dffpos.net_3 1 3
 | device bitslice_5.dffpos.pmos_10 1100 -100
-p bitslice_5.Out vdd bitslice_5.dffpos.net_4 1 3
+p Out[7] vdd bitslice_5.dffpos.net_7 1 3
 | end bitslice_5.dffpos
 | end bitslice_5
 | begin bitslice_6 510 -350
 | begin bitslice_6.xor2 180 290
 | device bitslice_6.xor2.pmos -150 210
-p bitslice_6.subtract vdd bitslice_6.xor2.net_6 1 12
+p subtract vdd bitslice_6.xor2.net_4 1 12
 | device bitslice_6.xor2.pmos_1 -150 290
-p bitslice_6.xor2.net_1 bitslice_6.xor2.net_6 bitslice_6.net_3 1 12
+p bitslice_6.xor2.net_1 bitslice_6.xor2.net_4 bitslice_6.net_2 1 12
 | device bitslice_6.xor2.pmos_2 -320 290
-p bitslice_6.A bitslice_6.xor2.net_2 bitslice_6.net_3 1 12
+p A[1] bitslice_6.xor2.net_6 bitslice_6.net_2 1 12
 | device bitslice_6.xor2.pmos_3 -320 210
-p bitslice_6.xor2.net_3 vdd bitslice_6.xor2.net_2 1 12
+p bitslice_6.xor2.net_3 vdd bitslice_6.xor2.net_6 1 12
 | device bitslice_6.xor2.nmos -150 450
-n bitslice_6.subtract gnd bitslice_6.xor2.net_4 1 6
+n subtract gnd bitslice_6.xor2.net_2 1 6
 | device bitslice_6.xor2.nmos_1 -320 450
 n bitslice_6.xor2.net_3 gnd bitslice_6.xor2.net_5 1 6
 | device bitslice_6.xor2.nmos_2 -150 370
-n bitslice_6.A bitslice_6.xor2.net_4 bitslice_6.net_3 1 6
+n A[1] bitslice_6.xor2.net_2 bitslice_6.net_2 1 6
 | device bitslice_6.xor2.nmos_3 -320 370
-n bitslice_6.xor2.net_1 bitslice_6.xor2.net_5 bitslice_6.net_3 1 6
+n bitslice_6.xor2.net_1 bitslice_6.xor2.net_5 bitslice_6.net_2 1 6
 | device bitslice_6.xor2.pmos_4 -580 210
-p bitslice_6.A vdd bitslice_6.xor2.net_1 1 12
+p A[1] vdd bitslice_6.xor2.net_1 1 12
 | device bitslice_6.xor2.nmos_4 -580 430
-n bitslice_6.A gnd bitslice_6.xor2.net_1 1 6
+n A[1] gnd bitslice_6.xor2.net_1 1 6
 | device bitslice_6.xor2.pmos_5 80 210
-p bitslice_6.subtract vdd bitslice_6.xor2.net_3 1 12
+p subtract vdd bitslice_6.xor2.net_3 1 12
 | device bitslice_6.xor2.nmos_5 80 430
-n bitslice_6.subtract gnd bitslice_6.xor2.net_3 1 6
+n subtract gnd bitslice_6.xor2.net_3 1 6
 | end bitslice_6.xor2
 | begin bitslice_6.21mux 500 100
 | begin bitslice_6.21mux.nand2 450 180
 | device bitslice_6.21mux.nand2.pmos 0 -100
-p bitslice_6.B vdd bitslice_6.21mux.net_1 1 2
+p B[1] vdd bitslice_6.21mux.net_1 1 2
 | device bitslice_6.21mux.nand2.nmos 0 0
-n bitslice_6.B bitslice_6.21mux.nand2.net_1 bitslice_6.21mux.net_1 1 2
+n B[1] bitslice_6.21mux.nand2.net_1 bitslice_6.21mux.net_1 1 2
 | device bitslice_6.21mux.nand2.pmos_1 160 -100
-p bitslice_6.S vdd bitslice_6.21mux.net_1 1 2
+p S vdd bitslice_6.21mux.net_1 1 2
 | device bitslice_6.21mux.nand2.nmos_1 0 100
-n bitslice_6.S gnd bitslice_6.21mux.nand2.net_1 1 2
+n S gnd bitslice_6.21mux.nand2.net_1 1 2
 | end bitslice_6.21mux.nand2
 | begin bitslice_6.21mux.nand2_1 450 340
 | device bitslice_6.21mux.nand2_1.pmos 0 -100
@@ -1132,173 +1132,173 @@ p bitslice_6.21mux.net_3 vdd bitslice_6.21mux.net_2 1 2
 | device bitslice_6.21mux.nand2_1.nmos 0 0
 n bitslice_6.21mux.net_3 bitslice_6.21mux.nand2_1.net_1 bitslice_6.21mux.net_2 1 2
 | device bitslice_6.21mux.nand2_1.pmos_1 160 -100
-p bitslice_6.Out vdd bitslice_6.21mux.net_2 1 2
+p Out[1] vdd bitslice_6.21mux.net_2 1 2
 | device bitslice_6.21mux.nand2_1.nmos_1 0 100
-n bitslice_6.Out gnd bitslice_6.21mux.nand2_1.net_1 1 2
+n Out[1] gnd bitslice_6.21mux.nand2_1.net_1 1 2
 | end bitslice_6.21mux.nand2_1
 | begin bitslice_6.21mux.nand2_2 620 260
 | device bitslice_6.21mux.nand2_2.pmos 0 -100
-p bitslice_6.21mux.net_1 vdd bitslice_6.net_2 1 2
+p bitslice_6.21mux.net_1 vdd bitslice_6.net_1 1 2
 | device bitslice_6.21mux.nand2_2.nmos 0 0
-n bitslice_6.21mux.net_1 bitslice_6.21mux.nand2_2.net_1 bitslice_6.net_2 1 2
+n bitslice_6.21mux.net_1 bitslice_6.21mux.nand2_2.net_1 bitslice_6.net_1 1 2
 | device bitslice_6.21mux.nand2_2.pmos_1 160 -100
-p bitslice_6.21mux.net_2 vdd bitslice_6.net_2 1 2
+p bitslice_6.21mux.net_2 vdd bitslice_6.net_1 1 2
 | device bitslice_6.21mux.nand2_2.nmos_1 0 100
 n bitslice_6.21mux.net_2 gnd bitslice_6.21mux.nand2_2.net_1 1 2
 | end bitslice_6.21mux.nand2_2
 | begin bitslice_6.21mux.inverter 310 260
 | device bitslice_6.21mux.inverter.nmos 550 360
-n bitslice_6.S gnd bitslice_6.21mux.net_3 1 1
+n S gnd bitslice_6.21mux.net_3 1 1
 | device bitslice_6.21mux.inverter.pmos 550 200
-p bitslice_6.S vdd bitslice_6.21mux.net_3 1 2
+p S vdd bitslice_6.21mux.net_3 1 2
 | end bitslice_6.21mux.inverter
 | end bitslice_6.21mux
 | begin bitslice_6.FA 500 410
 | device bitslice_6.FA.nmos 430 370
-n bitslice_6.FA.net_4 bitslice_6.FA.net_3 bitslice_6.FA.net_5 1 3
+n bitslice_6.FA.net_2 bitslice_6.FA.net_9 bitslice_6.FA.net_10 1 3
 | device bitslice_6.FA.nmos_1 250 450
-n bitslice_6.net_3 gnd bitslice_6.FA.net_3 1 3
+n bitslice_6.net_2 gnd bitslice_6.FA.net_9 1 3
 | device bitslice_6.FA.nmos_2 430 450
-n bitslice_6.net_2 gnd bitslice_6.FA.net_3 1 3
+n bitslice_6.net_1 gnd bitslice_6.FA.net_9 1 3
 | device bitslice_6.FA.nmos_3 610 450
-n bitslice_6.Cin gnd bitslice_6.FA.net_3 1 3
+n net_6 gnd bitslice_6.FA.net_9 1 3
 | device bitslice_6.FA.nmos_4 810 370
-n bitslice_6.Cin bitslice_6.FA.net_10 bitslice_6.FA.net_5 1 3
+n net_6 bitslice_6.FA.net_12 bitslice_6.FA.net_10 1 3
 | device bitslice_6.FA.nmos_5 810 450
-n bitslice_6.net_2 bitslice_6.FA.net_11 bitslice_6.FA.net_10 1 3
+n bitslice_6.net_1 bitslice_6.FA.net_8 bitslice_6.FA.net_12 1 3
 | device bitslice_6.FA.nmos_6 810 530
-n bitslice_6.net_3 gnd bitslice_6.FA.net_11 1 3
+n bitslice_6.net_2 gnd bitslice_6.FA.net_8 1 3
 | device bitslice_6.FA.nmos_7 -250 370
-n bitslice_6.Cin bitslice_6.FA.net_6 bitslice_6.FA.net_4 1 3
+n net_6 bitslice_6.FA.net_5 bitslice_6.FA.net_2 1 3
 | device bitslice_6.FA.nmos_8 -320 450
-n bitslice_6.net_3 gnd bitslice_6.FA.net_6 1 3
+n bitslice_6.net_2 gnd bitslice_6.FA.net_5 1 3
 | device bitslice_6.FA.nmos_9 -150 450
-n bitslice_6.net_2 gnd bitslice_6.FA.net_6 1 3
+n bitslice_6.net_1 gnd bitslice_6.FA.net_5 1 3
 | device bitslice_6.FA.nmos_10 40 370
-n bitslice_6.net_2 bitslice_6.FA.net_8 bitslice_6.FA.net_4 1 3
+n bitslice_6.net_1 bitslice_6.FA.net_4 bitslice_6.FA.net_2 1 3
 | device bitslice_6.FA.nmos_11 40 450
-n bitslice_6.net_3 gnd bitslice_6.FA.net_8 1 3
+n bitslice_6.net_2 gnd bitslice_6.FA.net_4 1 3
 | device bitslice_6.FA.pmos 250 210
-p bitslice_6.net_3 vdd bitslice_6.FA.net_2 1 6
+p bitslice_6.net_2 vdd bitslice_6.FA.net_11 1 6
 | device bitslice_6.FA.pmos_1 430 210
-p bitslice_6.net_2 vdd bitslice_6.FA.net_2 1 6
+p bitslice_6.net_1 vdd bitslice_6.FA.net_11 1 6
 | device bitslice_6.FA.pmos_2 610 210
-p bitslice_6.Cin vdd bitslice_6.FA.net_2 1 6
+p net_6 vdd bitslice_6.FA.net_11 1 6
 | device bitslice_6.FA.pmos_3 430 290
-p bitslice_6.FA.net_4 bitslice_6.FA.net_2 bitslice_6.FA.net_5 1 6
+p bitslice_6.FA.net_2 bitslice_6.FA.net_11 bitslice_6.FA.net_10 1 6
 | device bitslice_6.FA.pmos_4 810 210
-p bitslice_6.net_2 bitslice_6.FA.net_12 bitslice_6.FA.net_1 1 6
+p bitslice_6.net_1 bitslice_6.FA.net_3 bitslice_6.FA.net_1 1 6
 | device bitslice_6.FA.pmos_5 810 290
-p bitslice_6.Cin bitslice_6.FA.net_1 bitslice_6.FA.net_5 1 6
+p net_6 bitslice_6.FA.net_1 bitslice_6.FA.net_10 1 6
 | device bitslice_6.FA.pmos_6 810 130
-p bitslice_6.net_3 vdd bitslice_6.FA.net_12 1 6
+p bitslice_6.net_2 vdd bitslice_6.FA.net_3 1 6
 | device bitslice_6.FA.pmos_7 -320 210
-p bitslice_6.net_3 vdd bitslice_6.FA.net_7 1 6
+p bitslice_6.net_2 vdd bitslice_6.FA.net_6 1 6
 | device bitslice_6.FA.pmos_8 -150 210
-p bitslice_6.net_2 vdd bitslice_6.FA.net_7 1 6
+p bitslice_6.net_1 vdd bitslice_6.FA.net_6 1 6
 | device bitslice_6.FA.pmos_9 -250 290
-p bitslice_6.Cin bitslice_6.FA.net_7 bitslice_6.FA.net_4 1 6
+p net_6 bitslice_6.FA.net_6 bitslice_6.FA.net_2 1 6
 | device bitslice_6.FA.pmos_10 40 290
-p bitslice_6.net_2 bitslice_6.FA.net_9 bitslice_6.FA.net_4 1 6
+p bitslice_6.net_1 bitslice_6.FA.net_7 bitslice_6.FA.net_2 1 6
 | device bitslice_6.FA.pmos_11 40 210
-p bitslice_6.net_3 vdd bitslice_6.FA.net_9 1 6
+p bitslice_6.net_2 vdd bitslice_6.FA.net_7 1 6
 | begin bitslice_6.FA.inv 890 680
 | device bitslice_6.FA.inv.nmos 390 400
-n bitslice_6.FA.net_4 gnd bitslice_6.Cout 1 1
+n bitslice_6.FA.net_2 gnd net_7 1 1
 | device bitslice_6.FA.inv.pmos 390 270
-p bitslice_6.FA.net_4 vdd bitslice_6.Cout 1 2
+p bitslice_6.FA.net_2 vdd net_7 1 2
 | end bitslice_6.FA.inv
 | begin bitslice_6.FA.inv_1 900 330
 | device bitslice_6.FA.inv_1.nmos 390 400
-n bitslice_6.FA.net_5 gnd bitslice_6.net_1 1 1
+n bitslice_6.FA.net_10 gnd bitslice_6.net_3 1 1
 | device bitslice_6.FA.inv_1.pmos 390 270
-p bitslice_6.FA.net_5 vdd bitslice_6.net_1 1 2
+p bitslice_6.FA.net_10 vdd bitslice_6.net_3 1 2
 | end bitslice_6.FA.inv_1
 | end bitslice_6.FA
 | begin bitslice_6.dffpos 500 610
 | device bitslice_6.dffpos.nmos 420 160
-n bitslice_6.dffpos.net_2 gnd bitslice_6.dffpos.net_11 1 3
+n bitslice_6.dffpos.net_1 gnd bitslice_6.dffpos.net_10 1 3
 | device bitslice_6.dffpos.nmos_1 420 80
-n bitslice_6.Clk bitslice_6.dffpos.net_11 bitslice_6.dffpos.net_3 1 3
+n net_4 bitslice_6.dffpos.net_10 bitslice_6.dffpos.net_4 1 3
 | device bitslice_6.dffpos.nmos_2 510 440
-n bitslice_6.dffpos.net_3 gnd bitslice_6.dffpos.net_2 1 3
+n bitslice_6.dffpos.net_4 gnd bitslice_6.dffpos.net_1 1 3
 | device bitslice_6.dffpos.pmos 420 -20
-p bitslice_6.dffpos.Clk_b bitslice_6.dffpos.net_8 bitslice_6.dffpos.net_3 1 3
+p bitslice_6.dffpos.Clk_b bitslice_6.dffpos.net_6 bitslice_6.dffpos.net_4 1 3
 | device bitslice_6.dffpos.pmos_1 420 -100
-p bitslice_6.dffpos.net_2 vdd bitslice_6.dffpos.net_8 1 3
+p bitslice_6.dffpos.net_1 vdd bitslice_6.dffpos.net_6 1 3
 | device bitslice_6.dffpos.nmos_3 160 40
-n bitslice_6.Clk gnd bitslice_6.dffpos.Clk_b 1 6
+n net_4 gnd bitslice_6.dffpos.Clk_b 1 6
 | device bitslice_6.dffpos.pmos_2 160 -60
-p bitslice_6.Clk vdd bitslice_6.dffpos.Clk_b 1 12
+p net_4 vdd bitslice_6.dffpos.Clk_b 1 12
 | device bitslice_6.dffpos.nmos_4 890 530
-n bitslice_6.dffpos.net_2 gnd bitslice_6.dffpos.net_9 1 3
+n bitslice_6.dffpos.net_1 gnd bitslice_6.dffpos.net_5 1 3
 | device bitslice_6.dffpos.nmos_5 890 450
-n bitslice_6.Clk bitslice_6.dffpos.net_9 bitslice_6.dffpos.net_1 1 3
+n net_4 bitslice_6.dffpos.net_5 bitslice_6.dffpos.net_3 1 3
 | device bitslice_6.dffpos.pmos_3 890 350
-p bitslice_6.dffpos.Clk_b bitslice_6.dffpos.net_6 bitslice_6.dffpos.net_1 1 6
+p bitslice_6.dffpos.Clk_b bitslice_6.dffpos.net_9 bitslice_6.dffpos.net_3 1 6
 | device bitslice_6.dffpos.pmos_4 890 270
-p bitslice_6.dffpos.net_2 vdd bitslice_6.dffpos.net_6 1 6
+p bitslice_6.dffpos.net_1 vdd bitslice_6.dffpos.net_9 1 6
 | device bitslice_6.dffpos.pmos_5 510 360
-p bitslice_6.dffpos.net_3 vdd bitslice_6.dffpos.net_2 1 6
+p bitslice_6.dffpos.net_4 vdd bitslice_6.dffpos.net_1 1 6
 | device bitslice_6.dffpos.nmos_6 1190 440
-n bitslice_6.dffpos.net_1 gnd bitslice_6.Out 1 6
+n bitslice_6.dffpos.net_3 gnd Out[1] 1 6
 | device bitslice_6.dffpos.pmos_6 1190 360
-p bitslice_6.dffpos.net_1 vdd bitslice_6.Out 1 12
+p bitslice_6.dffpos.net_3 vdd Out[1] 1 12
 | device bitslice_6.dffpos.nmos_7 250 530
-n bitslice_6.net_1 gnd bitslice_6.dffpos.net_10 1 3
+n bitslice_6.net_3 gnd bitslice_6.dffpos.net_2 1 3
 | device bitslice_6.dffpos.nmos_8 250 450
-n bitslice_6.dffpos.Clk_b bitslice_6.dffpos.net_10 bitslice_6.dffpos.net_3 1 3
+n bitslice_6.dffpos.Clk_b bitslice_6.dffpos.net_2 bitslice_6.dffpos.net_4 1 3
 | device bitslice_6.dffpos.pmos_7 250 350
-p bitslice_6.Clk bitslice_6.dffpos.net_7 bitslice_6.dffpos.net_3 1 6
+p net_4 bitslice_6.dffpos.net_8 bitslice_6.dffpos.net_4 1 6
 | device bitslice_6.dffpos.pmos_8 250 270
-p bitslice_6.net_1 vdd bitslice_6.dffpos.net_7 1 6
+p bitslice_6.net_3 vdd bitslice_6.dffpos.net_8 1 6
 | device bitslice_6.dffpos.nmos_9 1100 160
-n bitslice_6.Out gnd bitslice_6.dffpos.net_5 1 3
+n Out[1] gnd bitslice_6.dffpos.net_11 1 3
 | device bitslice_6.dffpos.nmos_10 1100 80
-n bitslice_6.dffpos.Clk_b bitslice_6.dffpos.net_5 bitslice_6.dffpos.net_1 1 3
+n bitslice_6.dffpos.Clk_b bitslice_6.dffpos.net_11 bitslice_6.dffpos.net_3 1 3
 | device bitslice_6.dffpos.pmos_9 1100 -20
-p bitslice_6.Clk bitslice_6.dffpos.net_4 bitslice_6.dffpos.net_1 1 3
+p net_4 bitslice_6.dffpos.net_7 bitslice_6.dffpos.net_3 1 3
 | device bitslice_6.dffpos.pmos_10 1100 -100
-p bitslice_6.Out vdd bitslice_6.dffpos.net_4 1 3
+p Out[1] vdd bitslice_6.dffpos.net_7 1 3
 | end bitslice_6.dffpos
 | end bitslice_6
 | begin bitslice_7 510 -630
 | begin bitslice_7.xor2 180 290
 | device bitslice_7.xor2.pmos -150 210
-p bitslice_7.subtract vdd bitslice_7.xor2.net_6 1 12
+p subtract vdd bitslice_7.xor2.net_4 1 12
 | device bitslice_7.xor2.pmos_1 -150 290
-p bitslice_7.xor2.net_1 bitslice_7.xor2.net_6 bitslice_7.net_3 1 12
+p bitslice_7.xor2.net_1 bitslice_7.xor2.net_4 bitslice_7.net_2 1 12
 | device bitslice_7.xor2.pmos_2 -320 290
-p bitslice_7.A bitslice_7.xor2.net_2 bitslice_7.net_3 1 12
+p A[0] bitslice_7.xor2.net_6 bitslice_7.net_2 1 12
 | device bitslice_7.xor2.pmos_3 -320 210
-p bitslice_7.xor2.net_3 vdd bitslice_7.xor2.net_2 1 12
+p bitslice_7.xor2.net_3 vdd bitslice_7.xor2.net_6 1 12
 | device bitslice_7.xor2.nmos -150 450
-n bitslice_7.subtract gnd bitslice_7.xor2.net_4 1 6
+n subtract gnd bitslice_7.xor2.net_2 1 6
 | device bitslice_7.xor2.nmos_1 -320 450
 n bitslice_7.xor2.net_3 gnd bitslice_7.xor2.net_5 1 6
 | device bitslice_7.xor2.nmos_2 -150 370
-n bitslice_7.A bitslice_7.xor2.net_4 bitslice_7.net_3 1 6
+n A[0] bitslice_7.xor2.net_2 bitslice_7.net_2 1 6
 | device bitslice_7.xor2.nmos_3 -320 370
-n bitslice_7.xor2.net_1 bitslice_7.xor2.net_5 bitslice_7.net_3 1 6
+n bitslice_7.xor2.net_1 bitslice_7.xor2.net_5 bitslice_7.net_2 1 6
 | device bitslice_7.xor2.pmos_4 -580 210
-p bitslice_7.A vdd bitslice_7.xor2.net_1 1 12
+p A[0] vdd bitslice_7.xor2.net_1 1 12
 | device bitslice_7.xor2.nmos_4 -580 430
-n bitslice_7.A gnd bitslice_7.xor2.net_1 1 6
+n A[0] gnd bitslice_7.xor2.net_1 1 6
 | device bitslice_7.xor2.pmos_5 80 210
-p bitslice_7.subtract vdd bitslice_7.xor2.net_3 1 12
+p subtract vdd bitslice_7.xor2.net_3 1 12
 | device bitslice_7.xor2.nmos_5 80 430
-n bitslice_7.subtract gnd bitslice_7.xor2.net_3 1 6
+n subtract gnd bitslice_7.xor2.net_3 1 6
 | end bitslice_7.xor2
 | begin bitslice_7.21mux 500 100
 | begin bitslice_7.21mux.nand2 450 180
 | device bitslice_7.21mux.nand2.pmos 0 -100
-p bitslice_7.B vdd bitslice_7.21mux.net_1 1 2
+p B[0] vdd bitslice_7.21mux.net_1 1 2
 | device bitslice_7.21mux.nand2.nmos 0 0
-n bitslice_7.B bitslice_7.21mux.nand2.net_1 bitslice_7.21mux.net_1 1 2
+n B[0] bitslice_7.21mux.nand2.net_1 bitslice_7.21mux.net_1 1 2
 | device bitslice_7.21mux.nand2.pmos_1 160 -100
-p bitslice_7.S vdd bitslice_7.21mux.net_1 1 2
+p S vdd bitslice_7.21mux.net_1 1 2
 | device bitslice_7.21mux.nand2.nmos_1 0 100
-n bitslice_7.S gnd bitslice_7.21mux.nand2.net_1 1 2
+n S gnd bitslice_7.21mux.nand2.net_1 1 2
 | end bitslice_7.21mux.nand2
 | begin bitslice_7.21mux.nand2_1 450 340
 | device bitslice_7.21mux.nand2_1.pmos 0 -100
@@ -1306,133 +1306,133 @@ p bitslice_7.21mux.net_3 vdd bitslice_7.21mux.net_2 1 2
 | device bitslice_7.21mux.nand2_1.nmos 0 0
 n bitslice_7.21mux.net_3 bitslice_7.21mux.nand2_1.net_1 bitslice_7.21mux.net_2 1 2
 | device bitslice_7.21mux.nand2_1.pmos_1 160 -100
-p bitslice_7.Out vdd bitslice_7.21mux.net_2 1 2
+p Out[0] vdd bitslice_7.21mux.net_2 1 2
 | device bitslice_7.21mux.nand2_1.nmos_1 0 100
-n bitslice_7.Out gnd bitslice_7.21mux.nand2_1.net_1 1 2
+n Out[0] gnd bitslice_7.21mux.nand2_1.net_1 1 2
 | end bitslice_7.21mux.nand2_1
 | begin bitslice_7.21mux.nand2_2 620 260
 | device bitslice_7.21mux.nand2_2.pmos 0 -100
-p bitslice_7.21mux.net_1 vdd bitslice_7.net_2 1 2
+p bitslice_7.21mux.net_1 vdd bitslice_7.net_1 1 2
 | device bitslice_7.21mux.nand2_2.nmos 0 0
-n bitslice_7.21mux.net_1 bitslice_7.21mux.nand2_2.net_1 bitslice_7.net_2 1 2
+n bitslice_7.21mux.net_1 bitslice_7.21mux.nand2_2.net_1 bitslice_7.net_1 1 2
 | device bitslice_7.21mux.nand2_2.pmos_1 160 -100
-p bitslice_7.21mux.net_2 vdd bitslice_7.net_2 1 2
+p bitslice_7.21mux.net_2 vdd bitslice_7.net_1 1 2
 | device bitslice_7.21mux.nand2_2.nmos_1 0 100
 n bitslice_7.21mux.net_2 gnd bitslice_7.21mux.nand2_2.net_1 1 2
 | end bitslice_7.21mux.nand2_2
 | begin bitslice_7.21mux.inverter 310 260
 | device bitslice_7.21mux.inverter.nmos 550 360
-n bitslice_7.S gnd bitslice_7.21mux.net_3 1 1
+n S gnd bitslice_7.21mux.net_3 1 1
 | device bitslice_7.21mux.inverter.pmos 550 200
-p bitslice_7.S vdd bitslice_7.21mux.net_3 1 2
+p S vdd bitslice_7.21mux.net_3 1 2
 | end bitslice_7.21mux.inverter
 | end bitslice_7.21mux
 | begin bitslice_7.FA 500 410
 | device bitslice_7.FA.nmos 430 370
-n bitslice_7.FA.net_4 bitslice_7.FA.net_3 bitslice_7.FA.net_5 1 3
+n bitslice_7.FA.net_2 bitslice_7.FA.net_9 bitslice_7.FA.net_10 1 3
 | device bitslice_7.FA.nmos_1 250 450
-n bitslice_7.net_3 gnd bitslice_7.FA.net_3 1 3
+n bitslice_7.net_2 gnd bitslice_7.FA.net_9 1 3
 | device bitslice_7.FA.nmos_2 430 450
-n bitslice_7.net_2 gnd bitslice_7.FA.net_3 1 3
+n bitslice_7.net_1 gnd bitslice_7.FA.net_9 1 3
 | device bitslice_7.FA.nmos_3 610 450
-n bitslice_7.Cin gnd bitslice_7.FA.net_3 1 3
+n subtract gnd bitslice_7.FA.net_9 1 3
 | device bitslice_7.FA.nmos_4 810 370
-n bitslice_7.Cin bitslice_7.FA.net_10 bitslice_7.FA.net_5 1 3
+n subtract bitslice_7.FA.net_12 bitslice_7.FA.net_10 1 3
 | device bitslice_7.FA.nmos_5 810 450
-n bitslice_7.net_2 bitslice_7.FA.net_11 bitslice_7.FA.net_10 1 3
+n bitslice_7.net_1 bitslice_7.FA.net_8 bitslice_7.FA.net_12 1 3
 | device bitslice_7.FA.nmos_6 810 530
-n bitslice_7.net_3 gnd bitslice_7.FA.net_11 1 3
+n bitslice_7.net_2 gnd bitslice_7.FA.net_8 1 3
 | device bitslice_7.FA.nmos_7 -250 370
-n bitslice_7.Cin bitslice_7.FA.net_6 bitslice_7.FA.net_4 1 3
+n subtract bitslice_7.FA.net_5 bitslice_7.FA.net_2 1 3
 | device bitslice_7.FA.nmos_8 -320 450
-n bitslice_7.net_3 gnd bitslice_7.FA.net_6 1 3
+n bitslice_7.net_2 gnd bitslice_7.FA.net_5 1 3
 | device bitslice_7.FA.nmos_9 -150 450
-n bitslice_7.net_2 gnd bitslice_7.FA.net_6 1 3
+n bitslice_7.net_1 gnd bitslice_7.FA.net_5 1 3
 | device bitslice_7.FA.nmos_10 40 370
-n bitslice_7.net_2 bitslice_7.FA.net_8 bitslice_7.FA.net_4 1 3
+n bitslice_7.net_1 bitslice_7.FA.net_4 bitslice_7.FA.net_2 1 3
 | device bitslice_7.FA.nmos_11 40 450
-n bitslice_7.net_3 gnd bitslice_7.FA.net_8 1 3
+n bitslice_7.net_2 gnd bitslice_7.FA.net_4 1 3
 | device bitslice_7.FA.pmos 250 210
-p bitslice_7.net_3 vdd bitslice_7.FA.net_2 1 6
+p bitslice_7.net_2 vdd bitslice_7.FA.net_11 1 6
 | device bitslice_7.FA.pmos_1 430 210
-p bitslice_7.net_2 vdd bitslice_7.FA.net_2 1 6
+p bitslice_7.net_1 vdd bitslice_7.FA.net_11 1 6
 | device bitslice_7.FA.pmos_2 610 210
-p bitslice_7.Cin vdd bitslice_7.FA.net_2 1 6
+p subtract vdd bitslice_7.FA.net_11 1 6
 | device bitslice_7.FA.pmos_3 430 290
-p bitslice_7.FA.net_4 bitslice_7.FA.net_2 bitslice_7.FA.net_5 1 6
+p bitslice_7.FA.net_2 bitslice_7.FA.net_11 bitslice_7.FA.net_10 1 6
 | device bitslice_7.FA.pmos_4 810 210
-p bitslice_7.net_2 bitslice_7.FA.net_12 bitslice_7.FA.net_1 1 6
+p bitslice_7.net_1 bitslice_7.FA.net_3 bitslice_7.FA.net_1 1 6
 | device bitslice_7.FA.pmos_5 810 290
-p bitslice_7.Cin bitslice_7.FA.net_1 bitslice_7.FA.net_5 1 6
+p subtract bitslice_7.FA.net_1 bitslice_7.FA.net_10 1 6
 | device bitslice_7.FA.pmos_6 810 130
-p bitslice_7.net_3 vdd bitslice_7.FA.net_12 1 6
+p bitslice_7.net_2 vdd bitslice_7.FA.net_3 1 6
 | device bitslice_7.FA.pmos_7 -320 210
-p bitslice_7.net_3 vdd bitslice_7.FA.net_7 1 6
+p bitslice_7.net_2 vdd bitslice_7.FA.net_6 1 6
 | device bitslice_7.FA.pmos_8 -150 210
-p bitslice_7.net_2 vdd bitslice_7.FA.net_7 1 6
+p bitslice_7.net_1 vdd bitslice_7.FA.net_6 1 6
 | device bitslice_7.FA.pmos_9 -250 290
-p bitslice_7.Cin bitslice_7.FA.net_7 bitslice_7.FA.net_4 1 6
+p subtract bitslice_7.FA.net_6 bitslice_7.FA.net_2 1 6
 | device bitslice_7.FA.pmos_10 40 290
-p bitslice_7.net_2 bitslice_7.FA.net_9 bitslice_7.FA.net_4 1 6
+p bitslice_7.net_1 bitslice_7.FA.net_7 bitslice_7.FA.net_2 1 6
 | device bitslice_7.FA.pmos_11 40 210
-p bitslice_7.net_3 vdd bitslice_7.FA.net_9 1 6
+p bitslice_7.net_2 vdd bitslice_7.FA.net_7 1 6
 | begin bitslice_7.FA.inv 890 680
 | device bitslice_7.FA.inv.nmos 390 400
-n bitslice_7.FA.net_4 gnd bitslice_7.Cout 1 1
+n bitslice_7.FA.net_2 gnd net_6 1 1
 | device bitslice_7.FA.inv.pmos 390 270
-p bitslice_7.FA.net_4 vdd bitslice_7.Cout 1 2
+p bitslice_7.FA.net_2 vdd net_6 1 2
 | end bitslice_7.FA.inv
 | begin bitslice_7.FA.inv_1 900 330
 | device bitslice_7.FA.inv_1.nmos 390 400
-n bitslice_7.FA.net_5 gnd bitslice_7.net_1 1 1
+n bitslice_7.FA.net_10 gnd bitslice_7.net_3 1 1
 | device bitslice_7.FA.inv_1.pmos 390 270
-p bitslice_7.FA.net_5 vdd bitslice_7.net_1 1 2
+p bitslice_7.FA.net_10 vdd bitslice_7.net_3 1 2
 | end bitslice_7.FA.inv_1
 | end bitslice_7.FA
 | begin bitslice_7.dffpos 500 610
 | device bitslice_7.dffpos.nmos 420 160
-n bitslice_7.dffpos.net_2 gnd bitslice_7.dffpos.net_11 1 3
+n bitslice_7.dffpos.net_1 gnd bitslice_7.dffpos.net_10 1 3
 | device bitslice_7.dffpos.nmos_1 420 80
-n bitslice_7.Clk bitslice_7.dffpos.net_11 bitslice_7.dffpos.net_3 1 3
+n net_4 bitslice_7.dffpos.net_10 bitslice_7.dffpos.net_4 1 3
 | device bitslice_7.dffpos.nmos_2 510 440
-n bitslice_7.dffpos.net_3 gnd bitslice_7.dffpos.net_2 1 3
+n bitslice_7.dffpos.net_4 gnd bitslice_7.dffpos.net_1 1 3
 | device bitslice_7.dffpos.pmos 420 -20
-p bitslice_7.dffpos.Clk_b bitslice_7.dffpos.net_8 bitslice_7.dffpos.net_3 1 3
+p bitslice_7.dffpos.Clk_b bitslice_7.dffpos.net_6 bitslice_7.dffpos.net_4 1 3
 | device bitslice_7.dffpos.pmos_1 420 -100
-p bitslice_7.dffpos.net_2 vdd bitslice_7.dffpos.net_8 1 3
+p bitslice_7.dffpos.net_1 vdd bitslice_7.dffpos.net_6 1 3
 | device bitslice_7.dffpos.nmos_3 160 40
-n bitslice_7.Clk gnd bitslice_7.dffpos.Clk_b 1 6
+n net_4 gnd bitslice_7.dffpos.Clk_b 1 6
 | device bitslice_7.dffpos.pmos_2 160 -60
-p bitslice_7.Clk vdd bitslice_7.dffpos.Clk_b 1 12
+p net_4 vdd bitslice_7.dffpos.Clk_b 1 12
 | device bitslice_7.dffpos.nmos_4 890 530
-n bitslice_7.dffpos.net_2 gnd bitslice_7.dffpos.net_9 1 3
+n bitslice_7.dffpos.net_1 gnd bitslice_7.dffpos.net_5 1 3
 | device bitslice_7.dffpos.nmos_5 890 450
-n bitslice_7.Clk bitslice_7.dffpos.net_9 bitslice_7.dffpos.net_1 1 3
+n net_4 bitslice_7.dffpos.net_5 bitslice_7.dffpos.net_3 1 3
 | device bitslice_7.dffpos.pmos_3 890 350
-p bitslice_7.dffpos.Clk_b bitslice_7.dffpos.net_6 bitslice_7.dffpos.net_1 1 6
+p bitslice_7.dffpos.Clk_b bitslice_7.dffpos.net_9 bitslice_7.dffpos.net_3 1 6
 | device bitslice_7.dffpos.pmos_4 890 270
-p bitslice_7.dffpos.net_2 vdd bitslice_7.dffpos.net_6 1 6
+p bitslice_7.dffpos.net_1 vdd bitslice_7.dffpos.net_9 1 6
 | device bitslice_7.dffpos.pmos_5 510 360
-p bitslice_7.dffpos.net_3 vdd bitslice_7.dffpos.net_2 1 6
+p bitslice_7.dffpos.net_4 vdd bitslice_7.dffpos.net_1 1 6
 | device bitslice_7.dffpos.nmos_6 1190 440
-n bitslice_7.dffpos.net_1 gnd bitslice_7.Out 1 6
+n bitslice_7.dffpos.net_3 gnd Out[0] 1 6
 | device bitslice_7.dffpos.pmos_6 1190 360
-p bitslice_7.dffpos.net_1 vdd bitslice_7.Out 1 12
+p bitslice_7.dffpos.net_3 vdd Out[0] 1 12
 | device bitslice_7.dffpos.nmos_7 250 530
-n bitslice_7.net_1 gnd bitslice_7.dffpos.net_10 1 3
+n bitslice_7.net_3 gnd bitslice_7.dffpos.net_2 1 3
 | device bitslice_7.dffpos.nmos_8 250 450
-n bitslice_7.dffpos.Clk_b bitslice_7.dffpos.net_10 bitslice_7.dffpos.net_3 1 3
+n bitslice_7.dffpos.Clk_b bitslice_7.dffpos.net_2 bitslice_7.dffpos.net_4 1 3
 | device bitslice_7.dffpos.pmos_7 250 350
-p bitslice_7.Clk bitslice_7.dffpos.net_7 bitslice_7.dffpos.net_3 1 6
+p net_4 bitslice_7.dffpos.net_8 bitslice_7.dffpos.net_4 1 6
 | device bitslice_7.dffpos.pmos_8 250 270
-p bitslice_7.net_1 vdd bitslice_7.dffpos.net_7 1 6
+p bitslice_7.net_3 vdd bitslice_7.dffpos.net_8 1 6
 | device bitslice_7.dffpos.nmos_9 1100 160
-n bitslice_7.Out gnd bitslice_7.dffpos.net_5 1 3
+n Out[0] gnd bitslice_7.dffpos.net_11 1 3
 | device bitslice_7.dffpos.nmos_10 1100 80
-n bitslice_7.dffpos.Clk_b bitslice_7.dffpos.net_5 bitslice_7.dffpos.net_1 1 3
+n bitslice_7.dffpos.Clk_b bitslice_7.dffpos.net_11 bitslice_7.dffpos.net_3 1 3
 | device bitslice_7.dffpos.pmos_9 1100 -20
-p bitslice_7.Clk bitslice_7.dffpos.net_4 bitslice_7.dffpos.net_1 1 3
+p net_4 bitslice_7.dffpos.net_7 bitslice_7.dffpos.net_3 1 3
 | device bitslice_7.dffpos.pmos_10 1100 -100
-p bitslice_7.Out vdd bitslice_7.dffpos.net_4 1 3
+p Out[0] vdd bitslice_7.dffpos.net_7 1 3
 | end bitslice_7.dffpos
 | end bitslice_7
