@@ -10,4 +10,4 @@
 
 set auto_index(SCHEMATIC_inv) [list source [file join $dir inv.sue]]
 set auto_index(ICON_inv) [list source [file join $dir inv.sue]]
-set mtimes {{inv.sue 1444678780}}
+set mtimes {{inv.sue 1447714577}}

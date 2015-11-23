@@ -9,19 +9,19 @@ A Cout output
 A Out output
 | begin xor2 180 290
 | device xor2.pmos -150 210
-p subtract vdd xor2.net_6 1 12
+p subtract vdd xor2.net_4 1 12
 | device xor2.pmos_1 -150 290
-p xor2.net_1 xor2.net_6 net_3 1 12
+p xor2.net_1 xor2.net_4 net_3 1 12
 | device xor2.pmos_2 -320 290
-p A xor2.net_2 net_3 1 12
+p A xor2.net_6 net_3 1 12
 | device xor2.pmos_3 -320 210
-p xor2.net_3 vdd xor2.net_2 1 12
+p xor2.net_3 vdd xor2.net_6 1 12
 | device xor2.nmos -150 450
-n subtract gnd xor2.net_4 1 6
+n subtract gnd xor2.net_2 1 6
 | device xor2.nmos_1 -320 450
 n xor2.net_3 gnd xor2.net_5 1 6
 | device xor2.nmos_2 -150 370
-n A xor2.net_4 net_3 1 6
+n A xor2.net_2 net_3 1 6
 | device xor2.nmos_3 -320 370
 n xor2.net_1 xor2.net_5 net_3 1 6
 | device xor2.pmos_4 -580 210
@@ -36,146 +36,146 @@ n subtract gnd xor2.net_3 1 6
 | begin 21mux 500 100
 | begin 21mux.nand2 450 180
 | device 21mux.nand2.pmos 0 -100
-p B vdd Z21mux.net_1 1 2
+p B vdd Z21mux.net_3 1 2
 | device 21mux.nand2.nmos 0 0
-n B Z21mux.nand2.net_1 Z21mux.net_1 1 2
+n B Z21mux.nand2.net_1 Z21mux.net_3 1 2
 | device 21mux.nand2.pmos_1 160 -100
-p S vdd Z21mux.net_1 1 2
+p S vdd Z21mux.net_3 1 2
 | device 21mux.nand2.nmos_1 0 100
 n S gnd Z21mux.nand2.net_1 1 2
 | end 21mux.nand2
 | begin 21mux.nand2_1 450 340
 | device 21mux.nand2_1.pmos 0 -100
-p Z21mux.net_3 vdd Z21mux.net_2 1 2
+p Z21mux.net_2 vdd Z21mux.net_1 1 2
 | device 21mux.nand2_1.nmos 0 0
-n Z21mux.net_3 Z21mux.nand2_1.net_1 Z21mux.net_2 1 2
+n Z21mux.net_2 Z21mux.nand2_1.net_1 Z21mux.net_1 1 2
 | device 21mux.nand2_1.pmos_1 160 -100
-p Out vdd Z21mux.net_2 1 2
+p Out vdd Z21mux.net_1 1 2
 | device 21mux.nand2_1.nmos_1 0 100
 n Out gnd Z21mux.nand2_1.net_1 1 2
 | end 21mux.nand2_1
 | begin 21mux.nand2_2 620 260
 | device 21mux.nand2_2.pmos 0 -100
-p Z21mux.net_1 vdd net_2 1 2
+p Z21mux.net_3 vdd net_1 1 2
 | device 21mux.nand2_2.nmos 0 0
-n Z21mux.net_1 Z21mux.nand2_2.net_1 net_2 1 2
+n Z21mux.net_3 Z21mux.nand2_2.net_1 net_1 1 2
 | device 21mux.nand2_2.pmos_1 160 -100
-p Z21mux.net_2 vdd net_2 1 2
+p Z21mux.net_1 vdd net_1 1 2
 | device 21mux.nand2_2.nmos_1 0 100
-n Z21mux.net_2 gnd Z21mux.nand2_2.net_1 1 2
+n Z21mux.net_1 gnd Z21mux.nand2_2.net_1 1 2
 | end 21mux.nand2_2
 | begin 21mux.inverter 310 260
 | device 21mux.inverter.nmos 550 360
-n S gnd Z21mux.net_3 1 1
+n S gnd Z21mux.net_2 1 1
 | device 21mux.inverter.pmos 550 200
-p S vdd Z21mux.net_3 1 2
+p S vdd Z21mux.net_2 1 2
 | end 21mux.inverter
 | end 21mux
 | begin FA 500 410
 | device FA.nmos 430 370
-n FA.net_4 FA.net_3 FA.net_5 1 3
+n FA.net_2 FA.net_9 FA.net_10 1 3
 | device FA.nmos_1 250 450
-n net_3 gnd FA.net_3 1 3
+n net_1 gnd FA.net_9 1 3
 | device FA.nmos_2 430 450
-n net_2 gnd FA.net_3 1 3
+n net_3 gnd FA.net_9 1 3
 | device FA.nmos_3 610 450
-n Cin gnd FA.net_3 1 3
+n Cin gnd FA.net_9 1 3
 | device FA.nmos_4 810 370
-n Cin FA.net_10 FA.net_5 1 3
+n Cin FA.net_12 FA.net_10 1 3
 | device FA.nmos_5 810 450
-n net_2 FA.net_11 FA.net_10 1 3
+n net_3 FA.net_8 FA.net_12 1 3
 | device FA.nmos_6 810 530
-n net_3 gnd FA.net_11 1 3
+n net_1 gnd FA.net_8 1 3
 | device FA.nmos_7 -250 370
-n Cin FA.net_6 FA.net_4 1 3
+n Cin FA.net_5 FA.net_2 1 3
 | device FA.nmos_8 -320 450
-n net_3 gnd FA.net_6 1 3
+n net_1 gnd FA.net_5 1 3
 | device FA.nmos_9 -150 450
-n net_2 gnd FA.net_6 1 3
+n net_3 gnd FA.net_5 1 3
 | device FA.nmos_10 40 370
-n net_2 FA.net_8 FA.net_4 1 3
+n net_3 FA.net_4 FA.net_2 1 3
 | device FA.nmos_11 40 450
-n net_3 gnd FA.net_8 1 3
+n net_1 gnd FA.net_4 1 3
 | device FA.pmos 250 210
-p net_3 vdd FA.net_2 1 6
+p net_1 vdd FA.net_11 1 6
 | device FA.pmos_1 430 210
-p net_2 vdd FA.net_2 1 6
+p net_3 vdd FA.net_11 1 6
 | device FA.pmos_2 610 210
-p Cin vdd FA.net_2 1 6
+p Cin vdd FA.net_11 1 6
 | device FA.pmos_3 430 290
-p FA.net_4 FA.net_2 FA.net_5 1 6
+p FA.net_2 FA.net_11 FA.net_10 1 6
 | device FA.pmos_4 810 210
-p net_2 FA.net_12 FA.net_1 1 6
+p net_3 FA.net_3 FA.net_1 1 6
 | device FA.pmos_5 810 290
-p Cin FA.net_1 FA.net_5 1 6
+p Cin FA.net_1 FA.net_10 1 6
 | device FA.pmos_6 810 130
-p net_3 vdd FA.net_12 1 6
+p net_1 vdd FA.net_3 1 6
 | device FA.pmos_7 -320 210
-p net_3 vdd FA.net_7 1 6
+p net_1 vdd FA.net_6 1 6
 | device FA.pmos_8 -150 210
-p net_2 vdd FA.net_7 1 6
+p net_3 vdd FA.net_6 1 6
 | device FA.pmos_9 -250 290
-p Cin FA.net_7 FA.net_4 1 6
+p Cin FA.net_6 FA.net_2 1 6
 | device FA.pmos_10 40 290
-p net_2 FA.net_9 FA.net_4 1 6
+p net_3 FA.net_7 FA.net_2 1 6
 | device FA.pmos_11 40 210
-p net_3 vdd FA.net_9 1 6
+p net_1 vdd FA.net_7 1 6
 | begin FA.inv 890 680
 | device FA.inv.nmos 390 400
-n FA.net_4 gnd Cout 1 1
+n FA.net_2 gnd Cout 1 1
 | device FA.inv.pmos 390 270
-p FA.net_4 vdd Cout 1 2
+p FA.net_2 vdd Cout 1 2
 | end FA.inv
 | begin FA.inv_1 900 330
 | device FA.inv_1.nmos 390 400
-n FA.net_5 gnd net_1 1 1
+n FA.net_10 gnd net_2 1 1
 | device FA.inv_1.pmos 390 270
-p FA.net_5 vdd net_1 1 2
+p FA.net_10 vdd net_2 1 2
 | end FA.inv_1
 | end FA
 | begin dffpos 500 610
 | device dffpos.nmos 420 160
-n dffpos.net_2 gnd dffpos.net_11 1 3
+n dffpos.net_1 gnd dffpos.net_10 1 3
 | device dffpos.nmos_1 420 80
-n Clk dffpos.net_11 dffpos.net_3 1 3
+n Clk dffpos.net_10 dffpos.net_4 1 3
 | device dffpos.nmos_2 510 440
-n dffpos.net_3 gnd dffpos.net_2 1 3
+n dffpos.net_4 gnd dffpos.net_1 1 3
 | device dffpos.pmos 420 -20
-p dffpos.Clk_b dffpos.net_8 dffpos.net_3 1 3
+p dffpos.Clk_b dffpos.net_6 dffpos.net_4 1 3
 | device dffpos.pmos_1 420 -100
-p dffpos.net_2 vdd dffpos.net_8 1 3
+p dffpos.net_1 vdd dffpos.net_6 1 3
 | device dffpos.nmos_3 160 40
 n Clk gnd dffpos.Clk_b 1 6
 | device dffpos.pmos_2 160 -60
 p Clk vdd dffpos.Clk_b 1 12
 | device dffpos.nmos_4 890 530
-n dffpos.net_2 gnd dffpos.net_9 1 3
+n dffpos.net_1 gnd dffpos.net_5 1 3
 | device dffpos.nmos_5 890 450
-n Clk dffpos.net_9 dffpos.net_1 1 3
+n Clk dffpos.net_5 dffpos.net_3 1 3
 | device dffpos.pmos_3 890 350
-p dffpos.Clk_b dffpos.net_6 dffpos.net_1 1 6
+p dffpos.Clk_b dffpos.net_9 dffpos.net_3 1 6
 | device dffpos.pmos_4 890 270
-p dffpos.net_2 vdd dffpos.net_6 1 6
+p dffpos.net_1 vdd dffpos.net_9 1 6
 | device dffpos.pmos_5 510 360
-p dffpos.net_3 vdd dffpos.net_2 1 6
+p dffpos.net_4 vdd dffpos.net_1 1 6
 | device dffpos.nmos_6 1190 440
-n dffpos.net_1 gnd Out 1 6
+n dffpos.net_3 gnd Out 1 6
 | device dffpos.pmos_6 1190 360
-p dffpos.net_1 vdd Out 1 12
+p dffpos.net_3 vdd Out 1 12
 | device dffpos.nmos_7 250 530
-n net_1 gnd dffpos.net_10 1 3
+n net_2 gnd dffpos.net_2 1 3
 | device dffpos.nmos_8 250 450
-n dffpos.Clk_b dffpos.net_10 dffpos.net_3 1 3
+n dffpos.Clk_b dffpos.net_2 dffpos.net_4 1 3
 | device dffpos.pmos_7 250 350
-p Clk dffpos.net_7 dffpos.net_3 1 6
+p Clk dffpos.net_8 dffpos.net_4 1 6
 | device dffpos.pmos_8 250 270
-p net_1 vdd dffpos.net_7 1 6
+p net_2 vdd dffpos.net_8 1 6
 | device dffpos.nmos_9 1100 160
-n Out gnd dffpos.net_5 1 3
+n Out gnd dffpos.net_11 1 3
 | device dffpos.nmos_10 1100 80
-n dffpos.Clk_b dffpos.net_5 dffpos.net_1 1 3
+n dffpos.Clk_b dffpos.net_11 dffpos.net_3 1 3
 | device dffpos.pmos_9 1100 -20
-p Clk dffpos.net_4 dffpos.net_1 1 3
+p Clk dffpos.net_7 dffpos.net_3 1 3
 | device dffpos.pmos_10 1100 -100
-p Out vdd dffpos.net_4 1 3
+p Out vdd dffpos.net_7 1 3
 | end dffpos

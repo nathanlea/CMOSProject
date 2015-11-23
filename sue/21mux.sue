@@ -1,0 +1,46 @@
+# SUE version MMI_SUE5.6.18
+
+proc SCHEMATIC_21mux {} {
+  make nand2 -origin {450 180}
+  make nand2 -origin {450 340}
+  make nand2 -origin {620 260}
+  make inverter -origin {310 260}
+  make input -name S -origin {210 260}
+  make input -name B -origin {320 160}
+  make input -name A -origin {320 360}
+  make output -name Out -origin {750 260}
+  make_wire 410 260 410 320
+  make_wire 360 260 410 260
+  make_wire 410 320 430 320
+  make_wire 430 200 240 200
+  make_wire 240 200 240 260
+  make_wire 240 260 210 260
+  make_wire 240 260 280 260
+  make_wire 320 160 430 160
+  make_wire 320 360 430 360
+  make_wire 520 180 560 180
+  make_wire 560 180 560 240
+  make_wire 560 240 600 240
+  make_wire 520 340 560 340
+  make_wire 560 340 560 280
+  make_wire 560 280 600 280
+  make_wire 690 260 750 260
+}
+
+proc ICON_21mux args {
+  icon_setup $args {{origin {0 0}} {orient R0} {name {}} {M {}} {dpc {}}}
+  icon_term -type input -origin {-90 -40} -name B
+  icon_term -type input -origin {0 -60} -orient R90 -name S
+  icon_term -type input -origin {-90 0} -name A
+  icon_term -type output -origin {90 0} -name Out
+  icon_property -origin {0 0} -size large -anchor center -label 21mux
+  icon_line -90 -60 90 -60 90 60 -90 60 -90 -60
+  icon_property -origin {-80 -40} -label B
+  icon_property -origin {0 -50} -rotate 1 -label S
+  icon_property -origin {-80 0} -label A
+  icon_property -origin {80 0} -anchor e -label Out
+  icon_property -origin {-90 280} -type user -name name
+  icon_property -origin {-90 300} -type user -name M
+  icon_property -origin {-90 320} -type user -name dpc
+}
+

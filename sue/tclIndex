@@ -8,4 +8,5 @@
 
 # Special SUE version which includes file modification times.
 
-set mtimes {}
+set auto_index(SCHEMATIC_project) [list source [file join $dir project.sue]]
+set mtimes {{project.sue 1447714566}}

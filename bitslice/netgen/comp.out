@@ -1,0 +1,146 @@
+
+Subcircuit summary:
+Circuit 1: ../magic/bitslice_noRC.sim      |Circuit 2: ../sue/bitslice.sim             
+-------------------------------------------|-------------------------------------------
+p (38)                                     |p (38)                                     
+n (38)                                     |n (38)                                     
+Number of devices: 76                      |Number of devices: 76                      
+Number of nets: 49                         |Number of nets: 49                         
+---------------------------------------------------------------------------------------
+Circuits match uniquely.
+Property errors were found.
+Netlists match uniquely.
+There were property errors.
+n@-67,-79 vs. n21:
+ width circuit1: 7.42369e-317   circuit2: 7.50196e-317   (delta=1.05%, cutoff=1%)
+ length circuit1: 7.42372e-317   circuit2: 7.502e-317   (delta=1.05%, cutoff=1%)
+n@-83,-79 vs. n22:
+ width circuit1: 7.42263e-317   circuit2: 7.50249e-317   (delta=1.07%, cutoff=1%)
+ length circuit1: 7.42266e-317   circuit2: 7.50253e-317   (delta=1.07%, cutoff=1%)
+n@-75,-79 vs. n23:
+ width circuit1: 7.42316e-317   circuit2: 7.50302e-317   (delta=1.07%, cutoff=1%)
+ length circuit1: 7.42319e-317   circuit2: 7.50305e-317   (delta=1.07%, cutoff=1%)
+n@-59,-79 vs. n24:
+ width circuit1: 7.4243e-317   circuit2: 7.50363e-317   (delta=1.06%, cutoff=1%)
+ length circuit1: 7.42433e-317   circuit2: 7.50366e-317   (delta=1.06%, cutoff=1%)
+n@-54,-79 vs. n25:
+ width circuit1: 7.42483e-317   circuit2: 7.50416e-317   (delta=1.06%, cutoff=1%)
+ length circuit1: 7.42486e-317   circuit2: 7.50419e-317   (delta=1.06%, cutoff=1%)
+n@21,-79 vs. n26:
+ width circuit1: 7.42983e-317   circuit2: 7.51152e-317   (delta=1.09%, cutoff=1%)
+ length circuit1: 7.42986e-317   circuit2: 7.51155e-317   (delta=1.09%, cutoff=1%)
+n@5,-79 vs. n27:
+ width circuit1: 7.4293e-317   circuit2: 7.51266e-317   (delta=1.12%, cutoff=1%)
+ length circuit1: 7.42933e-317   circuit2: 7.51269e-317   (delta=1.12%, cutoff=1%)
+n@7,-101 vs. n34:
+ width circuit1: 7.41374e-317   circuit2: 7.52079e-317   (delta=1.43%, cutoff=1%)
+ length circuit1: 7.41377e-317   circuit2: 7.52082e-317   (delta=1.43%, cutoff=1%)
+n@-37,-101 vs. n30:
+ width circuit1: 7.41093e-317   circuit2: 7.51509e-317   (delta=1.4%, cutoff=1%)
+ length circuit1: 7.41096e-317   circuit2: 7.51513e-317   (delta=1.4%, cutoff=1%)
+n@-73,-101 vs. n31:
+ width circuit1: 7.40595e-317   circuit2: 7.51684e-317   (delta=1.49%, cutoff=1%)
+ length circuit1: 7.40598e-317   circuit2: 7.51687e-317   (delta=1.49%, cutoff=1%)
+n@-65,-101 vs. n35:
+ width circuit1: 7.40766e-317   circuit2: 7.52192e-317   (delta=1.53%, cutoff=1%)
+ length circuit1: 7.40769e-317   circuit2: 7.52196e-317   (delta=1.53%, cutoff=1%)
+n@-1,-101 vs. n37:
+ width circuit1: 7.41321e-317   circuit2: 7.5242e-317   (delta=1.49%, cutoff=1%)
+ length circuit1: 7.41324e-317   circuit2: 7.52423e-317   (delta=1.49%, cutoff=1%)
+n@-21,-101 vs. n32:
+ width circuit1: 7.41154e-317   circuit2: 7.51798e-317   (delta=1.43%, cutoff=1%)
+ length circuit1: 7.41157e-317   circuit2: 7.51801e-317   (delta=1.43%, cutoff=1%)
+n@-46,-101 vs. n28:
+ width circuit1: 7.41018e-317   circuit2: 7.51388e-317   (delta=1.39%, cutoff=1%)
+ length circuit1: 7.41021e-317   circuit2: 7.51391e-317   (delta=1.39%, cutoff=1%)
+n@-6,-101 vs. n38:
+ width circuit1: 7.41268e-317   circuit2: 7.52473e-317   (delta=1.5%, cutoff=1%)
+ length circuit1: 7.41271e-317   circuit2: 7.52476e-317   (delta=1.5%, cutoff=1%)
+n@-51,-101 vs. n29:
+ width circuit1: 7.40936e-317   circuit2: 7.51456e-317   (delta=1.41%, cutoff=1%)
+ length circuit1: 7.4094e-317   circuit2: 7.5146e-317   (delta=1.41%, cutoff=1%)
+n@-16,-101 vs. n33:
+ width circuit1: 7.41207e-317   circuit2: 7.51859e-317   (delta=1.43%, cutoff=1%)
+ length circuit1: 7.4121e-317   circuit2: 7.51862e-317   (delta=1.43%, cutoff=1%)
+n@-60,-101 vs. n36:
+ width circuit1: 7.40847e-317   circuit2: 7.52245e-317   (delta=1.53%, cutoff=1%)
+ length circuit1: 7.4085e-317   circuit2: 7.52249e-317   (delta=1.53%, cutoff=1%)
+p@-46,-11 vs. p14:
+ width circuit1: 7.41747e-317   circuit2: 7.50477e-317   (delta=1.17%, cutoff=1%)
+ length circuit1: 7.4175e-317   circuit2: 7.5048e-317   (delta=1.17%, cutoff=1%)
+p@-38,-11 vs. p15:
+ width circuit1: 7.418e-317   circuit2: 7.5053e-317   (delta=1.17%, cutoff=1%)
+ length circuit1: 7.41803e-317   circuit2: 7.50533e-317   (delta=1.17%, cutoff=1%)
+p@-22,-11 vs. p17:
+ width circuit1: 7.41913e-317   circuit2: 7.50636e-317   (delta=1.17%, cutoff=1%)
+ length circuit1: 7.41917e-317   circuit2: 7.50639e-317   (delta=1.17%, cutoff=1%)
+p@-8,-11 vs. p18:
+ width circuit1: 7.42035e-317   circuit2: 7.50705e-317   (delta=1.16%, cutoff=1%)
+ length circuit1: 7.42038e-317   circuit2: 7.50708e-317   (delta=1.16%, cutoff=1%)
+p@-83,-11 vs. p21:
+ width circuit1: 7.41442e-317   circuit2: 7.50871e-317   (delta=1.26%, cutoff=1%)
+ length circuit1: 7.41446e-317   circuit2: 7.50875e-317   (delta=1.26%, cutoff=1%)
+p@-75,-11 vs. p22:
+ width circuit1: 7.41503e-317   circuit2: 7.50924e-317   (delta=1.26%, cutoff=1%)
+ length circuit1: 7.41506e-317   circuit2: 7.50928e-317   (delta=1.26%, cutoff=1%)
+p@-67,-11 vs. p23:
+ width circuit1: 7.41572e-317   circuit2: 7.50977e-317   (delta=1.26%, cutoff=1%)
+ length circuit1: 7.41575e-317   circuit2: 7.50981e-317   (delta=1.26%, cutoff=1%)
+p@-59,-11 vs. p24:
+ width circuit1: 7.41633e-317   circuit2: 7.51038e-317   (delta=1.26%, cutoff=1%)
+ length circuit1: 7.41636e-317   circuit2: 7.51041e-317   (delta=1.26%, cutoff=1%)
+p@-3,-11 vs. p20:
+ width circuit1: 7.42088e-317   circuit2: 7.50811e-317   (delta=1.17%, cutoff=1%)
+ length circuit1: 7.42091e-317   circuit2: 7.50814e-317   (delta=1.17%, cutoff=1%)
+p@-54,-11 vs. p25:
+ width circuit1: 7.41686e-317   circuit2: 7.51091e-317   (delta=1.26%, cutoff=1%)
+ length circuit1: 7.41689e-317   circuit2: 7.51094e-317   (delta=1.26%, cutoff=1%)
+p@21,-11 vs. p26:
+ width circuit1: 7.42202e-317   circuit2: 7.51205e-317   (delta=1.21%, cutoff=1%)
+ length circuit1: 7.42205e-317   circuit2: 7.51208e-317   (delta=1.21%, cutoff=1%)
+p@5,-11 vs. p27:
+ width circuit1: 7.42141e-317   circuit2: 7.51319e-317   (delta=1.23%, cutoff=1%)
+ length circuit1: 7.42144e-317   circuit2: 7.51322e-317   (delta=1.23%, cutoff=1%)
+p@-30,-11 vs. p16:
+ width circuit1: 7.41853e-317   circuit2: 7.50583e-317   (delta=1.17%, cutoff=1%)
+ length circuit1: 7.41856e-317   circuit2: 7.50586e-317   (delta=1.17%, cutoff=1%)
+p@7,-150 vs. p34:
+ width circuit1: 7.40676e-317   circuit2: 7.52132e-317   (delta=1.53%, cutoff=1%)
+ length circuit1: 7.4068e-317   circuit2: 7.52135e-317   (delta=1.53%, cutoff=1%)
+p@-37,-170 vs. p33:
+ width circuit1: 7.38916e-317   circuit2: 7.52026e-317   (delta=1.76%, cutoff=1%)
+ length circuit1: 7.38919e-317   circuit2: 7.52029e-317   (delta=1.76%, cutoff=1%)
+p@-73,-150 vs. p30:
+ width circuit1: 7.35325e-317   circuit2: 7.51737e-317   (delta=2.21%, cutoff=1%)
+ length circuit1: 7.35328e-317   circuit2: 7.5174e-317   (delta=2.21%, cutoff=1%)
+p@-65,-170 vs. p36:
+ width circuit1: 7.38566e-317   circuit2: 7.52359e-317   (delta=1.85%, cutoff=1%)
+ length circuit1: 7.3857e-317   circuit2: 7.52362e-317   (delta=1.85%, cutoff=1%)
+p@-13,-11 vs. p19:
+ width circuit1: 7.41974e-317   circuit2: 7.50758e-317   (delta=1.18%, cutoff=1%)
+ length circuit1: 7.41978e-317   circuit2: 7.50761e-317   (delta=1.18%, cutoff=1%)
+p@-6,-180 vs. p37:
+ width circuit1: 7.39184e-317   circuit2: 7.52534e-317   (delta=1.79%, cutoff=1%)
+ length circuit1: 7.39187e-317   circuit2: 7.52537e-317   (delta=1.79%, cutoff=1%)
+p@-51,-170 vs. p28:
+ width circuit1: 7.38745e-317   circuit2: 7.51578e-317   (delta=1.72%, cutoff=1%)
+ length circuit1: 7.38748e-317   circuit2: 7.51581e-317   (delta=1.72%, cutoff=1%)
+p@-16,-170 vs. p31:
+ width circuit1: 7.39095e-317   circuit2: 7.5192e-317   (delta=1.72%, cutoff=1%)
+ length circuit1: 7.39098e-317   circuit2: 7.51923e-317   (delta=1.72%, cutoff=1%)
+p@-59,-170 vs. p35:
+ width circuit1: 7.38656e-317   circuit2: 7.52306e-317   (delta=1.83%, cutoff=1%)
+ length circuit1: 7.38659e-317   circuit2: 7.52309e-317   (delta=1.83%, cutoff=1%)
+p@-1,-180 vs. p38:
+ width circuit1: 7.39273e-317   circuit2: 7.52587e-317   (delta=1.78%, cutoff=1%)
+ length circuit1: 7.39276e-317   circuit2: 7.5259e-317   (delta=1.78%, cutoff=1%)
+p@-21,-170 vs. p32:
+ width circuit1: 7.39005e-317   circuit2: 7.51973e-317   (delta=1.74%, cutoff=1%)
+ length circuit1: 7.39008e-317   circuit2: 7.51976e-317   (delta=1.74%, cutoff=1%)
+p@-45,-170 vs. p29:
+ width circuit1: 7.38834e-317   circuit2: 7.51631e-317   (delta=1.72%, cutoff=1%)
+ length circuit1: 7.38838e-317   circuit2: 7.51634e-317   (delta=1.72%, cutoff=1%)
+Cell pin lists are equivalent.
+Circuits match uniquely.
+Property errors were found.
+The following cells had property errors: ../magic/bitslice_noRC.sim

@@ -8,4 +8,16 @@
 
 # Special SUE version which includes file modification times.
 
-set mtimes {}
+set auto_index(SCHEMATIC_xor2) [list source [file join $dir xor2.sue]]
+set auto_index(ICON_xor2) [list source [file join $dir xor2.sue]]
+set auto_index(SCHEMATIC_dffpos) [list source [file join $dir dffpos.sue]]
+set auto_index(ICON_dffpos) [list source [file join $dir dffpos.sue]]
+set auto_index(SCHEMATIC_21mux) [list source [file join $dir 21mux.sue]]
+set auto_index(ICON_21mux) [list source [file join $dir 21mux.sue]]
+set auto_index(SCHEMATIC_inv) [list source [file join $dir inv.sue]]
+set auto_index(ICON_inv) [list source [file join $dir inv.sue]]
+set auto_index(SCHEMATIC_bitslice) [list source [file join $dir bitslice.sue]]
+set auto_index(ICON_bitslice) [list source [file join $dir bitslice.sue]]
+set auto_index(SCHEMATIC_FA) [list source [file join $dir FA.sue]]
+set auto_index(ICON_FA) [list source [file join $dir FA.sue]]
+set mtimes {{xor2.sue 1444678780} {dffpos.sue 1444678780} {21mux.sue 1447714577} {inv.sue 1447714577} {bitslice.sue 1447714056} {FA.sue 1447714577}}
