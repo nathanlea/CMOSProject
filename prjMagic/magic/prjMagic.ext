@@ -1,4 +1,4 @@
-timestamp 1448901321
+timestamp 1448904111
 version 8.0
 tech scmos
 style AMI0.5um(amic5)from:T01X
@@ -62,7 +62,6 @@ node "vdd" 1 13291.2 474 215 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1820 288 0 0 0 0
 node "vdd" 1 13291.2 319 215 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1820 288 0 0 0 0
 node "vdd" 1 13291.2 165 215 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1820 288 0 0 0 0
 node "vdd" 1 13291.2 11 215 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1820 288 0 0 0 0
-node "subtract" 3 8902.8 -6 171 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 562 294 0 0 0 0
 node "gnd" 1 6861.6 1151 303 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 840 164 0 0 0 0
 node "gnd" 1 6861.6 997 303 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 840 164 0 0 0 0
 node "gnd" 1 6861.6 843 303 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 840 164 0 0 0 0
@@ -71,22 +70,31 @@ node "gnd" 1 6861.6 534 303 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 840 164 0 0 0 0
 node "gnd" 1 6861.6 379 303 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 840 164 0 0 0 0
 node "gnd" 1 6771.6 226 303 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 828 162 0 0 0 0
 node "gnd" 2 11944.8 11 323 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1264 316 0 0 0 0
-node "m1_1131_341#" 4 6252.21 1131 341 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 379 256 0 0
-node "m1_977_341#" 4 6252.21 977 341 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 379 256 0 0
-node "m1_823_341#" 4 6252.21 823 341 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 379 256 0 0
-node "m1_669_341#" 4 6389.64 669 341 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 388 262 0 0
-node "m1_514_341#" 4 6262.56 514 341 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 384 256 0 0
-node "m1_359_341#" 3 6761.61 359 341 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20 18 523 264 0 0
-node "m1_205_341#" 4 6291.54 205 341 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 398 256 0 0
+node "m1_1131_341#" 4 6068.97 1131 341 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 379 256 0 0
 node "B7" 0 486 1131 348 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 18 18 0 0 0 0
+node "m1_977_341#" 4 5950.17 977 341 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 379 256 0 0
 node "B6" 0 486 977 348 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 18 18 0 0 0 0
+node "m1_823_341#" 4 6068.97 823 341 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 379 256 0 0
 node "B5" 0 428.4 823 348 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 15 16 0 0 0 0
+node "m1_669_341#" 4 6206.4 669 341 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 388 262 0 0
+node "m1_514_341#" 4 6079.32 514 341 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 384 256 0 0
 node "B4" 0 486 669 348 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 18 18 0 0 0 0
 node "B3" 0 658.8 514 348 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 27 24 0 0 0 0
+node "m1_359_341#" 3 6418.17 359 341 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20 18 511 264 0 0
 node "B2" 0 543.6 359 348 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 21 20 0 0 0 0
+node "m1_205_341#" 4 6108.3 205 341 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 398 256 0 0
 node "B1" 0 543.6 205 348 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 21 20 0 0 0 0
+node "subtract" 61 125453 -6 171 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1394 822 8680 4404 0 0
 node "vdd" 17 78530.4 77 387 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6864 2300 0 0 0 0
 equiv "vdd" "vdd"
+cap "m1_1131_341#" "subtract" 259.32
+cap "m1_977_341#" "subtract" 450.12
+cap "subtract" "vdd" 2740.08
+cap "m1_359_341#" "subtract" 538.2
+cap "m1_205_341#" "subtract" 259.32
+cap "m1_514_341#" "subtract" 259.32
+cap "subtract" "m1_823_341#" 259.32
+cap "subtract" "m1_669_341#" 259.32
 cap "vdd" "nand_0/a_9_52#" -5.68434e-14
 cap "bitslice_0/fa_0/B" "bitslice_0/Cin" 48.96
 cap "bitslice_0/Cout" "bitslice_1/Y" 48.96
@@ -96,20 +104,23 @@ cap "bitslice_4/fa_0/B" "bitslice_3/Cout" 48.96
 cap "bitslice_5/fa_0/B" "bitslice_4/Cout" 48.96
 cap "bitslice_6/fa_0/B" "bitslice_5/Cout" 48.96
 cap "bitslice_7/fa_0/B" "bitslice_6/Cout" 48.96
-cap "vdd" "bitslice_0/mux21_0/S" 22.77
+cap "bitslice_4/xor2_0/gnd" "bitslice_4/subtract" 12.24
+cap "bitslice_7/gnd" "bitslice_7/subtract" 12.24
 cap "bitslice_0/mux21_0/S" "bitslice_0/mux21_0/out" 27.54
 cap "bitslice_0/mux21_0/S" "bitslice_0/mux21_0/nand_1/B" 266.22
+cap "vdd" "bitslice_0/mux21_0/S" 22.77
 cap "bitslice_1/S" "bitslice_1/mux21_0/nand_1/B" 192.78
 cap "bitslice_1/vdd" "bitslice_1/S" 2.07
 cap "bitslice_1/mux21_0/out" "bitslice_2/S" 27.54
 cap "bitslice_1/mux21_0/nand_1/B" "bitslice_2/S" 146.88
-cap "bitslice_2/S" "bitslice_1/vdd" 16.56
+cap "bitslice_1/vdd" "bitslice_2/S" 16.56
 cap "bitslice_2/S" "bitslice_2/mux21_0/out" 27.54
 cap "bitslice_2/S" "bitslice_2/mux21_0/nand_1/B" 267.12
 cap "bitslice_2/S" "bitslice_2/mux21_0/nand_1/A" 3.96
 cap "bitslice_2/vdd" "bitslice_2/S" 78.66
-cap "bitslice_3/S" "bitslice_3/mux21_0/nand_1/B" 107.1
+cap "bitslice_3/mux21_0/nand_1/B" "bitslice_3/S" 107.1
 cap "bitslice_3/vdd" "bitslice_3/S" 2.07
+cap "bitslice_4/xor2_0/gnd" "subtract" 6.12
 cap "bitslice_3/mux21_0/out" "bitslice_3/mux21_0/S" 27.54
 cap "bitslice_3/mux21_0/nand_1/B" "bitslice_3/mux21_0/S" 156.96
 cap "bitslice_3/mux21_0/nand_1/A" "bitslice_3/mux21_0/S" 3.96
@@ -117,12 +128,13 @@ cap "vdd" "bitslice_3/mux21_0/S" 76.59
 cap "bitslice_4/S" "bitslice_4/mux21_0/out" 27.54
 cap "bitslice_4/S" "bitslice_4/mux21_0/nand_1/B" 330.48
 cap "bitslice_4/vdd" "bitslice_4/S" 16.56
-cap "bitslice_5/mux21_0/nand_1/B" "bitslice_5/mux21_0/S" 330.48
-cap "bitslice_5/mux21_0/S" "bitslice_5/vdd" 16.56
 cap "bitslice_5/mux21_0/out" "bitslice_5/mux21_0/S" 27.54
+cap "bitslice_5/mux21_0/nand_1/B" "bitslice_5/mux21_0/S" 330.48
+cap "bitslice_5/vdd" "bitslice_5/mux21_0/S" 16.56
 cap "bitslice_6/S" "bitslice_6/mux21_0/out" 27.54
 cap "bitslice_6/S" "bitslice_6/mux21_0/nand_1/B" 330.48
 cap "bitslice_6/vdd" "bitslice_6/S" 16.56
+cap "subtract" "bitslice_7/xor2_0/gnd" 6.12
 merge "bitslice_6/mux21_0/nand_2/gnd" "bitslice_3/mux21_0/gnd" -148817 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16287 -3854 0 0 0 0
 merge "bitslice_3/mux21_0/gnd" "bitslice_1/mux21_0/nand_1/gnd"
 merge "bitslice_1/mux21_0/nand_1/gnd" "bitslice_0/xor2_0/gnd"
@@ -208,6 +220,15 @@ merge "bitslice_4/Cin" "bitslice_3/Cout" -767.16 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 merge "bitslice_3/Cout" "m1_625_171#"
 merge "bitslice_3/B" "B3" -658.8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -27 -24 0 0 0 0
 merge "bitslice_2/out" "Out2" -554.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -24 -20 0 0 0 0
+merge "bitslice_7/subtract" "bitslice_6/subtract" -38981.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -692 -542 -1612 -1074 0 0
+merge "bitslice_6/subtract" "bitslice_5/subtract"
+merge "bitslice_5/subtract" "bitslice_4/subtract"
+merge "bitslice_4/subtract" "bitslice_3/subtract"
+merge "bitslice_3/subtract" "bitslice_2/subtract"
+merge "bitslice_2/subtract" "bitslice_1/subtract"
+merge "bitslice_1/subtract" "bitslice_0/subtract"
+merge "bitslice_0/subtract" "bitslice_0/Cin"
+merge "bitslice_0/Cin" "subtract"
 merge "bitslice_4/B" "B4" -475.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -15 -18 0 0 0 0
 merge "bitslice_5/B" "B5" -428.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -15 -16 0 0 0 0
 merge "bitslice_5/A" "A5" -306.45 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 -16 0 0
@@ -238,8 +259,6 @@ merge "nand_0/B" "clk" -601.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -24 -22 0 0 0 0
 merge "bitslice_6/Cin" "bitslice_5/Cout" -721.35 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 -9 -12 0 0
 merge "bitslice_5/Cout" "m1_933_171#"
 merge "bitslice_2/A" "A2" -385.65 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 -20 0 0
-merge "bitslice_0/subtract" "bitslice_0/Cin" -799.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -27 -30 0 0 0 0
-merge "bitslice_0/Cin" "subtract"
 merge "bitslice_1/out" "Out1" -676.8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -24 0 0 0 0
 merge "bitslice_6/A" "A6" -343.98 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6 -18 0 0
 merge "bitslice_5/out" "Out5" -554.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -24 -20 0 0 0 0

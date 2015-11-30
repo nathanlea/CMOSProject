@@ -69,14 +69,14 @@ p A7 bitslice_7/xor2_0/a_17_6# vdd 2 40 1141 271
 p bitslice_7/xor2_0/a_28_44# vdd bitslice_7/xor2_0/a_33_54# 2 40 1132 271
 p A7 bitslice_7/xor2_0/a_33_54# bitslice_7/Y 2 40 1127 271
 p bitslice_7/xor2_0/a_17_6# bitslice_7/Y bitslice_7/xor2_0/a_50_54# 2 40 1115 271
-p bitslice_7/subtract bitslice_7/xor2_0/a_50_54# vdd 2 40 1110 271
-p bitslice_7/subtract vdd bitslice_7/xor2_0/a_28_44# 2 40 1101 271
+p subtract bitslice_7/xor2_0/a_50_54# vdd 2 40 1110 271
+p subtract vdd bitslice_7/xor2_0/a_28_44# 2 40 1101 271
 n A7 bitslice_7/xor2_0/a_17_6# gnd 2 20 1141 319
 n bitslice_7/xor2_0/a_28_44# gnd bitslice_7/xor2_0/a_33_6# 2 20 1132 319
 n bitslice_7/xor2_0/a_17_6# bitslice_7/xor2_0/a_33_6# bitslice_7/Y 2 20 1127 319
 n A7 bitslice_7/Y bitslice_7/xor2_0/a_50_6# 2 20 1115 319
-n bitslice_7/subtract bitslice_7/xor2_0/a_50_6# gnd 2 20 1110 319
-n bitslice_7/subtract gnd bitslice_7/xor2_0/a_28_44# 2 20 1101 319
+n subtract bitslice_7/xor2_0/a_50_6# gnd 2 20 1110 319
+n subtract gnd bitslice_7/xor2_0/a_28_44# 2 20 1101 319
 p inverter_0/Y bitslice_6/dffpos_0/a_n34_n84# vdd 2 40 960 53
 p bitslice_6/sum vdd bitslice_6/dffpos_0/a_n19_n15# 2 20 968 33
 p inverter_0/Y bitslice_6/dffpos_0/a_n19_n15# bitslice_6/dffpos_0/a_n14_n84# 2 20 974 33
@@ -145,14 +145,14 @@ p A6 bitslice_6/xor2_0/a_17_6# vdd 2 40 987 271
 p bitslice_6/xor2_0/a_28_44# vdd bitslice_6/xor2_0/a_33_54# 2 40 978 271
 p A6 bitslice_6/xor2_0/a_33_54# bitslice_6/Y 2 40 973 271
 p bitslice_6/xor2_0/a_17_6# bitslice_6/Y bitslice_6/xor2_0/a_50_54# 2 40 961 271
-p bitslice_6/subtract bitslice_6/xor2_0/a_50_54# vdd 2 40 956 271
-p bitslice_6/subtract vdd bitslice_6/xor2_0/a_28_44# 2 40 947 271
+p subtract bitslice_6/xor2_0/a_50_54# vdd 2 40 956 271
+p subtract vdd bitslice_6/xor2_0/a_28_44# 2 40 947 271
 n A6 bitslice_6/xor2_0/a_17_6# gnd 2 20 987 319
 n bitslice_6/xor2_0/a_28_44# gnd bitslice_6/xor2_0/a_33_6# 2 20 978 319
 n bitslice_6/xor2_0/a_17_6# bitslice_6/xor2_0/a_33_6# bitslice_6/Y 2 20 973 319
 n A6 bitslice_6/Y bitslice_6/xor2_0/a_50_6# 2 20 961 319
-n bitslice_6/subtract bitslice_6/xor2_0/a_50_6# gnd 2 20 956 319
-n bitslice_6/subtract gnd bitslice_6/xor2_0/a_28_44# 2 20 947 319
+n subtract bitslice_6/xor2_0/a_50_6# gnd 2 20 956 319
+n subtract gnd bitslice_6/xor2_0/a_28_44# 2 20 947 319
 p inverter_0/Y bitslice_5/dffpos_0/a_n34_n84# vdd 2 40 806 53
 p bitslice_5/sum vdd bitslice_5/dffpos_0/a_n19_n15# 2 20 814 33
 p inverter_0/Y bitslice_5/dffpos_0/a_n19_n15# bitslice_5/dffpos_0/a_n14_n84# 2 20 820 33
@@ -221,14 +221,14 @@ p A5 bitslice_5/xor2_0/a_17_6# vdd 2 40 833 271
 p bitslice_5/xor2_0/a_28_44# vdd bitslice_5/xor2_0/a_33_54# 2 40 824 271
 p A5 bitslice_5/xor2_0/a_33_54# bitslice_5/Y 2 40 819 271
 p bitslice_5/xor2_0/a_17_6# bitslice_5/Y bitslice_5/xor2_0/a_50_54# 2 40 807 271
-p bitslice_5/subtract bitslice_5/xor2_0/a_50_54# vdd 2 40 802 271
-p bitslice_5/subtract vdd bitslice_5/xor2_0/a_28_44# 2 40 793 271
+p subtract bitslice_5/xor2_0/a_50_54# vdd 2 40 802 271
+p subtract vdd bitslice_5/xor2_0/a_28_44# 2 40 793 271
 n A5 bitslice_5/xor2_0/a_17_6# gnd 2 20 833 319
 n bitslice_5/xor2_0/a_28_44# gnd bitslice_5/xor2_0/a_33_6# 2 20 824 319
 n bitslice_5/xor2_0/a_17_6# bitslice_5/xor2_0/a_33_6# bitslice_5/Y 2 20 819 319
 n A5 bitslice_5/Y bitslice_5/xor2_0/a_50_6# 2 20 807 319
-n bitslice_5/subtract bitslice_5/xor2_0/a_50_6# gnd 2 20 802 319
-n bitslice_5/subtract gnd bitslice_5/xor2_0/a_28_44# 2 20 793 319
+n subtract bitslice_5/xor2_0/a_50_6# gnd 2 20 802 319
+n subtract gnd bitslice_5/xor2_0/a_28_44# 2 20 793 319
 p inverter_0/Y bitslice_4/dffpos_0/a_n34_n84# vdd 2 40 652 53
 p bitslice_4/sum vdd bitslice_4/dffpos_0/a_n19_n15# 2 20 660 33
 p inverter_0/Y bitslice_4/dffpos_0/a_n19_n15# bitslice_4/dffpos_0/a_n14_n84# 2 20 666 33
@@ -297,14 +297,14 @@ p A4 bitslice_4/xor2_0/a_17_6# vdd 2 40 679 271
 p bitslice_4/xor2_0/a_28_44# vdd bitslice_4/xor2_0/a_33_54# 2 40 670 271
 p A4 bitslice_4/xor2_0/a_33_54# bitslice_4/Y 2 40 665 271
 p bitslice_4/xor2_0/a_17_6# bitslice_4/Y bitslice_4/xor2_0/a_50_54# 2 40 653 271
-p bitslice_4/subtract bitslice_4/xor2_0/a_50_54# vdd 2 40 648 271
-p bitslice_4/subtract vdd bitslice_4/xor2_0/a_28_44# 2 40 639 271
+p subtract bitslice_4/xor2_0/a_50_54# vdd 2 40 648 271
+p subtract vdd bitslice_4/xor2_0/a_28_44# 2 40 639 271
 n A4 bitslice_4/xor2_0/a_17_6# gnd 2 20 679 319
 n bitslice_4/xor2_0/a_28_44# gnd bitslice_4/xor2_0/a_33_6# 2 20 670 319
 n bitslice_4/xor2_0/a_17_6# bitslice_4/xor2_0/a_33_6# bitslice_4/Y 2 20 665 319
 n A4 bitslice_4/Y bitslice_4/xor2_0/a_50_6# 2 20 653 319
-n bitslice_4/subtract bitslice_4/xor2_0/a_50_6# gnd 2 20 648 319
-n bitslice_4/subtract gnd bitslice_4/xor2_0/a_28_44# 2 20 639 319
+n subtract bitslice_4/xor2_0/a_50_6# gnd 2 20 648 319
+n subtract gnd bitslice_4/xor2_0/a_28_44# 2 20 639 319
 p inverter_0/Y bitslice_3/dffpos_0/a_n34_n84# vdd 2 40 497 53
 p bitslice_3/sum vdd bitslice_3/dffpos_0/a_n19_n15# 2 20 505 33
 p inverter_0/Y bitslice_3/dffpos_0/a_n19_n15# bitslice_3/dffpos_0/a_n14_n84# 2 20 511 33
@@ -373,14 +373,14 @@ p A3 bitslice_3/xor2_0/a_17_6# vdd 2 40 524 271
 p bitslice_3/xor2_0/a_28_44# vdd bitslice_3/xor2_0/a_33_54# 2 40 515 271
 p A3 bitslice_3/xor2_0/a_33_54# bitslice_3/Y 2 40 510 271
 p bitslice_3/xor2_0/a_17_6# bitslice_3/Y bitslice_3/xor2_0/a_50_54# 2 40 498 271
-p bitslice_3/subtract bitslice_3/xor2_0/a_50_54# vdd 2 40 493 271
-p bitslice_3/subtract vdd bitslice_3/xor2_0/a_28_44# 2 40 484 271
+p subtract bitslice_3/xor2_0/a_50_54# vdd 2 40 493 271
+p subtract vdd bitslice_3/xor2_0/a_28_44# 2 40 484 271
 n A3 bitslice_3/xor2_0/a_17_6# gnd 2 20 524 319
 n bitslice_3/xor2_0/a_28_44# gnd bitslice_3/xor2_0/a_33_6# 2 20 515 319
 n bitslice_3/xor2_0/a_17_6# bitslice_3/xor2_0/a_33_6# bitslice_3/Y 2 20 510 319
 n A3 bitslice_3/Y bitslice_3/xor2_0/a_50_6# 2 20 498 319
-n bitslice_3/subtract bitslice_3/xor2_0/a_50_6# gnd 2 20 493 319
-n bitslice_3/subtract gnd bitslice_3/xor2_0/a_28_44# 2 20 484 319
+n subtract bitslice_3/xor2_0/a_50_6# gnd 2 20 493 319
+n subtract gnd bitslice_3/xor2_0/a_28_44# 2 20 484 319
 p inverter_0/Y bitslice_2/dffpos_0/a_n34_n84# vdd 2 40 342 53
 p bitslice_2/sum vdd bitslice_2/dffpos_0/a_n19_n15# 2 20 350 33
 p inverter_0/Y bitslice_2/dffpos_0/a_n19_n15# bitslice_2/dffpos_0/a_n14_n84# 2 20 356 33
@@ -449,14 +449,14 @@ p A2 bitslice_2/xor2_0/a_17_6# vdd 2 40 369 271
 p bitslice_2/xor2_0/a_28_44# vdd bitslice_2/xor2_0/a_33_54# 2 40 360 271
 p A2 bitslice_2/xor2_0/a_33_54# bitslice_2/Y 2 40 355 271
 p bitslice_2/xor2_0/a_17_6# bitslice_2/Y bitslice_2/xor2_0/a_50_54# 2 40 343 271
-p bitslice_2/subtract bitslice_2/xor2_0/a_50_54# vdd 2 40 338 271
-p bitslice_2/subtract vdd bitslice_2/xor2_0/a_28_44# 2 40 329 271
+p subtract bitslice_2/xor2_0/a_50_54# vdd 2 40 338 271
+p subtract vdd bitslice_2/xor2_0/a_28_44# 2 40 329 271
 n A2 bitslice_2/xor2_0/a_17_6# gnd 2 20 369 319
 n bitslice_2/xor2_0/a_28_44# gnd bitslice_2/xor2_0/a_33_6# 2 20 360 319
 n bitslice_2/xor2_0/a_17_6# bitslice_2/xor2_0/a_33_6# bitslice_2/Y 2 20 355 319
 n A2 bitslice_2/Y bitslice_2/xor2_0/a_50_6# 2 20 343 319
-n bitslice_2/subtract bitslice_2/xor2_0/a_50_6# gnd 2 20 338 319
-n bitslice_2/subtract gnd bitslice_2/xor2_0/a_28_44# 2 20 329 319
+n subtract bitslice_2/xor2_0/a_50_6# gnd 2 20 338 319
+n subtract gnd bitslice_2/xor2_0/a_28_44# 2 20 329 319
 p inverter_0/Y bitslice_1/dffpos_0/a_n34_n84# vdd 2 40 188 53
 p bitslice_1/sum vdd bitslice_1/dffpos_0/a_n19_n15# 2 20 196 33
 p inverter_0/Y bitslice_1/dffpos_0/a_n19_n15# bitslice_1/dffpos_0/a_n14_n84# 2 20 202 33
@@ -525,14 +525,14 @@ p A1 bitslice_1/xor2_0/a_17_6# vdd 2 40 215 271
 p bitslice_1/xor2_0/a_28_44# vdd bitslice_1/xor2_0/a_33_54# 2 40 206 271
 p A1 bitslice_1/xor2_0/a_33_54# bitslice_1/Y 2 40 201 271
 p bitslice_1/xor2_0/a_17_6# bitslice_1/Y bitslice_1/xor2_0/a_50_54# 2 40 189 271
-p bitslice_1/subtract bitslice_1/xor2_0/a_50_54# vdd 2 40 184 271
-p bitslice_1/subtract vdd bitslice_1/xor2_0/a_28_44# 2 40 175 271
+p subtract bitslice_1/xor2_0/a_50_54# vdd 2 40 184 271
+p subtract vdd bitslice_1/xor2_0/a_28_44# 2 40 175 271
 n A1 bitslice_1/xor2_0/a_17_6# gnd 2 20 215 319
 n bitslice_1/xor2_0/a_28_44# gnd bitslice_1/xor2_0/a_33_6# 2 20 206 319
 n bitslice_1/xor2_0/a_17_6# bitslice_1/xor2_0/a_33_6# bitslice_1/Y 2 20 201 319
 n A1 bitslice_1/Y bitslice_1/xor2_0/a_50_6# 2 20 189 319
-n bitslice_1/subtract bitslice_1/xor2_0/a_50_6# gnd 2 20 184 319
-n bitslice_1/subtract gnd bitslice_1/xor2_0/a_28_44# 2 20 175 319
+n subtract bitslice_1/xor2_0/a_50_6# gnd 2 20 184 319
+n subtract gnd bitslice_1/xor2_0/a_28_44# 2 20 175 319
 p inverter_0/Y bitslice_0/dffpos_0/a_n34_n84# vdd 2 40 34 53
 p bitslice_0/sum vdd bitslice_0/dffpos_0/a_n19_n15# 2 20 42 33
 p inverter_0/Y bitslice_0/dffpos_0/a_n19_n15# bitslice_0/dffpos_0/a_n14_n84# 2 20 48 33
@@ -613,98 +613,100 @@ p loadR vdd inverter_0/A 2 20 -21 -18
 p clk inverter_0/A vdd 2 20 -13 -18
 n loadR gnd nand_0/a_9_6# 2 20 -21 -64
 n clk nand_0/a_9_6# inverter_0/A 2 20 -16 -64
-C vdd bitslice_0/xor2_0/a_28_44# 2.119800
-C bitslice_1/Cin bitslice_1/fa_0/a_70_6# 2.233260
-C vdd bitslice_0/xor2_0/a_17_6# 2.059560
-C vdd bitslice_6/mux21_0/nand_2/B 5.855850
-C vdd bitslice_5/xor2_0/a_17_6# 2.059560
-C bitslice_5/dffpos_0/a_30_n84# bitslice_5/dffpos_0/a_n34_n84# 2.081040
-C vdd bitslice_5/xor2_0/a_28_44# 2.119800
-C vdd bitslice_4/fa_0/a_25_6# 3.134880
-C gnd bitslice_3/sum 5.771640
-C bitslice_2/Cin bitslice_2/fa_0/a_70_6# 2.233260
-C bitslice_0/fa_0/a_70_6# subtract 2.233260
-C vdd bitslice_0/S 5.824079
-C vdd bitslice_4/mux21_0/nand_2/B 5.855850
-C vdd bitslice_3/xor2_0/a_17_6# 2.059560
-C vdd bitslice_6/fa_0/A 8.329680
-C vdd bitslice_3/xor2_0/a_28_44# 2.119800
-C vdd bitslice_2/fa_0/a_25_6# 3.134880
-C vdd bitslice_6/mux21_0/nand_1/B 2.097720
-C gnd bitslice_1/sum 5.771640
-C bitslice_7/Cin bitslice_7/fa_0/a_70_6# 2.233260
-C inverter_0/Y bitslice_6/dffpos_0/a_n34_n84# 2.571480
-C bitslice_4/dffpos_0/a_30_n84# bitslice_4/dffpos_0/a_n34_n84# 2.081040
-C bitslice_6/dffpos_0/a_30_n84# bitslice_6/dffpos_0/a_n34_n84# 2.081040
-C inverter_0/Y bitslice_5/dffpos_0/a_n34_n84# 2.571480
+C vdd bitslice_5/mux21_0/nand_2/B 5.855850
 C vdd bitslice_7/fa_0/a_25_6# 3.134880
-C inverter_0/Y bitslice_6/dffpos_0/a_n2_n86# 3.159600
-C vdd bitslice_2/mux21_0/nand_2/B 5.855850
-C vdd bitslice_1/xor2_0/a_17_6# 2.059560
-C bitslice_3/dffpos_0/a_30_n84# bitslice_3/dffpos_0/a_n34_n84# 2.081040
-C vdd bitslice_4/fa_0/A 8.329680
-C vdd bitslice_1/xor2_0/a_28_44# 2.119800
-C vdd bitslice_0/fa_0/a_25_6# 3.134880
-C vdd bitslice_4/mux21_0/nand_1/B 2.097720
+C vdd bitslice_4/xor2_0/a_17_6# 2.059560
+C bitslice_3/Cin bitslice_3/fa_0/a_70_6# 2.233260
+C vdd bitslice_4/xor2_0/a_28_44# 2.119800
+C vdd bitslice_3/fa_0/a_25_6# 3.134880
+C gnd bitslice_2/sum 5.771640
 C bitslice_7/dffpos_0/a_n34_n84# bitslice_7/dffpos_0/a_30_n84# 2.081040
 C vdd bitslice_7/mux21_0/nand_2/B 5.855850
-C inverter_0/Y bitslice_4/dffpos_0/a_n34_n84# 2.571480
-C vdd bitslice_5/fa_0/a_25_6# 3.134880
-C inverter_0/Y bitslice_3/dffpos_0/a_n34_n84# 2.571480
+C inverter_0/Y bitslice_6/dffpos_0/a_n34_n84# 2.571480
+C vdd bitslice_3/mux21_0/nand_2/B 5.855850
 C inverter_0/Y bitslice_7/dffpos_0/a_n2_n86# 3.159600
-C inverter_0/Y bitslice_4/dffpos_0/a_n2_n86# 3.159600
-C vdd bitslice_0/mux21_0/nand_2/B 5.855850
+C vdd bitslice_2/xor2_0/a_17_6# 2.059560
 C inverter_0/Y bitslice_7/dffpos_0/a_n34_n84# 2.571480
-C vdd bitslice_2/fa_0/A 8.329680
-C vdd bitslice_2/mux21_0/nand_1/B 2.097720
-C bitslice_5/Cin bitslice_5/fa_0/a_70_6# 2.233260
-C vdd bitslice_5/mux21_0/nand_2/B 5.855850
-C gnd bitslice_6/sum 5.771640
-C inverter_0/Y bitslice_2/dffpos_0/a_n34_n84# 2.571480
-C bitslice_2/dffpos_0/a_30_n84# bitslice_2/dffpos_0/a_n34_n84# 2.081040
-C vdd bitslice_7/fa_0/A 8.329680
-C inverter_0/Y bitslice_1/dffpos_0/a_n34_n84# 2.571480
-C vdd bitslice_3/fa_0/a_25_6# 3.134880
+C vdd bitslice_5/fa_0/A 8.329680
+C vdd bitslice_2/xor2_0/a_28_44# 2.119800
+C vdd bitslice_1/fa_0/a_25_6# 3.134880
+C vdd bitslice_5/mux21_0/nand_1/B 2.097720
+C gnd bitslice_0/sum 5.771640
+C bitslice_5/dffpos_0/a_30_n84# bitslice_5/dffpos_0/a_n34_n84# 2.081040
+C inverter_0/Y bitslice_5/dffpos_0/a_n34_n84# 2.571480
+C inverter_0/Y bitslice_4/dffpos_0/a_n34_n84# 2.571480
+C vdd bitslice_6/fa_0/a_25_6# 3.134880
 C inverter_0/Y bitslice_5/dffpos_0/a_n2_n86# 3.159600
+C bitslice_4/dffpos_0/a_30_n84# bitslice_4/dffpos_0/a_n34_n84# 2.081040
+C vdd bitslice_7/fa_0/A 8.329680
+C vdd bitslice_1/mux21_0/nand_2/B 5.855850
 C vdd bitslice_7/mux21_0/nand_1/B 2.097720
 C inverter_0/Y gnd 2.544000
-C inverter_0/Y bitslice_2/dffpos_0/a_n2_n86# 3.159600
+C vdd bitslice_0/xor2_0/a_17_6# 2.059560
+C bitslice_1/Cin bitslice_1/fa_0/a_70_6# 2.233260
+C vdd bitslice_3/fa_0/A 8.329680
+C vdd bitslice_0/xor2_0/a_28_44# 2.119800
+C vdd bitslice_3/mux21_0/nand_1/B 2.097720
+C vdd bitslice_6/mux21_0/nand_2/B 5.855850
+C inverter_0/Y bitslice_3/dffpos_0/a_n34_n84# 2.571480
+C subtract bitslice_0/fa_0/a_70_6# 2.233260
+C inverter_0/Y bitslice_2/dffpos_0/a_n34_n84# 2.571480
+C vdd bitslice_4/fa_0/a_25_6# 3.134880
+C inverter_0/Y bitslice_3/dffpos_0/a_n2_n86# 3.159600
 C bitslice_6/Cin bitslice_6/fa_0/a_70_6# 2.233260
+C vdd bitslice_1/fa_0/A 8.329680
+C vdd bitslice_1/mux21_0/nand_1/B 2.097720
+C bitslice_3/dffpos_0/a_30_n84# bitslice_3/dffpos_0/a_n34_n84# 2.081040
+C vdd bitslice_4/mux21_0/nand_2/B 5.855850
+C gnd bitslice_5/sum 5.771640
+C inverter_0/Y bitslice_1/dffpos_0/a_n34_n84# 2.571480
+C vdd bitslice_6/fa_0/A 8.329680
+C inverter_0/Y bitslice_0/dffpos_0/a_n34_n84# 2.571480
+C vdd bitslice_2/fa_0/a_25_6# 3.134880
+C inverter_0/Y bitslice_4/dffpos_0/a_n2_n86# 3.159600
+C vdd bitslice_6/mux21_0/nand_1/B 2.097720
+C bitslice_0/S gnd 4.844160
+C inverter_0/Y bitslice_1/dffpos_0/a_n2_n86# 3.159600
+C bitslice_2/dffpos_0/a_30_n84# bitslice_2/dffpos_0/a_n34_n84# 2.081040
+C bitslice_7/sum gnd 5.771640
+C bitslice_6/dffpos_0/a_30_n84# bitslice_6/dffpos_0/a_n34_n84# 2.081040
+C vdd bitslice_5/xor2_0/a_28_44# 2.119800
+C vdd bitslice_5/xor2_0/a_17_6# 2.059560
+C vdd bitslice_2/mux21_0/nand_2/B 5.855850
+C gnd bitslice_3/sum 5.771640
+C bitslice_0/S subtract 2.284920
+C inverter_0/Y bitslice_6/dffpos_0/a_n2_n86# 3.159600
+C vdd bitslice_4/fa_0/A 8.329680
+C inverter_0/Y vdd 11.673119
+C vdd bitslice_0/fa_0/a_25_6# 3.134880
+C inverter_0/Y bitslice_2/dffpos_0/a_n2_n86# 3.159600
+C vdd bitslice_4/mux21_0/nand_1/B 2.097720
+C vdd bitslice_7/xor2_0/a_28_44# 2.119800
+C vdd bitslice_7/xor2_0/a_17_6# 2.059560
+C bitslice_4/Cin bitslice_4/fa_0/a_70_6# 2.233260
+C vdd bitslice_3/xor2_0/a_28_44# 2.119800
 C bitslice_1/dffpos_0/a_30_n84# bitslice_1/dffpos_0/a_n34_n84# 2.081040
+C vdd bitslice_3/xor2_0/a_17_6# 2.059560
+C vdd bitslice_0/mux21_0/nand_2/B 5.855850
+C gnd bitslice_1/sum 5.771640
+C vdd bitslice_2/fa_0/A 8.329680
+C bitslice_5/Cin bitslice_5/fa_0/a_70_6# 2.233260
+C inverter_0/Y bitslice_0/dffpos_0/a_n2_n86# 3.159600
+C vdd bitslice_2/mux21_0/nand_1/B 2.097720
+C bitslice_0/dffpos_0/a_30_n84# bitslice_0/dffpos_0/a_n34_n84# 2.081040
+C gnd bitslice_6/sum 5.771640
+C vdd subtract 5.844720
+C vdd bitslice_1/xor2_0/a_28_44# 2.119800
+C vdd bitslice_1/xor2_0/a_17_6# 2.059560
+C vdd bitslice_0/S 5.824079
+C vdd bitslice_6/xor2_0/a_17_6# 2.059560
 C vdd bitslice_0/fa_0/A 8.329680
 C vdd bitslice_6/xor2_0/a_28_44# 2.119800
 C vdd bitslice_0/mux21_0/nand_1/B 2.097720
-C vdd bitslice_6/xor2_0/a_17_6# 2.059560
-C vdd bitslice_3/mux21_0/nand_2/B 5.855850
+C vdd bitslice_5/fa_0/a_25_6# 3.134880
 C gnd bitslice_4/sum 5.771640
-C inverter_0/Y bitslice_0/dffpos_0/a_n34_n84# 2.571480
-C vdd bitslice_5/fa_0/A 8.329680
-C vdd bitslice_1/fa_0/a_25_6# 3.134880
-C inverter_0/Y bitslice_3/dffpos_0/a_n2_n86# 3.159600
-C vdd bitslice_5/mux21_0/nand_1/B 2.097720
-C inverter_0/Y bitslice_0/dffpos_0/a_n2_n86# 3.159600
-C vdd bitslice_4/xor2_0/a_28_44# 2.119800
-C bitslice_3/Cin bitslice_3/fa_0/a_70_6# 2.233260
-C vdd bitslice_4/xor2_0/a_17_6# 2.059560
-C vdd bitslice_1/mux21_0/nand_2/B 5.855850
-C gnd bitslice_2/sum 5.771640
-C bitslice_0/dffpos_0/a_30_n84# bitslice_0/dffpos_0/a_n34_n84# 2.081040
-C bitslice_0/S gnd 4.844160
-C vdd bitslice_3/fa_0/A 8.329680
-C inverter_0/Y bitslice_1/dffpos_0/a_n2_n86# 3.159600
-C vdd bitslice_3/mux21_0/nand_1/B 2.097720
-C bitslice_7/sum gnd 5.771640
-C bitslice_4/Cin bitslice_4/fa_0/a_70_6# 2.233260
-C vdd bitslice_2/xor2_0/a_28_44# 2.119800
-C vdd bitslice_2/xor2_0/a_17_6# 2.059560
-C gnd bitslice_0/sum 5.771640
-C inverter_0/Y vdd 11.673119
-C vdd bitslice_7/xor2_0/a_17_6# 2.059560
-C vdd bitslice_1/fa_0/A 8.329680
-C vdd bitslice_7/xor2_0/a_28_44# 2.119800
-C vdd bitslice_1/mux21_0/nand_1/B 2.097720
-C vdd bitslice_6/fa_0/a_25_6# 3.134880
-C gnd bitslice_5/sum 5.771640
+C bitslice_2/Cin bitslice_2/fa_0/a_70_6# 2.233260
+C bitslice_7/Cin bitslice_7/fa_0/a_70_6# 2.233260
 R nand_0/a_9_6# 547
 R clk 949
 R loadR 910
@@ -714,8 +716,6 @@ R bitslice_0/xor2_0/a_50_54# 1367
 C bitslice_0/Y GND 18.021119
 R bitslice_0/Y 5522
 R bitslice_0/xor2_0/a_33_54# 1367
-C subtract GND 17.274240
-R subtract 6038
 C bitslice_0/xor2_0/a_17_6# GND 4.666380
 R bitslice_0/xor2_0/a_17_6# 2465
 C bitslice_0/xor2_0/a_28_44# GND 4.104630
@@ -774,8 +774,6 @@ R bitslice_1/xor2_0/a_50_54# 1367
 C bitslice_1/Y GND 18.021119
 R bitslice_1/Y 5522
 R bitslice_1/xor2_0/a_33_54# 1367
-C bitslice_1/subtract GND 2.071800
-R bitslice_1/subtract 2262
 C bitslice_1/xor2_0/a_17_6# GND 4.666380
 R bitslice_1/xor2_0/a_17_6# 2465
 C bitslice_1/xor2_0/a_28_44# GND 4.104630
@@ -835,8 +833,6 @@ R bitslice_2/xor2_0/a_50_54# 1367
 C bitslice_2/Y GND 18.021119
 R bitslice_2/Y 5522
 R bitslice_2/xor2_0/a_33_54# 1367
-C bitslice_2/subtract GND 2.071800
-R bitslice_2/subtract 2262
 C bitslice_2/xor2_0/a_17_6# GND 4.666380
 R bitslice_2/xor2_0/a_17_6# 2465
 C bitslice_2/xor2_0/a_28_44# GND 4.104630
@@ -896,8 +892,6 @@ R bitslice_3/xor2_0/a_50_54# 1367
 C bitslice_3/Y GND 18.021119
 R bitslice_3/Y 5522
 R bitslice_3/xor2_0/a_33_54# 1367
-C bitslice_3/subtract GND 2.071800
-R bitslice_3/subtract 2262
 C bitslice_3/xor2_0/a_17_6# GND 4.666380
 R bitslice_3/xor2_0/a_17_6# 2465
 C bitslice_3/xor2_0/a_28_44# GND 4.104630
@@ -957,8 +951,6 @@ R bitslice_4/xor2_0/a_50_54# 1367
 C bitslice_4/Y GND 18.021119
 R bitslice_4/Y 5522
 R bitslice_4/xor2_0/a_33_54# 1367
-C bitslice_4/subtract GND 2.071800
-R bitslice_4/subtract 2262
 C bitslice_4/xor2_0/a_17_6# GND 4.666380
 R bitslice_4/xor2_0/a_17_6# 2465
 C bitslice_4/xor2_0/a_28_44# GND 4.104630
@@ -1018,8 +1010,6 @@ R bitslice_5/xor2_0/a_50_54# 1367
 C bitslice_5/Y GND 18.021119
 R bitslice_5/Y 5522
 R bitslice_5/xor2_0/a_33_54# 1367
-C bitslice_5/subtract GND 2.071800
-R bitslice_5/subtract 2262
 C bitslice_5/xor2_0/a_17_6# GND 4.666380
 R bitslice_5/xor2_0/a_17_6# 2465
 C bitslice_5/xor2_0/a_28_44# GND 4.104630
@@ -1079,8 +1069,6 @@ R bitslice_6/xor2_0/a_50_54# 1367
 C bitslice_6/Y GND 18.021119
 R bitslice_6/Y 5522
 R bitslice_6/xor2_0/a_33_54# 1367
-C bitslice_6/subtract GND 2.071800
-R bitslice_6/subtract 2262
 C bitslice_6/xor2_0/a_17_6# GND 4.666380
 R bitslice_6/xor2_0/a_17_6# 2465
 C bitslice_6/xor2_0/a_28_44# GND 4.104630
@@ -1142,8 +1130,8 @@ R bitslice_7/xor2_0/a_50_54# 1367
 C bitslice_7/Y GND 18.021119
 R bitslice_7/Y 5522
 R bitslice_7/xor2_0/a_33_54# 1367
-C bitslice_7/subtract GND 2.071800
-R bitslice_7/subtract 2262
+C subtract GND 110.145023
+R subtract 22277
 C bitslice_7/xor2_0/a_17_6# GND 4.666380
 R bitslice_7/xor2_0/a_17_6# 2465
 C bitslice_7/xor2_0/a_28_44# GND 4.104630
@@ -1151,7 +1139,7 @@ R bitslice_7/xor2_0/a_28_44# 2348
 R A7 2563
 R bitslice_7/mux21_0/nand_0/a_9_6# 547
 R B7 950
-C bitslice_0/S GND 101.075797
+C bitslice_0/S GND 99.514125
 R bitslice_0/S 15410
 R bitslice_7/mux21_0/nand_1/a_9_6# 547
 C bitslice_7/fa_0/A GND 7.718070
