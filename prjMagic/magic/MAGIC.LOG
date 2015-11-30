@@ -1,0 +1,273 @@
+Starting magic under Tcl interpreter
+
+Magic 8.0 revision 209 - Compiled on Fri Sep 11 02:08:49 CDT 2015.
+Using the terminal as the console.
+Using NULL graphics device.
+Input style lambda=0.30(p): scaleFactor=30, multiplier=1
+/usr/local/lib/magic/sys/scmos.tech: line 6070: section drc:
+	OK types "space" in more than one plane.
+	Assuming same plane (active) as edge.
+Contact size value ignored (using GDS generation rules).
+Contact size value ignored (using GDS generation rules).
+Contact size value ignored (using GDS generation rules).
+Contact size value ignored (using GDS generation rules).
+Contact size value ignored (using GDS generation rules).
+Contact size value ignored (using GDS generation rules).
+Using technology "scmos", version 2000d.
+SCMOS: Submit as technology.lambda: SCN3ME_SUBM.30 [to process: AMIc5]
+Extended macros are unavailable with this device type.
+Processing system .magicrc file
+{}
+FreeSans
+FreeSerif
+FreeMono
+if {![catch {set Opts(tools)}]} { magic::enable_tools }
+: after#0
+set GND "gnd!"
+: gnd!
+set VDD "vdd!"
+: vdd!
+catch {source /usr/local/lib/magic/sys/site.def}
+: 1
+Extracting ../../dffpos/magic/dffpos into ../../dffpos/magic/dffpos.ext:
+Extracting ../../FA/magic/fa into ../../FA/magic/fa.ext:
+Extracting ../../inv/magic/inverter into ../../inv/magic/inverter.ext:
+Extracting ../../mux21/magic/mux21 into ../../mux21/magic/mux21.ext:
+../../mux21/magic/mux21: 2 warnings
+Extracting ../../XOR2/magic/xor2 into ../../XOR2/magic/xor2.ext:
+Extracting ../../bitslice/magic/bitslice into ../../bitslice/magic/bitslice.ext:
+../../bitslice/magic/bitslice: 5 warnings
+Extracting ../../nand/magic/nand into ../../nand/magic/nand.ext:
+Extracting prjMagic into prjMagic.ext:
+prjMagic: 30 warnings
+Total of 37 warnings.
+exttosim finished.
+Devices merged: 0
+exttosim finished.
+Devs merged: 0
+exttospice finished.
+Warning: character '.' changed to '_' in name ../../nand/magic/nand
+Warning: character '.' changed to '_' in name ../../nand/magic/nand
+Warning: character '/' changed to '_' in name ../../nand/magic/nand
+Warning: character '.' changed to '_' in name ../../nand/magic/nand
+Warning: character '.' changed to '_' in name ../../nand/magic/nand
+Warning: character '/' changed to '_' in name ../../nand/magic/nand
+Warning: character '/' changed to '_' in name ../../nand/magic/nand
+Warning: character '/' changed to '_' in name ../../nand/magic/nand
+Warning: characters changed in string '../../nand/magic/nand'; modified string is '______nand_magic_nand'
+Warning: character '.' changed to '_' in name ../../XOR2/magic/xor2
+Warning: character '.' changed to '_' in name ../../XOR2/magic/xor2
+Warning: character '/' changed to '_' in name ../../XOR2/magic/xor2
+Warning: character '.' changed to '_' in name ../../XOR2/magic/xor2
+Warning: character '.' changed to '_' in name ../../XOR2/magic/xor2
+Warning: character '/' changed to '_' in name ../../XOR2/magic/xor2
+Warning: character '/' changed to '_' in name ../../XOR2/magic/xor2
+Warning: character '/' changed to '_' in name ../../XOR2/magic/xor2
+Warning: characters changed in string '../../XOR2/magic/xor2'; modified string is '______XOR2_magic_xor2'
+Warning: character '.' changed to '_' in name ../../inv/magic/inverter
+Warning: character '.' changed to '_' in name ../../inv/magic/inverter
+Warning: character '/' changed to '_' in name ../../inv/magic/inverter
+Warning: character '.' changed to '_' in name ../../inv/magic/inverter
+Warning: character '.' changed to '_' in name ../../inv/magic/inverter
+Warning: character '/' changed to '_' in name ../../inv/magic/inverter
+Warning: character '/' changed to '_' in name ../../inv/magic/inverter
+Warning: character '/' changed to '_' in name ../../inv/magic/inverter
+Warning: characters changed in string '../../inv/magic/inverter'; modified string is '______inv_magic_inverter'
+Warning: character '.' changed to '_' in name ../../mux21/magic/mux21
+Warning: character '.' changed to '_' in name ../../mux21/magic/mux21
+Warning: character '/' changed to '_' in name ../../mux21/magic/mux21
+Warning: character '.' changed to '_' in name ../../mux21/magic/mux21
+Warning: character '.' changed to '_' in name ../../mux21/magic/mux21
+Warning: character '/' changed to '_' in name ../../mux21/magic/mux21
+Warning: character '/' changed to '_' in name ../../mux21/magic/mux21
+Warning: character '/' changed to '_' in name ../../mux21/magic/mux21
+Warning: characters changed in string '../../mux21/magic/mux21'; modified string is '______mux21_magic_mux21'
+Warning: character '.' changed to '_' in name ../../nand/magic/nand
+Warning: character '.' changed to '_' in name ../../nand/magic/nand
+Warning: character '/' changed to '_' in name ../../nand/magic/nand
+Warning: character '.' changed to '_' in name ../../nand/magic/nand
+Warning: character '.' changed to '_' in name ../../nand/magic/nand
+Warning: character '/' changed to '_' in name ../../nand/magic/nand
+Warning: character '/' changed to '_' in name ../../nand/magic/nand
+Warning: character '/' changed to '_' in name ../../nand/magic/nand
+Warning: characters changed in string '../../nand/magic/nand'; modified string is '______nand_magic_nand'
+Warning: character '.' changed to '_' in name ../../nand/magic/nand
+Warning: character '.' changed to '_' in name ../../nand/magic/nand
+Warning: character '/' changed to '_' in name ../../nand/magic/nand
+Warning: character '.' changed to '_' in name ../../nand/magic/nand
+Warning: character '.' changed to '_' in name ../../nand/magic/nand
+Warning: character '/' changed to '_' in name ../../nand/magic/nand
+Warning: character '/' changed to '_' in name ../../nand/magic/nand
+Warning: character '/' changed to '_' in name ../../nand/magic/nand
+Warning: characters changed in string '../../nand/magic/nand'; modified string is '______nand_magic_nand'
+Warning: character '.' changed to '_' in name ../../inv/magic/inverter
+Warning: character '.' changed to '_' in name ../../inv/magic/inverter
+Warning: character '/' changed to '_' in name ../../inv/magic/inverter
+Warning: character '.' changed to '_' in name ../../inv/magic/inverter
+Warning: character '.' changed to '_' in name ../../inv/magic/inverter
+Warning: character '/' changed to '_' in name ../../inv/magic/inverter
+Warning: character '/' changed to '_' in name ../../inv/magic/inverter
+Warning: character '/' changed to '_' in name ../../inv/magic/inverter
+Warning: characters changed in string '../../inv/magic/inverter'; modified string is '______inv_magic_inverter'
+Warning: character '.' changed to '_' in name ../../nand/magic/nand
+Warning: character '.' changed to '_' in name ../../nand/magic/nand
+Warning: character '/' changed to '_' in name ../../nand/magic/nand
+Warning: character '.' changed to '_' in name ../../nand/magic/nand
+Warning: character '.' changed to '_' in name ../../nand/magic/nand
+Warning: character '/' changed to '_' in name ../../nand/magic/nand
+Warning: character '/' changed to '_' in name ../../nand/magic/nand
+Warning: character '/' changed to '_' in name ../../nand/magic/nand
+Warning: characters changed in string '../../nand/magic/nand'; modified string is '______nand_magic_nand'
+Warning: character '.' changed to '_' in name ../../FA/magic/fa
+Warning: character '.' changed to '_' in name ../../FA/magic/fa
+Warning: character '/' changed to '_' in name ../../FA/magic/fa
+Warning: character '.' changed to '_' in name ../../FA/magic/fa
+Warning: character '.' changed to '_' in name ../../FA/magic/fa
+Warning: character '/' changed to '_' in name ../../FA/magic/fa
+Warning: character '/' changed to '_' in name ../../FA/magic/fa
+Warning: character '/' changed to '_' in name ../../FA/magic/fa
+Warning: characters changed in string '../../FA/magic/fa'; modified string is '______FA_magic_fa'
+Warning: character '.' changed to '_' in name ../../dffpos/magic/dffpos
+Warning: character '.' changed to '_' in name ../../dffpos/magic/dffpos
+Warning: character '/' changed to '_' in name ../../dffpos/magic/dffpos
+Warning: character '.' changed to '_' in name ../../dffpos/magic/dffpos
+Warning: character '.' changed to '_' in name ../../dffpos/magic/dffpos
+Warning: character '/' changed to '_' in name ../../dffpos/magic/dffpos
+Warning: character '/' changed to '_' in name ../../dffpos/magic/dffpos
+Warning: character '/' changed to '_' in name ../../dffpos/magic/dffpos
+Warning: characters changed in string '../../dffpos/magic/dffpos'; modified string is '______dffpos_magic_dffpos'
+Warning: character '.' changed to '_' in name ../../bitslice/magic/bitslice
+Warning: character '.' changed to '_' in name ../../bitslice/magic/bitslice
+Warning: character '/' changed to '_' in name ../../bitslice/magic/bitslice
+Warning: character '.' changed to '_' in name ../../bitslice/magic/bitslice
+Warning: character '.' changed to '_' in name ../../bitslice/magic/bitslice
+Warning: character '/' changed to '_' in name ../../bitslice/magic/bitslice
+Warning: character '/' changed to '_' in name ../../bitslice/magic/bitslice
+Warning: character '/' changed to '_' in name ../../bitslice/magic/bitslice
+Warning: characters changed in string '../../bitslice/magic/bitslice'; modified string is '______bitslice_magic_bitslice'
+Warning: character '.' changed to '_' in name ../../XOR2/magic/xor2
+Warning: character '.' changed to '_' in name ../../XOR2/magic/xor2
+Warning: character '/' changed to '_' in name ../../XOR2/magic/xor2
+Warning: character '.' changed to '_' in name ../../XOR2/magic/xor2
+Warning: character '.' changed to '_' in name ../../XOR2/magic/xor2
+Warning: character '/' changed to '_' in name ../../XOR2/magic/xor2
+Warning: character '/' changed to '_' in name ../../XOR2/magic/xor2
+Warning: character '/' changed to '_' in name ../../XOR2/magic/xor2
+Warning: characters changed in string '../../XOR2/magic/xor2'; modified string is '______XOR2_magic_xor2'
+Warning: character '.' changed to '_' in name ../../mux21/magic/mux21
+Warning: character '.' changed to '_' in name ../../mux21/magic/mux21
+Warning: character '/' changed to '_' in name ../../mux21/magic/mux21
+Warning: character '.' changed to '_' in name ../../mux21/magic/mux21
+Warning: character '.' changed to '_' in name ../../mux21/magic/mux21
+Warning: character '/' changed to '_' in name ../../mux21/magic/mux21
+Warning: character '/' changed to '_' in name ../../mux21/magic/mux21
+Warning: character '/' changed to '_' in name ../../mux21/magic/mux21
+Warning: characters changed in string '../../mux21/magic/mux21'; modified string is '______mux21_magic_mux21'
+Warning: character '.' changed to '_' in name ../../FA/magic/fa
+Warning: character '.' changed to '_' in name ../../FA/magic/fa
+Warning: character '/' changed to '_' in name ../../FA/magic/fa
+Warning: character '.' changed to '_' in name ../../FA/magic/fa
+Warning: character '.' changed to '_' in name ../../FA/magic/fa
+Warning: character '/' changed to '_' in name ../../FA/magic/fa
+Warning: character '/' changed to '_' in name ../../FA/magic/fa
+Warning: character '/' changed to '_' in name ../../FA/magic/fa
+Warning: characters changed in string '../../FA/magic/fa'; modified string is '______FA_magic_fa'
+Warning: character '.' changed to '_' in name ../../dffpos/magic/dffpos
+Warning: character '.' changed to '_' in name ../../dffpos/magic/dffpos
+Warning: character '/' changed to '_' in name ../../dffpos/magic/dffpos
+Warning: character '.' changed to '_' in name ../../dffpos/magic/dffpos
+Warning: character '.' changed to '_' in name ../../dffpos/magic/dffpos
+Warning: character '/' changed to '_' in name ../../dffpos/magic/dffpos
+Warning: character '/' changed to '_' in name ../../dffpos/magic/dffpos
+Warning: character '/' changed to '_' in name ../../dffpos/magic/dffpos
+Warning: characters changed in string '../../dffpos/magic/dffpos'; modified string is '______dffpos_magic_dffpos'
+Warning: character '.' changed to '_' in name ../../nand/magic/nand
+Warning: character '.' changed to '_' in name ../../nand/magic/nand
+Warning: character '/' changed to '_' in name ../../nand/magic/nand
+Warning: character '.' changed to '_' in name ../../nand/magic/nand
+Warning: character '.' changed to '_' in name ../../nand/magic/nand
+Warning: character '/' changed to '_' in name ../../nand/magic/nand
+Warning: character '/' changed to '_' in name ../../nand/magic/nand
+Warning: character '/' changed to '_' in name ../../nand/magic/nand
+Warning: characters changed in string '../../nand/magic/nand'; modified string is '______nand_magic_nand'
+Warning: character '.' changed to '_' in name ../../bitslice/magic/bitslice
+Warning: character '.' changed to '_' in name ../../bitslice/magic/bitslice
+Warning: character '/' changed to '_' in name ../../bitslice/magic/bitslice
+Warning: character '.' changed to '_' in name ../../bitslice/magic/bitslice
+Warning: character '.' changed to '_' in name ../../bitslice/magic/bitslice
+Warning: character '/' changed to '_' in name ../../bitslice/magic/bitslice
+Warning: character '/' changed to '_' in name ../../bitslice/magic/bitslice
+Warning: character '/' changed to '_' in name ../../bitslice/magic/bitslice
+Warning: characters changed in string '../../bitslice/magic/bitslice'; modified string is '______bitslice_magic_bitslice'
+Warning: character '.' changed to '_' in name ../../bitslice/magic/bitslice
+Warning: character '.' changed to '_' in name ../../bitslice/magic/bitslice
+Warning: character '/' changed to '_' in name ../../bitslice/magic/bitslice
+Warning: character '.' changed to '_' in name ../../bitslice/magic/bitslice
+Warning: character '.' changed to '_' in name ../../bitslice/magic/bitslice
+Warning: character '/' changed to '_' in name ../../bitslice/magic/bitslice
+Warning: character '/' changed to '_' in name ../../bitslice/magic/bitslice
+Warning: character '/' changed to '_' in name ../../bitslice/magic/bitslice
+Warning: characters changed in string '../../bitslice/magic/bitslice'; modified string is '______bitslice_magic_bitslice'
+Warning: character '.' changed to '_' in name ../../bitslice/magic/bitslice
+Warning: character '.' changed to '_' in name ../../bitslice/magic/bitslice
+Warning: character '/' changed to '_' in name ../../bitslice/magic/bitslice
+Warning: character '.' changed to '_' in name ../../bitslice/magic/bitslice
+Warning: character '.' changed to '_' in name ../../bitslice/magic/bitslice
+Warning: character '/' changed to '_' in name ../../bitslice/magic/bitslice
+Warning: character '/' changed to '_' in name ../../bitslice/magic/bitslice
+Warning: character '/' changed to '_' in name ../../bitslice/magic/bitslice
+Warning: characters changed in string '../../bitslice/magic/bitslice'; modified string is '______bitslice_magic_bitslice'
+Warning: character '.' changed to '_' in name ../../bitslice/magic/bitslice
+Warning: character '.' changed to '_' in name ../../bitslice/magic/bitslice
+Warning: character '/' changed to '_' in name ../../bitslice/magic/bitslice
+Warning: character '.' changed to '_' in name ../../bitslice/magic/bitslice
+Warning: character '.' changed to '_' in name ../../bitslice/magic/bitslice
+Warning: character '/' changed to '_' in name ../../bitslice/magic/bitslice
+Warning: character '/' changed to '_' in name ../../bitslice/magic/bitslice
+Warning: character '/' changed to '_' in name ../../bitslice/magic/bitslice
+Warning: characters changed in string '../../bitslice/magic/bitslice'; modified string is '______bitslice_magic_bitslice'
+Warning: character '.' changed to '_' in name ../../bitslice/magic/bitslice
+Warning: character '.' changed to '_' in name ../../bitslice/magic/bitslice
+Warning: character '/' changed to '_' in name ../../bitslice/magic/bitslice
+Warning: character '.' changed to '_' in name ../../bitslice/magic/bitslice
+Warning: character '.' changed to '_' in name ../../bitslice/magic/bitslice
+Warning: character '/' changed to '_' in name ../../bitslice/magic/bitslice
+Warning: character '/' changed to '_' in name ../../bitslice/magic/bitslice
+Warning: character '/' changed to '_' in name ../../bitslice/magic/bitslice
+Warning: characters changed in string '../../bitslice/magic/bitslice'; modified string is '______bitslice_magic_bitslice'
+Warning: character '.' changed to '_' in name ../../bitslice/magic/bitslice
+Warning: character '.' changed to '_' in name ../../bitslice/magic/bitslice
+Warning: character '/' changed to '_' in name ../../bitslice/magic/bitslice
+Warning: character '.' changed to '_' in name ../../bitslice/magic/bitslice
+Warning: character '.' changed to '_' in name ../../bitslice/magic/bitslice
+Warning: character '/' changed to '_' in name ../../bitslice/magic/bitslice
+Warning: character '/' changed to '_' in name ../../bitslice/magic/bitslice
+Warning: character '/' changed to '_' in name ../../bitslice/magic/bitslice
+Warning: characters changed in string '../../bitslice/magic/bitslice'; modified string is '______bitslice_magic_bitslice'
+Warning: character '.' changed to '_' in name ../../bitslice/magic/bitslice
+Warning: character '.' changed to '_' in name ../../bitslice/magic/bitslice
+Warning: character '/' changed to '_' in name ../../bitslice/magic/bitslice
+Warning: character '.' changed to '_' in name ../../bitslice/magic/bitslice
+Warning: character '.' changed to '_' in name ../../bitslice/magic/bitslice
+Warning: character '/' changed to '_' in name ../../bitslice/magic/bitslice
+Warning: character '/' changed to '_' in name ../../bitslice/magic/bitslice
+Warning: character '/' changed to '_' in name ../../bitslice/magic/bitslice
+Warning: characters changed in string '../../bitslice/magic/bitslice'; modified string is '______bitslice_magic_bitslice'
+Warning: character '.' changed to '_' in name ../../bitslice/magic/bitslice
+Warning: character '.' changed to '_' in name ../../bitslice/magic/bitslice
+Warning: character '/' changed to '_' in name ../../bitslice/magic/bitslice
+Warning: character '.' changed to '_' in name ../../bitslice/magic/bitslice
+Warning: character '.' changed to '_' in name ../../bitslice/magic/bitslice
+Warning: character '/' changed to '_' in name ../../bitslice/magic/bitslice
+Warning: character '/' changed to '_' in name ../../bitslice/magic/bitslice
+Warning: character '/' changed to '_' in name ../../bitslice/magic/bitslice
+Warning: characters changed in string '../../bitslice/magic/bitslice'; modified string is '______bitslice_magic_bitslice'
+Warning: character '.' changed to '_' in name ../../inv/magic/inverter
+Warning: character '.' changed to '_' in name ../../inv/magic/inverter
+Warning: character '/' changed to '_' in name ../../inv/magic/inverter
+Warning: character '.' changed to '_' in name ../../inv/magic/inverter
+Warning: character '.' changed to '_' in name ../../inv/magic/inverter
+Warning: character '/' changed to '_' in name ../../inv/magic/inverter
+Warning: character '/' changed to '_' in name ../../inv/magic/inverter
+Warning: character '/' changed to '_' in name ../../inv/magic/inverter
+Warning: characters changed in string '../../inv/magic/inverter'; modified string is '______inv_magic_inverter'

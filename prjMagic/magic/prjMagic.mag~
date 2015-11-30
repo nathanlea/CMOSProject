@@ -1,0 +1,36 @@
+magic
+tech scmos
+timestamp 1448739425
+use ../bitslice/magic/bitslice  bitslice_0 ../bitslice/magic
+timestamp 1448297780
+transform 1 0 107 0 1 203
+box -107 -203 47 192
+use ../bitslice/magic/bitslice  bitslice_1
+timestamp 1448297780
+transform 1 0 261 0 1 203
+box -107 -203 47 192
+use ../bitslice/magic/bitslice  bitslice_2
+timestamp 1448297780
+transform 1 0 415 0 1 203
+box -107 -203 47 192
+use ../bitslice/magic/bitslice  bitslice_3
+timestamp 1448297780
+transform 1 0 570 0 1 203
+box -107 -203 47 192
+use ../bitslice/magic/bitslice  bitslice_4
+timestamp 1448297780
+transform 1 0 725 0 1 203
+box -107 -203 47 192
+use ../bitslice/magic/bitslice  bitslice_5
+timestamp 1448297780
+transform 1 0 879 0 1 203
+box -107 -203 47 192
+use ../bitslice/magic/bitslice  bitslice_6
+timestamp 1448297780
+transform 1 0 1033 0 1 203
+box -107 -203 47 192
+use ../bitslice/magic/bitslice  bitslice_7
+timestamp 1448297780
+transform 1 0 1187 0 1 203
+box -107 -203 47 192
+<< end >>

@@ -1,0 +1,245 @@
+timestamp 1448901321
+version 8.0
+tech scmos
+style AMI0.5um(amic5)from:T01X
+scale 1000 1 30
+resistclasses 82100 102500 827000 827000 1 26000 26500 26500 90 90 50
+use ../../nand/magic/nand nand_0 1 0 -28 0 1 -70
+use ../../bitslice/magic/bitslice bitslice_0 1 0 107 0 1 203
+use ../../bitslice/magic/bitslice bitslice_1 1 0 261 0 1 203
+use ../../bitslice/magic/bitslice bitslice_2 1 0 415 0 1 203
+use ../../bitslice/magic/bitslice bitslice_3 1 0 570 0 1 203
+use ../../bitslice/magic/bitslice bitslice_4 1 0 725 0 1 203
+use ../../bitslice/magic/bitslice bitslice_5 1 0 879 0 1 203
+use ../../bitslice/magic/bitslice bitslice_6 1 0 1033 0 1 203
+use ../../bitslice/magic/bitslice bitslice_7 1 0 1187 0 1 203
+use ../../inv/magic/inverter inverter_0 1 0 4 0 1 -72
+node "Cout" 0 302.04 1230 142 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12 14 0 0
+node "A7" 0 393.66 1131 331 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 18 18 0 0
+node "A6" 0 393.66 977 331 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 18 18 0 0
+node "A5" 0 347.85 823 331 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 15 16 0 0
+node "A4" 0 393.66 669 331 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 18 18 0 0
+node "A3" 0 393.66 514 331 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 18 18 0 0
+node "A2" 0 439.47 359 331 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 21 20 0 0
+node "A1" 0 439.47 207 331 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 21 20 0 0
+node "A0" 0 302.04 53 331 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12 14 0 0
+node "gnd" 1 4111.2 -32 -73 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 336 124 0 0 0 0
+node "m1_n8_n47#" 0 1004.4 -8 -47 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 45 36 0 0 0 0
+node "loadR" 0 601.2 -32 -41 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 24 22 0 0 0 0
+node "clk" 0 601.2 -32 -34 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 24 22 0 0 0 0
+node "m1_14_n38#" 35 55714.1 14 -38 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 260 138 3378 2256 0 0
+node "vdd" 19 84891.6 -32 5 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7422 2486 0 0 0 0
+equiv "vdd" "vdd"
+equiv "vdd" "vdd"
+node "Out7" 0 493.2 1224 54 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20 18 0 0 0 0
+node "Out6" 0 493.2 1070 54 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20 18 0 0 0 0
+node "Out5" 0 554.4 915 54 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 24 20 0 0 0 0
+node "Out4" 0 493.2 762 54 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20 18 0 0 0 0
+node "Out3" 0 493.2 607 54 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20 18 0 0 0 0
+node "Out2" 0 554.4 451 54 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 24 20 0 0 0 0
+node "Out1" 0 676.8 295 54 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 32 24 0 0 0 0
+node "Out0" 0 615.6 142 54 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 28 22 0 0 0 0
+node "gnd" 1 13402.8 1093 106 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1890 282 0 0 0 0
+node "gnd" 1 13402.8 939 106 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1890 282 0 0 0 0
+node "gnd" 1 13402.8 785 106 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1890 282 0 0 0 0
+node "gnd" 1 13402.8 631 106 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1890 282 0 0 0 0
+node "gnd" 1 13402.8 476 106 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1890 282 0 0 0 0
+node "gnd" 1 13402.8 321 106 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1890 282 0 0 0 0
+node "gnd" 1 13402.8 167 106 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1890 282 0 0 0 0
+node "gnd" 1 13402.8 13 106 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1890 282 0 0 0 0
+node "m1_1087_171#" 1 2641.23 1087 171 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 165 96 0 0
+node "m1_933_171#" 1 2595.42 933 171 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 162 94 0 0
+node "m1_779_171#" 1 2595.42 779 171 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 162 94 0 0
+node "m1_625_171#" 1 2687.04 625 171 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 168 98 0 0
+node "m1_470_171#" 1 2641.23 470 171 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 165 96 0 0
+node "m1_315_171#" 1 2641.23 315 171 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 165 96 0 0
+node "m1_161_171#" 1 2641.23 161 171 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 165 96 0 0
+node "vdd" 1 13291.2 1091 215 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1820 288 0 0 0 0
+node "vdd" 1 13291.2 937 215 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1820 288 0 0 0 0
+node "vdd" 1 13291.2 783 215 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1820 288 0 0 0 0
+node "vdd" 1 13291.2 629 215 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1820 288 0 0 0 0
+node "vdd" 1 13291.2 474 215 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1820 288 0 0 0 0
+node "vdd" 1 13291.2 319 215 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1820 288 0 0 0 0
+node "vdd" 1 13291.2 165 215 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1820 288 0 0 0 0
+node "vdd" 1 13291.2 11 215 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1820 288 0 0 0 0
+node "subtract" 3 8902.8 -6 171 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 562 294 0 0 0 0
+node "gnd" 1 6861.6 1151 303 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 840 164 0 0 0 0
+node "gnd" 1 6861.6 997 303 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 840 164 0 0 0 0
+node "gnd" 1 6861.6 843 303 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 840 164 0 0 0 0
+node "gnd" 1 6861.6 689 303 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 840 164 0 0 0 0
+node "gnd" 1 6861.6 534 303 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 840 164 0 0 0 0
+node "gnd" 1 6861.6 379 303 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 840 164 0 0 0 0
+node "gnd" 1 6771.6 226 303 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 828 162 0 0 0 0
+node "gnd" 2 11944.8 11 323 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1264 316 0 0 0 0
+node "m1_1131_341#" 4 6252.21 1131 341 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 379 256 0 0
+node "m1_977_341#" 4 6252.21 977 341 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 379 256 0 0
+node "m1_823_341#" 4 6252.21 823 341 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 379 256 0 0
+node "m1_669_341#" 4 6389.64 669 341 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 388 262 0 0
+node "m1_514_341#" 4 6262.56 514 341 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 384 256 0 0
+node "m1_359_341#" 3 6761.61 359 341 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20 18 523 264 0 0
+node "m1_205_341#" 4 6291.54 205 341 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 398 256 0 0
+node "B7" 0 486 1131 348 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 18 18 0 0 0 0
+node "B6" 0 486 977 348 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 18 18 0 0 0 0
+node "B5" 0 428.4 823 348 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 15 16 0 0 0 0
+node "B4" 0 486 669 348 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 18 18 0 0 0 0
+node "B3" 0 658.8 514 348 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 27 24 0 0 0 0
+node "B2" 0 543.6 359 348 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 21 20 0 0 0 0
+node "B1" 0 543.6 205 348 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 21 20 0 0 0 0
+node "vdd" 17 78530.4 77 387 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6864 2300 0 0 0 0
+equiv "vdd" "vdd"
+cap "vdd" "nand_0/a_9_52#" -5.68434e-14
+cap "bitslice_0/fa_0/B" "bitslice_0/Cin" 48.96
+cap "bitslice_0/Cout" "bitslice_1/Y" 48.96
+cap "bitslice_2/fa_0/B" "bitslice_1/Cout" 48.96
+cap "bitslice_3/fa_0/B" "bitslice_2/Cout" 48.96
+cap "bitslice_4/fa_0/B" "bitslice_3/Cout" 48.96
+cap "bitslice_5/fa_0/B" "bitslice_4/Cout" 48.96
+cap "bitslice_6/fa_0/B" "bitslice_5/Cout" 48.96
+cap "bitslice_7/fa_0/B" "bitslice_6/Cout" 48.96
+cap "vdd" "bitslice_0/mux21_0/S" 22.77
+cap "bitslice_0/mux21_0/S" "bitslice_0/mux21_0/out" 27.54
+cap "bitslice_0/mux21_0/S" "bitslice_0/mux21_0/nand_1/B" 266.22
+cap "bitslice_1/S" "bitslice_1/mux21_0/nand_1/B" 192.78
+cap "bitslice_1/vdd" "bitslice_1/S" 2.07
+cap "bitslice_1/mux21_0/out" "bitslice_2/S" 27.54
+cap "bitslice_1/mux21_0/nand_1/B" "bitslice_2/S" 146.88
+cap "bitslice_2/S" "bitslice_1/vdd" 16.56
+cap "bitslice_2/S" "bitslice_2/mux21_0/out" 27.54
+cap "bitslice_2/S" "bitslice_2/mux21_0/nand_1/B" 267.12
+cap "bitslice_2/S" "bitslice_2/mux21_0/nand_1/A" 3.96
+cap "bitslice_2/vdd" "bitslice_2/S" 78.66
+cap "bitslice_3/S" "bitslice_3/mux21_0/nand_1/B" 107.1
+cap "bitslice_3/vdd" "bitslice_3/S" 2.07
+cap "bitslice_3/mux21_0/out" "bitslice_3/mux21_0/S" 27.54
+cap "bitslice_3/mux21_0/nand_1/B" "bitslice_3/mux21_0/S" 156.96
+cap "bitslice_3/mux21_0/nand_1/A" "bitslice_3/mux21_0/S" 3.96
+cap "vdd" "bitslice_3/mux21_0/S" 76.59
+cap "bitslice_4/S" "bitslice_4/mux21_0/out" 27.54
+cap "bitslice_4/S" "bitslice_4/mux21_0/nand_1/B" 330.48
+cap "bitslice_4/vdd" "bitslice_4/S" 16.56
+cap "bitslice_5/mux21_0/nand_1/B" "bitslice_5/mux21_0/S" 330.48
+cap "bitslice_5/mux21_0/S" "bitslice_5/vdd" 16.56
+cap "bitslice_5/mux21_0/out" "bitslice_5/mux21_0/S" 27.54
+cap "bitslice_6/S" "bitslice_6/mux21_0/out" 27.54
+cap "bitslice_6/S" "bitslice_6/mux21_0/nand_1/B" 330.48
+cap "bitslice_6/vdd" "bitslice_6/S" 16.56
+merge "bitslice_6/mux21_0/nand_2/gnd" "bitslice_3/mux21_0/gnd" -148817 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16287 -3854 0 0 0 0
+merge "bitslice_3/mux21_0/gnd" "bitslice_1/mux21_0/nand_1/gnd"
+merge "bitslice_1/mux21_0/nand_1/gnd" "bitslice_0/xor2_0/gnd"
+merge "bitslice_0/xor2_0/gnd" "bitslice_4/fa_0/gnd"
+merge "bitslice_4/fa_0/gnd" "bitslice_2/fa_0/gnd"
+merge "bitslice_2/fa_0/gnd" "bitslice_0/fa_0/gnd"
+merge "bitslice_0/fa_0/gnd" "bitslice_7/fa_0/gnd"
+merge "bitslice_7/fa_0/gnd" "bitslice_7/gnd"
+merge "bitslice_7/gnd" "bitslice_6/gnd"
+merge "bitslice_6/gnd" "bitslice_6/fa_0/gnd"
+merge "bitslice_6/fa_0/gnd" "bitslice_5/fa_0/gnd"
+merge "bitslice_5/fa_0/gnd" "bitslice_5/gnd"
+merge "bitslice_5/gnd" "bitslice_4/gnd"
+merge "bitslice_4/gnd" "bitslice_3/fa_0/gnd"
+merge "bitslice_3/fa_0/gnd" "bitslice_3/gnd"
+merge "bitslice_3/gnd" "bitslice_2/gnd"
+merge "bitslice_2/gnd" "bitslice_1/gnd"
+merge "bitslice_1/gnd" "bitslice_1/fa_0/gnd"
+merge "bitslice_1/fa_0/gnd" "bitslice_0/dffpos_0/gnd"
+merge "bitslice_0/dffpos_0/gnd" "bitslice_0/gnd"
+merge "bitslice_0/gnd" "inverter_0/gnd"
+merge "inverter_0/gnd" "nand_0/gnd"
+merge "nand_0/gnd" "gnd"
+merge "bitslice_7/Cin" "bitslice_6/Cout" -717.48 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 12 -14 0 0
+merge "bitslice_6/Cout" "bitslice_6/fa_0/Cout"
+merge "bitslice_6/fa_0/Cout" "m1_1087_171#"
+merge "bitslice_1/B" "B1" -543.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -21 -20 0 0 0 0
+merge "bitslice_7/mux21_0/nand_0/vdd" "bitslice_5/mux21_0/nand_0/vdd" -204278 0 0 0 0 0 -90 0 0 0 0 0 0 0 0 0 0 -22580 -5256 0 0 0 0
+merge "bitslice_5/mux21_0/nand_0/vdd" "bitslice_7/mux21_0/vdd"
+merge "bitslice_7/mux21_0/vdd" "bitslice_6/mux21_0/nand_2/vdd"
+merge "bitslice_6/mux21_0/nand_2/vdd" "bitslice_6/fa_0/vdd"
+merge "bitslice_6/fa_0/vdd" "bitslice_5/mux21_0/vdd"
+merge "bitslice_5/mux21_0/vdd" "bitslice_4/fa_0/vdd"
+merge "bitslice_4/fa_0/vdd" "bitslice_3/mux21_0/vdd"
+merge "bitslice_3/mux21_0/vdd" "bitslice_2/xor2_0/vdd"
+merge "bitslice_2/xor2_0/vdd" "bitslice_1/mux21_0/vdd"
+merge "bitslice_1/mux21_0/vdd" "bitslice_1/fa_0/vdd"
+merge "bitslice_1/fa_0/vdd" "bitslice_7/vdd"
+merge "bitslice_7/vdd" "bitslice_6/vdd"
+merge "bitslice_6/vdd" "bitslice_6/dffpos_0/vdd"
+merge "bitslice_6/dffpos_0/vdd" "bitslice_5/dffpos_0/vdd"
+merge "bitslice_5/dffpos_0/vdd" "bitslice_5/vdd"
+merge "bitslice_5/vdd" "bitslice_4/vdd"
+merge "bitslice_4/vdd" "bitslice_4/dffpos_0/vdd"
+merge "bitslice_4/dffpos_0/vdd" "bitslice_3/dffpos_0/vdd"
+merge "bitslice_3/dffpos_0/vdd" "bitslice_3/vdd"
+merge "bitslice_3/vdd" "bitslice_2/vdd"
+merge "bitslice_2/vdd" "bitslice_2/dffpos_0/vdd"
+merge "bitslice_2/dffpos_0/vdd" "bitslice_1/dffpos_0/vdd"
+merge "bitslice_1/dffpos_0/vdd" "bitslice_1/vdd"
+merge "bitslice_1/vdd" "inverter_0/vdd"
+merge "inverter_0/vdd" "bitslice_0/vdd"
+merge "bitslice_0/vdd" "nand_0/vdd"
+merge "nand_0/vdd" "vdd"
+merge "bitslice_7/S" "bitslice_6/S" -1424.79 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -32 -12 -14 0 0
+merge "bitslice_6/S" "bitslice_5/mux21_0/S"
+merge "bitslice_5/mux21_0/S" "bitslice_5/S"
+merge "bitslice_5/S" "bitslice_4/S"
+merge "bitslice_4/S" "bitslice_3/mux21_0/S"
+merge "bitslice_3/mux21_0/S" "bitslice_3/S"
+merge "bitslice_3/S" "bitslice_2/S"
+merge "bitslice_2/S" "bitslice_1/S"
+merge "bitslice_1/S" "bitslice_0/mux21_0/S"
+merge "bitslice_0/mux21_0/S" "m1_205_341#"
+merge "m1_205_341#" "m1_359_341#"
+merge "m1_359_341#" "m1_514_341#"
+merge "m1_514_341#" "m1_669_341#"
+merge "m1_669_341#" "m1_823_341#"
+merge "m1_823_341#" "m1_977_341#"
+merge "m1_977_341#" "m1_1131_341#"
+merge "bitslice_2/B" "B2" -522 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -15 -20 0 0 0 0
+merge "bitslice_1/A" "A1" -381.51 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7 -20 0 0
+merge "bitslice_7/clk" "bitslice_6/clk" -16492 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 -948 -712 0 0
+merge "bitslice_6/clk" "bitslice_5/clk"
+merge "bitslice_5/clk" "bitslice_4/clk"
+merge "bitslice_4/clk" "bitslice_3/clk"
+merge "bitslice_3/clk" "bitslice_2/clk"
+merge "bitslice_2/clk" "bitslice_1/clk"
+merge "bitslice_1/clk" "inverter_0/Y"
+merge "inverter_0/Y" "bitslice_0/clk"
+merge "bitslice_0/clk" "m1_14_n38#"
+merge "bitslice_4/Cin" "bitslice_3/Cout" -767.16 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 -12 -14 0 0
+merge "bitslice_3/Cout" "m1_625_171#"
+merge "bitslice_3/B" "B3" -658.8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -27 -24 0 0 0 0
+merge "bitslice_2/out" "Out2" -554.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -24 -20 0 0 0 0
+merge "bitslice_4/B" "B4" -475.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -15 -18 0 0 0 0
+merge "bitslice_5/B" "B5" -428.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -15 -16 0 0 0 0
+merge "bitslice_5/A" "A5" -306.45 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 -16 0 0
+merge "bitslice_6/B" "B6" -486 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -18 -18 0 0 0 0
+merge "bitslice_7/B" "B7" -486 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -18 -18 0 0 0 0
+merge "bitslice_3/Cin" "bitslice_2/Cout" -741.69 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -16 9 -12 0 0
+merge "bitslice_2/Cout" "m1_470_171#"
+merge "bitslice_6/out" "Out6" -464.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -12 -18 0 0 0 0
+merge "inverter_0/A" "nand_0/a_9_52#" -626.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -18 -24 0 0 0 0
+merge "nand_0/a_9_52#" "m1_n8_n47#"
+merge "bitslice_0/A" "A0" -268.92 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 -14 0 0
+merge "bitslice_1/Cin" "bitslice_0/Cout" -767.16 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 -12 -14 0 0
+merge "bitslice_0/Cout" "m1_161_171#"
+merge "bitslice_2/Cin" "bitslice_1/Cout" -767.16 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 -12 -14 0 0
+merge "bitslice_1/Cout" "m1_315_171#"
+merge "nand_0/A" "loadR" -601.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -24 -22 0 0 0 0
+merge "bitslice_3/out" "Out3" -493.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20 -18 0 0 0 0
+merge "bitslice_4/A" "A4" -346.05 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 -18 0 0
+merge "bitslice_5/Cin" "bitslice_4/Cout" -715.14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 -6 -12 0 0
+merge "bitslice_4/Cout" "m1_779_171#"
+merge "bitslice_0/out" "Out0" -615.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -28 -22 0 0 0 0
+merge "bitslice_7/out" "Out7" -493.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20 -18 0 0 0 0
+merge "bitslice_7/Cout" "Cout" -302.04 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -12 -14 0 0
+merge "bitslice_3/A" "A3" -343.98 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6 -18 0 0
+merge "bitslice_4/out" "Out4" -478.8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -18 0 0 0 0
+merge "bitslice_7/A" "A7" -343.98 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6 -18 0 0
+merge "nand_0/B" "clk" -601.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -24 -22 0 0 0 0
+merge "bitslice_6/Cin" "bitslice_5/Cout" -721.35 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 -9 -12 0 0
+merge "bitslice_5/Cout" "m1_933_171#"
+merge "bitslice_2/A" "A2" -385.65 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 -20 0 0
+merge "bitslice_0/subtract" "bitslice_0/Cin" -799.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -27 -30 0 0 0 0
+merge "bitslice_0/Cin" "subtract"
+merge "bitslice_1/out" "Out1" -676.8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -24 0 0 0 0
+merge "bitslice_6/A" "A6" -343.98 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6 -18 0 0
+merge "bitslice_5/out" "Out5" -554.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -24 -20 0 0 0 0
