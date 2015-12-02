@@ -1,571 +1,571 @@
 
 Subcircuit summary:
-Circuit 1: ../prjMagic/magic/prjMagic_noRC |Circuit 2: ../sue/project.sim              
+Circuit 1: ../sue/project.sim              |Circuit 2: ../prjMagic/magic/prjMagic_noRC 
 -------------------------------------------|-------------------------------------------
-p (307)                                    |p (307)                                    
 n (307)                                    |n (307)                                    
+p (307)                                    |p (307)                                    
 Number of devices: 614                     |Number of devices: 614                     
 Number of nets: 353                        |Number of nets: 353                        
 ---------------------------------------------------------------------------------------
 NET mismatches: Class fragments follow (with fanout counts):
-Circuit 1: ../prjMagic/magic/prjMagic_noRC |Circuit 2: ../sue/project.sim              
+Circuit 1: ../sue/project.sim              |Circuit 2: ../prjMagic/magic/prjMagic_noRC 
 
 ---------------------------------------------------------------------------------------
-Net: bitslice_0/fa_0/a_25_6#               |Net: bitslice_7.FA.net_2                   
-  p/(drain|source) = 2                     |  n/gate = 2                               
-  p/gate = 2                               |  n/(drain|source) = 2                     
-  n/(drain|source) = 2                     |  p/gate = 2                               
+Net: bitslice_7.FA.net_2                   |Net: bitslice_0/fa_0/a_25_6#               
   n/gate = 2                               |  p/(drain|source) = 2                     
-                                           |                                           
-Net: bitslice_1/fa_0/a_25_6#               |Net: bitslice_6.FA.net_2                   
-  p/(drain|source) = 2                     |  n/gate = 2                               
-  p/gate = 2                               |  n/(drain|source) = 2                     
   n/(drain|source) = 2                     |  p/gate = 2                               
-  n/gate = 2                               |  p/(drain|source) = 2                     
-                                           |                                           
-Net: bitslice_2/fa_0/a_25_6#               |Net: bitslice_4.FA.net_2                   
-  p/(drain|source) = 2                     |  n/gate = 2                               
   p/gate = 2                               |  n/(drain|source) = 2                     
-  n/(drain|source) = 2                     |  p/gate = 2                               
-  n/gate = 2                               |  p/(drain|source) = 2                     
-                                           |                                           
-Net: bitslice_3/fa_0/a_25_6#               |Net: bitslice_3.FA.net_2                   
   p/(drain|source) = 2                     |  n/gate = 2                               
-  p/gate = 2                               |  n/(drain|source) = 2                     
-  n/(drain|source) = 2                     |  p/gate = 2                               
-  n/gate = 2                               |  p/(drain|source) = 2                     
                                            |                                           
-Net: bitslice_4/fa_0/a_25_6#               |Net: bitslice_2.FA.net_2                   
+Net: bitslice_6.FA.net_2                   |Net: bitslice_1/fa_0/a_25_6#               
+  n/gate = 2                               |  p/(drain|source) = 2                     
+  n/(drain|source) = 2                     |  p/gate = 2                               
+  p/gate = 2                               |  n/(drain|source) = 2                     
   p/(drain|source) = 2                     |  n/gate = 2                               
-  p/gate = 2                               |  n/(drain|source) = 2                     
-  n/(drain|source) = 2                     |  p/gate = 2                               
-  n/gate = 2                               |  p/(drain|source) = 2                     
                                            |                                           
-Net: bitslice_5/fa_0/a_25_6#               |Net: bitslice_1.FA.net_2                   
+Net: bitslice_4.FA.net_2                   |Net: bitslice_2/fa_0/a_25_6#               
+  n/gate = 2                               |  p/(drain|source) = 2                     
+  n/(drain|source) = 2                     |  p/gate = 2                               
+  p/gate = 2                               |  n/(drain|source) = 2                     
   p/(drain|source) = 2                     |  n/gate = 2                               
-  p/gate = 2                               |  n/(drain|source) = 2                     
-  n/(drain|source) = 2                     |  p/gate = 2                               
-  n/gate = 2                               |  p/(drain|source) = 2                     
                                            |                                           
-Net: bitslice_6/fa_0/a_25_6#               |Net: bitslice.FA.net_2                     
+Net: bitslice_3.FA.net_2                   |Net: bitslice_3/fa_0/a_25_6#               
+  n/gate = 2                               |  p/(drain|source) = 2                     
+  n/(drain|source) = 2                     |  p/gate = 2                               
+  p/gate = 2                               |  n/(drain|source) = 2                     
   p/(drain|source) = 2                     |  n/gate = 2                               
-  p/gate = 2                               |  n/(drain|source) = 2                     
-  n/(drain|source) = 2                     |  p/gate = 2                               
-  n/gate = 2                               |  p/(drain|source) = 2                     
                                            |                                           
-Net: bitslice_7/fa_0/a_25_6#               |Net: bitslice_5.FA.net_2                   
+Net: bitslice_2.FA.net_2                   |Net: bitslice_4/fa_0/a_25_6#               
+  n/gate = 2                               |  p/(drain|source) = 2                     
+  n/(drain|source) = 2                     |  p/gate = 2                               
+  p/gate = 2                               |  n/(drain|source) = 2                     
   p/(drain|source) = 2                     |  n/gate = 2                               
-  p/gate = 2                               |  n/(drain|source) = 2                     
-  n/(drain|source) = 2                     |  p/gate = 2                               
+                                           |                                           
+Net: bitslice_1.FA.net_2                   |Net: bitslice_5/fa_0/a_25_6#               
   n/gate = 2                               |  p/(drain|source) = 2                     
----------------------------------------------------------------------------------------
-
----------------------------------------------------------------------------------------
-Net: bitslice_0/Y                          |Net: bitslice_7.net_2                      
-  p/gate = 4                               |  p/(drain|source) = 2                     
-  n/gate = 4                               |  n/(drain|source) = 2                     
-  p/(drain|source) = 2                     |  n/gate = 4                               
-  n/(drain|source) = 2                     |  p/gate = 4                               
+  n/(drain|source) = 2                     |  p/gate = 2                               
+  p/gate = 2                               |  n/(drain|source) = 2                     
+  p/(drain|source) = 2                     |  n/gate = 2                               
                                            |                                           
-Net: bitslice_1/Y                          |Net: bitslice_6.net_2                      
-  p/gate = 4                               |  p/(drain|source) = 2                     
-  n/gate = 4                               |  n/(drain|source) = 2                     
-  p/(drain|source) = 2                     |  n/gate = 4                               
-  n/(drain|source) = 2                     |  p/gate = 4                               
+Net: bitslice.FA.net_2                     |Net: bitslice_6/fa_0/a_25_6#               
+  n/gate = 2                               |  p/(drain|source) = 2                     
+  n/(drain|source) = 2                     |  p/gate = 2                               
+  p/gate = 2                               |  n/(drain|source) = 2                     
+  p/(drain|source) = 2                     |  n/gate = 2                               
                                            |                                           
-Net: bitslice_2/Y                          |Net: bitslice_5.net_2                      
-  p/gate = 4                               |  p/(drain|source) = 2                     
-  n/gate = 4                               |  n/(drain|source) = 2                     
-  p/(drain|source) = 2                     |  n/gate = 4                               
-  n/(drain|source) = 2                     |  p/gate = 4                               
-                                           |                                           
-Net: bitslice_3/Y                          |Net: bitslice_4.net_2                      
-  p/gate = 4                               |  p/(drain|source) = 2                     
-  n/gate = 4                               |  n/(drain|source) = 2                     
-  p/(drain|source) = 2                     |  n/gate = 4                               
-  n/(drain|source) = 2                     |  p/gate = 4                               
-                                           |                                           
-Net: bitslice_4/Y                          |Net: bitslice_3.net_2                      
-  p/gate = 4                               |  p/(drain|source) = 2                     
-  n/gate = 4                               |  n/(drain|source) = 2                     
-  p/(drain|source) = 2                     |  n/gate = 4                               
-  n/(drain|source) = 2                     |  p/gate = 4                               
-                                           |                                           
-Net: bitslice_5/Y                          |Net: bitslice_2.net_2                      
-  p/gate = 4                               |  p/(drain|source) = 2                     
-  n/gate = 4                               |  n/(drain|source) = 2                     
-  p/(drain|source) = 2                     |  n/gate = 4                               
-  n/(drain|source) = 2                     |  p/gate = 4                               
-                                           |                                           
-Net: bitslice_6/Y                          |Net: bitslice_1.net_2                      
-  p/gate = 4                               |  p/(drain|source) = 2                     
-  n/gate = 4                               |  n/(drain|source) = 2                     
-  p/(drain|source) = 2                     |  n/gate = 4                               
-  n/(drain|source) = 2                     |  p/gate = 4                               
-                                           |                                           
-Net: bitslice_7/Y                          |Net: bitslice.net_2                        
-  p/gate = 4                               |  p/(drain|source) = 2                     
-  n/gate = 4                               |  n/(drain|source) = 2                     
-  p/(drain|source) = 2                     |  n/gate = 4                               
-  n/(drain|source) = 2                     |  p/gate = 4                               
+Net: bitslice_5.FA.net_2                   |Net: bitslice_7/fa_0/a_25_6#               
+  n/gate = 2                               |  p/(drain|source) = 2                     
+  n/(drain|source) = 2                     |  p/gate = 2                               
+  p/gate = 2                               |  n/(drain|source) = 2                     
+  p/(drain|source) = 2                     |  n/gate = 2                               
 ---------------------------------------------------------------------------------------
 
 ---------------------------------------------------------------------------------------
-Net: bitslice_0/fa_0/A                     |Net: bitslice_7.net_1                      
-  p/gate = 4                               |  p/(drain|source) = 2                     
-  n/gate = 4                               |  n/(drain|source) = 1                     
-  p/(drain|source) = 2                     |  n/gate = 4                               
-  n/(drain|source) = 1                     |  p/gate = 4                               
+Net: bitslice_7.net_1                      |Net: bitslice_0/fa_0/A                     
+  p/(drain|source) = 2                     |  p/gate = 4                               
+  n/(drain|source) = 1                     |  n/gate = 4                               
+  n/gate = 4                               |  p/(drain|source) = 2                     
+  p/gate = 4                               |  n/(drain|source) = 1                     
                                            |                                           
-Net: bitslice_1/fa_0/A                     |Net: bitslice_6.net_1                      
-  p/gate = 4                               |  p/(drain|source) = 2                     
-  n/gate = 4                               |  n/(drain|source) = 1                     
-  p/(drain|source) = 2                     |  n/gate = 4                               
-  n/(drain|source) = 1                     |  p/gate = 4                               
+Net: bitslice_6.net_1                      |Net: bitslice_1/fa_0/A                     
+  p/(drain|source) = 2                     |  p/gate = 4                               
+  n/(drain|source) = 1                     |  n/gate = 4                               
+  n/gate = 4                               |  p/(drain|source) = 2                     
+  p/gate = 4                               |  n/(drain|source) = 1                     
                                            |                                           
-Net: bitslice_2/fa_0/A                     |Net: bitslice_5.net_1                      
-  p/gate = 4                               |  p/(drain|source) = 2                     
-  n/gate = 4                               |  n/(drain|source) = 1                     
-  p/(drain|source) = 2                     |  n/gate = 4                               
-  n/(drain|source) = 1                     |  p/gate = 4                               
+Net: bitslice_5.net_1                      |Net: bitslice_2/fa_0/A                     
+  p/(drain|source) = 2                     |  p/gate = 4                               
+  n/(drain|source) = 1                     |  n/gate = 4                               
+  n/gate = 4                               |  p/(drain|source) = 2                     
+  p/gate = 4                               |  n/(drain|source) = 1                     
                                            |                                           
-Net: bitslice_3/fa_0/A                     |Net: bitslice_4.net_1                      
-  p/gate = 4                               |  p/(drain|source) = 2                     
-  n/gate = 4                               |  n/(drain|source) = 1                     
-  p/(drain|source) = 2                     |  n/gate = 4                               
-  n/(drain|source) = 1                     |  p/gate = 4                               
+Net: bitslice_4.net_1                      |Net: bitslice_3/fa_0/A                     
+  p/(drain|source) = 2                     |  p/gate = 4                               
+  n/(drain|source) = 1                     |  n/gate = 4                               
+  n/gate = 4                               |  p/(drain|source) = 2                     
+  p/gate = 4                               |  n/(drain|source) = 1                     
                                            |                                           
-Net: bitslice_4/fa_0/A                     |Net: bitslice_3.net_1                      
-  p/gate = 4                               |  p/(drain|source) = 2                     
-  n/gate = 4                               |  n/(drain|source) = 1                     
-  p/(drain|source) = 2                     |  n/gate = 4                               
-  n/(drain|source) = 1                     |  p/gate = 4                               
+Net: bitslice_3.net_1                      |Net: bitslice_4/fa_0/A                     
+  p/(drain|source) = 2                     |  p/gate = 4                               
+  n/(drain|source) = 1                     |  n/gate = 4                               
+  n/gate = 4                               |  p/(drain|source) = 2                     
+  p/gate = 4                               |  n/(drain|source) = 1                     
                                            |                                           
-Net: bitslice_5/fa_0/A                     |Net: bitslice_2.net_1                      
-  p/gate = 4                               |  p/(drain|source) = 2                     
-  n/gate = 4                               |  n/(drain|source) = 1                     
-  p/(drain|source) = 2                     |  n/gate = 4                               
-  n/(drain|source) = 1                     |  p/gate = 4                               
+Net: bitslice_2.net_1                      |Net: bitslice_5/fa_0/A                     
+  p/(drain|source) = 2                     |  p/gate = 4                               
+  n/(drain|source) = 1                     |  n/gate = 4                               
+  n/gate = 4                               |  p/(drain|source) = 2                     
+  p/gate = 4                               |  n/(drain|source) = 1                     
                                            |                                           
-Net: bitslice_6/fa_0/A                     |Net: bitslice_1.net_1                      
-  p/gate = 4                               |  p/(drain|source) = 2                     
-  n/gate = 4                               |  n/(drain|source) = 1                     
-  p/(drain|source) = 2                     |  n/gate = 4                               
-  n/(drain|source) = 1                     |  p/gate = 4                               
+Net: bitslice_1.net_1                      |Net: bitslice_6/fa_0/A                     
+  p/(drain|source) = 2                     |  p/gate = 4                               
+  n/(drain|source) = 1                     |  n/gate = 4                               
+  n/gate = 4                               |  p/(drain|source) = 2                     
+  p/gate = 4                               |  n/(drain|source) = 1                     
                                            |                                           
-Net: bitslice_7/fa_0/A                     |Net: bitslice.net_1                        
-  p/gate = 4                               |  p/(drain|source) = 2                     
-  n/gate = 4                               |  n/(drain|source) = 1                     
-  p/(drain|source) = 2                     |  n/gate = 4                               
-  n/(drain|source) = 1                     |  p/gate = 4                               
+Net: bitslice.net_1                        |Net: bitslice_7/fa_0/A                     
+  p/(drain|source) = 2                     |  p/gate = 4                               
+  n/(drain|source) = 1                     |  n/gate = 4                               
+  n/gate = 4                               |  p/(drain|source) = 2                     
+  p/gate = 4                               |  n/(drain|source) = 1                     
 ---------------------------------------------------------------------------------------
 
 ---------------------------------------------------------------------------------------
-Net: bitslice_0/fa_0/a_84_6#               |Net: bitslice_7.FA.net_7                   
-  n/(drain|source) = 2                     |  p/(drain|source) = 2                     
+Net: bitslice_7.net_2                      |Net: bitslice_0/Y                          
+  p/(drain|source) = 2                     |  p/gate = 4                               
+  n/(drain|source) = 2                     |  n/gate = 4                               
+  n/gate = 4                               |  p/(drain|source) = 2                     
+  p/gate = 4                               |  n/(drain|source) = 2                     
                                            |                                           
-Net: bitslice_1/fa_0/a_84_6#               |Net: bitslice_6.FA.net_7                   
-  n/(drain|source) = 2                     |  p/(drain|source) = 2                     
+Net: bitslice_6.net_2                      |Net: bitslice_1/Y                          
+  p/(drain|source) = 2                     |  p/gate = 4                               
+  n/(drain|source) = 2                     |  n/gate = 4                               
+  n/gate = 4                               |  p/(drain|source) = 2                     
+  p/gate = 4                               |  n/(drain|source) = 2                     
                                            |                                           
-Net: bitslice_2/fa_0/a_84_6#               |Net: bitslice_5.FA.net_7                   
-  n/(drain|source) = 2                     |  p/(drain|source) = 2                     
+Net: bitslice_5.net_2                      |Net: bitslice_2/Y                          
+  p/(drain|source) = 2                     |  p/gate = 4                               
+  n/(drain|source) = 2                     |  n/gate = 4                               
+  n/gate = 4                               |  p/(drain|source) = 2                     
+  p/gate = 4                               |  n/(drain|source) = 2                     
                                            |                                           
-Net: bitslice_3/fa_0/a_84_6#               |Net: bitslice_4.FA.net_7                   
-  n/(drain|source) = 2                     |  p/(drain|source) = 2                     
+Net: bitslice_4.net_2                      |Net: bitslice_3/Y                          
+  p/(drain|source) = 2                     |  p/gate = 4                               
+  n/(drain|source) = 2                     |  n/gate = 4                               
+  n/gate = 4                               |  p/(drain|source) = 2                     
+  p/gate = 4                               |  n/(drain|source) = 2                     
                                            |                                           
-Net: bitslice_4/fa_0/a_84_6#               |Net: bitslice_3.FA.net_7                   
-  n/(drain|source) = 2                     |  p/(drain|source) = 2                     
+Net: bitslice_3.net_2                      |Net: bitslice_4/Y                          
+  p/(drain|source) = 2                     |  p/gate = 4                               
+  n/(drain|source) = 2                     |  n/gate = 4                               
+  n/gate = 4                               |  p/(drain|source) = 2                     
+  p/gate = 4                               |  n/(drain|source) = 2                     
                                            |                                           
-Net: bitslice_5/fa_0/a_84_6#               |Net: bitslice_2.FA.net_7                   
-  n/(drain|source) = 2                     |  p/(drain|source) = 2                     
+Net: bitslice_2.net_2                      |Net: bitslice_5/Y                          
+  p/(drain|source) = 2                     |  p/gate = 4                               
+  n/(drain|source) = 2                     |  n/gate = 4                               
+  n/gate = 4                               |  p/(drain|source) = 2                     
+  p/gate = 4                               |  n/(drain|source) = 2                     
                                            |                                           
-Net: bitslice_6/fa_0/a_84_6#               |Net: bitslice_1.FA.net_7                   
-  n/(drain|source) = 2                     |  p/(drain|source) = 2                     
+Net: bitslice_1.net_2                      |Net: bitslice_6/Y                          
+  p/(drain|source) = 2                     |  p/gate = 4                               
+  n/(drain|source) = 2                     |  n/gate = 4                               
+  n/gate = 4                               |  p/(drain|source) = 2                     
+  p/gate = 4                               |  n/(drain|source) = 2                     
                                            |                                           
-Net: bitslice_7/fa_0/a_84_6#               |Net: bitslice.FA.net_7                     
-  n/(drain|source) = 2                     |  p/(drain|source) = 2                     
-                                           |                                           
-Net: bitslice_0/fa_0/a_79_6#               |Net: bitslice_7.FA.net_1                   
-  n/(drain|source) = 2                     |  p/(drain|source) = 2                     
-                                           |                                           
-Net: bitslice_0/fa_0/a_33_6#               |Net: bitslice_7.FA.net_3                   
-  n/(drain|source) = 2                     |  p/(drain|source) = 2                     
-                                           |                                           
-Net: bitslice_1/fa_0/a_33_6#               |Net: bitslice_6.FA.net_3                   
-  n/(drain|source) = 2                     |  p/(drain|source) = 2                     
-                                           |                                           
-Net: bitslice_2/fa_0/a_33_6#               |Net: bitslice_5.FA.net_3                   
-  n/(drain|source) = 2                     |  p/(drain|source) = 2                     
-                                           |                                           
-Net: bitslice_3/fa_0/a_33_6#               |Net: bitslice_4.FA.net_3                   
-  n/(drain|source) = 2                     |  p/(drain|source) = 2                     
-                                           |                                           
-Net: bitslice_4/fa_0/a_33_6#               |Net: bitslice_3.FA.net_3                   
-  n/(drain|source) = 2                     |  p/(drain|source) = 2                     
-                                           |                                           
-Net: bitslice_5/fa_0/a_33_6#               |Net: bitslice_2.FA.net_3                   
-  n/(drain|source) = 2                     |  p/(drain|source) = 2                     
-                                           |                                           
-Net: bitslice_6/fa_0/a_33_6#               |Net: bitslice_1.FA.net_3                   
-  n/(drain|source) = 2                     |  p/(drain|source) = 2                     
-                                           |                                           
-Net: bitslice_7/fa_0/a_33_6#               |Net: bitslice.FA.net_3                     
-  n/(drain|source) = 2                     |  p/(drain|source) = 2                     
-                                           |                                           
-Net: bitslice_0/fa_0/a_84_74#              |Net: bitslice_7.FA.net_4                   
+Net: bitslice.net_2                        |Net: bitslice_7/Y                          
+  p/(drain|source) = 2                     |  p/gate = 4                               
+  n/(drain|source) = 2                     |  n/gate = 4                               
+  n/gate = 4                               |  p/(drain|source) = 2                     
+  p/gate = 4                               |  n/(drain|source) = 2                     
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Net: bitslice_7.FA.net_7                   |Net: bitslice_0/fa_0/a_84_6#               
   p/(drain|source) = 2                     |  n/(drain|source) = 2                     
                                            |                                           
-Net: bitslice_1/fa_0/a_84_74#              |Net: bitslice_6.FA.net_4                   
+Net: bitslice_6.FA.net_7                   |Net: bitslice_1/fa_0/a_84_6#               
   p/(drain|source) = 2                     |  n/(drain|source) = 2                     
                                            |                                           
-Net: bitslice_2/fa_0/a_84_74#              |Net: bitslice_5.FA.net_4                   
+Net: bitslice_5.FA.net_7                   |Net: bitslice_2/fa_0/a_84_6#               
   p/(drain|source) = 2                     |  n/(drain|source) = 2                     
                                            |                                           
-Net: bitslice_3/fa_0/a_84_74#              |Net: bitslice_4.FA.net_4                   
+Net: bitslice_4.FA.net_7                   |Net: bitslice_3/fa_0/a_84_6#               
   p/(drain|source) = 2                     |  n/(drain|source) = 2                     
                                            |                                           
-Net: bitslice_4/fa_0/a_84_74#              |Net: bitslice_3.FA.net_4                   
+Net: bitslice_3.FA.net_7                   |Net: bitslice_4/fa_0/a_84_6#               
   p/(drain|source) = 2                     |  n/(drain|source) = 2                     
                                            |                                           
-Net: bitslice_5/fa_0/a_84_74#              |Net: bitslice_2.FA.net_4                   
+Net: bitslice_2.FA.net_7                   |Net: bitslice_5/fa_0/a_84_6#               
   p/(drain|source) = 2                     |  n/(drain|source) = 2                     
                                            |                                           
-Net: bitslice_6/fa_0/a_84_74#              |Net: bitslice_1.FA.net_4                   
+Net: bitslice_1.FA.net_7                   |Net: bitslice_6/fa_0/a_84_6#               
   p/(drain|source) = 2                     |  n/(drain|source) = 2                     
                                            |                                           
-Net: bitslice_7/fa_0/a_84_74#              |Net: bitslice.FA.net_4                     
+Net: bitslice.FA.net_7                     |Net: bitslice_7/fa_0/a_84_6#               
   p/(drain|source) = 2                     |  n/(drain|source) = 2                     
                                            |                                           
-Net: bitslice_0/fa_0/a_79_74#              |Net: bitslice_7.FA.net_8                   
+Net: bitslice_7.FA.net_1                   |Net: bitslice_0/fa_0/a_79_6#               
   p/(drain|source) = 2                     |  n/(drain|source) = 2                     
                                            |                                           
-Net: bitslice_0/fa_0/a_33_74#              |Net: bitslice_6.FA.net_8                   
+Net: bitslice_7.FA.net_3                   |Net: bitslice_0/fa_0/a_33_6#               
   p/(drain|source) = 2                     |  n/(drain|source) = 2                     
                                            |                                           
-Net: bitslice_1/fa_0/a_33_74#              |Net: bitslice_5.FA.net_8                   
+Net: bitslice_6.FA.net_3                   |Net: bitslice_1/fa_0/a_33_6#               
   p/(drain|source) = 2                     |  n/(drain|source) = 2                     
                                            |                                           
-Net: bitslice_2/fa_0/a_33_74#              |Net: bitslice_4.FA.net_8                   
+Net: bitslice_5.FA.net_3                   |Net: bitslice_2/fa_0/a_33_6#               
   p/(drain|source) = 2                     |  n/(drain|source) = 2                     
                                            |                                           
-Net: bitslice_3/fa_0/a_33_74#              |Net: bitslice_3.FA.net_8                   
+Net: bitslice_4.FA.net_3                   |Net: bitslice_3/fa_0/a_33_6#               
   p/(drain|source) = 2                     |  n/(drain|source) = 2                     
                                            |                                           
-Net: bitslice_4/fa_0/a_33_74#              |Net: bitslice_2.FA.net_8                   
+Net: bitslice_3.FA.net_3                   |Net: bitslice_4/fa_0/a_33_6#               
   p/(drain|source) = 2                     |  n/(drain|source) = 2                     
                                            |                                           
-Net: bitslice_5/fa_0/a_33_74#              |Net: bitslice_1.FA.net_8                   
+Net: bitslice_2.FA.net_3                   |Net: bitslice_5/fa_0/a_33_6#               
   p/(drain|source) = 2                     |  n/(drain|source) = 2                     
                                            |                                           
-Net: bitslice_6/fa_0/a_33_74#              |Net: bitslice.FA.net_8                     
+Net: bitslice_1.FA.net_3                   |Net: bitslice_6/fa_0/a_33_6#               
   p/(drain|source) = 2                     |  n/(drain|source) = 2                     
                                            |                                           
-Net: bitslice_7/fa_0/a_33_74#              |Net: bitslice_7.FA.net_12                  
+Net: bitslice.FA.net_3                     |Net: bitslice_7/fa_0/a_33_6#               
   p/(drain|source) = 2                     |  n/(drain|source) = 2                     
                                            |                                           
-Net: bitslice_1/fa_0/a_79_6#               |Net: bitslice_6.FA.net_1                   
+Net: bitslice_7.FA.net_4                   |Net: bitslice_0/fa_0/a_84_74#              
   n/(drain|source) = 2                     |  p/(drain|source) = 2                     
                                            |                                           
-Net: bitslice_2/fa_0/a_79_6#               |Net: bitslice_5.FA.net_1                   
+Net: bitslice_6.FA.net_4                   |Net: bitslice_1/fa_0/a_84_74#              
   n/(drain|source) = 2                     |  p/(drain|source) = 2                     
                                            |                                           
-Net: bitslice_3/fa_0/a_79_6#               |Net: bitslice_4.FA.net_1                   
+Net: bitslice_5.FA.net_4                   |Net: bitslice_2/fa_0/a_84_74#              
   n/(drain|source) = 2                     |  p/(drain|source) = 2                     
                                            |                                           
-Net: bitslice_4/fa_0/a_79_6#               |Net: bitslice_3.FA.net_1                   
+Net: bitslice_4.FA.net_4                   |Net: bitslice_3/fa_0/a_84_74#              
   n/(drain|source) = 2                     |  p/(drain|source) = 2                     
                                            |                                           
-Net: bitslice_5/fa_0/a_79_6#               |Net: bitslice_2.FA.net_1                   
+Net: bitslice_3.FA.net_4                   |Net: bitslice_4/fa_0/a_84_74#              
   n/(drain|source) = 2                     |  p/(drain|source) = 2                     
                                            |                                           
-Net: bitslice_6/fa_0/a_79_6#               |Net: bitslice_1.FA.net_1                   
+Net: bitslice_2.FA.net_4                   |Net: bitslice_5/fa_0/a_84_74#              
   n/(drain|source) = 2                     |  p/(drain|source) = 2                     
                                            |                                           
-Net: bitslice_7/fa_0/a_79_6#               |Net: bitslice.FA.net_1                     
+Net: bitslice_1.FA.net_4                   |Net: bitslice_6/fa_0/a_84_74#              
   n/(drain|source) = 2                     |  p/(drain|source) = 2                     
                                            |                                           
-Net: bitslice_1/fa_0/a_79_74#              |Net: bitslice_6.FA.net_12                  
+Net: bitslice.FA.net_4                     |Net: bitslice_7/fa_0/a_84_74#              
+  n/(drain|source) = 2                     |  p/(drain|source) = 2                     
+                                           |                                           
+Net: bitslice_7.FA.net_8                   |Net: bitslice_0/fa_0/a_79_74#              
+  n/(drain|source) = 2                     |  p/(drain|source) = 2                     
+                                           |                                           
+Net: bitslice_6.FA.net_8                   |Net: bitslice_0/fa_0/a_33_74#              
+  n/(drain|source) = 2                     |  p/(drain|source) = 2                     
+                                           |                                           
+Net: bitslice_5.FA.net_8                   |Net: bitslice_1/fa_0/a_33_74#              
+  n/(drain|source) = 2                     |  p/(drain|source) = 2                     
+                                           |                                           
+Net: bitslice_4.FA.net_8                   |Net: bitslice_2/fa_0/a_33_74#              
+  n/(drain|source) = 2                     |  p/(drain|source) = 2                     
+                                           |                                           
+Net: bitslice_3.FA.net_8                   |Net: bitslice_3/fa_0/a_33_74#              
+  n/(drain|source) = 2                     |  p/(drain|source) = 2                     
+                                           |                                           
+Net: bitslice_2.FA.net_8                   |Net: bitslice_4/fa_0/a_33_74#              
+  n/(drain|source) = 2                     |  p/(drain|source) = 2                     
+                                           |                                           
+Net: bitslice_1.FA.net_8                   |Net: bitslice_5/fa_0/a_33_74#              
+  n/(drain|source) = 2                     |  p/(drain|source) = 2                     
+                                           |                                           
+Net: bitslice.FA.net_8                     |Net: bitslice_6/fa_0/a_33_74#              
+  n/(drain|source) = 2                     |  p/(drain|source) = 2                     
+                                           |                                           
+Net: bitslice_7.FA.net_12                  |Net: bitslice_7/fa_0/a_33_74#              
+  n/(drain|source) = 2                     |  p/(drain|source) = 2                     
+                                           |                                           
+Net: bitslice_6.FA.net_1                   |Net: bitslice_1/fa_0/a_79_6#               
   p/(drain|source) = 2                     |  n/(drain|source) = 2                     
                                            |                                           
-Net: bitslice_2/fa_0/a_79_74#              |Net: bitslice_5.FA.net_12                  
+Net: bitslice_5.FA.net_1                   |Net: bitslice_2/fa_0/a_79_6#               
   p/(drain|source) = 2                     |  n/(drain|source) = 2                     
                                            |                                           
-Net: bitslice_3/fa_0/a_79_74#              |Net: bitslice_4.FA.net_12                  
+Net: bitslice_4.FA.net_1                   |Net: bitslice_3/fa_0/a_79_6#               
   p/(drain|source) = 2                     |  n/(drain|source) = 2                     
                                            |                                           
-Net: bitslice_4/fa_0/a_79_74#              |Net: bitslice_3.FA.net_12                  
+Net: bitslice_3.FA.net_1                   |Net: bitslice_4/fa_0/a_79_6#               
   p/(drain|source) = 2                     |  n/(drain|source) = 2                     
                                            |                                           
-Net: bitslice_5/fa_0/a_79_74#              |Net: bitslice_2.FA.net_12                  
+Net: bitslice_2.FA.net_1                   |Net: bitslice_5/fa_0/a_79_6#               
   p/(drain|source) = 2                     |  n/(drain|source) = 2                     
                                            |                                           
-Net: bitslice_6/fa_0/a_79_74#              |Net: bitslice_1.FA.net_12                  
+Net: bitslice_1.FA.net_1                   |Net: bitslice_6/fa_0/a_79_6#               
   p/(drain|source) = 2                     |  n/(drain|source) = 2                     
                                            |                                           
-Net: bitslice_7/fa_0/a_79_74#              |Net: bitslice.FA.net_12                    
+Net: bitslice.FA.net_1                     |Net: bitslice_7/fa_0/a_79_6#               
   p/(drain|source) = 2                     |  n/(drain|source) = 2                     
+                                           |                                           
+Net: bitslice_6.FA.net_12                  |Net: bitslice_1/fa_0/a_79_74#              
+  n/(drain|source) = 2                     |  p/(drain|source) = 2                     
+                                           |                                           
+Net: bitslice_5.FA.net_12                  |Net: bitslice_2/fa_0/a_79_74#              
+  n/(drain|source) = 2                     |  p/(drain|source) = 2                     
+                                           |                                           
+Net: bitslice_4.FA.net_12                  |Net: bitslice_3/fa_0/a_79_74#              
+  n/(drain|source) = 2                     |  p/(drain|source) = 2                     
+                                           |                                           
+Net: bitslice_3.FA.net_12                  |Net: bitslice_4/fa_0/a_79_74#              
+  n/(drain|source) = 2                     |  p/(drain|source) = 2                     
+                                           |                                           
+Net: bitslice_2.FA.net_12                  |Net: bitslice_5/fa_0/a_79_74#              
+  n/(drain|source) = 2                     |  p/(drain|source) = 2                     
+                                           |                                           
+Net: bitslice_1.FA.net_12                  |Net: bitslice_6/fa_0/a_79_74#              
+  n/(drain|source) = 2                     |  p/(drain|source) = 2                     
+                                           |                                           
+Net: bitslice.FA.net_12                    |Net: bitslice_7/fa_0/a_79_74#              
+  n/(drain|source) = 2                     |  p/(drain|source) = 2                     
 ---------------------------------------------------------------------------------------
 DEVICE mismatches: Class fragments follow (with node fanout counts):
-Circuit 1: ../prjMagic/magic/prjMagic_noRC |Circuit 2: ../sue/project.sim              
+Circuit 1: ../sue/project.sim              |Circuit 2: ../prjMagic/magic/prjMagic_noRC 
 
 ---------------------------------------------------------------------------------------
-Instance: n@104,124                        |Instance: n294                             
-  (drain,source) = (194,2)                 |  (drain,source) = (194,2)                 
-  gate = 11                                |  gate = 12                                
-                                           |                                           
-Instance: n@53,124                         |Instance: n289                             
-  (drain,source) = (194,2)                 |  (drain,source) = (194,2)                 
-  gate = 11                                |  gate = 12                                
-                                           |                                           
-Instance: n@258,124                        |Instance: n256                             
-  (drain,source) = (194,2)                 |  (drain,source) = (194,2)                 
-  gate = 11                                |  gate = 12                                
-                                           |                                           
-Instance: n@207,124                        |Instance: n251                             
-  (drain,source) = (194,2)                 |  (drain,source) = (194,2)                 
-  gate = 11                                |  gate = 12                                
-                                           |                                           
-Instance: n@412,124                        |Instance: n218                             
-  (drain,source) = (194,2)                 |  (drain,source) = (194,2)                 
-  gate = 11                                |  gate = 12                                
-                                           |                                           
-Instance: n@361,124                        |Instance: n213                             
-  (drain,source) = (194,2)                 |  (drain,source) = (194,2)                 
-  gate = 11                                |  gate = 12                                
-                                           |                                           
-Instance: n@567,124                        |Instance: n180                             
-  (drain,source) = (194,2)                 |  (drain,source) = (194,2)                 
-  gate = 11                                |  gate = 12                                
-                                           |                                           
-Instance: n@516,124                        |Instance: n175                             
-  (drain,source) = (194,2)                 |  (drain,source) = (194,2)                 
-  gate = 11                                |  gate = 12                                
-                                           |                                           
-Instance: n@722,124                        |Instance: n142                             
-  (drain,source) = (194,2)                 |  (drain,source) = (194,2)                 
-  gate = 11                                |  gate = 12                                
-                                           |                                           
-Instance: n@671,124                        |Instance: n137                             
-  (drain,source) = (194,2)                 |  (drain,source) = (194,2)                 
-  gate = 11                                |  gate = 12                                
-                                           |                                           
-Instance: n@876,124                        |Instance: n104                             
-  (drain,source) = (194,2)                 |  (drain,source) = (194,2)                 
-  gate = 11                                |  gate = 12                                
-                                           |                                           
-Instance: n@825,124                        |Instance: n99                              
-  (drain,source) = (194,2)                 |  (drain,source) = (194,2)                 
-  gate = 11                                |  gate = 12                                
-                                           |                                           
-Instance: n@1030,124                       |Instance: n66                              
-  (drain,source) = (194,2)                 |  (drain,source) = (194,2)                 
-  gate = 11                                |  gate = 12                                
-                                           |                                           
-Instance: n@979,124                        |Instance: n61                              
-  (drain,source) = (194,2)                 |  (drain,source) = (194,2)                 
-  gate = 11                                |  gate = 12                                
-                                           |                                           
-Instance: n@1184,124                       |Instance: n28                              
-  (drain,source) = (194,2)                 |  (drain,source) = (194,2)                 
-  gate = 11                                |  gate = 12                                
-                                           |                                           
-Instance: n@1133,124                       |Instance: n23                              
-  (drain,source) = (194,2)                 |  (drain,source) = (194,2)                 
-  gate = 11                                |  gate = 12                                
-                                           |                                           
-Instance: n@99,124                         |Instance: n293                             
-  (drain,source) = (2,2)                   |  (drain,source) = (8,2)                   
+Instance: p294                             |Instance: p@104,192                        
+  (drain,source) = (219,2)                 |  (drain,source) = (219,2)                 
   gate = 12                                |  gate = 11                                
                                            |                                           
-Instance: n@253,124                        |Instance: n255                             
-  (drain,source) = (2,2)                   |  (drain,source) = (8,2)                   
+Instance: p289                             |Instance: p@53,192                         
+  (drain,source) = (219,2)                 |  (drain,source) = (219,2)                 
   gate = 12                                |  gate = 11                                
                                            |                                           
-Instance: n@407,124                        |Instance: n217                             
-  (drain,source) = (2,2)                   |  (drain,source) = (8,2)                   
+Instance: p256                             |Instance: p@258,192                        
+  (drain,source) = (219,2)                 |  (drain,source) = (219,2)                 
   gate = 12                                |  gate = 11                                
                                            |                                           
-Instance: n@562,124                        |Instance: n179                             
-  (drain,source) = (2,2)                   |  (drain,source) = (8,2)                   
+Instance: p251                             |Instance: p@207,192                        
+  (drain,source) = (219,2)                 |  (drain,source) = (219,2)                 
   gate = 12                                |  gate = 11                                
                                            |                                           
-Instance: n@717,124                        |Instance: n141                             
-  (drain,source) = (2,2)                   |  (drain,source) = (8,2)                   
+Instance: p218                             |Instance: p@412,192                        
+  (drain,source) = (219,2)                 |  (drain,source) = (219,2)                 
   gate = 12                                |  gate = 11                                
                                            |                                           
-Instance: n@871,124                        |Instance: n103                             
-  (drain,source) = (2,2)                   |  (drain,source) = (8,2)                   
+Instance: p213                             |Instance: p@361,192                        
+  (drain,source) = (219,2)                 |  (drain,source) = (219,2)                 
   gate = 12                                |  gate = 11                                
                                            |                                           
-Instance: n@1025,124                       |Instance: n65                              
-  (drain,source) = (2,2)                   |  (drain,source) = (8,2)                   
+Instance: p180                             |Instance: p@567,192                        
+  (drain,source) = (219,2)                 |  (drain,source) = (219,2)                 
   gate = 12                                |  gate = 11                                
                                            |                                           
-Instance: n@1179,124                       |Instance: n27                              
-  (drain,source) = (2,2)                   |  (drain,source) = (8,2)                   
+Instance: p175                             |Instance: p@516,192                        
+  (drain,source) = (219,2)                 |  (drain,source) = (219,2)                 
   gate = 12                                |  gate = 11                                
                                            |                                           
-Instance: n@48,124                         |Instance: n288                             
+Instance: p142                             |Instance: p@722,192                        
+  (drain,source) = (219,2)                 |  (drain,source) = (219,2)                 
+  gate = 12                                |  gate = 11                                
+                                           |                                           
+Instance: p137                             |Instance: p@671,192                        
+  (drain,source) = (219,2)                 |  (drain,source) = (219,2)                 
+  gate = 12                                |  gate = 11                                
+                                           |                                           
+Instance: p104                             |Instance: p@876,192                        
+  (drain,source) = (219,2)                 |  (drain,source) = (219,2)                 
+  gate = 12                                |  gate = 11                                
+                                           |                                           
+Instance: p99                              |Instance: p@825,192                        
+  (drain,source) = (219,2)                 |  (drain,source) = (219,2)                 
+  gate = 12                                |  gate = 11                                
+                                           |                                           
+Instance: p66                              |Instance: p@1030,192                       
+  (drain,source) = (219,2)                 |  (drain,source) = (219,2)                 
+  gate = 12                                |  gate = 11                                
+                                           |                                           
+Instance: p61                              |Instance: p@979,192                        
+  (drain,source) = (219,2)                 |  (drain,source) = (219,2)                 
+  gate = 12                                |  gate = 11                                
+                                           |                                           
+Instance: p28                              |Instance: p@1184,192                       
+  (drain,source) = (219,2)                 |  (drain,source) = (219,2)                 
+  gate = 12                                |  gate = 11                                
+                                           |                                           
+Instance: p23                              |Instance: p@1133,192                       
+  (drain,source) = (219,2)                 |  (drain,source) = (219,2)                 
+  gate = 12                                |  gate = 11                                
+                                           |                                           
+Instance: p293                             |Instance: p@99,192                         
   (drain,source) = (8,2)                   |  (drain,source) = (2,2)                   
-  gate = 12                                |  gate = 11                                
+  gate = 11                                |  gate = 12                                
                                            |                                           
-Instance: n@202,124                        |Instance: n250                             
+Instance: p255                             |Instance: p@253,192                        
   (drain,source) = (8,2)                   |  (drain,source) = (2,2)                   
-  gate = 12                                |  gate = 11                                
+  gate = 11                                |  gate = 12                                
                                            |                                           
-Instance: n@356,124                        |Instance: n212                             
+Instance: p217                             |Instance: p@407,192                        
   (drain,source) = (8,2)                   |  (drain,source) = (2,2)                   
-  gate = 12                                |  gate = 11                                
+  gate = 11                                |  gate = 12                                
                                            |                                           
-Instance: n@511,124                        |Instance: n174                             
+Instance: p179                             |Instance: p@562,192                        
   (drain,source) = (8,2)                   |  (drain,source) = (2,2)                   
-  gate = 12                                |  gate = 11                                
+  gate = 11                                |  gate = 12                                
                                            |                                           
-Instance: n@666,124                        |Instance: n136                             
+Instance: p141                             |Instance: p@717,192                        
   (drain,source) = (8,2)                   |  (drain,source) = (2,2)                   
-  gate = 12                                |  gate = 11                                
+  gate = 11                                |  gate = 12                                
                                            |                                           
-Instance: n@820,124                        |Instance: n98                              
+Instance: p103                             |Instance: p@871,192                        
   (drain,source) = (8,2)                   |  (drain,source) = (2,2)                   
-  gate = 12                                |  gate = 11                                
+  gate = 11                                |  gate = 12                                
                                            |                                           
-Instance: n@974,124                        |Instance: n60                              
+Instance: p65                              |Instance: p@1025,192                       
   (drain,source) = (8,2)                   |  (drain,source) = (2,2)                   
-  gate = 12                                |  gate = 11                                
+  gate = 11                                |  gate = 12                                
                                            |                                           
-Instance: n@1128,124                       |Instance: n22                              
+Instance: p27                              |Instance: p@1179,192                       
   (drain,source) = (8,2)                   |  (drain,source) = (2,2)                   
-  gate = 12                                |  gate = 11                                
+  gate = 11                                |  gate = 12                                
+                                           |                                           
+Instance: p287                             |Instance: p@48,192                         
+  (drain,source) = (2,2)                   |  (drain,source) = (8,2)                   
+  gate = 11                                |  gate = 12                                
+                                           |                                           
+Instance: p249                             |Instance: p@202,192                        
+  (drain,source) = (2,2)                   |  (drain,source) = (8,2)                   
+  gate = 11                                |  gate = 12                                
+                                           |                                           
+Instance: p211                             |Instance: p@356,192                        
+  (drain,source) = (2,2)                   |  (drain,source) = (8,2)                   
+  gate = 11                                |  gate = 12                                
+                                           |                                           
+Instance: p173                             |Instance: p@511,192                        
+  (drain,source) = (2,2)                   |  (drain,source) = (8,2)                   
+  gate = 11                                |  gate = 12                                
+                                           |                                           
+Instance: p135                             |Instance: p@666,192                        
+  (drain,source) = (2,2)                   |  (drain,source) = (8,2)                   
+  gate = 11                                |  gate = 12                                
+                                           |                                           
+Instance: p97                              |Instance: p@820,192                        
+  (drain,source) = (2,2)                   |  (drain,source) = (8,2)                   
+  gate = 11                                |  gate = 12                                
+                                           |                                           
+Instance: p59                              |Instance: p@974,192                        
+  (drain,source) = (2,2)                   |  (drain,source) = (8,2)                   
+  gate = 11                                |  gate = 12                                
+                                           |                                           
+Instance: p21                              |Instance: p@1128,192                       
+  (drain,source) = (2,2)                   |  (drain,source) = (8,2)                   
+  gate = 11                                |  gate = 12                                
 ---------------------------------------------------------------------------------------
 
 ---------------------------------------------------------------------------------------
-Instance: p@104,192                        |Instance: p294                             
-  (drain,source) = (219,2)                 |  (drain,source) = (219,2)                 
-  gate = 11                                |  gate = 12                                
-                                           |                                           
-Instance: p@53,192                         |Instance: p289                             
-  (drain,source) = (219,2)                 |  (drain,source) = (219,2)                 
-  gate = 11                                |  gate = 12                                
-                                           |                                           
-Instance: p@258,192                        |Instance: p256                             
-  (drain,source) = (219,2)                 |  (drain,source) = (219,2)                 
-  gate = 11                                |  gate = 12                                
-                                           |                                           
-Instance: p@207,192                        |Instance: p251                             
-  (drain,source) = (219,2)                 |  (drain,source) = (219,2)                 
-  gate = 11                                |  gate = 12                                
-                                           |                                           
-Instance: p@412,192                        |Instance: p218                             
-  (drain,source) = (219,2)                 |  (drain,source) = (219,2)                 
-  gate = 11                                |  gate = 12                                
-                                           |                                           
-Instance: p@361,192                        |Instance: p213                             
-  (drain,source) = (219,2)                 |  (drain,source) = (219,2)                 
-  gate = 11                                |  gate = 12                                
-                                           |                                           
-Instance: p@567,192                        |Instance: p180                             
-  (drain,source) = (219,2)                 |  (drain,source) = (219,2)                 
-  gate = 11                                |  gate = 12                                
-                                           |                                           
-Instance: p@516,192                        |Instance: p175                             
-  (drain,source) = (219,2)                 |  (drain,source) = (219,2)                 
-  gate = 11                                |  gate = 12                                
-                                           |                                           
-Instance: p@722,192                        |Instance: p142                             
-  (drain,source) = (219,2)                 |  (drain,source) = (219,2)                 
-  gate = 11                                |  gate = 12                                
-                                           |                                           
-Instance: p@671,192                        |Instance: p137                             
-  (drain,source) = (219,2)                 |  (drain,source) = (219,2)                 
-  gate = 11                                |  gate = 12                                
-                                           |                                           
-Instance: p@876,192                        |Instance: p104                             
-  (drain,source) = (219,2)                 |  (drain,source) = (219,2)                 
-  gate = 11                                |  gate = 12                                
-                                           |                                           
-Instance: p@825,192                        |Instance: p99                              
-  (drain,source) = (219,2)                 |  (drain,source) = (219,2)                 
-  gate = 11                                |  gate = 12                                
-                                           |                                           
-Instance: p@1030,192                       |Instance: p66                              
-  (drain,source) = (219,2)                 |  (drain,source) = (219,2)                 
-  gate = 11                                |  gate = 12                                
-                                           |                                           
-Instance: p@979,192                        |Instance: p61                              
-  (drain,source) = (219,2)                 |  (drain,source) = (219,2)                 
-  gate = 11                                |  gate = 12                                
-                                           |                                           
-Instance: p@1184,192                       |Instance: p28                              
-  (drain,source) = (219,2)                 |  (drain,source) = (219,2)                 
-  gate = 11                                |  gate = 12                                
-                                           |                                           
-Instance: p@1133,192                       |Instance: p23                              
-  (drain,source) = (219,2)                 |  (drain,source) = (219,2)                 
-  gate = 11                                |  gate = 12                                
-                                           |                                           
-Instance: p@99,192                         |Instance: p293                             
-  (drain,source) = (2,2)                   |  (drain,source) = (8,2)                   
+Instance: n294                             |Instance: n@104,124                        
+  (drain,source) = (194,2)                 |  (drain,source) = (194,2)                 
   gate = 12                                |  gate = 11                                
                                            |                                           
-Instance: p@253,192                        |Instance: p255                             
-  (drain,source) = (2,2)                   |  (drain,source) = (8,2)                   
+Instance: n289                             |Instance: n@53,124                         
+  (drain,source) = (194,2)                 |  (drain,source) = (194,2)                 
   gate = 12                                |  gate = 11                                
                                            |                                           
-Instance: p@407,192                        |Instance: p217                             
-  (drain,source) = (2,2)                   |  (drain,source) = (8,2)                   
+Instance: n256                             |Instance: n@258,124                        
+  (drain,source) = (194,2)                 |  (drain,source) = (194,2)                 
   gate = 12                                |  gate = 11                                
                                            |                                           
-Instance: p@562,192                        |Instance: p179                             
-  (drain,source) = (2,2)                   |  (drain,source) = (8,2)                   
+Instance: n251                             |Instance: n@207,124                        
+  (drain,source) = (194,2)                 |  (drain,source) = (194,2)                 
   gate = 12                                |  gate = 11                                
                                            |                                           
-Instance: p@717,192                        |Instance: p141                             
-  (drain,source) = (2,2)                   |  (drain,source) = (8,2)                   
+Instance: n218                             |Instance: n@412,124                        
+  (drain,source) = (194,2)                 |  (drain,source) = (194,2)                 
   gate = 12                                |  gate = 11                                
                                            |                                           
-Instance: p@871,192                        |Instance: p103                             
-  (drain,source) = (2,2)                   |  (drain,source) = (8,2)                   
+Instance: n213                             |Instance: n@361,124                        
+  (drain,source) = (194,2)                 |  (drain,source) = (194,2)                 
   gate = 12                                |  gate = 11                                
                                            |                                           
-Instance: p@1025,192                       |Instance: p65                              
-  (drain,source) = (2,2)                   |  (drain,source) = (8,2)                   
+Instance: n180                             |Instance: n@567,124                        
+  (drain,source) = (194,2)                 |  (drain,source) = (194,2)                 
   gate = 12                                |  gate = 11                                
                                            |                                           
-Instance: p@1179,192                       |Instance: p27                              
-  (drain,source) = (2,2)                   |  (drain,source) = (8,2)                   
+Instance: n175                             |Instance: n@516,124                        
+  (drain,source) = (194,2)                 |  (drain,source) = (194,2)                 
   gate = 12                                |  gate = 11                                
                                            |                                           
-Instance: p@48,192                         |Instance: p287                             
+Instance: n142                             |Instance: n@722,124                        
+  (drain,source) = (194,2)                 |  (drain,source) = (194,2)                 
+  gate = 12                                |  gate = 11                                
+                                           |                                           
+Instance: n137                             |Instance: n@671,124                        
+  (drain,source) = (194,2)                 |  (drain,source) = (194,2)                 
+  gate = 12                                |  gate = 11                                
+                                           |                                           
+Instance: n104                             |Instance: n@876,124                        
+  (drain,source) = (194,2)                 |  (drain,source) = (194,2)                 
+  gate = 12                                |  gate = 11                                
+                                           |                                           
+Instance: n99                              |Instance: n@825,124                        
+  (drain,source) = (194,2)                 |  (drain,source) = (194,2)                 
+  gate = 12                                |  gate = 11                                
+                                           |                                           
+Instance: n66                              |Instance: n@1030,124                       
+  (drain,source) = (194,2)                 |  (drain,source) = (194,2)                 
+  gate = 12                                |  gate = 11                                
+                                           |                                           
+Instance: n61                              |Instance: n@979,124                        
+  (drain,source) = (194,2)                 |  (drain,source) = (194,2)                 
+  gate = 12                                |  gate = 11                                
+                                           |                                           
+Instance: n28                              |Instance: n@1184,124                       
+  (drain,source) = (194,2)                 |  (drain,source) = (194,2)                 
+  gate = 12                                |  gate = 11                                
+                                           |                                           
+Instance: n23                              |Instance: n@1133,124                       
+  (drain,source) = (194,2)                 |  (drain,source) = (194,2)                 
+  gate = 12                                |  gate = 11                                
+                                           |                                           
+Instance: n293                             |Instance: n@99,124                         
   (drain,source) = (8,2)                   |  (drain,source) = (2,2)                   
-  gate = 12                                |  gate = 11                                
+  gate = 11                                |  gate = 12                                
                                            |                                           
-Instance: p@202,192                        |Instance: p249                             
+Instance: n255                             |Instance: n@253,124                        
   (drain,source) = (8,2)                   |  (drain,source) = (2,2)                   
-  gate = 12                                |  gate = 11                                
+  gate = 11                                |  gate = 12                                
                                            |                                           
-Instance: p@356,192                        |Instance: p211                             
+Instance: n217                             |Instance: n@407,124                        
   (drain,source) = (8,2)                   |  (drain,source) = (2,2)                   
-  gate = 12                                |  gate = 11                                
+  gate = 11                                |  gate = 12                                
                                            |                                           
-Instance: p@511,192                        |Instance: p173                             
+Instance: n179                             |Instance: n@562,124                        
   (drain,source) = (8,2)                   |  (drain,source) = (2,2)                   
-  gate = 12                                |  gate = 11                                
+  gate = 11                                |  gate = 12                                
                                            |                                           
-Instance: p@666,192                        |Instance: p135                             
+Instance: n141                             |Instance: n@717,124                        
   (drain,source) = (8,2)                   |  (drain,source) = (2,2)                   
-  gate = 12                                |  gate = 11                                
+  gate = 11                                |  gate = 12                                
                                            |                                           
-Instance: p@820,192                        |Instance: p97                              
+Instance: n103                             |Instance: n@871,124                        
   (drain,source) = (8,2)                   |  (drain,source) = (2,2)                   
-  gate = 12                                |  gate = 11                                
+  gate = 11                                |  gate = 12                                
                                            |                                           
-Instance: p@974,192                        |Instance: p59                              
+Instance: n65                              |Instance: n@1025,124                       
   (drain,source) = (8,2)                   |  (drain,source) = (2,2)                   
-  gate = 12                                |  gate = 11                                
+  gate = 11                                |  gate = 12                                
                                            |                                           
-Instance: p@1128,192                       |Instance: p21                              
+Instance: n27                              |Instance: n@1179,124                       
   (drain,source) = (8,2)                   |  (drain,source) = (2,2)                   
-  gate = 12                                |  gate = 11                                
+  gate = 11                                |  gate = 12                                
+                                           |                                           
+Instance: n288                             |Instance: n@48,124                         
+  (drain,source) = (2,2)                   |  (drain,source) = (8,2)                   
+  gate = 11                                |  gate = 12                                
+                                           |                                           
+Instance: n250                             |Instance: n@202,124                        
+  (drain,source) = (2,2)                   |  (drain,source) = (8,2)                   
+  gate = 11                                |  gate = 12                                
+                                           |                                           
+Instance: n212                             |Instance: n@356,124                        
+  (drain,source) = (2,2)                   |  (drain,source) = (8,2)                   
+  gate = 11                                |  gate = 12                                
+                                           |                                           
+Instance: n174                             |Instance: n@511,124                        
+  (drain,source) = (2,2)                   |  (drain,source) = (8,2)                   
+  gate = 11                                |  gate = 12                                
+                                           |                                           
+Instance: n136                             |Instance: n@666,124                        
+  (drain,source) = (2,2)                   |  (drain,source) = (8,2)                   
+  gate = 11                                |  gate = 12                                
+                                           |                                           
+Instance: n98                              |Instance: n@820,124                        
+  (drain,source) = (2,2)                   |  (drain,source) = (8,2)                   
+  gate = 11                                |  gate = 12                                
+                                           |                                           
+Instance: n60                              |Instance: n@974,124                        
+  (drain,source) = (2,2)                   |  (drain,source) = (8,2)                   
+  gate = 11                                |  gate = 12                                
+                                           |                                           
+Instance: n22                              |Instance: n@1128,124                       
+  (drain,source) = (2,2)                   |  (drain,source) = (8,2)                   
+  gate = 11                                |  gate = 12                                
 ---------------------------------------------------------------------------------------
 Netlists do not match.
 Netlists do not match.
