@@ -13,11 +13,31 @@
 *
 * Format: Vname pin1 pin2 DC voltage
 *****************************************
-VA A gnd pulse 0 5V 0ns 200ps 200ps 4.8ns 10ns
-VB B gnd pulse 0 5V 0ns 200ps 200ps 9.8ns 20ns
-VC C gnd pulse 0 5V 0ns 200ps 200ps 19.8ns 40ns
-VD D gnd pulse 0 5V 0ns 200ps 200ps 39.8ns 80ns
-
+V0 A0 gnd pulse 0 5V 0ns 200ps 200ps 4.8ns 10ns
+V1 A1 gnd pulse 0 5V 0ns 200ps 200ps 4.8ns 10ns
+V2 A2 gnd pulse 0 5V 0ns 200ps 200ps 4.8ns 10ns
+V3 A3 gnd pulse 0 5V 0ns 200ps 200ps 4.8ns 10ns
+V4 A4 gnd pulse 0 5V 0ns 200ps 200ps 4.8ns 10ns
+V5 A5 gnd pulse 0 5V 0ns 200ps 200ps 4.8ns 10ns
+V6 A6 gnd pulse 0 5V 0ns 200ps 200ps 4.8ns 10ns
+V7 A7 gnd pulse 0 5V 0ns 200ps 200ps 4.8ns 10ns
+V8 B0 gnd pulse 0 5V 0ns 200ps 200ps 4.8ns 10ns
+V9 B1 gnd pulse 0 5V 0ns 200ps 200ps 4.8ns 10ns
+V10 B2 gnd pulse 0 5V 0ns 200ps 200ps 4.8ns 10ns
+V11 B3 gnd pulse 0 5V 0ns 200ps 200ps 4.8ns 10ns
+V12 B4 gnd pulse 0 5V 0ns 200ps 200ps 4.8ns 10ns
+V13 B5 gnd pulse 0 5V 0ns 200ps 200ps 4.8ns 10ns
+V14 B6 gnd pulse 0 5V 0ns 200ps 200ps 4.8ns 10ns
+V15 B7 gnd pulse 0 5V 0ns 200ps 200ps 4.8ns 10ns
+V16 Out0 gnd pulse 0 5V 0ns 200ps 200ps 4.8ns 10ns
+V17 Out1 gnd pulse 0 5V 0ns 200ps 200ps 4.8ns 10ns
+V18 Out2 gnd pulse 0 5V 0ns 200ps 200ps 4.8ns 10ns
+V19 Out3 gnd pulse 0 5V 0ns 200ps 200ps 4.8ns 10ns
+V20 Out4 gnd pulse 0 5V 0ns 200ps 200ps 4.8ns 10ns
+V21 Out5 gnd pulse 0 5V 0ns 200ps 200ps 4.8ns 10ns
+V22 Out6 gnd pulse 0 5V 0ns 200ps 200ps 4.8ns 10ns
+V23 Out7 gnd pulse 0 5V 0ns 200ps 200ps 4.8ns 10ns
+V24 subtract gnd pulse 0 5V 0ns 200ps 200ps 4.8ns 10ns
 *****************************************************************
 * Transistors
 *
@@ -1922,8 +1942,8 @@ VDD vdd 0 DC 'SUPPLY'
 * .print prints given waveforms in tabulated form
 **************************************************************
 .print DC V(A) V(Out)
-.print tran V(A) V(B) V(C) V(D) V(Out)
-.probe V(A) V(B) V(C) V(D) V(Out)
+.print tran V(A0) V(Out)
+.probe V(Out)
 .op
 .options probe post measout captab
 .end

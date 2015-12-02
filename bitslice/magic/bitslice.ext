@@ -25,25 +25,25 @@ node "S" 1 2023.2 -56 138 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 120 68 0 0 0 0
 node "B" 1 2847.6 -56 145 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 141 100 0 0 0 0
 node "vdd" 1 4658.4 -30 184 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 384 140 0 0 0 0
 node "w_n98_14#" 2110 25091.5 -98 14 nw 0 0 0 0 7535 386 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-cap "sum" "gnd" 5771.64
-cap "vdd" "clk" 171.24
-cap "sum" "Cout" 259.32
-cap "out" "Cout" 218.34
 cap "m1_n93_n52#" "Y" 303.36
 cap "gnd" "A" 787.92
 cap "vdd" "w_n98_14#" 8938.8
 cap "Cin" "m1_n93_n52#" 303.36
 cap "vdd" "m1_n93_n52#" 6028.56
 cap "out" "m1_n93_n52#" 1586.1
+cap "sum" "gnd" 5771.64
+cap "vdd" "clk" 171.24
+cap "sum" "Cout" 259.32
+cap "out" "Cout" 218.34
 cap "vdd" "clk" -12.24
-cap "fa_0/B" "Cin" 38.88
 cap "fa_0/A" "fa_0/B" 38.88
+cap "fa_0/B" "Cin" 38.88
 cap "fa_0/A" "Cin" 38.88
 cap "fa_0/vdd" "fa_0/A" 149.04
 cap "sum" "Cout" 36.72
+cap "vdd" "m1_n93_n52#" 124.2
 cap "vdd" "mux21_0/inverter_0/Y" 144
 cap "vdd" "mux21_0/inverter_0/A" 158.4
-cap "vdd" "m1_n93_n52#" 124.2
 merge "mux21_0/gnd" "xor2_0/gnd" -24616.8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1898 -760 0 0 0 0
 merge "xor2_0/gnd" "mux21_0/inverter_0/gnd"
 merge "mux21_0/inverter_0/gnd" "fa_0/gnd"

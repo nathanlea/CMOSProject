@@ -1,0 +1,78 @@
+Using: /programs/synopsys/hspice_vK-2015.06/hspice/linux64/hspice project.sp
+ ****** HSPICE -- K-2015.06 linux64 (May 25 2015) ******                        
+  Copyright (c) 1986 - 2015 by Synopsys, Inc. All Rights Reserved.              
+  This software and the associated documentation are proprietary
+  to Synopsys, Inc. This software may only be used in accordance
+  with the terms and conditions of a written license agreement with
+  Synopsys, Inc. All other use, reproduction, or distribution of
+  this software is strictly prohibited.
+  Input File: project.sp                                                        
+  Command line options: /programs/synopsys/hspice_vK-2015.06/hspice/linux64/hspice project.sp
+ lic:  
+ lic: FLEXlm: v11.2.1 
+ lic: USER:   khobble              HOSTNAME: gondor.ecen.okstate.edu 
+ lic: HOSTID: "2c44fd8302d0"       PID:      82509 
+ lic: Using FLEXlm license file: 
+ lic: 27020@avatar.ecen.okstate.edu 
+ lic: Checkout 1 hspice 
+ lic: License/Maintenance for hspice will expire on 27-jan-2016/2014.09 
+ lic: 3(in_use)/50(total) FLOATING license(s) on SERVER 27020@avatar.ecen.okstate.edu 
+ lic:   
+ Init: read install configuration file: /programs/synopsys/hspice_vK-2015.06/hspice/meta.cfg
+  **error** (project.sp:436) Undefined parameter or function definition "temperaturecorner" for temper@_1. Please enter a defined name.
+
+          ***** job aborted
+1****** HSPICE -- K-2015.06 linux64 (May 25 2015) ******                        
+ ******  
+ *********************************************************
+
+ ****** job statistics summary tnom=  25.000 temp=  25.000 ******
+  
+  
+ ******  Machine Information  ******
+ CPU:
+ model name	: Intel(R) Xeon(R) CPU E5-4617 0 @ 2.90GHz
+ cpu MHz	: 2900.000
+  
+ OS:
+ Linux version 2.6.32-573.3.1.el6.x86_64 (mockbuild@x86-029.build.eng.bos.redhat.com) (gcc version 4.4.7 20120313 (Red Hat 4.4.7-16) (GCC) ) #1 SMP Mon Aug 10 09:44:54 EDT 2015
+
+
+  ******  HSPICE Threads Information  ******
+
+  Command Line Threads Count :     1
+  Available CPU Count        :    12
+  Actual Threads Count       :     1
+
+
+  ******  Circuit Statistics  ******
+  # nodes       =       0 # elements   =       5
+  # resistors   =       0 # capacitors =       0 # inductors   =       0
+  # mutual_inds =       0 # vccs       =       0 # vcvs        =       0
+  # cccs        =       0 # ccvs       =       0 # volt_srcs   =       5
+  # curr_srcs   =       0 # diodes     =       0 # bjts        =       0
+  # jfets       =       0 # mosfets    =       0 # U elements  =       0
+  # T elements  =       0 # W elements =       0 # B elements  =       0
+  # S elements  =       0 # P elements =       0 # va device   =       0
+  # vector_srcs =       0 # N elements =       0
+
+
+  ******  Runtime Statistics (seconds)  ******
+
+  analysis           time    # points   tot. iter  conv.iter
+  op point           0.00           1           0
+  readin             0.01
+  errchk             0.00
+  setup              0.00
+  output             0.00
+
+
+           peak memory used        201.58 megabytes
+           total cpu time            0.01 seconds
+           total elapsed time        0.35 seconds
+           job started at     11:48:02 12/02/2015
+           job ended   at     11:48:03 12/02/2015
+
+
+ lic: Release hspice token(s) 
+ lic: total license checkout elapse time:        0.33(s)

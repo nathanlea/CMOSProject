@@ -1,5 +1,5 @@
-( @@user : nathahl );
-( @@machine : combe.ecen.okstate.edu );
+( @@user : khobble );
+( @@machine : gondor.ecen.okstate.edu );
 ( @@source : prjMagic.mag );
 ( @@tool : Magic 8.0.209 );
 ( @@compiled : Fri Sep 11 02:08:49 CDT 2015 );
@@ -7,7 +7,7 @@
 ( @@version : 2000d );
 ( @@techdesc : SCMOS: Submit as technology.lambda: SCN3ME_SUBM.30 [to process: AMIc5] );
 ( @@style : lambda=0.30(p) );
-( @@date : Wed Dec  2 10:42:12 2015 );
+( @@date : Wed Dec  2 11:48:50 2015 );
 DS 1 15 2;
 9 prjMagic;
 L CWP;
