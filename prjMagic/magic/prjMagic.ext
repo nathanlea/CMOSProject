@@ -1,4 +1,4 @@
-timestamp 1448904111
+timestamp 1449073945
 version 8.0
 tech scmos
 style AMI0.5um(amic5)from:T01X
@@ -84,17 +84,19 @@ node "m1_359_341#" 3 6418.17 359 341 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20 18 511
 node "B2" 0 543.6 359 348 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 21 20 0 0 0 0
 node "m1_205_341#" 4 6108.3 205 341 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 398 256 0 0
 node "B1" 0 543.6 205 348 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 21 20 0 0 0 0
+node "S" 0 370.8 55 341 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12 14 0 0 0 0
+node "B0" 0 313.2 55 348 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9 12 0 0 0 0
 node "subtract" 61 125453 -6 171 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1394 822 8680 4404 0 0
 node "vdd" 17 78530.4 77 387 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6864 2300 0 0 0 0
 equiv "vdd" "vdd"
-cap "m1_1131_341#" "subtract" 259.32
-cap "m1_977_341#" "subtract" 450.12
-cap "subtract" "vdd" 2740.08
-cap "m1_359_341#" "subtract" 538.2
-cap "m1_205_341#" "subtract" 259.32
-cap "m1_514_341#" "subtract" 259.32
+cap "subtract" "m1_1131_341#" 259.32
+cap "subtract" "m1_977_341#" 450.12
 cap "subtract" "m1_823_341#" 259.32
 cap "subtract" "m1_669_341#" 259.32
+cap "subtract" "m1_514_341#" 259.32
+cap "subtract" "m1_359_341#" 538.2
+cap "subtract" "m1_205_341#" 259.32
+cap "vdd" "subtract" 2740.08
 cap "vdd" "nand_0/a_9_52#" -5.68434e-14
 cap "bitslice_0/fa_0/B" "bitslice_0/Cin" 48.96
 cap "bitslice_0/Cout" "bitslice_1/Y" 48.96
@@ -104,37 +106,37 @@ cap "bitslice_4/fa_0/B" "bitslice_3/Cout" 48.96
 cap "bitslice_5/fa_0/B" "bitslice_4/Cout" 48.96
 cap "bitslice_6/fa_0/B" "bitslice_5/Cout" 48.96
 cap "bitslice_7/fa_0/B" "bitslice_6/Cout" 48.96
-cap "bitslice_4/xor2_0/gnd" "bitslice_4/subtract" 12.24
+cap "bitslice_4/subtract" "bitslice_4/xor2_0/gnd" 12.24
 cap "bitslice_7/gnd" "bitslice_7/subtract" 12.24
-cap "bitslice_0/mux21_0/S" "bitslice_0/mux21_0/out" 27.54
-cap "bitslice_0/mux21_0/S" "bitslice_0/mux21_0/nand_1/B" 266.22
+cap "bitslice_0/mux21_0/out" "bitslice_0/mux21_0/S" 27.54
+cap "bitslice_0/mux21_0/nand_1/B" "bitslice_0/mux21_0/S" 266.22
 cap "vdd" "bitslice_0/mux21_0/S" 22.77
-cap "bitslice_1/S" "bitslice_1/mux21_0/nand_1/B" 192.78
 cap "bitslice_1/vdd" "bitslice_1/S" 2.07
+cap "bitslice_1/S" "bitslice_1/mux21_0/nand_1/B" 192.78
+cap "bitslice_1/vdd" "bitslice_2/S" 16.56
 cap "bitslice_1/mux21_0/out" "bitslice_2/S" 27.54
 cap "bitslice_1/mux21_0/nand_1/B" "bitslice_2/S" 146.88
-cap "bitslice_1/vdd" "bitslice_2/S" 16.56
 cap "bitslice_2/S" "bitslice_2/mux21_0/out" 27.54
 cap "bitslice_2/S" "bitslice_2/mux21_0/nand_1/B" 267.12
 cap "bitslice_2/S" "bitslice_2/mux21_0/nand_1/A" 3.96
 cap "bitslice_2/vdd" "bitslice_2/S" 78.66
-cap "bitslice_3/mux21_0/nand_1/B" "bitslice_3/S" 107.1
+cap "bitslice_3/S" "bitslice_3/mux21_0/nand_1/B" 107.1
 cap "bitslice_3/vdd" "bitslice_3/S" 2.07
-cap "bitslice_4/xor2_0/gnd" "subtract" 6.12
-cap "bitslice_3/mux21_0/out" "bitslice_3/mux21_0/S" 27.54
-cap "bitslice_3/mux21_0/nand_1/B" "bitslice_3/mux21_0/S" 156.96
-cap "bitslice_3/mux21_0/nand_1/A" "bitslice_3/mux21_0/S" 3.96
-cap "vdd" "bitslice_3/mux21_0/S" 76.59
+cap "subtract" "bitslice_4/xor2_0/gnd" 6.12
+cap "bitslice_3/mux21_0/S" "bitslice_3/mux21_0/out" 27.54
+cap "bitslice_3/mux21_0/S" "bitslice_3/mux21_0/nand_1/B" 156.96
+cap "bitslice_3/mux21_0/S" "bitslice_3/mux21_0/nand_1/A" 3.96
+cap "bitslice_3/mux21_0/S" "vdd" 76.59
 cap "bitslice_4/S" "bitslice_4/mux21_0/out" 27.54
 cap "bitslice_4/S" "bitslice_4/mux21_0/nand_1/B" 330.48
 cap "bitslice_4/vdd" "bitslice_4/S" 16.56
-cap "bitslice_5/mux21_0/out" "bitslice_5/mux21_0/S" 27.54
-cap "bitslice_5/mux21_0/nand_1/B" "bitslice_5/mux21_0/S" 330.48
-cap "bitslice_5/vdd" "bitslice_5/mux21_0/S" 16.56
+cap "bitslice_5/mux21_0/S" "bitslice_5/mux21_0/nand_1/B" 330.48
+cap "bitslice_5/mux21_0/S" "bitslice_5/vdd" 16.56
+cap "bitslice_5/mux21_0/S" "bitslice_5/mux21_0/out" 27.54
 cap "bitslice_6/S" "bitslice_6/mux21_0/out" 27.54
 cap "bitslice_6/S" "bitslice_6/mux21_0/nand_1/B" 330.48
 cap "bitslice_6/vdd" "bitslice_6/S" 16.56
-cap "subtract" "bitslice_7/xor2_0/gnd" 6.12
+cap "bitslice_7/xor2_0/gnd" "subtract" 6.12
 merge "bitslice_6/mux21_0/nand_2/gnd" "bitslice_3/mux21_0/gnd" -148817 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16287 -3854 0 0 0 0
 merge "bitslice_3/mux21_0/gnd" "bitslice_1/mux21_0/nand_1/gnd"
 merge "bitslice_1/mux21_0/nand_1/gnd" "bitslice_0/xor2_0/gnd"
@@ -242,6 +244,7 @@ merge "nand_0/a_9_52#" "m1_n8_n47#"
 merge "bitslice_0/A" "A0" -268.92 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 -14 0 0
 merge "bitslice_1/Cin" "bitslice_0/Cout" -767.16 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 -12 -14 0 0
 merge "bitslice_0/Cout" "m1_161_171#"
+merge "bitslice_0/B" "B0" -313.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -9 -12 0 0 0 0
 merge "bitslice_2/Cin" "bitslice_1/Cout" -767.16 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 -12 -14 0 0
 merge "bitslice_1/Cout" "m1_315_171#"
 merge "nand_0/A" "loadR" -601.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -24 -22 0 0 0 0
@@ -259,6 +262,7 @@ merge "nand_0/B" "clk" -601.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -24 -22 0 0 0 0
 merge "bitslice_6/Cin" "bitslice_5/Cout" -721.35 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 -9 -12 0 0
 merge "bitslice_5/Cout" "m1_933_171#"
 merge "bitslice_2/A" "A2" -385.65 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 -20 0 0
+merge "bitslice_0/S" "S" -370.8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -12 -14 0 0 0 0
 merge "bitslice_1/out" "Out1" -676.8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -24 0 0 0 0
 merge "bitslice_6/A" "A6" -343.98 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6 -18 0 0
 merge "bitslice_5/out" "Out5" -554.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -24 -20 0 0 0 0

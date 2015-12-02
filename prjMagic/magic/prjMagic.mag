@@ -1,8 +1,10 @@
 magic
 tech scmos
-timestamp 1448904111
+timestamp 1449073945
 << metal1 >>
 rect 77 387 1221 393
+rect 55 348 58 351
+rect 55 341 58 345
 rect 159 341 163 359
 rect 205 348 212 351
 rect 313 336 317 358
@@ -254,8 +256,8 @@ rlabel metal1 -28 -33 -28 -33 3 clk
 rlabel metal1 -29 -40 -29 -40 3 loadR
 rlabel metal1 -4 291 -4 291 1 subtract
 rlabel metal2 55 332 55 332 1 A0
-rlabel space 56 349 56 349 1 B0
-rlabel space 56 343 56 343 1 S
+rlabel metal1 56 349 56 349 1 B0
+rlabel metal1 56 343 56 343 1 S
 rlabel metal1 210 349 210 349 1 B1
 rlabel metal2 211 332 211 332 1 A1
 rlabel metal2 363 333 363 333 1 A2
