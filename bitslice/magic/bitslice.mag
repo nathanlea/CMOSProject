@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1448297780
+timestamp 1449109615
 << nwell >>
 rect -98 64 -13 75
 rect -98 14 34 64
@@ -14,24 +14,25 @@ rect -36 100 34 112
 rect -36 98 -24 100
 rect -104 86 -88 89
 rect -44 86 -36 90
-rect 32 71 42 74
+rect 23 71 47 74
 rect -96 12 34 26
 rect -100 -32 -68 -28
 rect -103 -42 -77 -38
 rect 8 -42 36 -38
 rect -89 -52 -83 -48
 rect 32 -73 36 -42
+rect 44 -61 55 -58
 rect 32 -78 36 -77
 rect -94 -97 32 -82
-rect 39 -145 42 71
-rect 10 -149 42 -145
 rect -82 -198 18 -192
 << m2contact >>
 rect 29 132 33 136
 rect -36 86 -32 90
 rect -92 76 -88 80
+rect 47 70 51 74
 rect -107 -42 -103 -38
 rect -93 -52 -89 -48
+rect 39 -61 44 -56
 rect 32 -77 36 -73
 rect -85 -140 -81 -136
 << metal2 >>
@@ -43,11 +44,13 @@ rect -107 -38 -103 76
 rect 39 23 43 132
 rect -93 19 43 23
 rect -93 -48 -89 19
-rect 25 -61 47 -58
+rect 25 -61 39 -58
 rect 32 -85 36 -77
 rect -86 -89 36 -85
 rect -86 -136 -82 -89
 rect -86 -140 -85 -136
+rect 47 -138 51 70
+rect 10 -141 51 -138
 rect -30 -203 -26 -197
 use ../../XOR2/magic/xor2  xor2_0 ../../XOR2/magic
 timestamp 1160719867
@@ -72,13 +75,13 @@ rlabel metal1 -37 18 -37 18 1 vdd
 rlabel metal1 -53 -90 -53 -90 1 gnd
 rlabel metal2 -28 -202 -28 -202 1 clk
 rlabel metal1 -24 -196 -24 -196 1 vdd
-rlabel metal2 45 -60 45 -60 7 Cout
 rlabel metal2 -54 129 -54 129 1 A
 rlabel metal1 -55 146 -55 146 1 B
 rlabel metal1 -102 88 -102 88 3 subtract
 rlabel metal1 34 -40 34 -40 1 sum
 rlabel metal1 -55 139 -55 139 1 S
 rlabel metal2 -98 78 -98 78 1 Y
-rlabel metal1 38 -147 38 -147 1 out
 rlabel metal1 -98 -30 -98 -30 1 Cin
+rlabel metal2 28 -140 28 -140 1 out
+rlabel metal1 53 -60 53 -60 7 cout
 << end >>

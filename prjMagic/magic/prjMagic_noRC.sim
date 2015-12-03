@@ -2,7 +2,7 @@
 p inverter_0/A vdd inverter_0/Y 2 20 11 -18
 n inverter_0/A gnd inverter_0/Y 2 10 11 -64
 p inverter_0/Y bitslice_7/dffpos_0/a_n34_n84# vdd 2 40 1114 53
-p bitslice_7/sum vdd bitslice_7/dffpos_0/a_n19_n15# 2 20 1122 33
+p magicalOutputofAwesome vdd bitslice_7/dffpos_0/a_n19_n15# 2 20 1122 33
 p inverter_0/Y bitslice_7/dffpos_0/a_n19_n15# bitslice_7/dffpos_0/a_n14_n84# 2 20 1128 33
 p bitslice_7/dffpos_0/a_n34_n84# bitslice_7/dffpos_0/a_n14_n84# bitslice_7/dffpos_0/a_n5_n15# 2 20 1136 33
 p bitslice_7/dffpos_0/a_n2_n86# bitslice_7/dffpos_0/a_n5_n15# vdd 2 20 1142 33
@@ -13,7 +13,7 @@ p inverter_0/Y bitslice_7/dffpos_0/a_30_n84# bitslice_7/dffpos_0/a_40_n5# 2 10 1
 p Out7 bitslice_7/dffpos_0/a_40_n5# vdd 2 10 1186 23
 n inverter_0/Y bitslice_7/dffpos_0/a_n34_n84# gnd 2 20 1114 102
 p bitslice_7/dffpos_0/a_30_n84# vdd Out7 2 40 1194 53
-n bitslice_7/sum gnd bitslice_7/dffpos_0/a_n19_n84# 2 10 1122 102
+n magicalOutputofAwesome gnd bitslice_7/dffpos_0/a_n19_n84# 2 10 1122 102
 n bitslice_7/dffpos_0/a_n34_n84# bitslice_7/dffpos_0/a_n19_n84# bitslice_7/dffpos_0/a_n14_n84# 2 10 1127 102
 n inverter_0/Y bitslice_7/dffpos_0/a_n14_n84# bitslice_7/dffpos_0/a_n5_n84# 2 10 1136 102
 n bitslice_7/dffpos_0/a_n2_n86# bitslice_7/dffpos_0/a_n5_n84# gnd 2 10 1141 102
@@ -35,7 +35,7 @@ p bitslice_7/fa_0/a_25_6# bitslice_7/fa_0/a_46_74# bitslice_7/fa_0/a_70_6# 2 20 
 p bitslice_7/Cin bitslice_7/fa_0/a_70_6# bitslice_7/fa_0/a_79_74# 2 20 1174 192
 p bitslice_7/Y bitslice_7/fa_0/a_79_74# bitslice_7/fa_0/a_84_74# 2 20 1179 192
 p bitslice_7/fa_0/A bitslice_7/fa_0/a_84_74# vdd 2 20 1184 192
-p bitslice_7/fa_0/a_70_6# vdd bitslice_7/sum 2 20 1192 192
+p bitslice_7/fa_0/a_70_6# vdd magicalOutputofAwesome 2 20 1192 192
 p bitslice_7/fa_0/a_25_6# vdd Cout 2 20 1208 192
 n bitslice_7/fa_0/A bitslice_7/fa_0/a_2_6# gnd 2 10 1104 124
 n bitslice_7/Y gnd bitslice_7/fa_0/a_2_6# 2 10 1112 124
@@ -49,7 +49,7 @@ n bitslice_7/fa_0/a_25_6# bitslice_7/fa_0/a_46_6# bitslice_7/fa_0/a_70_6# 2 10 1
 n bitslice_7/Cin bitslice_7/fa_0/a_70_6# bitslice_7/fa_0/a_79_6# 2 10 1174 124
 n bitslice_7/Y bitslice_7/fa_0/a_79_6# bitslice_7/fa_0/a_84_6# 2 10 1179 124
 n bitslice_7/fa_0/A bitslice_7/fa_0/a_84_6# gnd 2 10 1184 124
-n bitslice_7/fa_0/a_70_6# gnd bitslice_7/sum 2 10 1192 124
+n bitslice_7/fa_0/a_70_6# gnd magicalOutputofAwesome 2 10 1192 124
 n bitslice_7/fa_0/a_25_6# gnd Cout 2 10 1208 124
 p Out7 vdd bitslice_7/mux21_0/nand_1/A 2 20 1209 253
 p bitslice_7/mux21_0/nand_2/B bitslice_7/mux21_0/nand_1/A vdd 2 20 1201 253

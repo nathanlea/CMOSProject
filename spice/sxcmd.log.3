@@ -1,18 +1,183 @@
 ### CustomExplorer log file, revision K-2015.06 (build 05/23/15) ###
-### created at 13:14:18 on Wed Dec  2 2015 (Linux AMD64) ###
-### Host Name: gondor.ecen.okstate.edu   User ID: khobble   PID: 46946   ###
+### created at 17:01:13 on Wed Dec  2 2015 (Linux AMD64) ###
+### Host Name: combe.ecen.okstate.edu   User ID: nathahl   PID: 16933   ###
 wv_start_log
+# (0) # editor setting overridden by env variable EDITOR
 # (0) running in waveview only mode
 # (0) SW_SX_PERL_LIB defined
 # (0) SW_SX_TCL_LIB defined
 # (0) HOME defined
 wv_move_window CustomWaveView 0 0
 wv_resize_window CustomWaveView 800 400
-wv_move_window CustomWaveView 2 51
-wv_move_window CustomWaveView 94 81
-wv_resize_window CustomWaveView 951 550
+wv_move_window CustomWaveView 0 25
+wv_move_window CustomWaveView -1 4
+wv_resize_window CustomWaveView 1362 688
+wv_move_window CustomWaveView 0 25
+wv_select_menu_item {File} {Import Waveform File ...}
+wv_move_dialog FileDialog 478 76
+wv_select_dialog FileDialog
+wv_set_text FileDialog.FileName {}
+wv_select_list_item FileDialog.FileList prjMagic.tr0
+wv_dclick_list_item FileDialog.FileList prjMagic.tr0
+wv_expand_tree_item MainWindow.hierview {D0:prjMagic.tr0}
+wv_select_tree_item MainWindow.hierview {D0:prjMagic.tr0}
+wv_select_tree_item MainWindow.hierview {D0:prjMagic.tr0/toplevel}
+wv_select_list_item MainWindow.sigview v(magicaloutputofawesome)
+wv_dclick_list_item MainWindow.sigview v(magicaloutputofawesome)
+wv_select_list_item MainWindow.sigview v(subtract)
+wv_dclick_list_item MainWindow.sigview v(subtract)
+wv_select_wv_item WV1.ICON.unzoom
+wv_release_wv_item WV1 54 12
+wv_select_panel WV1.PANEL2:1 4.03361e-09 0.0204082
+wv_drag_item_to WV1 178 546
+wv_zoom WV1.PANEL2:1 4.03361e-09 0.0204082 7.47899e-09 5.42857
+wv_select_wv_item WV1.ICON.unzoom
+wv_release_wv_item WV1 54 11
+wv_select_panel WV1.PANEL1:1 4.28571e-09 5.14043
+wv_drag_item_to WV1 179 45
+wv_zoom WV1.PANEL1:1 4.28571e-09 5.14043 7.47899e-09 -0.81766
+wv_select_wv_item {WV1.ICON.add cursor}
+wv_release_wv_item WV1 115 11
+wv_select_wv_item {WV1.ICON.add cursor}
+wv_release_wv_item WV1 112 8
+wv_select_wv_item WV1.PANEL1:1.CURSOR2
+wv_drag_item_to WV1 640 151
+wv_move_wv_item WV1.PANEL1:1.CURSOR2 379 339
+wv_select_wv_item WV1.PANEL1:1.CURSOR1
+wv_drag_item_to WV1 637 164
+wv_move_wv_item WV1.PANEL1:1.CURSOR1 687 239
+wv_select_menu_item {File} {Print ...}
+wv_move_dialog PrintSetup 416 84
+wv_move_dialog PrintSetup 416 90
+wv_select_dialog PrintSetup
+wv_set_check PrintSetup.PrintToFile 1
+wv_press_button PrintSetup.PathBrowser
+wv_move_dialog FileDialog 478 190
+wv_select_dialog FileDialog
+wv_move_dialog FileDialog 478 76
+wv_select_dialog PrintSetup
+wv_set_text FileDialog.FileName {}
+wv_close_dialog FileDialog
+wv_select_dialog PrintSetup
+wv_set_text PrintSetup.Path {}
+wv_select_dialog PrintSetup
+wv_set_text PrintSetup.Path {subtract to magic fall time}
+wv_press_button PrintSetup.Print
+wv_select_wv_item WV1.ICON.unzoom
+wv_release_wv_item WV1 59 10
+wv_select_panel WV1.PANEL1:1 9.97732e-09 0.0512287
+wv_move_wv_item WV1.PANEL1:1.CURSOR1 307 291
+wv_select_wv_item WV1.PANEL2:1.CURSOR1
+wv_drag_item_to WV1 307 346
+wv_move_wv_item WV1.PANEL2:1.CURSOR1 309 347
+wv_select_wv_item {WV1.ICON.add cursor}
+wv_release_wv_item WV1 111 14
+wv_select_wv_item WV1.PANEL1:1.CURSOR3
+wv_drag_item_to WV1 634 163
+wv_move_wv_item WV1.PANEL1:1.CURSOR3 271 192
+wv_waveview_context_menu WV1.ICONS
+wv_select_context_menu_item {Clear WaveView}
+wv_waveview_context_menu WV1
+wv_select_list_item MainWindow.sigview v(magicaloutputofawesome)
+wv_select_list_item MainWindow.sigview v(magicaloutputofawesome)
+wv_dclick_list_item MainWindow.sigview v(magicaloutputofawesome)
+wv_select_list_item MainWindow.sigview v(subtract)
+wv_dclick_list_item MainWindow.sigview v(subtract)
+wv_select_wv_item {WV1.ICON.add cursor}
+wv_release_wv_item WV1 106 12
+wv_select_wv_item WV1.PANEL1:1.CURSOR1
+wv_drag_item_to WV1 635 294
+wv_move_wv_item WV1.PANEL1:1.CURSOR1 297 459
+wv_select_wv_item WV1.ICON.zoomin
+wv_release_wv_item WV1 22 14
+wv_select_wv_item WV1.PANEL2:1.CURSOR1
+wv_drag_item_to WV1 295 494
+wv_move_wv_item WV1.PANEL2:1.CURSOR1 298 495
+wv_select_panel WV1.PANEL2:1 5.35147e-09 2.97959
+wv_drag_item_to WV1 259 401
+wv_zoom_x WV1.PANEL2:1 5.35147e-09 1.29705e-08
+wv_select_panel WV1.PANEL2:1 6.66236e-09 3.16327
+wv_move_wv_item WV1.PANEL2:1.CURSOR1 340 392
+wv_select_panel WV1.PANEL2:1 9.79099e-09 2.53061
+wv_drag_item_to WV1 711 423
+wv_zoom_x WV1.PANEL2:1 9.79099e-09 1.2368e-08
+wv_select_wv_item {WV1.ICON.add cursor}
+wv_release_wv_item WV1 116 14
+wv_select_panel WV1.PANEL1:1 9.95006e-09 -0.0522104
+wv_drag_item_to WV1 253 296
+wv_zoom_x WV1.PANEL1:1 9.95006e-09 1.00259e-08
+wv_select_panel WV1.PANEL1:1 9.9671e-09 2.28551
+wv_drag_item_to WV1 367 183
+wv_zoom_x WV1.PANEL1:1 9.9671e-09 9.96718e-09
+wv_select_panel WV1.PANEL2:1 9.96348e-09 4.14286
+wv_drag_item_to WV1 322 344
+wv_zoom_x WV1.PANEL2:1 9.96348e-09 9.96117e-09
+wv_select_wv_item WV1.ICON.unzoom
+wv_release_wv_item WV1 57 18
+wv_select_wv_item WV1.PANEL1:1.CURSOR2
+wv_drag_item_to WV1 324 205
+wv_move_wv_item WV1.PANEL1:1.CURSOR2 339 194
+wv_select_wv_item WV1.ICON.zoomin
+wv_release_wv_item WV1 26 13
+wv_select_wv_item WV1.ICON.zoomin
+wv_release_wv_item WV1 27 16
+wv_select_panel WV1.PANEL1:1 9.2517e-09 0.547736
+wv_drag_item_to WV1 301 267
+wv_zoom WV1.PANEL1:1 9.2517e-09 0.547736 1.89569e-08 -0.548718
+wv_select_wv_item WV1.ICON.unzoom
+wv_release_wv_item WV1 51 17
+wv_select_panel WV1.PANEL1:1 9.70522e-09 0.13398
+wv_drag_item_to WV1 323 288
+wv_zoom WV1.PANEL1:1 9.70522e-09 0.13398 1.53288e-08 0.444297
+wv_select_wv_item WV1.ICON.unzoom
+wv_release_wv_item WV1 55 11
+wv_select_wv_item WV1.PANEL1:1.XAXIS1
+wv_drag_item_to WV1 298 51
+wv_zoom_x WV1.PANEL1:1 8.79819e-09 1.30612e-08
+wv_select_wv_item WV1.PANEL1:1.CURSOR2
+wv_drag_item_to WV1 1031 123
+wv_move_wv_item WV1.PANEL1:1.CURSOR2 883 115
+wv_select_wv_item WV1.PANEL1:1.CURSOR2
+wv_drag_item_to WV1 875 87
+wv_move_wv_item WV1.PANEL1:1.CURSOR2 817 110
+wv_select_wv_item WV1.PANEL1:1.CURSOR1
+wv_drag_item_to WV1 196 224
+wv_move_wv_item WV1.PANEL1:1.CURSOR1 435 538
+wv_select_wv_item WV1.PANEL2:1.CURSOR1
+wv_drag_item_to WV1 431 525
+wv_move_wv_item WV1.PANEL2:1.CURSOR1 436 525
+wv_select_menu_item {File} {Print ...}
+wv_move_dialog PrintSetup 416 84
+wv_move_dialog PrintSetup 416 90
+wv_select_dialog PrintSetup
+wv_set_text PrintSetup.Path {subtract to magic rise time}
+wv_press_button PrintSetup.Print
+wv_select_wv_item WV1.ICON.unzoom
+wv_release_wv_item WV1 55 20
+wv_select_list_item MainWindow.sigview v(out7)
+wv_dclick_list_item MainWindow.sigview v(out7)
+wv_select_list_item MainWindow.sigview v(out6)
+wv_dclick_list_item MainWindow.sigview v(out6)
+wv_select_list_item MainWindow.sigview v(clk)
+wv_dclick_list_item MainWindow.sigview v(clk)
+wv_select_list_item MainWindow.sigview v(out0)
+wv_dclick_list_item MainWindow.sigview v(out0)
+wv_select_list_item MainWindow.sigview v(out1)
+wv_dclick_list_item MainWindow.sigview v(out1)
+wv_select_list_item MainWindow.sigview v(out2)
+wv_dclick_list_item MainWindow.sigview v(out2)
+wv_select_list_item MainWindow.sigview v(out3)
+wv_dclick_list_item MainWindow.sigview v(out3)
+wv_select_list_item MainWindow.sigview v(out4)
+wv_dclick_list_item MainWindow.sigview v(out4)
+wv_select_list_item MainWindow.sigview v(out5)
+wv_dclick_list_item MainWindow.sigview v(out5)
+wv_select_list_item MainWindow.sigview v(out5)
+wv_dclick_list_item MainWindow.sigview v(out5)
+wv_select_list_item MainWindow.sigview v(out6)
+wv_dclick_list_item MainWindow.sigview v(out6)
 wv_close_window CustomWaveView
-wv_move_dialog Confirmation 478 309
-wv_move_dialog Confirmation 478 259
+wv_move_dialog Confirmation 590 322
+wv_move_dialog Confirmation 590 249
 wv_select_dialog Confirmation
 # wv_press_button Confirmation.Ok
