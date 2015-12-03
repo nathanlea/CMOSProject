@@ -39,8 +39,8 @@ Extracting ../../bitslice/magic/bitslice into ../../bitslice/magic/bitslice.ext:
 ../../bitslice/magic/bitslice: 5 warnings
 Extracting ../../nand/magic/nand into ../../nand/magic/nand.ext:
 Extracting prjMagic into prjMagic.ext:
-prjMagic: 30 warnings
-Total of 37 warnings.
+prjMagic: 2 warnings
+Total of 9 warnings.
 exttosim finished.
 Devices merged: 0
 exttosim finished.
