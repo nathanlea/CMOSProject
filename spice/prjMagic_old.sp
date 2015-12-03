@@ -30,10 +30,7 @@ VO B5 gnd pulse 0 0V 0ns 200ps 200ps 4.8ns 10ns
 VP B6 gnd pulse 0 0V 0ns 200ps 200ps 4.8ns 10ns
 VQ B7 gnd pulse 0 0V 0ns 200ps 200ps 4.8ns 10ns
 VR subtract gnd pulse 0 5V 0ns 200ps 200ps 4.8ns 10ns
-VT S gnd pulse 5 5V 0ns 200ps 200ps 4.8ns 10ns
-VS clk gnd pulse 0 5V 0ns 200ps 200ps 2.4ns 5ns
-VV loadR gnd pulse 5 5V 0ns 200ps 200ps 2.4ns 5ns
-
+VS clk gnd pulse 0 5V 0ns 200ps 200ps 4.8ns 10ns
 *****************************************************************
 * Transistors
 *
@@ -50,7 +47,7 @@ M1001 inverter_0/Y inverter_0/A gnd Gnd CMOSNTT w=10 l=2
 +  ad=50 pd=30 as=10230 ps=4992
 M1002 vdd inverter_0/Y bitslice_7/dffpos_0/a_n34_n84# Vdd CMOSPTT w=40 l=2
 +  ad=0 pd=0 as=200 ps=90
-M1003 bitslice_7/dffpos_0/a_n19_n15# magicalOutputofAwesome vdd Vdd CMOSPTT w=20 l=2
+M1003 bitslice_7/dffpos_0/a_n19_n15# bitslice_7/sum vdd Vdd CMOSPTT w=20 l=2
 +  ad=80 pd=48 as=0 ps=0
 M1004 bitslice_7/dffpos_0/a_n14_n84# inverter_0/Y bitslice_7/dffpos_0/a_n19_n15# Vdd CMOSPTT w=20 l=2
 +  ad=120 pd=52 as=0 ps=0
@@ -72,7 +69,7 @@ M1012 gnd inverter_0/Y bitslice_7/dffpos_0/a_n34_n84# Gnd CMOSNTT w=20 l=2
 +  ad=0 pd=0 as=100 ps=50
 M1013 Out7 bitslice_7/dffpos_0/a_30_n84# vdd Vdd CMOSPTT w=40 l=2
 +  ad=200 pd=90 as=0 ps=0
-M1014 bitslice_7/dffpos_0/a_n19_n84# magicalOutputofAwesome gnd Gnd CMOSNTT w=10 l=2
+M1014 bitslice_7/dffpos_0/a_n19_n84# bitslice_7/sum gnd Gnd CMOSNTT w=10 l=2
 +  ad=30 pd=26 as=0 ps=0
 M1015 bitslice_7/dffpos_0/a_n14_n84# bitslice_7/dffpos_0/a_n34_n84# bitslice_7/dffpos_0/a_n19_n84# Gnd CMOSNTT w=10 l=2
 +  ad=70 pd=34 as=0 ps=0
@@ -116,7 +113,7 @@ M1034 bitslice_7/fa_0/a_84_74# bitslice_7/Y bitslice_7/fa_0/a_79_74# vdd CMOSPTT
 +  ad=60 pd=46 as=0 ps=0
 M1035 vdd bitslice_7/fa_0/A bitslice_7/fa_0/a_84_74# vdd CMOSPTT w=20 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1036 magicalOutputofAwesome bitslice_7/fa_0/a_70_6# vdd vdd CMOSPTT w=20 l=2
+M1036 bitslice_7/sum bitslice_7/fa_0/a_70_6# vdd vdd CMOSPTT w=20 l=2
 +  ad=100 pd=50 as=0 ps=0
 M1037 Cout bitslice_7/fa_0/a_25_6# vdd vdd CMOSPTT w=20 l=2
 +  ad=100 pd=50 as=0 ps=0
@@ -144,7 +141,7 @@ M1048 bitslice_7/fa_0/a_84_6# bitslice_7/Y bitslice_7/fa_0/a_79_6# Gnd CMOSNTT w
 +  ad=30 pd=26 as=0 ps=0
 M1049 gnd bitslice_7/fa_0/A bitslice_7/fa_0/a_84_6# Gnd CMOSNTT w=10 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1050 magicalOutputofAwesome bitslice_7/fa_0/a_70_6# gnd Gnd CMOSNTT w=10 l=2
+M1050 bitslice_7/sum bitslice_7/fa_0/a_70_6# gnd Gnd CMOSNTT w=10 l=2
 +  ad=50 pd=30 as=0 ps=0
 M1051 Cout bitslice_7/fa_0/a_25_6# gnd Gnd CMOSNTT w=10 l=2
 +  ad=50 pd=30 as=0 ps=0
@@ -1272,100 +1269,100 @@ M1612 nand_0/a_9_6# loadR gnd Gnd CMOSNTT w=20 l=2
 +  ad=60 pd=46 as=0 ps=0
 M1613 inverter_0/A clk nand_0/a_9_6# Gnd CMOSNTT w=20 l=2
 +  ad=100 pd=50 as=0 ps=0
-C0 inverter_0/Y bitslice_1/dffpos_0/a_n34_n84# 2.571480fF
-C1 bitslice_6/Cin bitslice_6/fa_0/a_70_6# 2.233260fF
-C2 bitslice_5/sum gnd 5.771640fF
-C3 vdd bitslice_5/mux21_0/nand_1/B 2.097720fF
-C4 vdd bitslice_5/mux21_0/nand_2/B 5.855850fF
-C5 bitslice_3/dffpos_0/a_n34_n84# bitslice_3/dffpos_0/a_30_n84# 2.081040fF
-C6 vdd bitslice_7/xor2_0/a_28_44# 2.119800fF
-C7 vdd bitslice_7/fa_0/a_25_6# 3.134880fF
-C8 bitslice_7/Cin bitslice_7/fa_0/a_70_6# 2.233260fF
-C9 vdd bitslice_1/xor2_0/a_28_44# 2.119800fF
-C10 inverter_0/Y bitslice_4/dffpos_0/a_n34_n84# 2.571480fF
-C11 vdd bitslice_5/fa_0/A 8.329680fF
-C12 vdd bitslice_6/fa_0/a_25_6# 3.134880fF
-C13 bitslice_6/dffpos_0/a_n2_n86# inverter_0/Y 3.159600fF
-C14 inverter_0/Y bitslice_0/dffpos_0/a_n34_n84# 2.571480fF
-C15 inverter_0/Y bitslice_5/dffpos_0/a_n34_n84# 2.571480fF
+C0 bitslice_5/sum gnd 5.771640fF
+C1 inverter_0/Y bitslice_6/dffpos_0/a_n34_n84# 2.571480fF
+C2 bitslice_7/Cin bitslice_7/fa_0/a_70_6# 2.233260fF
+C3 vdd bitslice_5/xor2_0/a_17_6# 2.059560fF
+C4 bitslice_3/Cin bitslice_3/fa_0/a_70_6# 2.233260fF
+C5 inverter_0/Y bitslice_0/dffpos_0/a_n2_n86# 3.159600fF
+C6 bitslice_2/dffpos_0/a_n34_n84# bitslice_2/dffpos_0/a_30_n84# 2.081040fF
+C7 bitslice_2/fa_0/a_25_6# vdd 3.134880fF
+C8 vdd bitslice_4/xor2_0/a_28_44# 2.119800fF
+C9 vdd bitslice_2/xor2_0/a_17_6# 2.059560fF
+C10 vdd bitslice_1/fa_0/a_25_6# 3.134880fF
+C11 inverter_0/Y bitslice_4/dffpos_0/a_n2_n86# 3.159600fF
+C12 inverter_0/Y bitslice_4/dffpos_0/a_n34_n84# 2.571480fF
+C13 vdd bitslice_3/mux21_0/nand_2/B 5.855850fF
+C14 bitslice_7/mux21_0/nand_2/B vdd 5.855850fF
+C15 bitslice_6/dffpos_0/a_30_n84# bitslice_6/dffpos_0/a_n34_n84# 2.081040fF
 C16 vdd bitslice_0/fa_0/a_25_6# 3.134880fF
-C17 bitslice_0/dffpos_0/a_30_n84# bitslice_0/dffpos_0/a_n34_n84# 2.081040fF
-C18 inverter_0/Y bitslice_0/dffpos_0/a_n2_n86# 3.159600fF
-C19 bitslice_1/mux21_0/nand_2/B vdd 5.855850fF
-C20 vdd bitslice_1/fa_0/a_25_6# 3.134880fF
-C21 vdd bitslice_0/mux21_0/nand_2/B 5.855850fF
-C22 vdd bitslice_5/xor2_0/a_17_6# 2.059560fF
-C23 bitslice_2/fa_0/a_70_6# bitslice_2/Cin 2.233260fF
-C24 vdd bitslice_4/fa_0/a_25_6# 3.134880fF
-C25 bitslice_7/dffpos_0/a_n2_n86# inverter_0/Y 3.159600fF
-C26 inverter_0/Y bitslice_4/dffpos_0/a_n2_n86# 3.159600fF
-C27 vdd bitslice_4/xor2_0/a_17_6# 2.059560fF
-C28 vdd bitslice_3/xor2_0/a_17_6# 2.059560fF
-C29 bitslice_4/dffpos_0/a_n34_n84# bitslice_4/dffpos_0/a_30_n84# 2.081040fF
-C30 vdd bitslice_1/xor2_0/a_17_6# 2.059560fF
-C31 bitslice_1/dffpos_0/a_n2_n86# inverter_0/Y 3.159600fF
-C32 vdd bitslice_4/fa_0/A 8.329680fF
-C33 bitslice_1/dffpos_0/a_30_n84# bitslice_1/dffpos_0/a_n34_n84# 2.081040fF
-C34 gnd bitslice_2/sum 5.771640fF
-C35 vdd bitslice_5/fa_0/a_25_6# 3.134880fF
-C36 bitslice_5/dffpos_0/a_n2_n86# inverter_0/Y 3.159600fF
-C37 vdd bitslice_0/fa_0/A 8.329680fF
-C38 vdd bitslice_0/mux21_0/nand_1/B 2.097720fF
-C39 bitslice_3/dffpos_0/a_n34_n84# inverter_0/Y 2.571480fF
-C40 magicalOutputofAwesome gnd 5.771640fF
-C41 vdd bitslice_1/fa_0/A 8.329680fF
-C42 vdd bitslice_6/xor2_0/a_17_6# 2.059560fF
-C43 vdd bitslice_1/mux21_0/nand_1/B 2.097720fF
-C44 bitslice_7/dffpos_0/a_n34_n84# bitslice_7/dffpos_0/a_30_n84# 2.081040fF
-C45 inverter_0/Y bitslice_2/dffpos_0/a_n2_n86# 3.159600fF
-C46 bitslice_6/dffpos_0/a_30_n84# bitslice_6/dffpos_0/a_n34_n84# 2.081040fF
-C47 vdd bitslice_3/mux21_0/nand_2/B 5.855850fF
-C48 vdd bitslice_4/mux21_0/nand_1/B 2.097720fF
-C49 vdd bitslice_7/mux21_0/nand_2/B 5.855850fF
-C50 vdd bitslice_3/mux21_0/nand_1/B 2.097720fF
-C51 gnd bitslice_1/sum 5.771640fF
-C52 vdd bitslice_4/xor2_0/a_28_44# 2.119800fF
-C53 bitslice_5/Cin bitslice_5/fa_0/a_70_6# 2.233260fF
-C54 vdd bitslice_2/mux21_0/nand_1/B 2.097720fF
-C55 vdd bitslice_7/xor2_0/a_17_6# 2.059560fF
-C56 vdd bitslice_3/xor2_0/a_28_44# 2.119800fF
-C57 inverter_0/Y bitslice_3/dffpos_0/a_n2_n86# 3.159600fF
-C58 vdd bitslice_2/fa_0/a_25_6# 3.134880fF
-C59 S subtract 2.284920fF
-C60 bitslice_5/dffpos_0/a_30_n84# bitslice_5/dffpos_0/a_n34_n84# 2.081040fF
-C61 vdd bitslice_2/mux21_0/nand_2/B 5.855850fF
-C62 gnd bitslice_4/sum 5.771640fF
-C63 subtract vdd 5.844720fF
-C64 bitslice_4/Cin bitslice_4/fa_0/a_70_6# 2.233260fF
-C65 bitslice_2/dffpos_0/a_n34_n84# bitslice_2/dffpos_0/a_30_n84# 2.081040fF
-C66 vdd bitslice_5/xor2_0/a_28_44# 2.119800fF
-C67 inverter_0/Y bitslice_6/dffpos_0/a_n34_n84# 2.571480fF
-C68 vdd bitslice_2/xor2_0/a_17_6# 2.059560fF
-C69 S gnd 4.844160fF
-C70 vdd bitslice_6/xor2_0/a_28_44# 2.119800fF
-C71 bitslice_3/fa_0/a_70_6# bitslice_3/Cin 2.233260fF
-C72 vdd bitslice_0/xor2_0/a_28_44# 2.119800fF
-C73 vdd bitslice_6/mux21_0/nand_2/B 5.855850fF
-C74 vdd bitslice_4/mux21_0/nand_2/B 5.855850fF
-C75 vdd bitslice_0/xor2_0/a_17_6# 2.059560fF
-C76 gnd inverter_0/Y 2.544000fF
-C77 vdd bitslice_6/mux21_0/nand_1/B 2.097720fF
-C78 gnd bitslice_3/sum 5.771640fF
-C79 bitslice_7/dffpos_0/a_n34_n84# inverter_0/Y 2.571480fF
-C80 S vdd 5.824079fF
-C81 subtract bitslice_0/fa_0/a_70_6# 2.233260fF
-C82 vdd bitslice_6/fa_0/A 8.329680fF
-C83 bitslice_1/Cin bitslice_1/fa_0/a_70_6# 2.233260fF
-C84 gnd bitslice_0/sum 5.771640fF
-C85 bitslice_6/sum gnd 5.771640fF
-C86 vdd bitslice_2/xor2_0/a_28_44# 2.119800fF
-C87 vdd bitslice_7/mux21_0/nand_1/B 2.097720fF
-C88 vdd inverter_0/Y 11.673119fF
-C89 vdd bitslice_3/fa_0/A 8.329680fF
-C90 vdd bitslice_7/fa_0/A 8.329680fF
-C91 vdd bitslice_2/fa_0/A 8.329680fF
-C92 bitslice_2/dffpos_0/a_n34_n84# inverter_0/Y 2.571480fF
-C93 bitslice_3/fa_0/a_25_6# vdd 3.134880fF
+C17 vdd bitslice_0/fa_0/A 8.329680fF
+C18 inverter_0/Y bitslice_1/dffpos_0/a_n2_n86# 3.159600fF
+C19 inverter_0/Y bitslice_7/dffpos_0/a_n34_n84# 2.571480fF
+C20 vdd bitslice_3/mux21_0/nand_1/B 2.097720fF
+C21 bitslice_6/mux21_0/nand_2/B vdd 5.855850fF
+C22 vdd bitslice_0/mux21_0/nand_1/B 2.097720fF
+C23 vdd bitslice_4/xor2_0/a_17_6# 2.059560fF
+C24 bitslice_0/dffpos_0/a_30_n84# bitslice_0/dffpos_0/a_n34_n84# 2.081040fF
+C25 vdd bitslice_5/mux21_0/nand_2/B 5.855850fF
+C26 bitslice_1/fa_0/a_70_6# bitslice_1/Cin 2.233260fF
+C27 inverter_0/Y bitslice_2/dffpos_0/a_n34_n84# 2.571480fF
+C28 vdd bitslice_7/fa_0/A 8.329680fF
+C29 bitslice_6/xor2_0/a_17_6# vdd 2.059560fF
+C30 S gnd 4.844160fF
+C31 bitslice_6/sum gnd 5.771640fF
+C32 vdd bitslice_7/xor2_0/a_17_6# 2.059560fF
+C33 vdd bitslice_5/xor2_0/a_28_44# 2.119800fF
+C34 vdd bitslice_3/xor2_0/a_17_6# 2.059560fF
+C35 bitslice_1/mux21_0/nand_1/B vdd 2.097720fF
+C36 bitslice_5/dffpos_0/a_30_n84# bitslice_5/dffpos_0/a_n34_n84# 2.081040fF
+C37 vdd bitslice_4/mux21_0/nand_1/B 2.097720fF
+C38 vdd bitslice_4/fa_0/A 8.329680fF
+C39 bitslice_3/dffpos_0/a_n34_n84# bitslice_3/dffpos_0/a_30_n84# 2.081040fF
+C40 bitslice_4/dffpos_0/a_n34_n84# bitslice_4/dffpos_0/a_30_n84# 2.081040fF
+C41 vdd bitslice_6/xor2_0/a_28_44# 2.119800fF
+C42 vdd bitslice_2/mux21_0/nand_2/B 5.855850fF
+C43 bitslice_3/dffpos_0/a_n34_n84# inverter_0/Y 2.571480fF
+C44 vdd bitslice_7/mux21_0/nand_1/B 2.097720fF
+C45 vdd bitslice_6/fa_0/A 8.329680fF
+C46 vdd bitslice_1/xor2_0/a_28_44# 2.119800fF
+C47 vdd bitslice_1/xor2_0/a_17_6# 2.059560fF
+C48 vdd bitslice_5/mux21_0/nand_1/B 2.097720fF
+C49 bitslice_6/Cin bitslice_6/fa_0/a_70_6# 2.233260fF
+C50 vdd bitslice_5/fa_0/a_25_6# 3.134880fF
+C51 bitslice_7/dffpos_0/a_30_n84# bitslice_7/dffpos_0/a_n34_n84# 2.081040fF
+C52 bitslice_2/sum gnd 5.771640fF
+C53 inverter_0/Y vdd 11.673119fF
+C54 bitslice_4/Cin bitslice_4/fa_0/a_70_6# 2.233260fF
+C55 bitslice_6/fa_0/a_25_6# vdd 3.134880fF
+C56 gnd bitslice_0/sum 5.771640fF
+C57 vdd bitslice_3/fa_0/a_25_6# 3.134880fF
+C58 inverter_0/Y bitslice_3/dffpos_0/a_n2_n86# 3.159600fF
+C59 vdd bitslice_0/xor2_0/a_17_6# 2.059560fF
+C60 vdd bitslice_0/xor2_0/a_28_44# 2.119800fF
+C61 vdd bitslice_2/fa_0/A 8.329680fF
+C62 bitslice_1/dffpos_0/a_30_n84# bitslice_1/dffpos_0/a_n34_n84# 2.081040fF
+C63 inverter_0/Y bitslice_5/dffpos_0/a_n34_n84# 2.571480fF
+C64 bitslice_5/fa_0/a_70_6# bitslice_5/Cin 2.233260fF
+C65 subtract S 2.284920fF
+C66 inverter_0/Y bitslice_5/dffpos_0/a_n2_n86# 3.159600fF
+C67 vdd bitslice_4/fa_0/a_25_6# 3.134880fF
+C68 bitslice_2/Cin bitslice_2/fa_0/a_70_6# 2.233260fF
+C69 bitslice_1/sum gnd 5.771640fF
+C70 bitslice_4/sum gnd 5.771640fF
+C71 vdd bitslice_2/mux21_0/nand_1/B 2.097720fF
+C72 vdd bitslice_4/mux21_0/nand_2/B 5.855850fF
+C73 bitslice_3/sum gnd 5.771640fF
+C74 bitslice_3/xor2_0/a_28_44# vdd 2.119800fF
+C75 inverter_0/Y bitslice_7/dffpos_0/a_n2_n86# 3.159600fF
+C76 vdd bitslice_5/fa_0/A 8.329680fF
+C77 vdd bitslice_7/fa_0/a_25_6# 3.134880fF
+C78 vdd S 5.824079fF
+C79 bitslice_1/fa_0/A vdd 8.329680fF
+C80 subtract vdd 5.844720fF
+C81 vdd bitslice_3/fa_0/A 8.329680fF
+C82 bitslice_7/xor2_0/a_28_44# vdd 2.119800fF
+C83 inverter_0/Y bitslice_1/dffpos_0/a_n34_n84# 2.571480fF
+C84 vdd bitslice_1/mux21_0/nand_2/B 5.855850fF
+C85 inverter_0/Y bitslice_6/dffpos_0/a_n2_n86# 3.159600fF
+C86 bitslice_6/mux21_0/nand_1/B vdd 2.097720fF
+C87 vdd bitslice_2/xor2_0/a_28_44# 2.119800fF
+C88 inverter_0/Y bitslice_2/dffpos_0/a_n2_n86# 3.159600fF
+C89 subtract bitslice_0/fa_0/a_70_6# 2.233260fF
+C90 inverter_0/Y bitslice_0/dffpos_0/a_n34_n84# 2.571480fF
+C91 bitslice_7/sum gnd 5.771640fF
+C92 vdd bitslice_0/mux21_0/nand_2/B 5.855850fF
+C93 inverter_0/Y gnd 2.544000fF
 C94 bitslice_0/Y gnd! 18.021119fF
 C95 bitslice_0/xor2_0/a_17_6# gnd! 4.666380fF
 C96 bitslice_0/xor2_0/a_28_44# gnd! 4.104630fF
@@ -1488,7 +1485,7 @@ C212 bitslice_7/mux21_0/nand_1/B gnd! 3.001320fF
 C213 bitslice_7/mux21_0/nand_1/A gnd! 6.037200fF
 C214 bitslice_7/mux21_0/nand_2/B gnd! 2.145240fF
 C215 Out7 gnd! 16.209900fF
-C216 magicalOutputofAwesome gnd! 9.174000fF
+C216 bitslice_7/sum gnd! 9.174000fF
 C217 bitslice_7/fa_0/a_70_6# gnd! 3.242790fF
 C218 bitslice_7/fa_0/a_25_6# gnd! 9.314280fF
 C219 bitslice_7/Cin gnd! 12.854070fF
@@ -1916,8 +1913,8 @@ VDD vdd 0 DC 'SUPPLY'
 **************************************************************
 
  .param tstop = 80n
- .param tdval = 0n
   
+ .param tdval = 0nv
  .meas tran vmax max v(Out) from=tdval to=tstop
  .meas tran vmin min v(Out) from=tdval to=tstop
  .meas tran trise trig v(Out) val='vmin+0.1*vmax'  td=tdval
@@ -1938,7 +1935,7 @@ VDD vdd 0 DC 'SUPPLY'
 * .print prints given waveforms in tabulated form
 **************************************************************
 .print DC V(A0) V(Out0)
-.print tran V(A0) V(A1) V(A2) V(A3) V(A4) V(A5) V(A6) V(subtract) V(A7) V(magicalOutputofAwesome) V(Out0) V(Out1) V(Out2) V(Out3) V(Out4) V(Out5) V(Out6) V(Out7) V(clk)
+.print tran V(A0) V(A1) V(A2) V(A3) V(A4) V(A5) V(A6) V(subtract) V(A7) V(Out0) V(Out1) V(Out2) V(Out3) V(Out4) V(Out5) V(Out6) V(Out7) 
 .probe V(Out0)
 .op
 .options probe post measout captab

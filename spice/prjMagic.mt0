@@ -4,5 +4,5 @@ $DATA1 SOURCE='HSPICE' VERSION='K-2015.06 linux64'
  tplh             tphl             avg_delay        avgpower        
  peakpwr          temper           alter#          
     failed           failed           failed           failed       
-    failed           failed           failed         9.156e-03      
-    0.1803          70.0000        1               
+    failed           failed           failed         3.208e-02      
+  9.493e-02         70.0000        1               
