@@ -1,0 +1,2902 @@
+* SPICE3 file created from 16_bit_try_again.ext - technology: scmos
+
+.option scale=0.3u
+
+M1000 prjMagic_0/inverter_0/Y prjMagic_0/inverter_0/A Vdd Vdd pfet w=20 l=2
++  ad=100 pd=50 as=40740 ps=17762
+M1001 prjMagic_0/inverter_0/Y prjMagic_0/inverter_0/A Gnd Gnd nfet w=10 l=2
++  ad=50 pd=30 as=20610 ps=10074
+M1002 Vdd prjMagic_0/inverter_0/Y prjMagic_0/bitslice_7/dffpos_0/a_n34_n84# Vdd pfet w=40 l=2
++  ad=0 pd=0 as=200 ps=90
+M1003 prjMagic_0/bitslice_7/dffpos_0/a_n19_n15# prjMagic_0/gundy Vdd Vdd pfet w=20 l=2
++  ad=80 pd=48 as=0 ps=0
+M1004 prjMagic_0/bitslice_7/dffpos_0/a_n14_n84# prjMagic_0/inverter_0/Y prjMagic_0/bitslice_7/dffpos_0/a_n19_n15# Vdd pfet w=20 l=2
++  ad=120 pd=52 as=0 ps=0
+M1005 prjMagic_0/bitslice_7/dffpos_0/a_n5_n15# prjMagic_0/bitslice_7/dffpos_0/a_n34_n84# prjMagic_0/bitslice_7/dffpos_0/a_n14_n84# Vdd pfet w=20 l=2
++  ad=80 pd=48 as=0 ps=0
+M1006 Vdd prjMagic_0/bitslice_7/dffpos_0/a_n2_n86# prjMagic_0/bitslice_7/dffpos_0/a_n5_n15# Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1007 prjMagic_0/bitslice_7/dffpos_0/a_n2_n86# prjMagic_0/bitslice_7/dffpos_0/a_n14_n84# Vdd Vdd pfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1008 prjMagic_0/bitslice_7/dffpos_0/a_25_n15# prjMagic_0/bitslice_7/dffpos_0/a_n2_n86# Vdd Vdd pfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1009 prjMagic_0/bitslice_7/dffpos_0/a_30_n84# prjMagic_0/bitslice_7/dffpos_0/a_n34_n84# prjMagic_0/bitslice_7/dffpos_0/a_25_n15# Vdd pfet w=20 l=2
++  ad=150 pd=56 as=0 ps=0
+M1010 prjMagic_0/bitslice_7/dffpos_0/a_40_n5# prjMagic_0/inverter_0/Y prjMagic_0/bitslice_7/dffpos_0/a_30_n84# Vdd pfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1011 Vdd Out7 prjMagic_0/bitslice_7/dffpos_0/a_40_n5# Vdd pfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1012 Gnd prjMagic_0/inverter_0/Y prjMagic_0/bitslice_7/dffpos_0/a_n34_n84# Gnd nfet w=20 l=2
++  ad=0 pd=0 as=100 ps=50
+M1013 Out7 prjMagic_0/bitslice_7/dffpos_0/a_30_n84# Vdd Vdd pfet w=40 l=2
++  ad=200 pd=90 as=0 ps=0
+M1014 prjMagic_0/bitslice_7/dffpos_0/a_n19_n84# prjMagic_0/gundy Gnd Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1015 prjMagic_0/bitslice_7/dffpos_0/a_n14_n84# prjMagic_0/bitslice_7/dffpos_0/a_n34_n84# prjMagic_0/bitslice_7/dffpos_0/a_n19_n84# Gnd nfet w=10 l=2
++  ad=70 pd=34 as=0 ps=0
+M1016 prjMagic_0/bitslice_7/dffpos_0/a_n5_n84# prjMagic_0/inverter_0/Y prjMagic_0/bitslice_7/dffpos_0/a_n14_n84# Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1017 Gnd prjMagic_0/bitslice_7/dffpos_0/a_n2_n86# prjMagic_0/bitslice_7/dffpos_0/a_n5_n84# Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1018 prjMagic_0/bitslice_7/dffpos_0/a_n2_n86# prjMagic_0/bitslice_7/dffpos_0/a_n14_n84# Gnd Gnd nfet w=10 l=2
++  ad=50 pd=30 as=0 ps=0
+M1019 prjMagic_0/bitslice_7/dffpos_0/a_25_n84# prjMagic_0/bitslice_7/dffpos_0/a_n2_n86# Gnd Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1020 prjMagic_0/bitslice_7/dffpos_0/a_30_n84# prjMagic_0/inverter_0/Y prjMagic_0/bitslice_7/dffpos_0/a_25_n84# Gnd nfet w=10 l=2
++  ad=80 pd=36 as=0 ps=0
+M1021 prjMagic_0/bitslice_7/dffpos_0/a_40_n84# prjMagic_0/bitslice_7/dffpos_0/a_n34_n84# prjMagic_0/bitslice_7/dffpos_0/a_30_n84# Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1022 Gnd Out7 prjMagic_0/bitslice_7/dffpos_0/a_40_n84# Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1023 Out7 prjMagic_0/bitslice_7/dffpos_0/a_30_n84# Gnd Gnd nfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1024 Vdd prjMagic_0/bitslice_7/fa_0/A prjMagic_0/bitslice_7/fa_0/a_2_74# Vdd pfet w=20 l=2
++  ad=0 pd=0 as=220 ps=102
+M1025 prjMagic_0/bitslice_7/fa_0/a_2_74# prjMagic_0/bitslice_7/Y Vdd Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1026 prjMagic_0/bitslice_7/fa_0/a_25_6# prjMagic_0/bitslice_7/Cin prjMagic_0/bitslice_7/fa_0/a_2_74# Vdd pfet w=20 l=2
++  ad=120 pd=52 as=0 ps=0
+M1027 prjMagic_0/bitslice_7/fa_0/a_33_74# prjMagic_0/bitslice_7/Y prjMagic_0/bitslice_7/fa_0/a_25_6# Vdd pfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1028 Vdd prjMagic_0/bitslice_7/fa_0/A prjMagic_0/bitslice_7/fa_0/a_33_74# Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1029 prjMagic_0/bitslice_7/fa_0/a_46_74# prjMagic_0/bitslice_7/fa_0/A Vdd Vdd pfet w=20 l=2
++  ad=240 pd=104 as=0 ps=0
+M1030 Vdd prjMagic_0/bitslice_7/Y prjMagic_0/bitslice_7/fa_0/a_46_74# Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1031 prjMagic_0/bitslice_7/fa_0/a_46_74# prjMagic_0/bitslice_7/Cin Vdd Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1032 prjMagic_0/bitslice_7/fa_0/a_70_6# prjMagic_0/bitslice_7/fa_0/a_25_6# prjMagic_0/bitslice_7/fa_0/a_46_74# Vdd pfet w=20 l=2
++  ad=140 pd=54 as=0 ps=0
+M1033 prjMagic_0/bitslice_7/fa_0/a_79_74# prjMagic_0/bitslice_7/Cin prjMagic_0/bitslice_7/fa_0/a_70_6# Vdd pfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1034 prjMagic_0/bitslice_7/fa_0/a_84_74# prjMagic_0/bitslice_7/Y prjMagic_0/bitslice_7/fa_0/a_79_74# Vdd pfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1035 Vdd prjMagic_0/bitslice_7/fa_0/A prjMagic_0/bitslice_7/fa_0/a_84_74# Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1036 prjMagic_0/gundy prjMagic_0/bitslice_7/fa_0/a_70_6# Vdd Vdd pfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1037 Cout prjMagic_0/bitslice_7/fa_0/a_25_6# Vdd Vdd pfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1038 Gnd prjMagic_0/bitslice_7/fa_0/A prjMagic_0/bitslice_7/fa_0/a_2_6# Gnd nfet w=10 l=2
++  ad=0 pd=0 as=110 ps=62
+M1039 prjMagic_0/bitslice_7/fa_0/a_2_6# prjMagic_0/bitslice_7/Y Gnd Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1040 prjMagic_0/bitslice_7/fa_0/a_25_6# prjMagic_0/bitslice_7/Cin prjMagic_0/bitslice_7/fa_0/a_2_6# Gnd nfet w=10 l=2
++  ad=60 pd=32 as=0 ps=0
+M1041 prjMagic_0/bitslice_7/fa_0/a_33_6# prjMagic_0/bitslice_7/Y prjMagic_0/bitslice_7/fa_0/a_25_6# Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1042 Gnd prjMagic_0/bitslice_7/fa_0/A prjMagic_0/bitslice_7/fa_0/a_33_6# Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1043 prjMagic_0/bitslice_7/fa_0/a_46_6# prjMagic_0/bitslice_7/fa_0/A Gnd Gnd nfet w=10 l=2
++  ad=120 pd=64 as=0 ps=0
+M1044 Gnd prjMagic_0/bitslice_7/Y prjMagic_0/bitslice_7/fa_0/a_46_6# Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1045 prjMagic_0/bitslice_7/fa_0/a_46_6# prjMagic_0/bitslice_7/Cin Gnd Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1046 prjMagic_0/bitslice_7/fa_0/a_70_6# prjMagic_0/bitslice_7/fa_0/a_25_6# prjMagic_0/bitslice_7/fa_0/a_46_6# Gnd nfet w=10 l=2
++  ad=70 pd=34 as=0 ps=0
+M1047 prjMagic_0/bitslice_7/fa_0/a_79_6# prjMagic_0/bitslice_7/Cin prjMagic_0/bitslice_7/fa_0/a_70_6# Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1048 prjMagic_0/bitslice_7/fa_0/a_84_6# prjMagic_0/bitslice_7/Y prjMagic_0/bitslice_7/fa_0/a_79_6# Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1049 Gnd prjMagic_0/bitslice_7/fa_0/A prjMagic_0/bitslice_7/fa_0/a_84_6# Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1050 prjMagic_0/gundy prjMagic_0/bitslice_7/fa_0/a_70_6# Gnd Gnd nfet w=10 l=2
++  ad=50 pd=30 as=0 ps=0
+M1051 Cout prjMagic_0/bitslice_7/fa_0/a_25_6# Gnd Gnd nfet w=10 l=2
++  ad=50 pd=30 as=0 ps=0
+M1052 prjMagic_0/bitslice_7/mux21_0/nand_1/A Out7 Vdd Vdd pfet w=20 l=2
++  ad=120 pd=52 as=0 ps=0
+M1053 Vdd prjMagic_0/bitslice_7/mux21_0/nand_2/B prjMagic_0/bitslice_7/mux21_0/nand_1/A Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1054 prjMagic_0/bitslice_7/mux21_0/nand_2/a_9_6# Out7 Gnd Gnd nfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1055 prjMagic_0/bitslice_7/mux21_0/nand_1/A prjMagic_0/bitslice_7/mux21_0/nand_2/B prjMagic_0/bitslice_7/mux21_0/nand_2/a_9_6# Gnd nfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1056 prjMagic_0/bitslice_7/mux21_0/nand_2/B loadB Vdd Vdd pfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1057 prjMagic_0/bitslice_7/mux21_0/nand_2/B loadB Gnd Gnd nfet w=10 l=2
++  ad=50 pd=30 as=0 ps=0
+M1058 prjMagic_0/bitslice_7/fa_0/A prjMagic_0/bitslice_7/mux21_0/nand_1/A Vdd Vdd pfet w=20 l=2
++  ad=120 pd=52 as=0 ps=0
+M1059 Vdd prjMagic_0/bitslice_7/mux21_0/nand_1/B prjMagic_0/bitslice_7/fa_0/A Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1060 prjMagic_0/bitslice_7/mux21_0/nand_1/a_9_6# prjMagic_0/bitslice_7/mux21_0/nand_1/A Gnd Gnd nfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1061 prjMagic_0/bitslice_7/fa_0/A prjMagic_0/bitslice_7/mux21_0/nand_1/B prjMagic_0/bitslice_7/mux21_0/nand_1/a_9_6# Gnd nfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1062 prjMagic_0/bitslice_7/mux21_0/nand_1/B loadB Vdd Vdd pfet w=20 l=2
++  ad=120 pd=52 as=0 ps=0
+M1063 Vdd B7 prjMagic_0/bitslice_7/mux21_0/nand_1/B Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1064 prjMagic_0/bitslice_7/mux21_0/nand_0/a_9_6# loadB Gnd Gnd nfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1065 prjMagic_0/bitslice_7/mux21_0/nand_1/B B7 prjMagic_0/bitslice_7/mux21_0/nand_0/a_9_6# Gnd nfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1066 Vdd A7 prjMagic_0/bitslice_7/xor2_0/a_17_6# Vdd pfet w=40 l=2
++  ad=0 pd=0 as=200 ps=90
+M1067 prjMagic_0/bitslice_7/xor2_0/a_33_54# prjMagic_0/bitslice_7/xor2_0/a_28_44# Vdd Vdd pfet w=40 l=2
++  ad=120 pd=86 as=0 ps=0
+M1068 prjMagic_0/bitslice_7/Y A7 prjMagic_0/bitslice_7/xor2_0/a_33_54# Vdd pfet w=40 l=2
++  ad=400 pd=100 as=0 ps=0
+M1069 prjMagic_0/bitslice_7/xor2_0/a_50_54# prjMagic_0/bitslice_7/xor2_0/a_17_6# prjMagic_0/bitslice_7/Y Vdd pfet w=40 l=2
++  ad=120 pd=86 as=0 ps=0
+M1070 Vdd inverter_0/Y prjMagic_0/bitslice_7/xor2_0/a_50_54# Vdd pfet w=40 l=2
++  ad=0 pd=0 as=0 ps=0
+M1071 prjMagic_0/bitslice_7/xor2_0/a_28_44# inverter_0/Y Vdd Vdd pfet w=40 l=2
++  ad=200 pd=90 as=0 ps=0
+M1072 Gnd A7 prjMagic_0/bitslice_7/xor2_0/a_17_6# Gnd nfet w=20 l=2
++  ad=0 pd=0 as=100 ps=50
+M1073 prjMagic_0/bitslice_7/xor2_0/a_33_6# prjMagic_0/bitslice_7/xor2_0/a_28_44# Gnd Gnd nfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1074 prjMagic_0/bitslice_7/Y prjMagic_0/bitslice_7/xor2_0/a_17_6# prjMagic_0/bitslice_7/xor2_0/a_33_6# Gnd nfet w=20 l=2
++  ad=200 pd=60 as=0 ps=0
+M1075 prjMagic_0/bitslice_7/xor2_0/a_50_6# A7 prjMagic_0/bitslice_7/Y Gnd nfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1076 Gnd inverter_0/Y prjMagic_0/bitslice_7/xor2_0/a_50_6# Gnd nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1077 prjMagic_0/bitslice_7/xor2_0/a_28_44# inverter_0/Y Gnd Gnd nfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1078 Vdd prjMagic_0/inverter_0/Y prjMagic_0/bitslice_6/dffpos_0/a_n34_n84# Vdd pfet w=40 l=2
++  ad=0 pd=0 as=200 ps=90
+M1079 prjMagic_0/bitslice_6/dffpos_0/a_n19_n15# prjMagic_0/bitslice_6/sum Vdd Vdd pfet w=20 l=2
++  ad=80 pd=48 as=0 ps=0
+M1080 prjMagic_0/bitslice_6/dffpos_0/a_n14_n84# prjMagic_0/inverter_0/Y prjMagic_0/bitslice_6/dffpos_0/a_n19_n15# Vdd pfet w=20 l=2
++  ad=120 pd=52 as=0 ps=0
+M1081 prjMagic_0/bitslice_6/dffpos_0/a_n5_n15# prjMagic_0/bitslice_6/dffpos_0/a_n34_n84# prjMagic_0/bitslice_6/dffpos_0/a_n14_n84# Vdd pfet w=20 l=2
++  ad=80 pd=48 as=0 ps=0
+M1082 Vdd prjMagic_0/bitslice_6/dffpos_0/a_n2_n86# prjMagic_0/bitslice_6/dffpos_0/a_n5_n15# Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1083 prjMagic_0/bitslice_6/dffpos_0/a_n2_n86# prjMagic_0/bitslice_6/dffpos_0/a_n14_n84# Vdd Vdd pfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1084 prjMagic_0/bitslice_6/dffpos_0/a_25_n15# prjMagic_0/bitslice_6/dffpos_0/a_n2_n86# Vdd Vdd pfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1085 prjMagic_0/bitslice_6/dffpos_0/a_30_n84# prjMagic_0/bitslice_6/dffpos_0/a_n34_n84# prjMagic_0/bitslice_6/dffpos_0/a_25_n15# Vdd pfet w=20 l=2
++  ad=150 pd=56 as=0 ps=0
+M1086 prjMagic_0/bitslice_6/dffpos_0/a_40_n5# prjMagic_0/inverter_0/Y prjMagic_0/bitslice_6/dffpos_0/a_30_n84# Vdd pfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1087 Vdd Out6 prjMagic_0/bitslice_6/dffpos_0/a_40_n5# Vdd pfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1088 Gnd prjMagic_0/inverter_0/Y prjMagic_0/bitslice_6/dffpos_0/a_n34_n84# Gnd nfet w=20 l=2
++  ad=0 pd=0 as=100 ps=50
+M1089 Out6 prjMagic_0/bitslice_6/dffpos_0/a_30_n84# Vdd Vdd pfet w=40 l=2
++  ad=200 pd=90 as=0 ps=0
+M1090 prjMagic_0/bitslice_6/dffpos_0/a_n19_n84# prjMagic_0/bitslice_6/sum Gnd Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1091 prjMagic_0/bitslice_6/dffpos_0/a_n14_n84# prjMagic_0/bitslice_6/dffpos_0/a_n34_n84# prjMagic_0/bitslice_6/dffpos_0/a_n19_n84# Gnd nfet w=10 l=2
++  ad=70 pd=34 as=0 ps=0
+M1092 prjMagic_0/bitslice_6/dffpos_0/a_n5_n84# prjMagic_0/inverter_0/Y prjMagic_0/bitslice_6/dffpos_0/a_n14_n84# Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1093 Gnd prjMagic_0/bitslice_6/dffpos_0/a_n2_n86# prjMagic_0/bitslice_6/dffpos_0/a_n5_n84# Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1094 prjMagic_0/bitslice_6/dffpos_0/a_n2_n86# prjMagic_0/bitslice_6/dffpos_0/a_n14_n84# Gnd Gnd nfet w=10 l=2
++  ad=50 pd=30 as=0 ps=0
+M1095 prjMagic_0/bitslice_6/dffpos_0/a_25_n84# prjMagic_0/bitslice_6/dffpos_0/a_n2_n86# Gnd Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1096 prjMagic_0/bitslice_6/dffpos_0/a_30_n84# prjMagic_0/inverter_0/Y prjMagic_0/bitslice_6/dffpos_0/a_25_n84# Gnd nfet w=10 l=2
++  ad=80 pd=36 as=0 ps=0
+M1097 prjMagic_0/bitslice_6/dffpos_0/a_40_n84# prjMagic_0/bitslice_6/dffpos_0/a_n34_n84# prjMagic_0/bitslice_6/dffpos_0/a_30_n84# Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1098 Gnd Out6 prjMagic_0/bitslice_6/dffpos_0/a_40_n84# Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1099 Out6 prjMagic_0/bitslice_6/dffpos_0/a_30_n84# Gnd Gnd nfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1100 Vdd prjMagic_0/bitslice_6/fa_0/A prjMagic_0/bitslice_6/fa_0/a_2_74# Vdd pfet w=20 l=2
++  ad=0 pd=0 as=220 ps=102
+M1101 prjMagic_0/bitslice_6/fa_0/a_2_74# prjMagic_0/bitslice_6/Y Vdd Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1102 prjMagic_0/bitslice_6/fa_0/a_25_6# prjMagic_0/bitslice_6/Cin prjMagic_0/bitslice_6/fa_0/a_2_74# Vdd pfet w=20 l=2
++  ad=120 pd=52 as=0 ps=0
+M1103 prjMagic_0/bitslice_6/fa_0/a_33_74# prjMagic_0/bitslice_6/Y prjMagic_0/bitslice_6/fa_0/a_25_6# Vdd pfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1104 Vdd prjMagic_0/bitslice_6/fa_0/A prjMagic_0/bitslice_6/fa_0/a_33_74# Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1105 prjMagic_0/bitslice_6/fa_0/a_46_74# prjMagic_0/bitslice_6/fa_0/A Vdd Vdd pfet w=20 l=2
++  ad=240 pd=104 as=0 ps=0
+M1106 Vdd prjMagic_0/bitslice_6/Y prjMagic_0/bitslice_6/fa_0/a_46_74# Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1107 prjMagic_0/bitslice_6/fa_0/a_46_74# prjMagic_0/bitslice_6/Cin Vdd Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1108 prjMagic_0/bitslice_6/fa_0/a_70_6# prjMagic_0/bitslice_6/fa_0/a_25_6# prjMagic_0/bitslice_6/fa_0/a_46_74# Vdd pfet w=20 l=2
++  ad=140 pd=54 as=0 ps=0
+M1109 prjMagic_0/bitslice_6/fa_0/a_79_74# prjMagic_0/bitslice_6/Cin prjMagic_0/bitslice_6/fa_0/a_70_6# Vdd pfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1110 prjMagic_0/bitslice_6/fa_0/a_84_74# prjMagic_0/bitslice_6/Y prjMagic_0/bitslice_6/fa_0/a_79_74# Vdd pfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1111 Vdd prjMagic_0/bitslice_6/fa_0/A prjMagic_0/bitslice_6/fa_0/a_84_74# Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1112 prjMagic_0/bitslice_6/sum prjMagic_0/bitslice_6/fa_0/a_70_6# Vdd Vdd pfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1113 prjMagic_0/bitslice_7/Cin prjMagic_0/bitslice_6/fa_0/a_25_6# Vdd Vdd pfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1114 Gnd prjMagic_0/bitslice_6/fa_0/A prjMagic_0/bitslice_6/fa_0/a_2_6# Gnd nfet w=10 l=2
++  ad=0 pd=0 as=110 ps=62
+M1115 prjMagic_0/bitslice_6/fa_0/a_2_6# prjMagic_0/bitslice_6/Y Gnd Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1116 prjMagic_0/bitslice_6/fa_0/a_25_6# prjMagic_0/bitslice_6/Cin prjMagic_0/bitslice_6/fa_0/a_2_6# Gnd nfet w=10 l=2
++  ad=60 pd=32 as=0 ps=0
+M1117 prjMagic_0/bitslice_6/fa_0/a_33_6# prjMagic_0/bitslice_6/Y prjMagic_0/bitslice_6/fa_0/a_25_6# Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1118 Gnd prjMagic_0/bitslice_6/fa_0/A prjMagic_0/bitslice_6/fa_0/a_33_6# Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1119 prjMagic_0/bitslice_6/fa_0/a_46_6# prjMagic_0/bitslice_6/fa_0/A Gnd Gnd nfet w=10 l=2
++  ad=120 pd=64 as=0 ps=0
+M1120 Gnd prjMagic_0/bitslice_6/Y prjMagic_0/bitslice_6/fa_0/a_46_6# Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1121 prjMagic_0/bitslice_6/fa_0/a_46_6# prjMagic_0/bitslice_6/Cin Gnd Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1122 prjMagic_0/bitslice_6/fa_0/a_70_6# prjMagic_0/bitslice_6/fa_0/a_25_6# prjMagic_0/bitslice_6/fa_0/a_46_6# Gnd nfet w=10 l=2
++  ad=70 pd=34 as=0 ps=0
+M1123 prjMagic_0/bitslice_6/fa_0/a_79_6# prjMagic_0/bitslice_6/Cin prjMagic_0/bitslice_6/fa_0/a_70_6# Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1124 prjMagic_0/bitslice_6/fa_0/a_84_6# prjMagic_0/bitslice_6/Y prjMagic_0/bitslice_6/fa_0/a_79_6# Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1125 Gnd prjMagic_0/bitslice_6/fa_0/A prjMagic_0/bitslice_6/fa_0/a_84_6# Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1126 prjMagic_0/bitslice_6/sum prjMagic_0/bitslice_6/fa_0/a_70_6# Gnd Gnd nfet w=10 l=2
++  ad=50 pd=30 as=0 ps=0
+M1127 prjMagic_0/bitslice_7/Cin prjMagic_0/bitslice_6/fa_0/a_25_6# Gnd Gnd nfet w=10 l=2
++  ad=50 pd=30 as=0 ps=0
+M1128 prjMagic_0/bitslice_6/mux21_0/nand_1/A Out6 Vdd Vdd pfet w=20 l=2
++  ad=120 pd=52 as=0 ps=0
+M1129 Vdd prjMagic_0/bitslice_6/mux21_0/nand_2/B prjMagic_0/bitslice_6/mux21_0/nand_1/A Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1130 prjMagic_0/bitslice_6/mux21_0/nand_2/a_9_6# Out6 Gnd Gnd nfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1131 prjMagic_0/bitslice_6/mux21_0/nand_1/A prjMagic_0/bitslice_6/mux21_0/nand_2/B prjMagic_0/bitslice_6/mux21_0/nand_2/a_9_6# Gnd nfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1132 prjMagic_0/bitslice_6/mux21_0/nand_2/B loadB Vdd Vdd pfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1133 prjMagic_0/bitslice_6/mux21_0/nand_2/B loadB Gnd Gnd nfet w=10 l=2
++  ad=50 pd=30 as=0 ps=0
+M1134 prjMagic_0/bitslice_6/fa_0/A prjMagic_0/bitslice_6/mux21_0/nand_1/A Vdd Vdd pfet w=20 l=2
++  ad=120 pd=52 as=0 ps=0
+M1135 Vdd prjMagic_0/bitslice_6/mux21_0/nand_1/B prjMagic_0/bitslice_6/fa_0/A Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1136 prjMagic_0/bitslice_6/mux21_0/nand_1/a_9_6# prjMagic_0/bitslice_6/mux21_0/nand_1/A Gnd Gnd nfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1137 prjMagic_0/bitslice_6/fa_0/A prjMagic_0/bitslice_6/mux21_0/nand_1/B prjMagic_0/bitslice_6/mux21_0/nand_1/a_9_6# Gnd nfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1138 prjMagic_0/bitslice_6/mux21_0/nand_1/B loadB Vdd Vdd pfet w=20 l=2
++  ad=120 pd=52 as=0 ps=0
+M1139 Vdd B6 prjMagic_0/bitslice_6/mux21_0/nand_1/B Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1140 prjMagic_0/bitslice_6/mux21_0/nand_0/a_9_6# loadB Gnd Gnd nfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1141 prjMagic_0/bitslice_6/mux21_0/nand_1/B B6 prjMagic_0/bitslice_6/mux21_0/nand_0/a_9_6# Gnd nfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1142 Vdd A6 prjMagic_0/bitslice_6/xor2_0/a_17_6# Vdd pfet w=40 l=2
++  ad=0 pd=0 as=200 ps=90
+M1143 prjMagic_0/bitslice_6/xor2_0/a_33_54# prjMagic_0/bitslice_6/xor2_0/a_28_44# Vdd Vdd pfet w=40 l=2
++  ad=120 pd=86 as=0 ps=0
+M1144 prjMagic_0/bitslice_6/Y A6 prjMagic_0/bitslice_6/xor2_0/a_33_54# Vdd pfet w=40 l=2
++  ad=400 pd=100 as=0 ps=0
+M1145 prjMagic_0/bitslice_6/xor2_0/a_50_54# prjMagic_0/bitslice_6/xor2_0/a_17_6# prjMagic_0/bitslice_6/Y Vdd pfet w=40 l=2
++  ad=120 pd=86 as=0 ps=0
+M1146 Vdd inverter_0/Y prjMagic_0/bitslice_6/xor2_0/a_50_54# Vdd pfet w=40 l=2
++  ad=0 pd=0 as=0 ps=0
+M1147 prjMagic_0/bitslice_6/xor2_0/a_28_44# inverter_0/Y Vdd Vdd pfet w=40 l=2
++  ad=200 pd=90 as=0 ps=0
+M1148 Gnd A6 prjMagic_0/bitslice_6/xor2_0/a_17_6# Gnd nfet w=20 l=2
++  ad=0 pd=0 as=100 ps=50
+M1149 prjMagic_0/bitslice_6/xor2_0/a_33_6# prjMagic_0/bitslice_6/xor2_0/a_28_44# Gnd Gnd nfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1150 prjMagic_0/bitslice_6/Y prjMagic_0/bitslice_6/xor2_0/a_17_6# prjMagic_0/bitslice_6/xor2_0/a_33_6# Gnd nfet w=20 l=2
++  ad=200 pd=60 as=0 ps=0
+M1151 prjMagic_0/bitslice_6/xor2_0/a_50_6# A6 prjMagic_0/bitslice_6/Y Gnd nfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1152 Gnd inverter_0/Y prjMagic_0/bitslice_6/xor2_0/a_50_6# Gnd nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1153 prjMagic_0/bitslice_6/xor2_0/a_28_44# inverter_0/Y Gnd Gnd nfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1154 Vdd prjMagic_0/inverter_0/Y prjMagic_0/bitslice_5/dffpos_0/a_n34_n84# Vdd pfet w=40 l=2
++  ad=0 pd=0 as=200 ps=90
+M1155 prjMagic_0/bitslice_5/dffpos_0/a_n19_n15# prjMagic_0/bitslice_5/sum Vdd Vdd pfet w=20 l=2
++  ad=80 pd=48 as=0 ps=0
+M1156 prjMagic_0/bitslice_5/dffpos_0/a_n14_n84# prjMagic_0/inverter_0/Y prjMagic_0/bitslice_5/dffpos_0/a_n19_n15# Vdd pfet w=20 l=2
++  ad=120 pd=52 as=0 ps=0
+M1157 prjMagic_0/bitslice_5/dffpos_0/a_n5_n15# prjMagic_0/bitslice_5/dffpos_0/a_n34_n84# prjMagic_0/bitslice_5/dffpos_0/a_n14_n84# Vdd pfet w=20 l=2
++  ad=80 pd=48 as=0 ps=0
+M1158 Vdd prjMagic_0/bitslice_5/dffpos_0/a_n2_n86# prjMagic_0/bitslice_5/dffpos_0/a_n5_n15# Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1159 prjMagic_0/bitslice_5/dffpos_0/a_n2_n86# prjMagic_0/bitslice_5/dffpos_0/a_n14_n84# Vdd Vdd pfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1160 prjMagic_0/bitslice_5/dffpos_0/a_25_n15# prjMagic_0/bitslice_5/dffpos_0/a_n2_n86# Vdd Vdd pfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1161 prjMagic_0/bitslice_5/dffpos_0/a_30_n84# prjMagic_0/bitslice_5/dffpos_0/a_n34_n84# prjMagic_0/bitslice_5/dffpos_0/a_25_n15# Vdd pfet w=20 l=2
++  ad=150 pd=56 as=0 ps=0
+M1162 prjMagic_0/bitslice_5/dffpos_0/a_40_n5# prjMagic_0/inverter_0/Y prjMagic_0/bitslice_5/dffpos_0/a_30_n84# Vdd pfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1163 Vdd Out5 prjMagic_0/bitslice_5/dffpos_0/a_40_n5# Vdd pfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1164 Gnd prjMagic_0/inverter_0/Y prjMagic_0/bitslice_5/dffpos_0/a_n34_n84# Gnd nfet w=20 l=2
++  ad=0 pd=0 as=100 ps=50
+M1165 Out5 prjMagic_0/bitslice_5/dffpos_0/a_30_n84# Vdd Vdd pfet w=40 l=2
++  ad=200 pd=90 as=0 ps=0
+M1166 prjMagic_0/bitslice_5/dffpos_0/a_n19_n84# prjMagic_0/bitslice_5/sum Gnd Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1167 prjMagic_0/bitslice_5/dffpos_0/a_n14_n84# prjMagic_0/bitslice_5/dffpos_0/a_n34_n84# prjMagic_0/bitslice_5/dffpos_0/a_n19_n84# Gnd nfet w=10 l=2
++  ad=70 pd=34 as=0 ps=0
+M1168 prjMagic_0/bitslice_5/dffpos_0/a_n5_n84# prjMagic_0/inverter_0/Y prjMagic_0/bitslice_5/dffpos_0/a_n14_n84# Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1169 Gnd prjMagic_0/bitslice_5/dffpos_0/a_n2_n86# prjMagic_0/bitslice_5/dffpos_0/a_n5_n84# Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1170 prjMagic_0/bitslice_5/dffpos_0/a_n2_n86# prjMagic_0/bitslice_5/dffpos_0/a_n14_n84# Gnd Gnd nfet w=10 l=2
++  ad=50 pd=30 as=0 ps=0
+M1171 prjMagic_0/bitslice_5/dffpos_0/a_25_n84# prjMagic_0/bitslice_5/dffpos_0/a_n2_n86# Gnd Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1172 prjMagic_0/bitslice_5/dffpos_0/a_30_n84# prjMagic_0/inverter_0/Y prjMagic_0/bitslice_5/dffpos_0/a_25_n84# Gnd nfet w=10 l=2
++  ad=80 pd=36 as=0 ps=0
+M1173 prjMagic_0/bitslice_5/dffpos_0/a_40_n84# prjMagic_0/bitslice_5/dffpos_0/a_n34_n84# prjMagic_0/bitslice_5/dffpos_0/a_30_n84# Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1174 Gnd Out5 prjMagic_0/bitslice_5/dffpos_0/a_40_n84# Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1175 Out5 prjMagic_0/bitslice_5/dffpos_0/a_30_n84# Gnd Gnd nfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1176 Vdd prjMagic_0/bitslice_5/fa_0/A prjMagic_0/bitslice_5/fa_0/a_2_74# Vdd pfet w=20 l=2
++  ad=0 pd=0 as=220 ps=102
+M1177 prjMagic_0/bitslice_5/fa_0/a_2_74# prjMagic_0/bitslice_5/Y Vdd Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1178 prjMagic_0/bitslice_5/fa_0/a_25_6# prjMagic_0/bitslice_5/Cin prjMagic_0/bitslice_5/fa_0/a_2_74# Vdd pfet w=20 l=2
++  ad=120 pd=52 as=0 ps=0
+M1179 prjMagic_0/bitslice_5/fa_0/a_33_74# prjMagic_0/bitslice_5/Y prjMagic_0/bitslice_5/fa_0/a_25_6# Vdd pfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1180 Vdd prjMagic_0/bitslice_5/fa_0/A prjMagic_0/bitslice_5/fa_0/a_33_74# Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1181 prjMagic_0/bitslice_5/fa_0/a_46_74# prjMagic_0/bitslice_5/fa_0/A Vdd Vdd pfet w=20 l=2
++  ad=240 pd=104 as=0 ps=0
+M1182 Vdd prjMagic_0/bitslice_5/Y prjMagic_0/bitslice_5/fa_0/a_46_74# Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1183 prjMagic_0/bitslice_5/fa_0/a_46_74# prjMagic_0/bitslice_5/Cin Vdd Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1184 prjMagic_0/bitslice_5/fa_0/a_70_6# prjMagic_0/bitslice_5/fa_0/a_25_6# prjMagic_0/bitslice_5/fa_0/a_46_74# Vdd pfet w=20 l=2
++  ad=140 pd=54 as=0 ps=0
+M1185 prjMagic_0/bitslice_5/fa_0/a_79_74# prjMagic_0/bitslice_5/Cin prjMagic_0/bitslice_5/fa_0/a_70_6# Vdd pfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1186 prjMagic_0/bitslice_5/fa_0/a_84_74# prjMagic_0/bitslice_5/Y prjMagic_0/bitslice_5/fa_0/a_79_74# Vdd pfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1187 Vdd prjMagic_0/bitslice_5/fa_0/A prjMagic_0/bitslice_5/fa_0/a_84_74# Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1188 prjMagic_0/bitslice_5/sum prjMagic_0/bitslice_5/fa_0/a_70_6# Vdd Vdd pfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1189 prjMagic_0/bitslice_6/Cin prjMagic_0/bitslice_5/fa_0/a_25_6# Vdd Vdd pfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1190 Gnd prjMagic_0/bitslice_5/fa_0/A prjMagic_0/bitslice_5/fa_0/a_2_6# Gnd nfet w=10 l=2
++  ad=0 pd=0 as=110 ps=62
+M1191 prjMagic_0/bitslice_5/fa_0/a_2_6# prjMagic_0/bitslice_5/Y Gnd Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1192 prjMagic_0/bitslice_5/fa_0/a_25_6# prjMagic_0/bitslice_5/Cin prjMagic_0/bitslice_5/fa_0/a_2_6# Gnd nfet w=10 l=2
++  ad=60 pd=32 as=0 ps=0
+M1193 prjMagic_0/bitslice_5/fa_0/a_33_6# prjMagic_0/bitslice_5/Y prjMagic_0/bitslice_5/fa_0/a_25_6# Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1194 Gnd prjMagic_0/bitslice_5/fa_0/A prjMagic_0/bitslice_5/fa_0/a_33_6# Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1195 prjMagic_0/bitslice_5/fa_0/a_46_6# prjMagic_0/bitslice_5/fa_0/A Gnd Gnd nfet w=10 l=2
++  ad=120 pd=64 as=0 ps=0
+M1196 Gnd prjMagic_0/bitslice_5/Y prjMagic_0/bitslice_5/fa_0/a_46_6# Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1197 prjMagic_0/bitslice_5/fa_0/a_46_6# prjMagic_0/bitslice_5/Cin Gnd Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1198 prjMagic_0/bitslice_5/fa_0/a_70_6# prjMagic_0/bitslice_5/fa_0/a_25_6# prjMagic_0/bitslice_5/fa_0/a_46_6# Gnd nfet w=10 l=2
++  ad=70 pd=34 as=0 ps=0
+M1199 prjMagic_0/bitslice_5/fa_0/a_79_6# prjMagic_0/bitslice_5/Cin prjMagic_0/bitslice_5/fa_0/a_70_6# Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1200 prjMagic_0/bitslice_5/fa_0/a_84_6# prjMagic_0/bitslice_5/Y prjMagic_0/bitslice_5/fa_0/a_79_6# Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1201 Gnd prjMagic_0/bitslice_5/fa_0/A prjMagic_0/bitslice_5/fa_0/a_84_6# Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1202 prjMagic_0/bitslice_5/sum prjMagic_0/bitslice_5/fa_0/a_70_6# Gnd Gnd nfet w=10 l=2
++  ad=50 pd=30 as=0 ps=0
+M1203 prjMagic_0/bitslice_6/Cin prjMagic_0/bitslice_5/fa_0/a_25_6# Gnd Gnd nfet w=10 l=2
++  ad=50 pd=30 as=0 ps=0
+M1204 prjMagic_0/bitslice_5/mux21_0/nand_1/A Out5 Vdd Vdd pfet w=20 l=2
++  ad=120 pd=52 as=0 ps=0
+M1205 Vdd prjMagic_0/bitslice_5/mux21_0/nand_2/B prjMagic_0/bitslice_5/mux21_0/nand_1/A Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1206 prjMagic_0/bitslice_5/mux21_0/nand_2/a_9_6# Out5 Gnd Gnd nfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1207 prjMagic_0/bitslice_5/mux21_0/nand_1/A prjMagic_0/bitslice_5/mux21_0/nand_2/B prjMagic_0/bitslice_5/mux21_0/nand_2/a_9_6# Gnd nfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1208 prjMagic_0/bitslice_5/mux21_0/nand_2/B loadB Vdd Vdd pfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1209 prjMagic_0/bitslice_5/mux21_0/nand_2/B loadB Gnd Gnd nfet w=10 l=2
++  ad=50 pd=30 as=0 ps=0
+M1210 prjMagic_0/bitslice_5/fa_0/A prjMagic_0/bitslice_5/mux21_0/nand_1/A Vdd Vdd pfet w=20 l=2
++  ad=120 pd=52 as=0 ps=0
+M1211 Vdd prjMagic_0/bitslice_5/mux21_0/nand_1/B prjMagic_0/bitslice_5/fa_0/A Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1212 prjMagic_0/bitslice_5/mux21_0/nand_1/a_9_6# prjMagic_0/bitslice_5/mux21_0/nand_1/A Gnd Gnd nfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1213 prjMagic_0/bitslice_5/fa_0/A prjMagic_0/bitslice_5/mux21_0/nand_1/B prjMagic_0/bitslice_5/mux21_0/nand_1/a_9_6# Gnd nfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1214 prjMagic_0/bitslice_5/mux21_0/nand_1/B loadB Vdd Vdd pfet w=20 l=2
++  ad=120 pd=52 as=0 ps=0
+M1215 Vdd B5 prjMagic_0/bitslice_5/mux21_0/nand_1/B Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1216 prjMagic_0/bitslice_5/mux21_0/nand_0/a_9_6# loadB Gnd Gnd nfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1217 prjMagic_0/bitslice_5/mux21_0/nand_1/B B5 prjMagic_0/bitslice_5/mux21_0/nand_0/a_9_6# Gnd nfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1218 Vdd A5 prjMagic_0/bitslice_5/xor2_0/a_17_6# Vdd pfet w=40 l=2
++  ad=0 pd=0 as=200 ps=90
+M1219 prjMagic_0/bitslice_5/xor2_0/a_33_54# prjMagic_0/bitslice_5/xor2_0/a_28_44# Vdd Vdd pfet w=40 l=2
++  ad=120 pd=86 as=0 ps=0
+M1220 prjMagic_0/bitslice_5/Y A5 prjMagic_0/bitslice_5/xor2_0/a_33_54# Vdd pfet w=40 l=2
++  ad=400 pd=100 as=0 ps=0
+M1221 prjMagic_0/bitslice_5/xor2_0/a_50_54# prjMagic_0/bitslice_5/xor2_0/a_17_6# prjMagic_0/bitslice_5/Y Vdd pfet w=40 l=2
++  ad=120 pd=86 as=0 ps=0
+M1222 Vdd inverter_0/Y prjMagic_0/bitslice_5/xor2_0/a_50_54# Vdd pfet w=40 l=2
++  ad=0 pd=0 as=0 ps=0
+M1223 prjMagic_0/bitslice_5/xor2_0/a_28_44# inverter_0/Y Vdd Vdd pfet w=40 l=2
++  ad=200 pd=90 as=0 ps=0
+M1224 Gnd A5 prjMagic_0/bitslice_5/xor2_0/a_17_6# Gnd nfet w=20 l=2
++  ad=0 pd=0 as=100 ps=50
+M1225 prjMagic_0/bitslice_5/xor2_0/a_33_6# prjMagic_0/bitslice_5/xor2_0/a_28_44# Gnd Gnd nfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1226 prjMagic_0/bitslice_5/Y prjMagic_0/bitslice_5/xor2_0/a_17_6# prjMagic_0/bitslice_5/xor2_0/a_33_6# Gnd nfet w=20 l=2
++  ad=200 pd=60 as=0 ps=0
+M1227 prjMagic_0/bitslice_5/xor2_0/a_50_6# A5 prjMagic_0/bitslice_5/Y Gnd nfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1228 Gnd inverter_0/Y prjMagic_0/bitslice_5/xor2_0/a_50_6# Gnd nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1229 prjMagic_0/bitslice_5/xor2_0/a_28_44# inverter_0/Y Gnd Gnd nfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1230 Vdd prjMagic_0/inverter_0/Y prjMagic_0/bitslice_4/dffpos_0/a_n34_n84# Vdd pfet w=40 l=2
++  ad=0 pd=0 as=200 ps=90
+M1231 prjMagic_0/bitslice_4/dffpos_0/a_n19_n15# prjMagic_0/bitslice_4/sum Vdd Vdd pfet w=20 l=2
++  ad=80 pd=48 as=0 ps=0
+M1232 prjMagic_0/bitslice_4/dffpos_0/a_n14_n84# prjMagic_0/inverter_0/Y prjMagic_0/bitslice_4/dffpos_0/a_n19_n15# Vdd pfet w=20 l=2
++  ad=120 pd=52 as=0 ps=0
+M1233 prjMagic_0/bitslice_4/dffpos_0/a_n5_n15# prjMagic_0/bitslice_4/dffpos_0/a_n34_n84# prjMagic_0/bitslice_4/dffpos_0/a_n14_n84# Vdd pfet w=20 l=2
++  ad=80 pd=48 as=0 ps=0
+M1234 Vdd prjMagic_0/bitslice_4/dffpos_0/a_n2_n86# prjMagic_0/bitslice_4/dffpos_0/a_n5_n15# Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1235 prjMagic_0/bitslice_4/dffpos_0/a_n2_n86# prjMagic_0/bitslice_4/dffpos_0/a_n14_n84# Vdd Vdd pfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1236 prjMagic_0/bitslice_4/dffpos_0/a_25_n15# prjMagic_0/bitslice_4/dffpos_0/a_n2_n86# Vdd Vdd pfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1237 prjMagic_0/bitslice_4/dffpos_0/a_30_n84# prjMagic_0/bitslice_4/dffpos_0/a_n34_n84# prjMagic_0/bitslice_4/dffpos_0/a_25_n15# Vdd pfet w=20 l=2
++  ad=150 pd=56 as=0 ps=0
+M1238 prjMagic_0/bitslice_4/dffpos_0/a_40_n5# prjMagic_0/inverter_0/Y prjMagic_0/bitslice_4/dffpos_0/a_30_n84# Vdd pfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1239 Vdd Out4 prjMagic_0/bitslice_4/dffpos_0/a_40_n5# Vdd pfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1240 Gnd prjMagic_0/inverter_0/Y prjMagic_0/bitslice_4/dffpos_0/a_n34_n84# Gnd nfet w=20 l=2
++  ad=0 pd=0 as=100 ps=50
+M1241 Out4 prjMagic_0/bitslice_4/dffpos_0/a_30_n84# Vdd Vdd pfet w=40 l=2
++  ad=200 pd=90 as=0 ps=0
+M1242 prjMagic_0/bitslice_4/dffpos_0/a_n19_n84# prjMagic_0/bitslice_4/sum Gnd Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1243 prjMagic_0/bitslice_4/dffpos_0/a_n14_n84# prjMagic_0/bitslice_4/dffpos_0/a_n34_n84# prjMagic_0/bitslice_4/dffpos_0/a_n19_n84# Gnd nfet w=10 l=2
++  ad=70 pd=34 as=0 ps=0
+M1244 prjMagic_0/bitslice_4/dffpos_0/a_n5_n84# prjMagic_0/inverter_0/Y prjMagic_0/bitslice_4/dffpos_0/a_n14_n84# Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1245 Gnd prjMagic_0/bitslice_4/dffpos_0/a_n2_n86# prjMagic_0/bitslice_4/dffpos_0/a_n5_n84# Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1246 prjMagic_0/bitslice_4/dffpos_0/a_n2_n86# prjMagic_0/bitslice_4/dffpos_0/a_n14_n84# Gnd Gnd nfet w=10 l=2
++  ad=50 pd=30 as=0 ps=0
+M1247 prjMagic_0/bitslice_4/dffpos_0/a_25_n84# prjMagic_0/bitslice_4/dffpos_0/a_n2_n86# Gnd Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1248 prjMagic_0/bitslice_4/dffpos_0/a_30_n84# prjMagic_0/inverter_0/Y prjMagic_0/bitslice_4/dffpos_0/a_25_n84# Gnd nfet w=10 l=2
++  ad=80 pd=36 as=0 ps=0
+M1249 prjMagic_0/bitslice_4/dffpos_0/a_40_n84# prjMagic_0/bitslice_4/dffpos_0/a_n34_n84# prjMagic_0/bitslice_4/dffpos_0/a_30_n84# Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1250 Gnd Out4 prjMagic_0/bitslice_4/dffpos_0/a_40_n84# Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1251 Out4 prjMagic_0/bitslice_4/dffpos_0/a_30_n84# Gnd Gnd nfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1252 Vdd prjMagic_0/bitslice_4/fa_0/A prjMagic_0/bitslice_4/fa_0/a_2_74# Vdd pfet w=20 l=2
++  ad=0 pd=0 as=220 ps=102
+M1253 prjMagic_0/bitslice_4/fa_0/a_2_74# prjMagic_0/bitslice_4/Y Vdd Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1254 prjMagic_0/bitslice_4/fa_0/a_25_6# prjMagic_0/bitslice_4/Cin prjMagic_0/bitslice_4/fa_0/a_2_74# Vdd pfet w=20 l=2
++  ad=120 pd=52 as=0 ps=0
+M1255 prjMagic_0/bitslice_4/fa_0/a_33_74# prjMagic_0/bitslice_4/Y prjMagic_0/bitslice_4/fa_0/a_25_6# Vdd pfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1256 Vdd prjMagic_0/bitslice_4/fa_0/A prjMagic_0/bitslice_4/fa_0/a_33_74# Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1257 prjMagic_0/bitslice_4/fa_0/a_46_74# prjMagic_0/bitslice_4/fa_0/A Vdd Vdd pfet w=20 l=2
++  ad=240 pd=104 as=0 ps=0
+M1258 Vdd prjMagic_0/bitslice_4/Y prjMagic_0/bitslice_4/fa_0/a_46_74# Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1259 prjMagic_0/bitslice_4/fa_0/a_46_74# prjMagic_0/bitslice_4/Cin Vdd Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1260 prjMagic_0/bitslice_4/fa_0/a_70_6# prjMagic_0/bitslice_4/fa_0/a_25_6# prjMagic_0/bitslice_4/fa_0/a_46_74# Vdd pfet w=20 l=2
++  ad=140 pd=54 as=0 ps=0
+M1261 prjMagic_0/bitslice_4/fa_0/a_79_74# prjMagic_0/bitslice_4/Cin prjMagic_0/bitslice_4/fa_0/a_70_6# Vdd pfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1262 prjMagic_0/bitslice_4/fa_0/a_84_74# prjMagic_0/bitslice_4/Y prjMagic_0/bitslice_4/fa_0/a_79_74# Vdd pfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1263 Vdd prjMagic_0/bitslice_4/fa_0/A prjMagic_0/bitslice_4/fa_0/a_84_74# Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1264 prjMagic_0/bitslice_4/sum prjMagic_0/bitslice_4/fa_0/a_70_6# Vdd Vdd pfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1265 prjMagic_0/bitslice_5/Cin prjMagic_0/bitslice_4/fa_0/a_25_6# Vdd Vdd pfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1266 Gnd prjMagic_0/bitslice_4/fa_0/A prjMagic_0/bitslice_4/fa_0/a_2_6# Gnd nfet w=10 l=2
++  ad=0 pd=0 as=110 ps=62
+M1267 prjMagic_0/bitslice_4/fa_0/a_2_6# prjMagic_0/bitslice_4/Y Gnd Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1268 prjMagic_0/bitslice_4/fa_0/a_25_6# prjMagic_0/bitslice_4/Cin prjMagic_0/bitslice_4/fa_0/a_2_6# Gnd nfet w=10 l=2
++  ad=60 pd=32 as=0 ps=0
+M1269 prjMagic_0/bitslice_4/fa_0/a_33_6# prjMagic_0/bitslice_4/Y prjMagic_0/bitslice_4/fa_0/a_25_6# Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1270 Gnd prjMagic_0/bitslice_4/fa_0/A prjMagic_0/bitslice_4/fa_0/a_33_6# Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1271 prjMagic_0/bitslice_4/fa_0/a_46_6# prjMagic_0/bitslice_4/fa_0/A Gnd Gnd nfet w=10 l=2
++  ad=120 pd=64 as=0 ps=0
+M1272 Gnd prjMagic_0/bitslice_4/Y prjMagic_0/bitslice_4/fa_0/a_46_6# Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1273 prjMagic_0/bitslice_4/fa_0/a_46_6# prjMagic_0/bitslice_4/Cin Gnd Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1274 prjMagic_0/bitslice_4/fa_0/a_70_6# prjMagic_0/bitslice_4/fa_0/a_25_6# prjMagic_0/bitslice_4/fa_0/a_46_6# Gnd nfet w=10 l=2
++  ad=70 pd=34 as=0 ps=0
+M1275 prjMagic_0/bitslice_4/fa_0/a_79_6# prjMagic_0/bitslice_4/Cin prjMagic_0/bitslice_4/fa_0/a_70_6# Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1276 prjMagic_0/bitslice_4/fa_0/a_84_6# prjMagic_0/bitslice_4/Y prjMagic_0/bitslice_4/fa_0/a_79_6# Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1277 Gnd prjMagic_0/bitslice_4/fa_0/A prjMagic_0/bitslice_4/fa_0/a_84_6# Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1278 prjMagic_0/bitslice_4/sum prjMagic_0/bitslice_4/fa_0/a_70_6# Gnd Gnd nfet w=10 l=2
++  ad=50 pd=30 as=0 ps=0
+M1279 prjMagic_0/bitslice_5/Cin prjMagic_0/bitslice_4/fa_0/a_25_6# Gnd Gnd nfet w=10 l=2
++  ad=50 pd=30 as=0 ps=0
+M1280 prjMagic_0/bitslice_4/mux21_0/nand_1/A Out4 Vdd Vdd pfet w=20 l=2
++  ad=120 pd=52 as=0 ps=0
+M1281 Vdd prjMagic_0/bitslice_4/mux21_0/nand_2/B prjMagic_0/bitslice_4/mux21_0/nand_1/A Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1282 prjMagic_0/bitslice_4/mux21_0/nand_2/a_9_6# Out4 Gnd Gnd nfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1283 prjMagic_0/bitslice_4/mux21_0/nand_1/A prjMagic_0/bitslice_4/mux21_0/nand_2/B prjMagic_0/bitslice_4/mux21_0/nand_2/a_9_6# Gnd nfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1284 prjMagic_0/bitslice_4/mux21_0/nand_2/B loadB Vdd Vdd pfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1285 prjMagic_0/bitslice_4/mux21_0/nand_2/B loadB Gnd Gnd nfet w=10 l=2
++  ad=50 pd=30 as=0 ps=0
+M1286 prjMagic_0/bitslice_4/fa_0/A prjMagic_0/bitslice_4/mux21_0/nand_1/A Vdd Vdd pfet w=20 l=2
++  ad=120 pd=52 as=0 ps=0
+M1287 Vdd prjMagic_0/bitslice_4/mux21_0/nand_1/B prjMagic_0/bitslice_4/fa_0/A Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1288 prjMagic_0/bitslice_4/mux21_0/nand_1/a_9_6# prjMagic_0/bitslice_4/mux21_0/nand_1/A Gnd Gnd nfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1289 prjMagic_0/bitslice_4/fa_0/A prjMagic_0/bitslice_4/mux21_0/nand_1/B prjMagic_0/bitslice_4/mux21_0/nand_1/a_9_6# Gnd nfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1290 prjMagic_0/bitslice_4/mux21_0/nand_1/B loadB Vdd Vdd pfet w=20 l=2
++  ad=120 pd=52 as=0 ps=0
+M1291 Vdd B4 prjMagic_0/bitslice_4/mux21_0/nand_1/B Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1292 prjMagic_0/bitslice_4/mux21_0/nand_0/a_9_6# loadB Gnd Gnd nfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1293 prjMagic_0/bitslice_4/mux21_0/nand_1/B B4 prjMagic_0/bitslice_4/mux21_0/nand_0/a_9_6# Gnd nfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1294 Vdd A4 prjMagic_0/bitslice_4/xor2_0/a_17_6# Vdd pfet w=40 l=2
++  ad=0 pd=0 as=200 ps=90
+M1295 prjMagic_0/bitslice_4/xor2_0/a_33_54# prjMagic_0/bitslice_4/xor2_0/a_28_44# Vdd Vdd pfet w=40 l=2
++  ad=120 pd=86 as=0 ps=0
+M1296 prjMagic_0/bitslice_4/Y A4 prjMagic_0/bitslice_4/xor2_0/a_33_54# Vdd pfet w=40 l=2
++  ad=400 pd=100 as=0 ps=0
+M1297 prjMagic_0/bitslice_4/xor2_0/a_50_54# prjMagic_0/bitslice_4/xor2_0/a_17_6# prjMagic_0/bitslice_4/Y Vdd pfet w=40 l=2
++  ad=120 pd=86 as=0 ps=0
+M1298 Vdd inverter_0/Y prjMagic_0/bitslice_4/xor2_0/a_50_54# Vdd pfet w=40 l=2
++  ad=0 pd=0 as=0 ps=0
+M1299 prjMagic_0/bitslice_4/xor2_0/a_28_44# inverter_0/Y Vdd Vdd pfet w=40 l=2
++  ad=200 pd=90 as=0 ps=0
+M1300 Gnd A4 prjMagic_0/bitslice_4/xor2_0/a_17_6# Gnd nfet w=20 l=2
++  ad=0 pd=0 as=100 ps=50
+M1301 prjMagic_0/bitslice_4/xor2_0/a_33_6# prjMagic_0/bitslice_4/xor2_0/a_28_44# Gnd Gnd nfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1302 prjMagic_0/bitslice_4/Y prjMagic_0/bitslice_4/xor2_0/a_17_6# prjMagic_0/bitslice_4/xor2_0/a_33_6# Gnd nfet w=20 l=2
++  ad=200 pd=60 as=0 ps=0
+M1303 prjMagic_0/bitslice_4/xor2_0/a_50_6# A4 prjMagic_0/bitslice_4/Y Gnd nfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1304 Gnd inverter_0/Y prjMagic_0/bitslice_4/xor2_0/a_50_6# Gnd nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1305 prjMagic_0/bitslice_4/xor2_0/a_28_44# inverter_0/Y Gnd Gnd nfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1306 Vdd prjMagic_0/inverter_0/Y prjMagic_0/bitslice_3/dffpos_0/a_n34_n84# Vdd pfet w=40 l=2
++  ad=0 pd=0 as=200 ps=90
+M1307 prjMagic_0/bitslice_3/dffpos_0/a_n19_n15# prjMagic_0/bitslice_3/sum Vdd Vdd pfet w=20 l=2
++  ad=80 pd=48 as=0 ps=0
+M1308 prjMagic_0/bitslice_3/dffpos_0/a_n14_n84# prjMagic_0/inverter_0/Y prjMagic_0/bitslice_3/dffpos_0/a_n19_n15# Vdd pfet w=20 l=2
++  ad=120 pd=52 as=0 ps=0
+M1309 prjMagic_0/bitslice_3/dffpos_0/a_n5_n15# prjMagic_0/bitslice_3/dffpos_0/a_n34_n84# prjMagic_0/bitslice_3/dffpos_0/a_n14_n84# Vdd pfet w=20 l=2
++  ad=80 pd=48 as=0 ps=0
+M1310 Vdd prjMagic_0/bitslice_3/dffpos_0/a_n2_n86# prjMagic_0/bitslice_3/dffpos_0/a_n5_n15# Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1311 prjMagic_0/bitslice_3/dffpos_0/a_n2_n86# prjMagic_0/bitslice_3/dffpos_0/a_n14_n84# Vdd Vdd pfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1312 prjMagic_0/bitslice_3/dffpos_0/a_25_n15# prjMagic_0/bitslice_3/dffpos_0/a_n2_n86# Vdd Vdd pfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1313 prjMagic_0/bitslice_3/dffpos_0/a_30_n84# prjMagic_0/bitslice_3/dffpos_0/a_n34_n84# prjMagic_0/bitslice_3/dffpos_0/a_25_n15# Vdd pfet w=20 l=2
++  ad=150 pd=56 as=0 ps=0
+M1314 prjMagic_0/bitslice_3/dffpos_0/a_40_n5# prjMagic_0/inverter_0/Y prjMagic_0/bitslice_3/dffpos_0/a_30_n84# Vdd pfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1315 Vdd Out3 prjMagic_0/bitslice_3/dffpos_0/a_40_n5# Vdd pfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1316 Gnd prjMagic_0/inverter_0/Y prjMagic_0/bitslice_3/dffpos_0/a_n34_n84# Gnd nfet w=20 l=2
++  ad=0 pd=0 as=100 ps=50
+M1317 Out3 prjMagic_0/bitslice_3/dffpos_0/a_30_n84# Vdd Vdd pfet w=40 l=2
++  ad=200 pd=90 as=0 ps=0
+M1318 prjMagic_0/bitslice_3/dffpos_0/a_n19_n84# prjMagic_0/bitslice_3/sum Gnd Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1319 prjMagic_0/bitslice_3/dffpos_0/a_n14_n84# prjMagic_0/bitslice_3/dffpos_0/a_n34_n84# prjMagic_0/bitslice_3/dffpos_0/a_n19_n84# Gnd nfet w=10 l=2
++  ad=70 pd=34 as=0 ps=0
+M1320 prjMagic_0/bitslice_3/dffpos_0/a_n5_n84# prjMagic_0/inverter_0/Y prjMagic_0/bitslice_3/dffpos_0/a_n14_n84# Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1321 Gnd prjMagic_0/bitslice_3/dffpos_0/a_n2_n86# prjMagic_0/bitslice_3/dffpos_0/a_n5_n84# Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1322 prjMagic_0/bitslice_3/dffpos_0/a_n2_n86# prjMagic_0/bitslice_3/dffpos_0/a_n14_n84# Gnd Gnd nfet w=10 l=2
++  ad=50 pd=30 as=0 ps=0
+M1323 prjMagic_0/bitslice_3/dffpos_0/a_25_n84# prjMagic_0/bitslice_3/dffpos_0/a_n2_n86# Gnd Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1324 prjMagic_0/bitslice_3/dffpos_0/a_30_n84# prjMagic_0/inverter_0/Y prjMagic_0/bitslice_3/dffpos_0/a_25_n84# Gnd nfet w=10 l=2
++  ad=80 pd=36 as=0 ps=0
+M1325 prjMagic_0/bitslice_3/dffpos_0/a_40_n84# prjMagic_0/bitslice_3/dffpos_0/a_n34_n84# prjMagic_0/bitslice_3/dffpos_0/a_30_n84# Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1326 Gnd Out3 prjMagic_0/bitslice_3/dffpos_0/a_40_n84# Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1327 Out3 prjMagic_0/bitslice_3/dffpos_0/a_30_n84# Gnd Gnd nfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1328 Vdd prjMagic_0/bitslice_3/fa_0/A prjMagic_0/bitslice_3/fa_0/a_2_74# Vdd pfet w=20 l=2
++  ad=0 pd=0 as=220 ps=102
+M1329 prjMagic_0/bitslice_3/fa_0/a_2_74# prjMagic_0/bitslice_3/Y Vdd Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1330 prjMagic_0/bitslice_3/fa_0/a_25_6# prjMagic_0/bitslice_3/Cin prjMagic_0/bitslice_3/fa_0/a_2_74# Vdd pfet w=20 l=2
++  ad=120 pd=52 as=0 ps=0
+M1331 prjMagic_0/bitslice_3/fa_0/a_33_74# prjMagic_0/bitslice_3/Y prjMagic_0/bitslice_3/fa_0/a_25_6# Vdd pfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1332 Vdd prjMagic_0/bitslice_3/fa_0/A prjMagic_0/bitslice_3/fa_0/a_33_74# Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1333 prjMagic_0/bitslice_3/fa_0/a_46_74# prjMagic_0/bitslice_3/fa_0/A Vdd Vdd pfet w=20 l=2
++  ad=240 pd=104 as=0 ps=0
+M1334 Vdd prjMagic_0/bitslice_3/Y prjMagic_0/bitslice_3/fa_0/a_46_74# Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1335 prjMagic_0/bitslice_3/fa_0/a_46_74# prjMagic_0/bitslice_3/Cin Vdd Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1336 prjMagic_0/bitslice_3/fa_0/a_70_6# prjMagic_0/bitslice_3/fa_0/a_25_6# prjMagic_0/bitslice_3/fa_0/a_46_74# Vdd pfet w=20 l=2
++  ad=140 pd=54 as=0 ps=0
+M1337 prjMagic_0/bitslice_3/fa_0/a_79_74# prjMagic_0/bitslice_3/Cin prjMagic_0/bitslice_3/fa_0/a_70_6# Vdd pfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1338 prjMagic_0/bitslice_3/fa_0/a_84_74# prjMagic_0/bitslice_3/Y prjMagic_0/bitslice_3/fa_0/a_79_74# Vdd pfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1339 Vdd prjMagic_0/bitslice_3/fa_0/A prjMagic_0/bitslice_3/fa_0/a_84_74# Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1340 prjMagic_0/bitslice_3/sum prjMagic_0/bitslice_3/fa_0/a_70_6# Vdd Vdd pfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1341 prjMagic_0/bitslice_4/Cin prjMagic_0/bitslice_3/fa_0/a_25_6# Vdd Vdd pfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1342 Gnd prjMagic_0/bitslice_3/fa_0/A prjMagic_0/bitslice_3/fa_0/a_2_6# Gnd nfet w=10 l=2
++  ad=0 pd=0 as=110 ps=62
+M1343 prjMagic_0/bitslice_3/fa_0/a_2_6# prjMagic_0/bitslice_3/Y Gnd Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1344 prjMagic_0/bitslice_3/fa_0/a_25_6# prjMagic_0/bitslice_3/Cin prjMagic_0/bitslice_3/fa_0/a_2_6# Gnd nfet w=10 l=2
++  ad=60 pd=32 as=0 ps=0
+M1345 prjMagic_0/bitslice_3/fa_0/a_33_6# prjMagic_0/bitslice_3/Y prjMagic_0/bitslice_3/fa_0/a_25_6# Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1346 Gnd prjMagic_0/bitslice_3/fa_0/A prjMagic_0/bitslice_3/fa_0/a_33_6# Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1347 prjMagic_0/bitslice_3/fa_0/a_46_6# prjMagic_0/bitslice_3/fa_0/A Gnd Gnd nfet w=10 l=2
++  ad=120 pd=64 as=0 ps=0
+M1348 Gnd prjMagic_0/bitslice_3/Y prjMagic_0/bitslice_3/fa_0/a_46_6# Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1349 prjMagic_0/bitslice_3/fa_0/a_46_6# prjMagic_0/bitslice_3/Cin Gnd Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1350 prjMagic_0/bitslice_3/fa_0/a_70_6# prjMagic_0/bitslice_3/fa_0/a_25_6# prjMagic_0/bitslice_3/fa_0/a_46_6# Gnd nfet w=10 l=2
++  ad=70 pd=34 as=0 ps=0
+M1351 prjMagic_0/bitslice_3/fa_0/a_79_6# prjMagic_0/bitslice_3/Cin prjMagic_0/bitslice_3/fa_0/a_70_6# Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1352 prjMagic_0/bitslice_3/fa_0/a_84_6# prjMagic_0/bitslice_3/Y prjMagic_0/bitslice_3/fa_0/a_79_6# Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1353 Gnd prjMagic_0/bitslice_3/fa_0/A prjMagic_0/bitslice_3/fa_0/a_84_6# Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1354 prjMagic_0/bitslice_3/sum prjMagic_0/bitslice_3/fa_0/a_70_6# Gnd Gnd nfet w=10 l=2
++  ad=50 pd=30 as=0 ps=0
+M1355 prjMagic_0/bitslice_4/Cin prjMagic_0/bitslice_3/fa_0/a_25_6# Gnd Gnd nfet w=10 l=2
++  ad=50 pd=30 as=0 ps=0
+M1356 prjMagic_0/bitslice_3/mux21_0/nand_1/A Out3 Vdd Vdd pfet w=20 l=2
++  ad=120 pd=52 as=0 ps=0
+M1357 Vdd prjMagic_0/bitslice_3/mux21_0/nand_2/B prjMagic_0/bitslice_3/mux21_0/nand_1/A Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1358 prjMagic_0/bitslice_3/mux21_0/nand_2/a_9_6# Out3 Gnd Gnd nfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1359 prjMagic_0/bitslice_3/mux21_0/nand_1/A prjMagic_0/bitslice_3/mux21_0/nand_2/B prjMagic_0/bitslice_3/mux21_0/nand_2/a_9_6# Gnd nfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1360 prjMagic_0/bitslice_3/mux21_0/nand_2/B loadB Vdd Vdd pfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1361 prjMagic_0/bitslice_3/mux21_0/nand_2/B loadB Gnd Gnd nfet w=10 l=2
++  ad=50 pd=30 as=0 ps=0
+M1362 prjMagic_0/bitslice_3/fa_0/A prjMagic_0/bitslice_3/mux21_0/nand_1/A Vdd Vdd pfet w=20 l=2
++  ad=120 pd=52 as=0 ps=0
+M1363 Vdd prjMagic_0/bitslice_3/mux21_0/nand_1/B prjMagic_0/bitslice_3/fa_0/A Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1364 prjMagic_0/bitslice_3/mux21_0/nand_1/a_9_6# prjMagic_0/bitslice_3/mux21_0/nand_1/A Gnd Gnd nfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1365 prjMagic_0/bitslice_3/fa_0/A prjMagic_0/bitslice_3/mux21_0/nand_1/B prjMagic_0/bitslice_3/mux21_0/nand_1/a_9_6# Gnd nfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1366 prjMagic_0/bitslice_3/mux21_0/nand_1/B loadB Vdd Vdd pfet w=20 l=2
++  ad=120 pd=52 as=0 ps=0
+M1367 Vdd B3 prjMagic_0/bitslice_3/mux21_0/nand_1/B Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1368 prjMagic_0/bitslice_3/mux21_0/nand_0/a_9_6# loadB Gnd Gnd nfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1369 prjMagic_0/bitslice_3/mux21_0/nand_1/B B3 prjMagic_0/bitslice_3/mux21_0/nand_0/a_9_6# Gnd nfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1370 Vdd A3 prjMagic_0/bitslice_3/xor2_0/a_17_6# Vdd pfet w=40 l=2
++  ad=0 pd=0 as=200 ps=90
+M1371 prjMagic_0/bitslice_3/xor2_0/a_33_54# prjMagic_0/bitslice_3/xor2_0/a_28_44# Vdd Vdd pfet w=40 l=2
++  ad=120 pd=86 as=0 ps=0
+M1372 prjMagic_0/bitslice_3/Y A3 prjMagic_0/bitslice_3/xor2_0/a_33_54# Vdd pfet w=40 l=2
++  ad=400 pd=100 as=0 ps=0
+M1373 prjMagic_0/bitslice_3/xor2_0/a_50_54# prjMagic_0/bitslice_3/xor2_0/a_17_6# prjMagic_0/bitslice_3/Y Vdd pfet w=40 l=2
++  ad=120 pd=86 as=0 ps=0
+M1374 Vdd inverter_0/Y prjMagic_0/bitslice_3/xor2_0/a_50_54# Vdd pfet w=40 l=2
++  ad=0 pd=0 as=0 ps=0
+M1375 prjMagic_0/bitslice_3/xor2_0/a_28_44# inverter_0/Y Vdd Vdd pfet w=40 l=2
++  ad=200 pd=90 as=0 ps=0
+M1376 Gnd A3 prjMagic_0/bitslice_3/xor2_0/a_17_6# Gnd nfet w=20 l=2
++  ad=0 pd=0 as=100 ps=50
+M1377 prjMagic_0/bitslice_3/xor2_0/a_33_6# prjMagic_0/bitslice_3/xor2_0/a_28_44# Gnd Gnd nfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1378 prjMagic_0/bitslice_3/Y prjMagic_0/bitslice_3/xor2_0/a_17_6# prjMagic_0/bitslice_3/xor2_0/a_33_6# Gnd nfet w=20 l=2
++  ad=200 pd=60 as=0 ps=0
+M1379 prjMagic_0/bitslice_3/xor2_0/a_50_6# A3 prjMagic_0/bitslice_3/Y Gnd nfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1380 Gnd inverter_0/Y prjMagic_0/bitslice_3/xor2_0/a_50_6# Gnd nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1381 prjMagic_0/bitslice_3/xor2_0/a_28_44# inverter_0/Y Gnd Gnd nfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1382 Vdd prjMagic_0/inverter_0/Y prjMagic_0/bitslice_2/dffpos_0/a_n34_n84# Vdd pfet w=40 l=2
++  ad=0 pd=0 as=200 ps=90
+M1383 prjMagic_0/bitslice_2/dffpos_0/a_n19_n15# prjMagic_0/bitslice_2/sum Vdd Vdd pfet w=20 l=2
++  ad=80 pd=48 as=0 ps=0
+M1384 prjMagic_0/bitslice_2/dffpos_0/a_n14_n84# prjMagic_0/inverter_0/Y prjMagic_0/bitslice_2/dffpos_0/a_n19_n15# Vdd pfet w=20 l=2
++  ad=120 pd=52 as=0 ps=0
+M1385 prjMagic_0/bitslice_2/dffpos_0/a_n5_n15# prjMagic_0/bitslice_2/dffpos_0/a_n34_n84# prjMagic_0/bitslice_2/dffpos_0/a_n14_n84# Vdd pfet w=20 l=2
++  ad=80 pd=48 as=0 ps=0
+M1386 Vdd prjMagic_0/bitslice_2/dffpos_0/a_n2_n86# prjMagic_0/bitslice_2/dffpos_0/a_n5_n15# Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1387 prjMagic_0/bitslice_2/dffpos_0/a_n2_n86# prjMagic_0/bitslice_2/dffpos_0/a_n14_n84# Vdd Vdd pfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1388 prjMagic_0/bitslice_2/dffpos_0/a_25_n15# prjMagic_0/bitslice_2/dffpos_0/a_n2_n86# Vdd Vdd pfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1389 prjMagic_0/bitslice_2/dffpos_0/a_30_n84# prjMagic_0/bitslice_2/dffpos_0/a_n34_n84# prjMagic_0/bitslice_2/dffpos_0/a_25_n15# Vdd pfet w=20 l=2
++  ad=150 pd=56 as=0 ps=0
+M1390 prjMagic_0/bitslice_2/dffpos_0/a_40_n5# prjMagic_0/inverter_0/Y prjMagic_0/bitslice_2/dffpos_0/a_30_n84# Vdd pfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1391 Vdd Out2 prjMagic_0/bitslice_2/dffpos_0/a_40_n5# Vdd pfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1392 Gnd prjMagic_0/inverter_0/Y prjMagic_0/bitslice_2/dffpos_0/a_n34_n84# Gnd nfet w=20 l=2
++  ad=0 pd=0 as=100 ps=50
+M1393 Out2 prjMagic_0/bitslice_2/dffpos_0/a_30_n84# Vdd Vdd pfet w=40 l=2
++  ad=200 pd=90 as=0 ps=0
+M1394 prjMagic_0/bitslice_2/dffpos_0/a_n19_n84# prjMagic_0/bitslice_2/sum Gnd Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1395 prjMagic_0/bitslice_2/dffpos_0/a_n14_n84# prjMagic_0/bitslice_2/dffpos_0/a_n34_n84# prjMagic_0/bitslice_2/dffpos_0/a_n19_n84# Gnd nfet w=10 l=2
++  ad=70 pd=34 as=0 ps=0
+M1396 prjMagic_0/bitslice_2/dffpos_0/a_n5_n84# prjMagic_0/inverter_0/Y prjMagic_0/bitslice_2/dffpos_0/a_n14_n84# Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1397 Gnd prjMagic_0/bitslice_2/dffpos_0/a_n2_n86# prjMagic_0/bitslice_2/dffpos_0/a_n5_n84# Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1398 prjMagic_0/bitslice_2/dffpos_0/a_n2_n86# prjMagic_0/bitslice_2/dffpos_0/a_n14_n84# Gnd Gnd nfet w=10 l=2
++  ad=50 pd=30 as=0 ps=0
+M1399 prjMagic_0/bitslice_2/dffpos_0/a_25_n84# prjMagic_0/bitslice_2/dffpos_0/a_n2_n86# Gnd Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1400 prjMagic_0/bitslice_2/dffpos_0/a_30_n84# prjMagic_0/inverter_0/Y prjMagic_0/bitslice_2/dffpos_0/a_25_n84# Gnd nfet w=10 l=2
++  ad=80 pd=36 as=0 ps=0
+M1401 prjMagic_0/bitslice_2/dffpos_0/a_40_n84# prjMagic_0/bitslice_2/dffpos_0/a_n34_n84# prjMagic_0/bitslice_2/dffpos_0/a_30_n84# Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1402 Gnd Out2 prjMagic_0/bitslice_2/dffpos_0/a_40_n84# Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1403 Out2 prjMagic_0/bitslice_2/dffpos_0/a_30_n84# Gnd Gnd nfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1404 Vdd prjMagic_0/bitslice_2/fa_0/A prjMagic_0/bitslice_2/fa_0/a_2_74# Vdd pfet w=20 l=2
++  ad=0 pd=0 as=220 ps=102
+M1405 prjMagic_0/bitslice_2/fa_0/a_2_74# prjMagic_0/bitslice_2/Y Vdd Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1406 prjMagic_0/bitslice_2/fa_0/a_25_6# prjMagic_0/bitslice_2/Cin prjMagic_0/bitslice_2/fa_0/a_2_74# Vdd pfet w=20 l=2
++  ad=120 pd=52 as=0 ps=0
+M1407 prjMagic_0/bitslice_2/fa_0/a_33_74# prjMagic_0/bitslice_2/Y prjMagic_0/bitslice_2/fa_0/a_25_6# Vdd pfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1408 Vdd prjMagic_0/bitslice_2/fa_0/A prjMagic_0/bitslice_2/fa_0/a_33_74# Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1409 prjMagic_0/bitslice_2/fa_0/a_46_74# prjMagic_0/bitslice_2/fa_0/A Vdd Vdd pfet w=20 l=2
++  ad=240 pd=104 as=0 ps=0
+M1410 Vdd prjMagic_0/bitslice_2/Y prjMagic_0/bitslice_2/fa_0/a_46_74# Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1411 prjMagic_0/bitslice_2/fa_0/a_46_74# prjMagic_0/bitslice_2/Cin Vdd Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1412 prjMagic_0/bitslice_2/fa_0/a_70_6# prjMagic_0/bitslice_2/fa_0/a_25_6# prjMagic_0/bitslice_2/fa_0/a_46_74# Vdd pfet w=20 l=2
++  ad=140 pd=54 as=0 ps=0
+M1413 prjMagic_0/bitslice_2/fa_0/a_79_74# prjMagic_0/bitslice_2/Cin prjMagic_0/bitslice_2/fa_0/a_70_6# Vdd pfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1414 prjMagic_0/bitslice_2/fa_0/a_84_74# prjMagic_0/bitslice_2/Y prjMagic_0/bitslice_2/fa_0/a_79_74# Vdd pfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1415 Vdd prjMagic_0/bitslice_2/fa_0/A prjMagic_0/bitslice_2/fa_0/a_84_74# Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1416 prjMagic_0/bitslice_2/sum prjMagic_0/bitslice_2/fa_0/a_70_6# Vdd Vdd pfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1417 prjMagic_0/bitslice_3/Cin prjMagic_0/bitslice_2/fa_0/a_25_6# Vdd Vdd pfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1418 Gnd prjMagic_0/bitslice_2/fa_0/A prjMagic_0/bitslice_2/fa_0/a_2_6# Gnd nfet w=10 l=2
++  ad=0 pd=0 as=110 ps=62
+M1419 prjMagic_0/bitslice_2/fa_0/a_2_6# prjMagic_0/bitslice_2/Y Gnd Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1420 prjMagic_0/bitslice_2/fa_0/a_25_6# prjMagic_0/bitslice_2/Cin prjMagic_0/bitslice_2/fa_0/a_2_6# Gnd nfet w=10 l=2
++  ad=60 pd=32 as=0 ps=0
+M1421 prjMagic_0/bitslice_2/fa_0/a_33_6# prjMagic_0/bitslice_2/Y prjMagic_0/bitslice_2/fa_0/a_25_6# Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1422 Gnd prjMagic_0/bitslice_2/fa_0/A prjMagic_0/bitslice_2/fa_0/a_33_6# Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1423 prjMagic_0/bitslice_2/fa_0/a_46_6# prjMagic_0/bitslice_2/fa_0/A Gnd Gnd nfet w=10 l=2
++  ad=120 pd=64 as=0 ps=0
+M1424 Gnd prjMagic_0/bitslice_2/Y prjMagic_0/bitslice_2/fa_0/a_46_6# Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1425 prjMagic_0/bitslice_2/fa_0/a_46_6# prjMagic_0/bitslice_2/Cin Gnd Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1426 prjMagic_0/bitslice_2/fa_0/a_70_6# prjMagic_0/bitslice_2/fa_0/a_25_6# prjMagic_0/bitslice_2/fa_0/a_46_6# Gnd nfet w=10 l=2
++  ad=70 pd=34 as=0 ps=0
+M1427 prjMagic_0/bitslice_2/fa_0/a_79_6# prjMagic_0/bitslice_2/Cin prjMagic_0/bitslice_2/fa_0/a_70_6# Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1428 prjMagic_0/bitslice_2/fa_0/a_84_6# prjMagic_0/bitslice_2/Y prjMagic_0/bitslice_2/fa_0/a_79_6# Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1429 Gnd prjMagic_0/bitslice_2/fa_0/A prjMagic_0/bitslice_2/fa_0/a_84_6# Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1430 prjMagic_0/bitslice_2/sum prjMagic_0/bitslice_2/fa_0/a_70_6# Gnd Gnd nfet w=10 l=2
++  ad=50 pd=30 as=0 ps=0
+M1431 prjMagic_0/bitslice_3/Cin prjMagic_0/bitslice_2/fa_0/a_25_6# Gnd Gnd nfet w=10 l=2
++  ad=50 pd=30 as=0 ps=0
+M1432 prjMagic_0/bitslice_2/mux21_0/nand_1/A Out2 Vdd Vdd pfet w=20 l=2
++  ad=120 pd=52 as=0 ps=0
+M1433 Vdd prjMagic_0/bitslice_2/mux21_0/nand_2/B prjMagic_0/bitslice_2/mux21_0/nand_1/A Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1434 prjMagic_0/bitslice_2/mux21_0/nand_2/a_9_6# Out2 Gnd Gnd nfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1435 prjMagic_0/bitslice_2/mux21_0/nand_1/A prjMagic_0/bitslice_2/mux21_0/nand_2/B prjMagic_0/bitslice_2/mux21_0/nand_2/a_9_6# Gnd nfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1436 prjMagic_0/bitslice_2/mux21_0/nand_2/B loadB Vdd Vdd pfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1437 prjMagic_0/bitslice_2/mux21_0/nand_2/B loadB Gnd Gnd nfet w=10 l=2
++  ad=50 pd=30 as=0 ps=0
+M1438 prjMagic_0/bitslice_2/fa_0/A prjMagic_0/bitslice_2/mux21_0/nand_1/A Vdd Vdd pfet w=20 l=2
++  ad=120 pd=52 as=0 ps=0
+M1439 Vdd prjMagic_0/bitslice_2/mux21_0/nand_1/B prjMagic_0/bitslice_2/fa_0/A Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1440 prjMagic_0/bitslice_2/mux21_0/nand_1/a_9_6# prjMagic_0/bitslice_2/mux21_0/nand_1/A Gnd Gnd nfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1441 prjMagic_0/bitslice_2/fa_0/A prjMagic_0/bitslice_2/mux21_0/nand_1/B prjMagic_0/bitslice_2/mux21_0/nand_1/a_9_6# Gnd nfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1442 prjMagic_0/bitslice_2/mux21_0/nand_1/B loadB Vdd Vdd pfet w=20 l=2
++  ad=120 pd=52 as=0 ps=0
+M1443 Vdd B2 prjMagic_0/bitslice_2/mux21_0/nand_1/B Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1444 prjMagic_0/bitslice_2/mux21_0/nand_0/a_9_6# loadB Gnd Gnd nfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1445 prjMagic_0/bitslice_2/mux21_0/nand_1/B B2 prjMagic_0/bitslice_2/mux21_0/nand_0/a_9_6# Gnd nfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1446 Vdd A2 prjMagic_0/bitslice_2/xor2_0/a_17_6# Vdd pfet w=40 l=2
++  ad=0 pd=0 as=200 ps=90
+M1447 prjMagic_0/bitslice_2/xor2_0/a_33_54# prjMagic_0/bitslice_2/xor2_0/a_28_44# Vdd Vdd pfet w=40 l=2
++  ad=120 pd=86 as=0 ps=0
+M1448 prjMagic_0/bitslice_2/Y A2 prjMagic_0/bitslice_2/xor2_0/a_33_54# Vdd pfet w=40 l=2
++  ad=400 pd=100 as=0 ps=0
+M1449 prjMagic_0/bitslice_2/xor2_0/a_50_54# prjMagic_0/bitslice_2/xor2_0/a_17_6# prjMagic_0/bitslice_2/Y Vdd pfet w=40 l=2
++  ad=120 pd=86 as=0 ps=0
+M1450 Vdd inverter_0/Y prjMagic_0/bitslice_2/xor2_0/a_50_54# Vdd pfet w=40 l=2
++  ad=0 pd=0 as=0 ps=0
+M1451 prjMagic_0/bitslice_2/xor2_0/a_28_44# inverter_0/Y Vdd Vdd pfet w=40 l=2
++  ad=200 pd=90 as=0 ps=0
+M1452 Gnd A2 prjMagic_0/bitslice_2/xor2_0/a_17_6# Gnd nfet w=20 l=2
++  ad=0 pd=0 as=100 ps=50
+M1453 prjMagic_0/bitslice_2/xor2_0/a_33_6# prjMagic_0/bitslice_2/xor2_0/a_28_44# Gnd Gnd nfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1454 prjMagic_0/bitslice_2/Y prjMagic_0/bitslice_2/xor2_0/a_17_6# prjMagic_0/bitslice_2/xor2_0/a_33_6# Gnd nfet w=20 l=2
++  ad=200 pd=60 as=0 ps=0
+M1455 prjMagic_0/bitslice_2/xor2_0/a_50_6# A2 prjMagic_0/bitslice_2/Y Gnd nfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1456 Gnd inverter_0/Y prjMagic_0/bitslice_2/xor2_0/a_50_6# Gnd nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1457 prjMagic_0/bitslice_2/xor2_0/a_28_44# inverter_0/Y Gnd Gnd nfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1458 Vdd prjMagic_0/inverter_0/Y prjMagic_0/bitslice_1/dffpos_0/a_n34_n84# Vdd pfet w=40 l=2
++  ad=0 pd=0 as=200 ps=90
+M1459 prjMagic_0/bitslice_1/dffpos_0/a_n19_n15# prjMagic_0/bitslice_1/sum Vdd Vdd pfet w=20 l=2
++  ad=80 pd=48 as=0 ps=0
+M1460 prjMagic_0/bitslice_1/dffpos_0/a_n14_n84# prjMagic_0/inverter_0/Y prjMagic_0/bitslice_1/dffpos_0/a_n19_n15# Vdd pfet w=20 l=2
++  ad=120 pd=52 as=0 ps=0
+M1461 prjMagic_0/bitslice_1/dffpos_0/a_n5_n15# prjMagic_0/bitslice_1/dffpos_0/a_n34_n84# prjMagic_0/bitslice_1/dffpos_0/a_n14_n84# Vdd pfet w=20 l=2
++  ad=80 pd=48 as=0 ps=0
+M1462 Vdd prjMagic_0/bitslice_1/dffpos_0/a_n2_n86# prjMagic_0/bitslice_1/dffpos_0/a_n5_n15# Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1463 prjMagic_0/bitslice_1/dffpos_0/a_n2_n86# prjMagic_0/bitslice_1/dffpos_0/a_n14_n84# Vdd Vdd pfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1464 prjMagic_0/bitslice_1/dffpos_0/a_25_n15# prjMagic_0/bitslice_1/dffpos_0/a_n2_n86# Vdd Vdd pfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1465 prjMagic_0/bitslice_1/dffpos_0/a_30_n84# prjMagic_0/bitslice_1/dffpos_0/a_n34_n84# prjMagic_0/bitslice_1/dffpos_0/a_25_n15# Vdd pfet w=20 l=2
++  ad=150 pd=56 as=0 ps=0
+M1466 prjMagic_0/bitslice_1/dffpos_0/a_40_n5# prjMagic_0/inverter_0/Y prjMagic_0/bitslice_1/dffpos_0/a_30_n84# Vdd pfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1467 Vdd Out1 prjMagic_0/bitslice_1/dffpos_0/a_40_n5# Vdd pfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1468 Gnd prjMagic_0/inverter_0/Y prjMagic_0/bitslice_1/dffpos_0/a_n34_n84# Gnd nfet w=20 l=2
++  ad=0 pd=0 as=100 ps=50
+M1469 Out1 prjMagic_0/bitslice_1/dffpos_0/a_30_n84# Vdd Vdd pfet w=40 l=2
++  ad=200 pd=90 as=0 ps=0
+M1470 prjMagic_0/bitslice_1/dffpos_0/a_n19_n84# prjMagic_0/bitslice_1/sum Gnd Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1471 prjMagic_0/bitslice_1/dffpos_0/a_n14_n84# prjMagic_0/bitslice_1/dffpos_0/a_n34_n84# prjMagic_0/bitslice_1/dffpos_0/a_n19_n84# Gnd nfet w=10 l=2
++  ad=70 pd=34 as=0 ps=0
+M1472 prjMagic_0/bitslice_1/dffpos_0/a_n5_n84# prjMagic_0/inverter_0/Y prjMagic_0/bitslice_1/dffpos_0/a_n14_n84# Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1473 Gnd prjMagic_0/bitslice_1/dffpos_0/a_n2_n86# prjMagic_0/bitslice_1/dffpos_0/a_n5_n84# Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1474 prjMagic_0/bitslice_1/dffpos_0/a_n2_n86# prjMagic_0/bitslice_1/dffpos_0/a_n14_n84# Gnd Gnd nfet w=10 l=2
++  ad=50 pd=30 as=0 ps=0
+M1475 prjMagic_0/bitslice_1/dffpos_0/a_25_n84# prjMagic_0/bitslice_1/dffpos_0/a_n2_n86# Gnd Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1476 prjMagic_0/bitslice_1/dffpos_0/a_30_n84# prjMagic_0/inverter_0/Y prjMagic_0/bitslice_1/dffpos_0/a_25_n84# Gnd nfet w=10 l=2
++  ad=80 pd=36 as=0 ps=0
+M1477 prjMagic_0/bitslice_1/dffpos_0/a_40_n84# prjMagic_0/bitslice_1/dffpos_0/a_n34_n84# prjMagic_0/bitslice_1/dffpos_0/a_30_n84# Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1478 Gnd Out1 prjMagic_0/bitslice_1/dffpos_0/a_40_n84# Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1479 Out1 prjMagic_0/bitslice_1/dffpos_0/a_30_n84# Gnd Gnd nfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1480 Vdd prjMagic_0/bitslice_1/fa_0/A prjMagic_0/bitslice_1/fa_0/a_2_74# Vdd pfet w=20 l=2
++  ad=0 pd=0 as=220 ps=102
+M1481 prjMagic_0/bitslice_1/fa_0/a_2_74# prjMagic_0/bitslice_1/Y Vdd Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1482 prjMagic_0/bitslice_1/fa_0/a_25_6# prjMagic_0/bitslice_1/Cin prjMagic_0/bitslice_1/fa_0/a_2_74# Vdd pfet w=20 l=2
++  ad=120 pd=52 as=0 ps=0
+M1483 prjMagic_0/bitslice_1/fa_0/a_33_74# prjMagic_0/bitslice_1/Y prjMagic_0/bitslice_1/fa_0/a_25_6# Vdd pfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1484 Vdd prjMagic_0/bitslice_1/fa_0/A prjMagic_0/bitslice_1/fa_0/a_33_74# Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1485 prjMagic_0/bitslice_1/fa_0/a_46_74# prjMagic_0/bitslice_1/fa_0/A Vdd Vdd pfet w=20 l=2
++  ad=240 pd=104 as=0 ps=0
+M1486 Vdd prjMagic_0/bitslice_1/Y prjMagic_0/bitslice_1/fa_0/a_46_74# Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1487 prjMagic_0/bitslice_1/fa_0/a_46_74# prjMagic_0/bitslice_1/Cin Vdd Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1488 prjMagic_0/bitslice_1/fa_0/a_70_6# prjMagic_0/bitslice_1/fa_0/a_25_6# prjMagic_0/bitslice_1/fa_0/a_46_74# Vdd pfet w=20 l=2
++  ad=140 pd=54 as=0 ps=0
+M1489 prjMagic_0/bitslice_1/fa_0/a_79_74# prjMagic_0/bitslice_1/Cin prjMagic_0/bitslice_1/fa_0/a_70_6# Vdd pfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1490 prjMagic_0/bitslice_1/fa_0/a_84_74# prjMagic_0/bitslice_1/Y prjMagic_0/bitslice_1/fa_0/a_79_74# Vdd pfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1491 Vdd prjMagic_0/bitslice_1/fa_0/A prjMagic_0/bitslice_1/fa_0/a_84_74# Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1492 prjMagic_0/bitslice_1/sum prjMagic_0/bitslice_1/fa_0/a_70_6# Vdd Vdd pfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1493 prjMagic_0/bitslice_2/Cin prjMagic_0/bitslice_1/fa_0/a_25_6# Vdd Vdd pfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1494 Gnd prjMagic_0/bitslice_1/fa_0/A prjMagic_0/bitslice_1/fa_0/a_2_6# Gnd nfet w=10 l=2
++  ad=0 pd=0 as=110 ps=62
+M1495 prjMagic_0/bitslice_1/fa_0/a_2_6# prjMagic_0/bitslice_1/Y Gnd Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1496 prjMagic_0/bitslice_1/fa_0/a_25_6# prjMagic_0/bitslice_1/Cin prjMagic_0/bitslice_1/fa_0/a_2_6# Gnd nfet w=10 l=2
++  ad=60 pd=32 as=0 ps=0
+M1497 prjMagic_0/bitslice_1/fa_0/a_33_6# prjMagic_0/bitslice_1/Y prjMagic_0/bitslice_1/fa_0/a_25_6# Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1498 Gnd prjMagic_0/bitslice_1/fa_0/A prjMagic_0/bitslice_1/fa_0/a_33_6# Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1499 prjMagic_0/bitslice_1/fa_0/a_46_6# prjMagic_0/bitslice_1/fa_0/A Gnd Gnd nfet w=10 l=2
++  ad=120 pd=64 as=0 ps=0
+M1500 Gnd prjMagic_0/bitslice_1/Y prjMagic_0/bitslice_1/fa_0/a_46_6# Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1501 prjMagic_0/bitslice_1/fa_0/a_46_6# prjMagic_0/bitslice_1/Cin Gnd Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1502 prjMagic_0/bitslice_1/fa_0/a_70_6# prjMagic_0/bitslice_1/fa_0/a_25_6# prjMagic_0/bitslice_1/fa_0/a_46_6# Gnd nfet w=10 l=2
++  ad=70 pd=34 as=0 ps=0
+M1503 prjMagic_0/bitslice_1/fa_0/a_79_6# prjMagic_0/bitslice_1/Cin prjMagic_0/bitslice_1/fa_0/a_70_6# Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1504 prjMagic_0/bitslice_1/fa_0/a_84_6# prjMagic_0/bitslice_1/Y prjMagic_0/bitslice_1/fa_0/a_79_6# Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1505 Gnd prjMagic_0/bitslice_1/fa_0/A prjMagic_0/bitslice_1/fa_0/a_84_6# Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1506 prjMagic_0/bitslice_1/sum prjMagic_0/bitslice_1/fa_0/a_70_6# Gnd Gnd nfet w=10 l=2
++  ad=50 pd=30 as=0 ps=0
+M1507 prjMagic_0/bitslice_2/Cin prjMagic_0/bitslice_1/fa_0/a_25_6# Gnd Gnd nfet w=10 l=2
++  ad=50 pd=30 as=0 ps=0
+M1508 prjMagic_0/bitslice_1/mux21_0/nand_1/A Out1 Vdd Vdd pfet w=20 l=2
++  ad=120 pd=52 as=0 ps=0
+M1509 Vdd prjMagic_0/bitslice_1/mux21_0/nand_2/B prjMagic_0/bitslice_1/mux21_0/nand_1/A Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1510 prjMagic_0/bitslice_1/mux21_0/nand_2/a_9_6# Out1 Gnd Gnd nfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1511 prjMagic_0/bitslice_1/mux21_0/nand_1/A prjMagic_0/bitslice_1/mux21_0/nand_2/B prjMagic_0/bitslice_1/mux21_0/nand_2/a_9_6# Gnd nfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1512 prjMagic_0/bitslice_1/mux21_0/nand_2/B loadB Vdd Vdd pfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1513 prjMagic_0/bitslice_1/mux21_0/nand_2/B loadB Gnd Gnd nfet w=10 l=2
++  ad=50 pd=30 as=0 ps=0
+M1514 prjMagic_0/bitslice_1/fa_0/A prjMagic_0/bitslice_1/mux21_0/nand_1/A Vdd Vdd pfet w=20 l=2
++  ad=120 pd=52 as=0 ps=0
+M1515 Vdd prjMagic_0/bitslice_1/mux21_0/nand_1/B prjMagic_0/bitslice_1/fa_0/A Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1516 prjMagic_0/bitslice_1/mux21_0/nand_1/a_9_6# prjMagic_0/bitslice_1/mux21_0/nand_1/A Gnd Gnd nfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1517 prjMagic_0/bitslice_1/fa_0/A prjMagic_0/bitslice_1/mux21_0/nand_1/B prjMagic_0/bitslice_1/mux21_0/nand_1/a_9_6# Gnd nfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1518 prjMagic_0/bitslice_1/mux21_0/nand_1/B loadB Vdd Vdd pfet w=20 l=2
++  ad=120 pd=52 as=0 ps=0
+M1519 Vdd B1 prjMagic_0/bitslice_1/mux21_0/nand_1/B Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1520 prjMagic_0/bitslice_1/mux21_0/nand_0/a_9_6# loadB Gnd Gnd nfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1521 prjMagic_0/bitslice_1/mux21_0/nand_1/B B1 prjMagic_0/bitslice_1/mux21_0/nand_0/a_9_6# Gnd nfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1522 Vdd A1 prjMagic_0/bitslice_1/xor2_0/a_17_6# Vdd pfet w=40 l=2
++  ad=0 pd=0 as=200 ps=90
+M1523 prjMagic_0/bitslice_1/xor2_0/a_33_54# prjMagic_0/bitslice_1/xor2_0/a_28_44# Vdd Vdd pfet w=40 l=2
++  ad=120 pd=86 as=0 ps=0
+M1524 prjMagic_0/bitslice_1/Y A1 prjMagic_0/bitslice_1/xor2_0/a_33_54# Vdd pfet w=40 l=2
++  ad=400 pd=100 as=0 ps=0
+M1525 prjMagic_0/bitslice_1/xor2_0/a_50_54# prjMagic_0/bitslice_1/xor2_0/a_17_6# prjMagic_0/bitslice_1/Y Vdd pfet w=40 l=2
++  ad=120 pd=86 as=0 ps=0
+M1526 Vdd inverter_0/Y prjMagic_0/bitslice_1/xor2_0/a_50_54# Vdd pfet w=40 l=2
++  ad=0 pd=0 as=0 ps=0
+M1527 prjMagic_0/bitslice_1/xor2_0/a_28_44# inverter_0/Y Vdd Vdd pfet w=40 l=2
++  ad=200 pd=90 as=0 ps=0
+M1528 Gnd A1 prjMagic_0/bitslice_1/xor2_0/a_17_6# Gnd nfet w=20 l=2
++  ad=0 pd=0 as=100 ps=50
+M1529 prjMagic_0/bitslice_1/xor2_0/a_33_6# prjMagic_0/bitslice_1/xor2_0/a_28_44# Gnd Gnd nfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1530 prjMagic_0/bitslice_1/Y prjMagic_0/bitslice_1/xor2_0/a_17_6# prjMagic_0/bitslice_1/xor2_0/a_33_6# Gnd nfet w=20 l=2
++  ad=200 pd=60 as=0 ps=0
+M1531 prjMagic_0/bitslice_1/xor2_0/a_50_6# A1 prjMagic_0/bitslice_1/Y Gnd nfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1532 Gnd inverter_0/Y prjMagic_0/bitslice_1/xor2_0/a_50_6# Gnd nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1533 prjMagic_0/bitslice_1/xor2_0/a_28_44# inverter_0/Y Gnd Gnd nfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1534 Vdd prjMagic_0/inverter_0/Y prjMagic_0/bitslice_0/dffpos_0/a_n34_n84# Vdd pfet w=40 l=2
++  ad=0 pd=0 as=200 ps=90
+M1535 prjMagic_0/bitslice_0/dffpos_0/a_n19_n15# prjMagic_0/bitslice_0/sum Vdd Vdd pfet w=20 l=2
++  ad=80 pd=48 as=0 ps=0
+M1536 prjMagic_0/bitslice_0/dffpos_0/a_n14_n84# prjMagic_0/inverter_0/Y prjMagic_0/bitslice_0/dffpos_0/a_n19_n15# Vdd pfet w=20 l=2
++  ad=120 pd=52 as=0 ps=0
+M1537 prjMagic_0/bitslice_0/dffpos_0/a_n5_n15# prjMagic_0/bitslice_0/dffpos_0/a_n34_n84# prjMagic_0/bitslice_0/dffpos_0/a_n14_n84# Vdd pfet w=20 l=2
++  ad=80 pd=48 as=0 ps=0
+M1538 Vdd prjMagic_0/bitslice_0/dffpos_0/a_n2_n86# prjMagic_0/bitslice_0/dffpos_0/a_n5_n15# Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1539 prjMagic_0/bitslice_0/dffpos_0/a_n2_n86# prjMagic_0/bitslice_0/dffpos_0/a_n14_n84# Vdd Vdd pfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1540 prjMagic_0/bitslice_0/dffpos_0/a_25_n15# prjMagic_0/bitslice_0/dffpos_0/a_n2_n86# Vdd Vdd pfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1541 prjMagic_0/bitslice_0/dffpos_0/a_30_n84# prjMagic_0/bitslice_0/dffpos_0/a_n34_n84# prjMagic_0/bitslice_0/dffpos_0/a_25_n15# Vdd pfet w=20 l=2
++  ad=150 pd=56 as=0 ps=0
+M1542 prjMagic_0/bitslice_0/dffpos_0/a_40_n5# prjMagic_0/inverter_0/Y prjMagic_0/bitslice_0/dffpos_0/a_30_n84# Vdd pfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1543 Vdd Out0 prjMagic_0/bitslice_0/dffpos_0/a_40_n5# Vdd pfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1544 Gnd prjMagic_0/inverter_0/Y prjMagic_0/bitslice_0/dffpos_0/a_n34_n84# Gnd nfet w=20 l=2
++  ad=0 pd=0 as=100 ps=50
+M1545 Out0 prjMagic_0/bitslice_0/dffpos_0/a_30_n84# Vdd Vdd pfet w=40 l=2
++  ad=200 pd=90 as=0 ps=0
+M1546 prjMagic_0/bitslice_0/dffpos_0/a_n19_n84# prjMagic_0/bitslice_0/sum Gnd Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1547 prjMagic_0/bitslice_0/dffpos_0/a_n14_n84# prjMagic_0/bitslice_0/dffpos_0/a_n34_n84# prjMagic_0/bitslice_0/dffpos_0/a_n19_n84# Gnd nfet w=10 l=2
++  ad=70 pd=34 as=0 ps=0
+M1548 prjMagic_0/bitslice_0/dffpos_0/a_n5_n84# prjMagic_0/inverter_0/Y prjMagic_0/bitslice_0/dffpos_0/a_n14_n84# Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1549 Gnd prjMagic_0/bitslice_0/dffpos_0/a_n2_n86# prjMagic_0/bitslice_0/dffpos_0/a_n5_n84# Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1550 prjMagic_0/bitslice_0/dffpos_0/a_n2_n86# prjMagic_0/bitslice_0/dffpos_0/a_n14_n84# Gnd Gnd nfet w=10 l=2
++  ad=50 pd=30 as=0 ps=0
+M1551 prjMagic_0/bitslice_0/dffpos_0/a_25_n84# prjMagic_0/bitslice_0/dffpos_0/a_n2_n86# Gnd Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1552 prjMagic_0/bitslice_0/dffpos_0/a_30_n84# prjMagic_0/inverter_0/Y prjMagic_0/bitslice_0/dffpos_0/a_25_n84# Gnd nfet w=10 l=2
++  ad=80 pd=36 as=0 ps=0
+M1553 prjMagic_0/bitslice_0/dffpos_0/a_40_n84# prjMagic_0/bitslice_0/dffpos_0/a_n34_n84# prjMagic_0/bitslice_0/dffpos_0/a_30_n84# Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1554 Gnd Out0 prjMagic_0/bitslice_0/dffpos_0/a_40_n84# Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1555 Out0 prjMagic_0/bitslice_0/dffpos_0/a_30_n84# Gnd Gnd nfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1556 Vdd prjMagic_0/bitslice_0/fa_0/A prjMagic_0/bitslice_0/fa_0/a_2_74# Vdd pfet w=20 l=2
++  ad=0 pd=0 as=220 ps=102
+M1557 prjMagic_0/bitslice_0/fa_0/a_2_74# prjMagic_0/bitslice_0/Y Vdd Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1558 prjMagic_0/bitslice_0/fa_0/a_25_6# inverter_0/Y prjMagic_0/bitslice_0/fa_0/a_2_74# Vdd pfet w=20 l=2
++  ad=120 pd=52 as=0 ps=0
+M1559 prjMagic_0/bitslice_0/fa_0/a_33_74# prjMagic_0/bitslice_0/Y prjMagic_0/bitslice_0/fa_0/a_25_6# Vdd pfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1560 Vdd prjMagic_0/bitslice_0/fa_0/A prjMagic_0/bitslice_0/fa_0/a_33_74# Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1561 prjMagic_0/bitslice_0/fa_0/a_46_74# prjMagic_0/bitslice_0/fa_0/A Vdd Vdd pfet w=20 l=2
++  ad=240 pd=104 as=0 ps=0
+M1562 Vdd prjMagic_0/bitslice_0/Y prjMagic_0/bitslice_0/fa_0/a_46_74# Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1563 prjMagic_0/bitslice_0/fa_0/a_46_74# inverter_0/Y Vdd Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1564 prjMagic_0/bitslice_0/fa_0/a_70_6# prjMagic_0/bitslice_0/fa_0/a_25_6# prjMagic_0/bitslice_0/fa_0/a_46_74# Vdd pfet w=20 l=2
++  ad=140 pd=54 as=0 ps=0
+M1565 prjMagic_0/bitslice_0/fa_0/a_79_74# inverter_0/Y prjMagic_0/bitslice_0/fa_0/a_70_6# Vdd pfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1566 prjMagic_0/bitslice_0/fa_0/a_84_74# prjMagic_0/bitslice_0/Y prjMagic_0/bitslice_0/fa_0/a_79_74# Vdd pfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1567 Vdd prjMagic_0/bitslice_0/fa_0/A prjMagic_0/bitslice_0/fa_0/a_84_74# Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1568 prjMagic_0/bitslice_0/sum prjMagic_0/bitslice_0/fa_0/a_70_6# Vdd Vdd pfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1569 prjMagic_0/bitslice_1/Cin prjMagic_0/bitslice_0/fa_0/a_25_6# Vdd Vdd pfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1570 Gnd prjMagic_0/bitslice_0/fa_0/A prjMagic_0/bitslice_0/fa_0/a_2_6# Gnd nfet w=10 l=2
++  ad=0 pd=0 as=110 ps=62
+M1571 prjMagic_0/bitslice_0/fa_0/a_2_6# prjMagic_0/bitslice_0/Y Gnd Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1572 prjMagic_0/bitslice_0/fa_0/a_25_6# inverter_0/Y prjMagic_0/bitslice_0/fa_0/a_2_6# Gnd nfet w=10 l=2
++  ad=60 pd=32 as=0 ps=0
+M1573 prjMagic_0/bitslice_0/fa_0/a_33_6# prjMagic_0/bitslice_0/Y prjMagic_0/bitslice_0/fa_0/a_25_6# Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1574 Gnd prjMagic_0/bitslice_0/fa_0/A prjMagic_0/bitslice_0/fa_0/a_33_6# Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1575 prjMagic_0/bitslice_0/fa_0/a_46_6# prjMagic_0/bitslice_0/fa_0/A Gnd Gnd nfet w=10 l=2
++  ad=120 pd=64 as=0 ps=0
+M1576 Gnd prjMagic_0/bitslice_0/Y prjMagic_0/bitslice_0/fa_0/a_46_6# Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1577 prjMagic_0/bitslice_0/fa_0/a_46_6# inverter_0/Y Gnd Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1578 prjMagic_0/bitslice_0/fa_0/a_70_6# prjMagic_0/bitslice_0/fa_0/a_25_6# prjMagic_0/bitslice_0/fa_0/a_46_6# Gnd nfet w=10 l=2
++  ad=70 pd=34 as=0 ps=0
+M1579 prjMagic_0/bitslice_0/fa_0/a_79_6# inverter_0/Y prjMagic_0/bitslice_0/fa_0/a_70_6# Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1580 prjMagic_0/bitslice_0/fa_0/a_84_6# prjMagic_0/bitslice_0/Y prjMagic_0/bitslice_0/fa_0/a_79_6# Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1581 Gnd prjMagic_0/bitslice_0/fa_0/A prjMagic_0/bitslice_0/fa_0/a_84_6# Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1582 prjMagic_0/bitslice_0/sum prjMagic_0/bitslice_0/fa_0/a_70_6# Gnd Gnd nfet w=10 l=2
++  ad=50 pd=30 as=0 ps=0
+M1583 prjMagic_0/bitslice_1/Cin prjMagic_0/bitslice_0/fa_0/a_25_6# Gnd Gnd nfet w=10 l=2
++  ad=50 pd=30 as=0 ps=0
+M1584 prjMagic_0/bitslice_0/mux21_0/nand_1/A Out0 Vdd Vdd pfet w=20 l=2
++  ad=120 pd=52 as=0 ps=0
+M1585 Vdd prjMagic_0/bitslice_0/mux21_0/nand_2/B prjMagic_0/bitslice_0/mux21_0/nand_1/A Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1586 prjMagic_0/bitslice_0/mux21_0/nand_2/a_9_6# Out0 Gnd Gnd nfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1587 prjMagic_0/bitslice_0/mux21_0/nand_1/A prjMagic_0/bitslice_0/mux21_0/nand_2/B prjMagic_0/bitslice_0/mux21_0/nand_2/a_9_6# Gnd nfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1588 prjMagic_0/bitslice_0/mux21_0/nand_2/B loadB Vdd Vdd pfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1589 prjMagic_0/bitslice_0/mux21_0/nand_2/B loadB Gnd Gnd nfet w=10 l=2
++  ad=50 pd=30 as=0 ps=0
+M1590 prjMagic_0/bitslice_0/fa_0/A prjMagic_0/bitslice_0/mux21_0/nand_1/A Vdd Vdd pfet w=20 l=2
++  ad=120 pd=52 as=0 ps=0
+M1591 Vdd prjMagic_0/bitslice_0/mux21_0/nand_1/B prjMagic_0/bitslice_0/fa_0/A Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1592 prjMagic_0/bitslice_0/mux21_0/nand_1/a_9_6# prjMagic_0/bitslice_0/mux21_0/nand_1/A Gnd Gnd nfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1593 prjMagic_0/bitslice_0/fa_0/A prjMagic_0/bitslice_0/mux21_0/nand_1/B prjMagic_0/bitslice_0/mux21_0/nand_1/a_9_6# Gnd nfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1594 prjMagic_0/bitslice_0/mux21_0/nand_1/B loadB Vdd Vdd pfet w=20 l=2
++  ad=120 pd=52 as=0 ps=0
+M1595 Vdd B0 prjMagic_0/bitslice_0/mux21_0/nand_1/B Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1596 prjMagic_0/bitslice_0/mux21_0/nand_0/a_9_6# loadB Gnd Gnd nfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1597 prjMagic_0/bitslice_0/mux21_0/nand_1/B B0 prjMagic_0/bitslice_0/mux21_0/nand_0/a_9_6# Gnd nfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1598 Vdd A0 prjMagic_0/bitslice_0/xor2_0/a_17_6# Vdd pfet w=40 l=2
++  ad=0 pd=0 as=200 ps=90
+M1599 prjMagic_0/bitslice_0/xor2_0/a_33_54# prjMagic_0/bitslice_0/xor2_0/a_28_44# Vdd Vdd pfet w=40 l=2
++  ad=120 pd=86 as=0 ps=0
+M1600 prjMagic_0/bitslice_0/Y A0 prjMagic_0/bitslice_0/xor2_0/a_33_54# Vdd pfet w=40 l=2
++  ad=400 pd=100 as=0 ps=0
+M1601 prjMagic_0/bitslice_0/xor2_0/a_50_54# prjMagic_0/bitslice_0/xor2_0/a_17_6# prjMagic_0/bitslice_0/Y Vdd pfet w=40 l=2
++  ad=120 pd=86 as=0 ps=0
+M1602 Vdd inverter_0/Y prjMagic_0/bitslice_0/xor2_0/a_50_54# Vdd pfet w=40 l=2
++  ad=0 pd=0 as=0 ps=0
+M1603 prjMagic_0/bitslice_0/xor2_0/a_28_44# inverter_0/Y Vdd Vdd pfet w=40 l=2
++  ad=200 pd=90 as=0 ps=0
+M1604 Gnd A0 prjMagic_0/bitslice_0/xor2_0/a_17_6# Gnd nfet w=20 l=2
++  ad=0 pd=0 as=100 ps=50
+M1605 prjMagic_0/bitslice_0/xor2_0/a_33_6# prjMagic_0/bitslice_0/xor2_0/a_28_44# Gnd Gnd nfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1606 prjMagic_0/bitslice_0/Y prjMagic_0/bitslice_0/xor2_0/a_17_6# prjMagic_0/bitslice_0/xor2_0/a_33_6# Gnd nfet w=20 l=2
++  ad=200 pd=60 as=0 ps=0
+M1607 prjMagic_0/bitslice_0/xor2_0/a_50_6# A0 prjMagic_0/bitslice_0/Y Gnd nfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1608 Gnd inverter_0/Y prjMagic_0/bitslice_0/xor2_0/a_50_6# Gnd nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1609 prjMagic_0/bitslice_0/xor2_0/a_28_44# inverter_0/Y Gnd Gnd nfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1610 prjMagic_0/inverter_0/A loadR Vdd Vdd pfet w=20 l=2
++  ad=120 pd=52 as=0 ps=0
+M1611 Vdd inverter_2/Y prjMagic_0/inverter_0/A Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1612 prjMagic_0/nand_0/a_9_6# loadR Gnd Gnd nfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1613 prjMagic_0/inverter_0/A inverter_2/Y prjMagic_0/nand_0/a_9_6# Gnd nfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1614 prjMagic_1/inverter_0/Y prjMagic_1/inverter_0/A Vdd Vdd pfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1615 prjMagic_1/inverter_0/Y prjMagic_1/inverter_0/A Gnd Gnd nfet w=10 l=2
++  ad=50 pd=30 as=0 ps=0
+M1616 Vdd prjMagic_1/inverter_0/Y prjMagic_1/bitslice_7/dffpos_0/a_n34_n84# Vdd pfet w=40 l=2
++  ad=0 pd=0 as=200 ps=90
+M1617 prjMagic_1/bitslice_7/dffpos_0/a_n19_n15# prjMagic_1/gundy Vdd Vdd pfet w=20 l=2
++  ad=80 pd=48 as=0 ps=0
+M1618 prjMagic_1/bitslice_7/dffpos_0/a_n14_n84# prjMagic_1/inverter_0/Y prjMagic_1/bitslice_7/dffpos_0/a_n19_n15# Vdd pfet w=20 l=2
++  ad=120 pd=52 as=0 ps=0
+M1619 prjMagic_1/bitslice_7/dffpos_0/a_n5_n15# prjMagic_1/bitslice_7/dffpos_0/a_n34_n84# prjMagic_1/bitslice_7/dffpos_0/a_n14_n84# Vdd pfet w=20 l=2
++  ad=80 pd=48 as=0 ps=0
+M1620 Vdd prjMagic_1/bitslice_7/dffpos_0/a_n2_n86# prjMagic_1/bitslice_7/dffpos_0/a_n5_n15# Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1621 prjMagic_1/bitslice_7/dffpos_0/a_n2_n86# prjMagic_1/bitslice_7/dffpos_0/a_n14_n84# Vdd Vdd pfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1622 prjMagic_1/bitslice_7/dffpos_0/a_25_n15# prjMagic_1/bitslice_7/dffpos_0/a_n2_n86# Vdd Vdd pfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1623 prjMagic_1/bitslice_7/dffpos_0/a_30_n84# prjMagic_1/bitslice_7/dffpos_0/a_n34_n84# prjMagic_1/bitslice_7/dffpos_0/a_25_n15# Vdd pfet w=20 l=2
++  ad=150 pd=56 as=0 ps=0
+M1624 prjMagic_1/bitslice_7/dffpos_0/a_40_n5# prjMagic_1/inverter_0/Y prjMagic_1/bitslice_7/dffpos_0/a_30_n84# Vdd pfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1625 Vdd 1Out7 prjMagic_1/bitslice_7/dffpos_0/a_40_n5# Vdd pfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1626 Gnd prjMagic_1/inverter_0/Y prjMagic_1/bitslice_7/dffpos_0/a_n34_n84# Gnd nfet w=20 l=2
++  ad=0 pd=0 as=100 ps=50
+M1627 1Out7 prjMagic_1/bitslice_7/dffpos_0/a_30_n84# Vdd Vdd pfet w=40 l=2
++  ad=200 pd=90 as=0 ps=0
+M1628 prjMagic_1/bitslice_7/dffpos_0/a_n19_n84# prjMagic_1/gundy Gnd Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1629 prjMagic_1/bitslice_7/dffpos_0/a_n14_n84# prjMagic_1/bitslice_7/dffpos_0/a_n34_n84# prjMagic_1/bitslice_7/dffpos_0/a_n19_n84# Gnd nfet w=10 l=2
++  ad=70 pd=34 as=0 ps=0
+M1630 prjMagic_1/bitslice_7/dffpos_0/a_n5_n84# prjMagic_1/inverter_0/Y prjMagic_1/bitslice_7/dffpos_0/a_n14_n84# Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1631 Gnd prjMagic_1/bitslice_7/dffpos_0/a_n2_n86# prjMagic_1/bitslice_7/dffpos_0/a_n5_n84# Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1632 prjMagic_1/bitslice_7/dffpos_0/a_n2_n86# prjMagic_1/bitslice_7/dffpos_0/a_n14_n84# Gnd Gnd nfet w=10 l=2
++  ad=50 pd=30 as=0 ps=0
+M1633 prjMagic_1/bitslice_7/dffpos_0/a_25_n84# prjMagic_1/bitslice_7/dffpos_0/a_n2_n86# Gnd Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1634 prjMagic_1/bitslice_7/dffpos_0/a_30_n84# prjMagic_1/inverter_0/Y prjMagic_1/bitslice_7/dffpos_0/a_25_n84# Gnd nfet w=10 l=2
++  ad=80 pd=36 as=0 ps=0
+M1635 prjMagic_1/bitslice_7/dffpos_0/a_40_n84# prjMagic_1/bitslice_7/dffpos_0/a_n34_n84# prjMagic_1/bitslice_7/dffpos_0/a_30_n84# Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1636 Gnd 1Out7 prjMagic_1/bitslice_7/dffpos_0/a_40_n84# Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1637 1Out7 prjMagic_1/bitslice_7/dffpos_0/a_30_n84# Gnd Gnd nfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1638 Vdd prjMagic_1/bitslice_7/fa_0/A prjMagic_1/bitslice_7/fa_0/a_2_74# Vdd pfet w=20 l=2
++  ad=0 pd=0 as=220 ps=102
+M1639 prjMagic_1/bitslice_7/fa_0/a_2_74# prjMagic_1/bitslice_7/Y Vdd Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1640 prjMagic_1/bitslice_7/fa_0/a_25_6# prjMagic_1/bitslice_7/Cin prjMagic_1/bitslice_7/fa_0/a_2_74# Vdd pfet w=20 l=2
++  ad=120 pd=52 as=0 ps=0
+M1641 prjMagic_1/bitslice_7/fa_0/a_33_74# prjMagic_1/bitslice_7/Y prjMagic_1/bitslice_7/fa_0/a_25_6# Vdd pfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1642 Vdd prjMagic_1/bitslice_7/fa_0/A prjMagic_1/bitslice_7/fa_0/a_33_74# Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1643 prjMagic_1/bitslice_7/fa_0/a_46_74# prjMagic_1/bitslice_7/fa_0/A Vdd Vdd pfet w=20 l=2
++  ad=240 pd=104 as=0 ps=0
+M1644 Vdd prjMagic_1/bitslice_7/Y prjMagic_1/bitslice_7/fa_0/a_46_74# Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1645 prjMagic_1/bitslice_7/fa_0/a_46_74# prjMagic_1/bitslice_7/Cin Vdd Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1646 prjMagic_1/bitslice_7/fa_0/a_70_6# prjMagic_1/bitslice_7/fa_0/a_25_6# prjMagic_1/bitslice_7/fa_0/a_46_74# Vdd pfet w=20 l=2
++  ad=140 pd=54 as=0 ps=0
+M1647 prjMagic_1/bitslice_7/fa_0/a_79_74# prjMagic_1/bitslice_7/Cin prjMagic_1/bitslice_7/fa_0/a_70_6# Vdd pfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1648 prjMagic_1/bitslice_7/fa_0/a_84_74# prjMagic_1/bitslice_7/Y prjMagic_1/bitslice_7/fa_0/a_79_74# Vdd pfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1649 Vdd prjMagic_1/bitslice_7/fa_0/A prjMagic_1/bitslice_7/fa_0/a_84_74# Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1650 prjMagic_1/gundy prjMagic_1/bitslice_7/fa_0/a_70_6# Vdd Vdd pfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1651 Cout1 prjMagic_1/bitslice_7/fa_0/a_25_6# Vdd Vdd pfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1652 Gnd prjMagic_1/bitslice_7/fa_0/A prjMagic_1/bitslice_7/fa_0/a_2_6# Gnd nfet w=10 l=2
++  ad=0 pd=0 as=110 ps=62
+M1653 prjMagic_1/bitslice_7/fa_0/a_2_6# prjMagic_1/bitslice_7/Y Gnd Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1654 prjMagic_1/bitslice_7/fa_0/a_25_6# prjMagic_1/bitslice_7/Cin prjMagic_1/bitslice_7/fa_0/a_2_6# Gnd nfet w=10 l=2
++  ad=60 pd=32 as=0 ps=0
+M1655 prjMagic_1/bitslice_7/fa_0/a_33_6# prjMagic_1/bitslice_7/Y prjMagic_1/bitslice_7/fa_0/a_25_6# Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1656 Gnd prjMagic_1/bitslice_7/fa_0/A prjMagic_1/bitslice_7/fa_0/a_33_6# Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1657 prjMagic_1/bitslice_7/fa_0/a_46_6# prjMagic_1/bitslice_7/fa_0/A Gnd Gnd nfet w=10 l=2
++  ad=120 pd=64 as=0 ps=0
+M1658 Gnd prjMagic_1/bitslice_7/Y prjMagic_1/bitslice_7/fa_0/a_46_6# Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1659 prjMagic_1/bitslice_7/fa_0/a_46_6# prjMagic_1/bitslice_7/Cin Gnd Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1660 prjMagic_1/bitslice_7/fa_0/a_70_6# prjMagic_1/bitslice_7/fa_0/a_25_6# prjMagic_1/bitslice_7/fa_0/a_46_6# Gnd nfet w=10 l=2
++  ad=70 pd=34 as=0 ps=0
+M1661 prjMagic_1/bitslice_7/fa_0/a_79_6# prjMagic_1/bitslice_7/Cin prjMagic_1/bitslice_7/fa_0/a_70_6# Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1662 prjMagic_1/bitslice_7/fa_0/a_84_6# prjMagic_1/bitslice_7/Y prjMagic_1/bitslice_7/fa_0/a_79_6# Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1663 Gnd prjMagic_1/bitslice_7/fa_0/A prjMagic_1/bitslice_7/fa_0/a_84_6# Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1664 prjMagic_1/gundy prjMagic_1/bitslice_7/fa_0/a_70_6# Gnd Gnd nfet w=10 l=2
++  ad=50 pd=30 as=0 ps=0
+M1665 Cout1 prjMagic_1/bitslice_7/fa_0/a_25_6# Gnd Gnd nfet w=10 l=2
++  ad=50 pd=30 as=0 ps=0
+M1666 prjMagic_1/bitslice_7/mux21_0/nand_1/A 1Out7 Vdd Vdd pfet w=20 l=2
++  ad=120 pd=52 as=0 ps=0
+M1667 Vdd prjMagic_1/bitslice_7/mux21_0/nand_2/B prjMagic_1/bitslice_7/mux21_0/nand_1/A Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1668 prjMagic_1/bitslice_7/mux21_0/nand_2/a_9_6# 1Out7 Gnd Gnd nfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1669 prjMagic_1/bitslice_7/mux21_0/nand_1/A prjMagic_1/bitslice_7/mux21_0/nand_2/B prjMagic_1/bitslice_7/mux21_0/nand_2/a_9_6# Gnd nfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1670 prjMagic_1/bitslice_7/mux21_0/nand_2/B loadB Vdd Vdd pfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1671 prjMagic_1/bitslice_7/mux21_0/nand_2/B loadB Gnd Gnd nfet w=10 l=2
++  ad=50 pd=30 as=0 ps=0
+M1672 prjMagic_1/bitslice_7/fa_0/A prjMagic_1/bitslice_7/mux21_0/nand_1/A Vdd Vdd pfet w=20 l=2
++  ad=120 pd=52 as=0 ps=0
+M1673 Vdd prjMagic_1/bitslice_7/mux21_0/nand_1/B prjMagic_1/bitslice_7/fa_0/A Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1674 prjMagic_1/bitslice_7/mux21_0/nand_1/a_9_6# prjMagic_1/bitslice_7/mux21_0/nand_1/A Gnd Gnd nfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1675 prjMagic_1/bitslice_7/fa_0/A prjMagic_1/bitslice_7/mux21_0/nand_1/B prjMagic_1/bitslice_7/mux21_0/nand_1/a_9_6# Gnd nfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1676 prjMagic_1/bitslice_7/mux21_0/nand_1/B loadB Vdd Vdd pfet w=20 l=2
++  ad=120 pd=52 as=0 ps=0
+M1677 Vdd B7 prjMagic_1/bitslice_7/mux21_0/nand_1/B Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1678 prjMagic_1/bitslice_7/mux21_0/nand_0/a_9_6# loadB Gnd Gnd nfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1679 prjMagic_1/bitslice_7/mux21_0/nand_1/B B7 prjMagic_1/bitslice_7/mux21_0/nand_0/a_9_6# Gnd nfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1680 Vdd A7 prjMagic_1/bitslice_7/xor2_0/a_17_6# Vdd pfet w=40 l=2
++  ad=0 pd=0 as=200 ps=90
+M1681 prjMagic_1/bitslice_7/xor2_0/a_33_54# prjMagic_1/bitslice_7/xor2_0/a_28_44# Vdd Vdd pfet w=40 l=2
++  ad=120 pd=86 as=0 ps=0
+M1682 prjMagic_1/bitslice_7/Y A7 prjMagic_1/bitslice_7/xor2_0/a_33_54# Vdd pfet w=40 l=2
++  ad=400 pd=100 as=0 ps=0
+M1683 prjMagic_1/bitslice_7/xor2_0/a_50_54# prjMagic_1/bitslice_7/xor2_0/a_17_6# prjMagic_1/bitslice_7/Y Vdd pfet w=40 l=2
++  ad=120 pd=86 as=0 ps=0
+M1684 Vdd subtract prjMagic_1/bitslice_7/xor2_0/a_50_54# Vdd pfet w=40 l=2
++  ad=0 pd=0 as=0 ps=0
+M1685 prjMagic_1/bitslice_7/xor2_0/a_28_44# subtract Vdd Vdd pfet w=40 l=2
++  ad=200 pd=90 as=0 ps=0
+M1686 Gnd A7 prjMagic_1/bitslice_7/xor2_0/a_17_6# Gnd nfet w=20 l=2
++  ad=0 pd=0 as=100 ps=50
+M1687 prjMagic_1/bitslice_7/xor2_0/a_33_6# prjMagic_1/bitslice_7/xor2_0/a_28_44# Gnd Gnd nfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1688 prjMagic_1/bitslice_7/Y prjMagic_1/bitslice_7/xor2_0/a_17_6# prjMagic_1/bitslice_7/xor2_0/a_33_6# Gnd nfet w=20 l=2
++  ad=200 pd=60 as=0 ps=0
+M1689 prjMagic_1/bitslice_7/xor2_0/a_50_6# A7 prjMagic_1/bitslice_7/Y Gnd nfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1690 Gnd subtract prjMagic_1/bitslice_7/xor2_0/a_50_6# Gnd nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1691 prjMagic_1/bitslice_7/xor2_0/a_28_44# subtract Gnd Gnd nfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1692 Vdd prjMagic_1/inverter_0/Y prjMagic_1/bitslice_6/dffpos_0/a_n34_n84# Vdd pfet w=40 l=2
++  ad=0 pd=0 as=200 ps=90
+M1693 prjMagic_1/bitslice_6/dffpos_0/a_n19_n15# prjMagic_1/bitslice_6/sum Vdd Vdd pfet w=20 l=2
++  ad=80 pd=48 as=0 ps=0
+M1694 prjMagic_1/bitslice_6/dffpos_0/a_n14_n84# prjMagic_1/inverter_0/Y prjMagic_1/bitslice_6/dffpos_0/a_n19_n15# Vdd pfet w=20 l=2
++  ad=120 pd=52 as=0 ps=0
+M1695 prjMagic_1/bitslice_6/dffpos_0/a_n5_n15# prjMagic_1/bitslice_6/dffpos_0/a_n34_n84# prjMagic_1/bitslice_6/dffpos_0/a_n14_n84# Vdd pfet w=20 l=2
++  ad=80 pd=48 as=0 ps=0
+M1696 Vdd prjMagic_1/bitslice_6/dffpos_0/a_n2_n86# prjMagic_1/bitslice_6/dffpos_0/a_n5_n15# Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1697 prjMagic_1/bitslice_6/dffpos_0/a_n2_n86# prjMagic_1/bitslice_6/dffpos_0/a_n14_n84# Vdd Vdd pfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1698 prjMagic_1/bitslice_6/dffpos_0/a_25_n15# prjMagic_1/bitslice_6/dffpos_0/a_n2_n86# Vdd Vdd pfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1699 prjMagic_1/bitslice_6/dffpos_0/a_30_n84# prjMagic_1/bitslice_6/dffpos_0/a_n34_n84# prjMagic_1/bitslice_6/dffpos_0/a_25_n15# Vdd pfet w=20 l=2
++  ad=150 pd=56 as=0 ps=0
+M1700 prjMagic_1/bitslice_6/dffpos_0/a_40_n5# prjMagic_1/inverter_0/Y prjMagic_1/bitslice_6/dffpos_0/a_30_n84# Vdd pfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1701 Vdd 1Out6 prjMagic_1/bitslice_6/dffpos_0/a_40_n5# Vdd pfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1702 Gnd prjMagic_1/inverter_0/Y prjMagic_1/bitslice_6/dffpos_0/a_n34_n84# Gnd nfet w=20 l=2
++  ad=0 pd=0 as=100 ps=50
+M1703 1Out6 prjMagic_1/bitslice_6/dffpos_0/a_30_n84# Vdd Vdd pfet w=40 l=2
++  ad=200 pd=90 as=0 ps=0
+M1704 prjMagic_1/bitslice_6/dffpos_0/a_n19_n84# prjMagic_1/bitslice_6/sum Gnd Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1705 prjMagic_1/bitslice_6/dffpos_0/a_n14_n84# prjMagic_1/bitslice_6/dffpos_0/a_n34_n84# prjMagic_1/bitslice_6/dffpos_0/a_n19_n84# Gnd nfet w=10 l=2
++  ad=70 pd=34 as=0 ps=0
+M1706 prjMagic_1/bitslice_6/dffpos_0/a_n5_n84# prjMagic_1/inverter_0/Y prjMagic_1/bitslice_6/dffpos_0/a_n14_n84# Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1707 Gnd prjMagic_1/bitslice_6/dffpos_0/a_n2_n86# prjMagic_1/bitslice_6/dffpos_0/a_n5_n84# Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1708 prjMagic_1/bitslice_6/dffpos_0/a_n2_n86# prjMagic_1/bitslice_6/dffpos_0/a_n14_n84# Gnd Gnd nfet w=10 l=2
++  ad=50 pd=30 as=0 ps=0
+M1709 prjMagic_1/bitslice_6/dffpos_0/a_25_n84# prjMagic_1/bitslice_6/dffpos_0/a_n2_n86# Gnd Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1710 prjMagic_1/bitslice_6/dffpos_0/a_30_n84# prjMagic_1/inverter_0/Y prjMagic_1/bitslice_6/dffpos_0/a_25_n84# Gnd nfet w=10 l=2
++  ad=80 pd=36 as=0 ps=0
+M1711 prjMagic_1/bitslice_6/dffpos_0/a_40_n84# prjMagic_1/bitslice_6/dffpos_0/a_n34_n84# prjMagic_1/bitslice_6/dffpos_0/a_30_n84# Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1712 Gnd 1Out6 prjMagic_1/bitslice_6/dffpos_0/a_40_n84# Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1713 1Out6 prjMagic_1/bitslice_6/dffpos_0/a_30_n84# Gnd Gnd nfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1714 Vdd prjMagic_1/bitslice_6/fa_0/A prjMagic_1/bitslice_6/fa_0/a_2_74# Vdd pfet w=20 l=2
++  ad=0 pd=0 as=220 ps=102
+M1715 prjMagic_1/bitslice_6/fa_0/a_2_74# prjMagic_1/bitslice_6/Y Vdd Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1716 prjMagic_1/bitslice_6/fa_0/a_25_6# prjMagic_1/bitslice_6/Cin prjMagic_1/bitslice_6/fa_0/a_2_74# Vdd pfet w=20 l=2
++  ad=120 pd=52 as=0 ps=0
+M1717 prjMagic_1/bitslice_6/fa_0/a_33_74# prjMagic_1/bitslice_6/Y prjMagic_1/bitslice_6/fa_0/a_25_6# Vdd pfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1718 Vdd prjMagic_1/bitslice_6/fa_0/A prjMagic_1/bitslice_6/fa_0/a_33_74# Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1719 prjMagic_1/bitslice_6/fa_0/a_46_74# prjMagic_1/bitslice_6/fa_0/A Vdd Vdd pfet w=20 l=2
++  ad=240 pd=104 as=0 ps=0
+M1720 Vdd prjMagic_1/bitslice_6/Y prjMagic_1/bitslice_6/fa_0/a_46_74# Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1721 prjMagic_1/bitslice_6/fa_0/a_46_74# prjMagic_1/bitslice_6/Cin Vdd Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1722 prjMagic_1/bitslice_6/fa_0/a_70_6# prjMagic_1/bitslice_6/fa_0/a_25_6# prjMagic_1/bitslice_6/fa_0/a_46_74# Vdd pfet w=20 l=2
++  ad=140 pd=54 as=0 ps=0
+M1723 prjMagic_1/bitslice_6/fa_0/a_79_74# prjMagic_1/bitslice_6/Cin prjMagic_1/bitslice_6/fa_0/a_70_6# Vdd pfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1724 prjMagic_1/bitslice_6/fa_0/a_84_74# prjMagic_1/bitslice_6/Y prjMagic_1/bitslice_6/fa_0/a_79_74# Vdd pfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1725 Vdd prjMagic_1/bitslice_6/fa_0/A prjMagic_1/bitslice_6/fa_0/a_84_74# Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1726 prjMagic_1/bitslice_6/sum prjMagic_1/bitslice_6/fa_0/a_70_6# Vdd Vdd pfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1727 prjMagic_1/bitslice_7/Cin prjMagic_1/bitslice_6/fa_0/a_25_6# Vdd Vdd pfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1728 Gnd prjMagic_1/bitslice_6/fa_0/A prjMagic_1/bitslice_6/fa_0/a_2_6# Gnd nfet w=10 l=2
++  ad=0 pd=0 as=110 ps=62
+M1729 prjMagic_1/bitslice_6/fa_0/a_2_6# prjMagic_1/bitslice_6/Y Gnd Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1730 prjMagic_1/bitslice_6/fa_0/a_25_6# prjMagic_1/bitslice_6/Cin prjMagic_1/bitslice_6/fa_0/a_2_6# Gnd nfet w=10 l=2
++  ad=60 pd=32 as=0 ps=0
+M1731 prjMagic_1/bitslice_6/fa_0/a_33_6# prjMagic_1/bitslice_6/Y prjMagic_1/bitslice_6/fa_0/a_25_6# Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1732 Gnd prjMagic_1/bitslice_6/fa_0/A prjMagic_1/bitslice_6/fa_0/a_33_6# Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1733 prjMagic_1/bitslice_6/fa_0/a_46_6# prjMagic_1/bitslice_6/fa_0/A Gnd Gnd nfet w=10 l=2
++  ad=120 pd=64 as=0 ps=0
+M1734 Gnd prjMagic_1/bitslice_6/Y prjMagic_1/bitslice_6/fa_0/a_46_6# Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1735 prjMagic_1/bitslice_6/fa_0/a_46_6# prjMagic_1/bitslice_6/Cin Gnd Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1736 prjMagic_1/bitslice_6/fa_0/a_70_6# prjMagic_1/bitslice_6/fa_0/a_25_6# prjMagic_1/bitslice_6/fa_0/a_46_6# Gnd nfet w=10 l=2
++  ad=70 pd=34 as=0 ps=0
+M1737 prjMagic_1/bitslice_6/fa_0/a_79_6# prjMagic_1/bitslice_6/Cin prjMagic_1/bitslice_6/fa_0/a_70_6# Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1738 prjMagic_1/bitslice_6/fa_0/a_84_6# prjMagic_1/bitslice_6/Y prjMagic_1/bitslice_6/fa_0/a_79_6# Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1739 Gnd prjMagic_1/bitslice_6/fa_0/A prjMagic_1/bitslice_6/fa_0/a_84_6# Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1740 prjMagic_1/bitslice_6/sum prjMagic_1/bitslice_6/fa_0/a_70_6# Gnd Gnd nfet w=10 l=2
++  ad=50 pd=30 as=0 ps=0
+M1741 prjMagic_1/bitslice_7/Cin prjMagic_1/bitslice_6/fa_0/a_25_6# Gnd Gnd nfet w=10 l=2
++  ad=50 pd=30 as=0 ps=0
+M1742 prjMagic_1/bitslice_6/mux21_0/nand_1/A 1Out6 Vdd Vdd pfet w=20 l=2
++  ad=120 pd=52 as=0 ps=0
+M1743 Vdd prjMagic_1/bitslice_6/mux21_0/nand_2/B prjMagic_1/bitslice_6/mux21_0/nand_1/A Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1744 prjMagic_1/bitslice_6/mux21_0/nand_2/a_9_6# 1Out6 Gnd Gnd nfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1745 prjMagic_1/bitslice_6/mux21_0/nand_1/A prjMagic_1/bitslice_6/mux21_0/nand_2/B prjMagic_1/bitslice_6/mux21_0/nand_2/a_9_6# Gnd nfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1746 prjMagic_1/bitslice_6/mux21_0/nand_2/B loadB Vdd Vdd pfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1747 prjMagic_1/bitslice_6/mux21_0/nand_2/B loadB Gnd Gnd nfet w=10 l=2
++  ad=50 pd=30 as=0 ps=0
+M1748 prjMagic_1/bitslice_6/fa_0/A prjMagic_1/bitslice_6/mux21_0/nand_1/A Vdd Vdd pfet w=20 l=2
++  ad=120 pd=52 as=0 ps=0
+M1749 Vdd prjMagic_1/bitslice_6/mux21_0/nand_1/B prjMagic_1/bitslice_6/fa_0/A Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1750 prjMagic_1/bitslice_6/mux21_0/nand_1/a_9_6# prjMagic_1/bitslice_6/mux21_0/nand_1/A Gnd Gnd nfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1751 prjMagic_1/bitslice_6/fa_0/A prjMagic_1/bitslice_6/mux21_0/nand_1/B prjMagic_1/bitslice_6/mux21_0/nand_1/a_9_6# Gnd nfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1752 prjMagic_1/bitslice_6/mux21_0/nand_1/B loadB Vdd Vdd pfet w=20 l=2
++  ad=120 pd=52 as=0 ps=0
+M1753 Vdd B6 prjMagic_1/bitslice_6/mux21_0/nand_1/B Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1754 prjMagic_1/bitslice_6/mux21_0/nand_0/a_9_6# loadB Gnd Gnd nfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1755 prjMagic_1/bitslice_6/mux21_0/nand_1/B B6 prjMagic_1/bitslice_6/mux21_0/nand_0/a_9_6# Gnd nfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1756 Vdd A6 prjMagic_1/bitslice_6/xor2_0/a_17_6# Vdd pfet w=40 l=2
++  ad=0 pd=0 as=200 ps=90
+M1757 prjMagic_1/bitslice_6/xor2_0/a_33_54# prjMagic_1/bitslice_6/xor2_0/a_28_44# Vdd Vdd pfet w=40 l=2
++  ad=120 pd=86 as=0 ps=0
+M1758 prjMagic_1/bitslice_6/Y A6 prjMagic_1/bitslice_6/xor2_0/a_33_54# Vdd pfet w=40 l=2
++  ad=400 pd=100 as=0 ps=0
+M1759 prjMagic_1/bitslice_6/xor2_0/a_50_54# prjMagic_1/bitslice_6/xor2_0/a_17_6# prjMagic_1/bitslice_6/Y Vdd pfet w=40 l=2
++  ad=120 pd=86 as=0 ps=0
+M1760 Vdd subtract prjMagic_1/bitslice_6/xor2_0/a_50_54# Vdd pfet w=40 l=2
++  ad=0 pd=0 as=0 ps=0
+M1761 prjMagic_1/bitslice_6/xor2_0/a_28_44# subtract Vdd Vdd pfet w=40 l=2
++  ad=200 pd=90 as=0 ps=0
+M1762 Gnd A6 prjMagic_1/bitslice_6/xor2_0/a_17_6# Gnd nfet w=20 l=2
++  ad=0 pd=0 as=100 ps=50
+M1763 prjMagic_1/bitslice_6/xor2_0/a_33_6# prjMagic_1/bitslice_6/xor2_0/a_28_44# Gnd Gnd nfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1764 prjMagic_1/bitslice_6/Y prjMagic_1/bitslice_6/xor2_0/a_17_6# prjMagic_1/bitslice_6/xor2_0/a_33_6# Gnd nfet w=20 l=2
++  ad=200 pd=60 as=0 ps=0
+M1765 prjMagic_1/bitslice_6/xor2_0/a_50_6# A6 prjMagic_1/bitslice_6/Y Gnd nfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1766 Gnd subtract prjMagic_1/bitslice_6/xor2_0/a_50_6# Gnd nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1767 prjMagic_1/bitslice_6/xor2_0/a_28_44# subtract Gnd Gnd nfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1768 Vdd prjMagic_1/inverter_0/Y prjMagic_1/bitslice_5/dffpos_0/a_n34_n84# Vdd pfet w=40 l=2
++  ad=0 pd=0 as=200 ps=90
+M1769 prjMagic_1/bitslice_5/dffpos_0/a_n19_n15# prjMagic_1/bitslice_5/sum Vdd Vdd pfet w=20 l=2
++  ad=80 pd=48 as=0 ps=0
+M1770 prjMagic_1/bitslice_5/dffpos_0/a_n14_n84# prjMagic_1/inverter_0/Y prjMagic_1/bitslice_5/dffpos_0/a_n19_n15# Vdd pfet w=20 l=2
++  ad=120 pd=52 as=0 ps=0
+M1771 prjMagic_1/bitslice_5/dffpos_0/a_n5_n15# prjMagic_1/bitslice_5/dffpos_0/a_n34_n84# prjMagic_1/bitslice_5/dffpos_0/a_n14_n84# Vdd pfet w=20 l=2
++  ad=80 pd=48 as=0 ps=0
+M1772 Vdd prjMagic_1/bitslice_5/dffpos_0/a_n2_n86# prjMagic_1/bitslice_5/dffpos_0/a_n5_n15# Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1773 prjMagic_1/bitslice_5/dffpos_0/a_n2_n86# prjMagic_1/bitslice_5/dffpos_0/a_n14_n84# Vdd Vdd pfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1774 prjMagic_1/bitslice_5/dffpos_0/a_25_n15# prjMagic_1/bitslice_5/dffpos_0/a_n2_n86# Vdd Vdd pfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1775 prjMagic_1/bitslice_5/dffpos_0/a_30_n84# prjMagic_1/bitslice_5/dffpos_0/a_n34_n84# prjMagic_1/bitslice_5/dffpos_0/a_25_n15# Vdd pfet w=20 l=2
++  ad=150 pd=56 as=0 ps=0
+M1776 prjMagic_1/bitslice_5/dffpos_0/a_40_n5# prjMagic_1/inverter_0/Y prjMagic_1/bitslice_5/dffpos_0/a_30_n84# Vdd pfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1777 Vdd 1Out5 prjMagic_1/bitslice_5/dffpos_0/a_40_n5# Vdd pfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1778 Gnd prjMagic_1/inverter_0/Y prjMagic_1/bitslice_5/dffpos_0/a_n34_n84# Gnd nfet w=20 l=2
++  ad=0 pd=0 as=100 ps=50
+M1779 1Out5 prjMagic_1/bitslice_5/dffpos_0/a_30_n84# Vdd Vdd pfet w=40 l=2
++  ad=200 pd=90 as=0 ps=0
+M1780 prjMagic_1/bitslice_5/dffpos_0/a_n19_n84# prjMagic_1/bitslice_5/sum Gnd Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1781 prjMagic_1/bitslice_5/dffpos_0/a_n14_n84# prjMagic_1/bitslice_5/dffpos_0/a_n34_n84# prjMagic_1/bitslice_5/dffpos_0/a_n19_n84# Gnd nfet w=10 l=2
++  ad=70 pd=34 as=0 ps=0
+M1782 prjMagic_1/bitslice_5/dffpos_0/a_n5_n84# prjMagic_1/inverter_0/Y prjMagic_1/bitslice_5/dffpos_0/a_n14_n84# Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1783 Gnd prjMagic_1/bitslice_5/dffpos_0/a_n2_n86# prjMagic_1/bitslice_5/dffpos_0/a_n5_n84# Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1784 prjMagic_1/bitslice_5/dffpos_0/a_n2_n86# prjMagic_1/bitslice_5/dffpos_0/a_n14_n84# Gnd Gnd nfet w=10 l=2
++  ad=50 pd=30 as=0 ps=0
+M1785 prjMagic_1/bitslice_5/dffpos_0/a_25_n84# prjMagic_1/bitslice_5/dffpos_0/a_n2_n86# Gnd Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1786 prjMagic_1/bitslice_5/dffpos_0/a_30_n84# prjMagic_1/inverter_0/Y prjMagic_1/bitslice_5/dffpos_0/a_25_n84# Gnd nfet w=10 l=2
++  ad=80 pd=36 as=0 ps=0
+M1787 prjMagic_1/bitslice_5/dffpos_0/a_40_n84# prjMagic_1/bitslice_5/dffpos_0/a_n34_n84# prjMagic_1/bitslice_5/dffpos_0/a_30_n84# Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1788 Gnd 1Out5 prjMagic_1/bitslice_5/dffpos_0/a_40_n84# Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1789 1Out5 prjMagic_1/bitslice_5/dffpos_0/a_30_n84# Gnd Gnd nfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1790 Vdd prjMagic_1/bitslice_5/fa_0/A prjMagic_1/bitslice_5/fa_0/a_2_74# Vdd pfet w=20 l=2
++  ad=0 pd=0 as=220 ps=102
+M1791 prjMagic_1/bitslice_5/fa_0/a_2_74# prjMagic_1/bitslice_5/Y Vdd Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1792 prjMagic_1/bitslice_5/fa_0/a_25_6# prjMagic_1/bitslice_5/Cin prjMagic_1/bitslice_5/fa_0/a_2_74# Vdd pfet w=20 l=2
++  ad=120 pd=52 as=0 ps=0
+M1793 prjMagic_1/bitslice_5/fa_0/a_33_74# prjMagic_1/bitslice_5/Y prjMagic_1/bitslice_5/fa_0/a_25_6# Vdd pfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1794 Vdd prjMagic_1/bitslice_5/fa_0/A prjMagic_1/bitslice_5/fa_0/a_33_74# Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1795 prjMagic_1/bitslice_5/fa_0/a_46_74# prjMagic_1/bitslice_5/fa_0/A Vdd Vdd pfet w=20 l=2
++  ad=240 pd=104 as=0 ps=0
+M1796 Vdd prjMagic_1/bitslice_5/Y prjMagic_1/bitslice_5/fa_0/a_46_74# Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1797 prjMagic_1/bitslice_5/fa_0/a_46_74# prjMagic_1/bitslice_5/Cin Vdd Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1798 prjMagic_1/bitslice_5/fa_0/a_70_6# prjMagic_1/bitslice_5/fa_0/a_25_6# prjMagic_1/bitslice_5/fa_0/a_46_74# Vdd pfet w=20 l=2
++  ad=140 pd=54 as=0 ps=0
+M1799 prjMagic_1/bitslice_5/fa_0/a_79_74# prjMagic_1/bitslice_5/Cin prjMagic_1/bitslice_5/fa_0/a_70_6# Vdd pfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1800 prjMagic_1/bitslice_5/fa_0/a_84_74# prjMagic_1/bitslice_5/Y prjMagic_1/bitslice_5/fa_0/a_79_74# Vdd pfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1801 Vdd prjMagic_1/bitslice_5/fa_0/A prjMagic_1/bitslice_5/fa_0/a_84_74# Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1802 prjMagic_1/bitslice_5/sum prjMagic_1/bitslice_5/fa_0/a_70_6# Vdd Vdd pfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1803 prjMagic_1/bitslice_6/Cin prjMagic_1/bitslice_5/fa_0/a_25_6# Vdd Vdd pfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1804 Gnd prjMagic_1/bitslice_5/fa_0/A prjMagic_1/bitslice_5/fa_0/a_2_6# Gnd nfet w=10 l=2
++  ad=0 pd=0 as=110 ps=62
+M1805 prjMagic_1/bitslice_5/fa_0/a_2_6# prjMagic_1/bitslice_5/Y Gnd Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1806 prjMagic_1/bitslice_5/fa_0/a_25_6# prjMagic_1/bitslice_5/Cin prjMagic_1/bitslice_5/fa_0/a_2_6# Gnd nfet w=10 l=2
++  ad=60 pd=32 as=0 ps=0
+M1807 prjMagic_1/bitslice_5/fa_0/a_33_6# prjMagic_1/bitslice_5/Y prjMagic_1/bitslice_5/fa_0/a_25_6# Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1808 Gnd prjMagic_1/bitslice_5/fa_0/A prjMagic_1/bitslice_5/fa_0/a_33_6# Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1809 prjMagic_1/bitslice_5/fa_0/a_46_6# prjMagic_1/bitslice_5/fa_0/A Gnd Gnd nfet w=10 l=2
++  ad=120 pd=64 as=0 ps=0
+M1810 Gnd prjMagic_1/bitslice_5/Y prjMagic_1/bitslice_5/fa_0/a_46_6# Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1811 prjMagic_1/bitslice_5/fa_0/a_46_6# prjMagic_1/bitslice_5/Cin Gnd Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1812 prjMagic_1/bitslice_5/fa_0/a_70_6# prjMagic_1/bitslice_5/fa_0/a_25_6# prjMagic_1/bitslice_5/fa_0/a_46_6# Gnd nfet w=10 l=2
++  ad=70 pd=34 as=0 ps=0
+M1813 prjMagic_1/bitslice_5/fa_0/a_79_6# prjMagic_1/bitslice_5/Cin prjMagic_1/bitslice_5/fa_0/a_70_6# Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1814 prjMagic_1/bitslice_5/fa_0/a_84_6# prjMagic_1/bitslice_5/Y prjMagic_1/bitslice_5/fa_0/a_79_6# Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1815 Gnd prjMagic_1/bitslice_5/fa_0/A prjMagic_1/bitslice_5/fa_0/a_84_6# Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1816 prjMagic_1/bitslice_5/sum prjMagic_1/bitslice_5/fa_0/a_70_6# Gnd Gnd nfet w=10 l=2
++  ad=50 pd=30 as=0 ps=0
+M1817 prjMagic_1/bitslice_6/Cin prjMagic_1/bitslice_5/fa_0/a_25_6# Gnd Gnd nfet w=10 l=2
++  ad=50 pd=30 as=0 ps=0
+M1818 prjMagic_1/bitslice_5/mux21_0/nand_1/A 1Out5 Vdd Vdd pfet w=20 l=2
++  ad=120 pd=52 as=0 ps=0
+M1819 Vdd prjMagic_1/bitslice_5/mux21_0/nand_2/B prjMagic_1/bitslice_5/mux21_0/nand_1/A Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1820 prjMagic_1/bitslice_5/mux21_0/nand_2/a_9_6# 1Out5 Gnd Gnd nfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1821 prjMagic_1/bitslice_5/mux21_0/nand_1/A prjMagic_1/bitslice_5/mux21_0/nand_2/B prjMagic_1/bitslice_5/mux21_0/nand_2/a_9_6# Gnd nfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1822 prjMagic_1/bitslice_5/mux21_0/nand_2/B loadB Vdd Vdd pfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1823 prjMagic_1/bitslice_5/mux21_0/nand_2/B loadB Gnd Gnd nfet w=10 l=2
++  ad=50 pd=30 as=0 ps=0
+M1824 prjMagic_1/bitslice_5/fa_0/A prjMagic_1/bitslice_5/mux21_0/nand_1/A Vdd Vdd pfet w=20 l=2
++  ad=120 pd=52 as=0 ps=0
+M1825 Vdd prjMagic_1/bitslice_5/mux21_0/nand_1/B prjMagic_1/bitslice_5/fa_0/A Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1826 prjMagic_1/bitslice_5/mux21_0/nand_1/a_9_6# prjMagic_1/bitslice_5/mux21_0/nand_1/A Gnd Gnd nfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1827 prjMagic_1/bitslice_5/fa_0/A prjMagic_1/bitslice_5/mux21_0/nand_1/B prjMagic_1/bitslice_5/mux21_0/nand_1/a_9_6# Gnd nfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1828 prjMagic_1/bitslice_5/mux21_0/nand_1/B loadB Vdd Vdd pfet w=20 l=2
++  ad=120 pd=52 as=0 ps=0
+M1829 Vdd B5 prjMagic_1/bitslice_5/mux21_0/nand_1/B Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1830 prjMagic_1/bitslice_5/mux21_0/nand_0/a_9_6# loadB Gnd Gnd nfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1831 prjMagic_1/bitslice_5/mux21_0/nand_1/B B5 prjMagic_1/bitslice_5/mux21_0/nand_0/a_9_6# Gnd nfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1832 Vdd A5 prjMagic_1/bitslice_5/xor2_0/a_17_6# Vdd pfet w=40 l=2
++  ad=0 pd=0 as=200 ps=90
+M1833 prjMagic_1/bitslice_5/xor2_0/a_33_54# prjMagic_1/bitslice_5/xor2_0/a_28_44# Vdd Vdd pfet w=40 l=2
++  ad=120 pd=86 as=0 ps=0
+M1834 prjMagic_1/bitslice_5/Y A5 prjMagic_1/bitslice_5/xor2_0/a_33_54# Vdd pfet w=40 l=2
++  ad=400 pd=100 as=0 ps=0
+M1835 prjMagic_1/bitslice_5/xor2_0/a_50_54# prjMagic_1/bitslice_5/xor2_0/a_17_6# prjMagic_1/bitslice_5/Y Vdd pfet w=40 l=2
++  ad=120 pd=86 as=0 ps=0
+M1836 Vdd subtract prjMagic_1/bitslice_5/xor2_0/a_50_54# Vdd pfet w=40 l=2
++  ad=0 pd=0 as=0 ps=0
+M1837 prjMagic_1/bitslice_5/xor2_0/a_28_44# subtract Vdd Vdd pfet w=40 l=2
++  ad=200 pd=90 as=0 ps=0
+M1838 Gnd A5 prjMagic_1/bitslice_5/xor2_0/a_17_6# Gnd nfet w=20 l=2
++  ad=0 pd=0 as=100 ps=50
+M1839 prjMagic_1/bitslice_5/xor2_0/a_33_6# prjMagic_1/bitslice_5/xor2_0/a_28_44# Gnd Gnd nfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1840 prjMagic_1/bitslice_5/Y prjMagic_1/bitslice_5/xor2_0/a_17_6# prjMagic_1/bitslice_5/xor2_0/a_33_6# Gnd nfet w=20 l=2
++  ad=200 pd=60 as=0 ps=0
+M1841 prjMagic_1/bitslice_5/xor2_0/a_50_6# A5 prjMagic_1/bitslice_5/Y Gnd nfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1842 Gnd subtract prjMagic_1/bitslice_5/xor2_0/a_50_6# Gnd nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1843 prjMagic_1/bitslice_5/xor2_0/a_28_44# subtract Gnd Gnd nfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1844 Vdd prjMagic_1/inverter_0/Y prjMagic_1/bitslice_4/dffpos_0/a_n34_n84# Vdd pfet w=40 l=2
++  ad=0 pd=0 as=200 ps=90
+M1845 prjMagic_1/bitslice_4/dffpos_0/a_n19_n15# prjMagic_1/bitslice_4/sum Vdd Vdd pfet w=20 l=2
++  ad=80 pd=48 as=0 ps=0
+M1846 prjMagic_1/bitslice_4/dffpos_0/a_n14_n84# prjMagic_1/inverter_0/Y prjMagic_1/bitslice_4/dffpos_0/a_n19_n15# Vdd pfet w=20 l=2
++  ad=120 pd=52 as=0 ps=0
+M1847 prjMagic_1/bitslice_4/dffpos_0/a_n5_n15# prjMagic_1/bitslice_4/dffpos_0/a_n34_n84# prjMagic_1/bitslice_4/dffpos_0/a_n14_n84# Vdd pfet w=20 l=2
++  ad=80 pd=48 as=0 ps=0
+M1848 Vdd prjMagic_1/bitslice_4/dffpos_0/a_n2_n86# prjMagic_1/bitslice_4/dffpos_0/a_n5_n15# Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1849 prjMagic_1/bitslice_4/dffpos_0/a_n2_n86# prjMagic_1/bitslice_4/dffpos_0/a_n14_n84# Vdd Vdd pfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1850 prjMagic_1/bitslice_4/dffpos_0/a_25_n15# prjMagic_1/bitslice_4/dffpos_0/a_n2_n86# Vdd Vdd pfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1851 prjMagic_1/bitslice_4/dffpos_0/a_30_n84# prjMagic_1/bitslice_4/dffpos_0/a_n34_n84# prjMagic_1/bitslice_4/dffpos_0/a_25_n15# Vdd pfet w=20 l=2
++  ad=150 pd=56 as=0 ps=0
+M1852 prjMagic_1/bitslice_4/dffpos_0/a_40_n5# prjMagic_1/inverter_0/Y prjMagic_1/bitslice_4/dffpos_0/a_30_n84# Vdd pfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1853 Vdd 1Out4 prjMagic_1/bitslice_4/dffpos_0/a_40_n5# Vdd pfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1854 Gnd prjMagic_1/inverter_0/Y prjMagic_1/bitslice_4/dffpos_0/a_n34_n84# Gnd nfet w=20 l=2
++  ad=0 pd=0 as=100 ps=50
+M1855 1Out4 prjMagic_1/bitslice_4/dffpos_0/a_30_n84# Vdd Vdd pfet w=40 l=2
++  ad=200 pd=90 as=0 ps=0
+M1856 prjMagic_1/bitslice_4/dffpos_0/a_n19_n84# prjMagic_1/bitslice_4/sum Gnd Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1857 prjMagic_1/bitslice_4/dffpos_0/a_n14_n84# prjMagic_1/bitslice_4/dffpos_0/a_n34_n84# prjMagic_1/bitslice_4/dffpos_0/a_n19_n84# Gnd nfet w=10 l=2
++  ad=70 pd=34 as=0 ps=0
+M1858 prjMagic_1/bitslice_4/dffpos_0/a_n5_n84# prjMagic_1/inverter_0/Y prjMagic_1/bitslice_4/dffpos_0/a_n14_n84# Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1859 Gnd prjMagic_1/bitslice_4/dffpos_0/a_n2_n86# prjMagic_1/bitslice_4/dffpos_0/a_n5_n84# Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1860 prjMagic_1/bitslice_4/dffpos_0/a_n2_n86# prjMagic_1/bitslice_4/dffpos_0/a_n14_n84# Gnd Gnd nfet w=10 l=2
++  ad=50 pd=30 as=0 ps=0
+M1861 prjMagic_1/bitslice_4/dffpos_0/a_25_n84# prjMagic_1/bitslice_4/dffpos_0/a_n2_n86# Gnd Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1862 prjMagic_1/bitslice_4/dffpos_0/a_30_n84# prjMagic_1/inverter_0/Y prjMagic_1/bitslice_4/dffpos_0/a_25_n84# Gnd nfet w=10 l=2
++  ad=80 pd=36 as=0 ps=0
+M1863 prjMagic_1/bitslice_4/dffpos_0/a_40_n84# prjMagic_1/bitslice_4/dffpos_0/a_n34_n84# prjMagic_1/bitslice_4/dffpos_0/a_30_n84# Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1864 Gnd 1Out4 prjMagic_1/bitslice_4/dffpos_0/a_40_n84# Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1865 1Out4 prjMagic_1/bitslice_4/dffpos_0/a_30_n84# Gnd Gnd nfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1866 Vdd prjMagic_1/bitslice_4/fa_0/A prjMagic_1/bitslice_4/fa_0/a_2_74# Vdd pfet w=20 l=2
++  ad=0 pd=0 as=220 ps=102
+M1867 prjMagic_1/bitslice_4/fa_0/a_2_74# prjMagic_1/bitslice_4/Y Vdd Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1868 prjMagic_1/bitslice_4/fa_0/a_25_6# prjMagic_1/bitslice_4/Cin prjMagic_1/bitslice_4/fa_0/a_2_74# Vdd pfet w=20 l=2
++  ad=120 pd=52 as=0 ps=0
+M1869 prjMagic_1/bitslice_4/fa_0/a_33_74# prjMagic_1/bitslice_4/Y prjMagic_1/bitslice_4/fa_0/a_25_6# Vdd pfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1870 Vdd prjMagic_1/bitslice_4/fa_0/A prjMagic_1/bitslice_4/fa_0/a_33_74# Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1871 prjMagic_1/bitslice_4/fa_0/a_46_74# prjMagic_1/bitslice_4/fa_0/A Vdd Vdd pfet w=20 l=2
++  ad=240 pd=104 as=0 ps=0
+M1872 Vdd prjMagic_1/bitslice_4/Y prjMagic_1/bitslice_4/fa_0/a_46_74# Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1873 prjMagic_1/bitslice_4/fa_0/a_46_74# prjMagic_1/bitslice_4/Cin Vdd Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1874 prjMagic_1/bitslice_4/fa_0/a_70_6# prjMagic_1/bitslice_4/fa_0/a_25_6# prjMagic_1/bitslice_4/fa_0/a_46_74# Vdd pfet w=20 l=2
++  ad=140 pd=54 as=0 ps=0
+M1875 prjMagic_1/bitslice_4/fa_0/a_79_74# prjMagic_1/bitslice_4/Cin prjMagic_1/bitslice_4/fa_0/a_70_6# Vdd pfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1876 prjMagic_1/bitslice_4/fa_0/a_84_74# prjMagic_1/bitslice_4/Y prjMagic_1/bitslice_4/fa_0/a_79_74# Vdd pfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1877 Vdd prjMagic_1/bitslice_4/fa_0/A prjMagic_1/bitslice_4/fa_0/a_84_74# Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1878 prjMagic_1/bitslice_4/sum prjMagic_1/bitslice_4/fa_0/a_70_6# Vdd Vdd pfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1879 prjMagic_1/bitslice_5/Cin prjMagic_1/bitslice_4/fa_0/a_25_6# Vdd Vdd pfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1880 Gnd prjMagic_1/bitslice_4/fa_0/A prjMagic_1/bitslice_4/fa_0/a_2_6# Gnd nfet w=10 l=2
++  ad=0 pd=0 as=110 ps=62
+M1881 prjMagic_1/bitslice_4/fa_0/a_2_6# prjMagic_1/bitslice_4/Y Gnd Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1882 prjMagic_1/bitslice_4/fa_0/a_25_6# prjMagic_1/bitslice_4/Cin prjMagic_1/bitslice_4/fa_0/a_2_6# Gnd nfet w=10 l=2
++  ad=60 pd=32 as=0 ps=0
+M1883 prjMagic_1/bitslice_4/fa_0/a_33_6# prjMagic_1/bitslice_4/Y prjMagic_1/bitslice_4/fa_0/a_25_6# Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1884 Gnd prjMagic_1/bitslice_4/fa_0/A prjMagic_1/bitslice_4/fa_0/a_33_6# Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1885 prjMagic_1/bitslice_4/fa_0/a_46_6# prjMagic_1/bitslice_4/fa_0/A Gnd Gnd nfet w=10 l=2
++  ad=120 pd=64 as=0 ps=0
+M1886 Gnd prjMagic_1/bitslice_4/Y prjMagic_1/bitslice_4/fa_0/a_46_6# Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1887 prjMagic_1/bitslice_4/fa_0/a_46_6# prjMagic_1/bitslice_4/Cin Gnd Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1888 prjMagic_1/bitslice_4/fa_0/a_70_6# prjMagic_1/bitslice_4/fa_0/a_25_6# prjMagic_1/bitslice_4/fa_0/a_46_6# Gnd nfet w=10 l=2
++  ad=70 pd=34 as=0 ps=0
+M1889 prjMagic_1/bitslice_4/fa_0/a_79_6# prjMagic_1/bitslice_4/Cin prjMagic_1/bitslice_4/fa_0/a_70_6# Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1890 prjMagic_1/bitslice_4/fa_0/a_84_6# prjMagic_1/bitslice_4/Y prjMagic_1/bitslice_4/fa_0/a_79_6# Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1891 Gnd prjMagic_1/bitslice_4/fa_0/A prjMagic_1/bitslice_4/fa_0/a_84_6# Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1892 prjMagic_1/bitslice_4/sum prjMagic_1/bitslice_4/fa_0/a_70_6# Gnd Gnd nfet w=10 l=2
++  ad=50 pd=30 as=0 ps=0
+M1893 prjMagic_1/bitslice_5/Cin prjMagic_1/bitslice_4/fa_0/a_25_6# Gnd Gnd nfet w=10 l=2
++  ad=50 pd=30 as=0 ps=0
+M1894 prjMagic_1/bitslice_4/mux21_0/nand_1/A 1Out4 Vdd Vdd pfet w=20 l=2
++  ad=120 pd=52 as=0 ps=0
+M1895 Vdd prjMagic_1/bitslice_4/mux21_0/nand_2/B prjMagic_1/bitslice_4/mux21_0/nand_1/A Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1896 prjMagic_1/bitslice_4/mux21_0/nand_2/a_9_6# 1Out4 Gnd Gnd nfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1897 prjMagic_1/bitslice_4/mux21_0/nand_1/A prjMagic_1/bitslice_4/mux21_0/nand_2/B prjMagic_1/bitslice_4/mux21_0/nand_2/a_9_6# Gnd nfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1898 prjMagic_1/bitslice_4/mux21_0/nand_2/B loadB Vdd Vdd pfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1899 prjMagic_1/bitslice_4/mux21_0/nand_2/B loadB Gnd Gnd nfet w=10 l=2
++  ad=50 pd=30 as=0 ps=0
+M1900 prjMagic_1/bitslice_4/fa_0/A prjMagic_1/bitslice_4/mux21_0/nand_1/A Vdd Vdd pfet w=20 l=2
++  ad=120 pd=52 as=0 ps=0
+M1901 Vdd prjMagic_1/bitslice_4/mux21_0/nand_1/B prjMagic_1/bitslice_4/fa_0/A Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1902 prjMagic_1/bitslice_4/mux21_0/nand_1/a_9_6# prjMagic_1/bitslice_4/mux21_0/nand_1/A Gnd Gnd nfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1903 prjMagic_1/bitslice_4/fa_0/A prjMagic_1/bitslice_4/mux21_0/nand_1/B prjMagic_1/bitslice_4/mux21_0/nand_1/a_9_6# Gnd nfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1904 prjMagic_1/bitslice_4/mux21_0/nand_1/B loadB Vdd Vdd pfet w=20 l=2
++  ad=120 pd=52 as=0 ps=0
+M1905 Vdd B4 prjMagic_1/bitslice_4/mux21_0/nand_1/B Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1906 prjMagic_1/bitslice_4/mux21_0/nand_0/a_9_6# loadB Gnd Gnd nfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1907 prjMagic_1/bitslice_4/mux21_0/nand_1/B B4 prjMagic_1/bitslice_4/mux21_0/nand_0/a_9_6# Gnd nfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1908 Vdd A4 prjMagic_1/bitslice_4/xor2_0/a_17_6# Vdd pfet w=40 l=2
++  ad=0 pd=0 as=200 ps=90
+M1909 prjMagic_1/bitslice_4/xor2_0/a_33_54# prjMagic_1/bitslice_4/xor2_0/a_28_44# Vdd Vdd pfet w=40 l=2
++  ad=120 pd=86 as=0 ps=0
+M1910 prjMagic_1/bitslice_4/Y A4 prjMagic_1/bitslice_4/xor2_0/a_33_54# Vdd pfet w=40 l=2
++  ad=400 pd=100 as=0 ps=0
+M1911 prjMagic_1/bitslice_4/xor2_0/a_50_54# prjMagic_1/bitslice_4/xor2_0/a_17_6# prjMagic_1/bitslice_4/Y Vdd pfet w=40 l=2
++  ad=120 pd=86 as=0 ps=0
+M1912 Vdd subtract prjMagic_1/bitslice_4/xor2_0/a_50_54# Vdd pfet w=40 l=2
++  ad=0 pd=0 as=0 ps=0
+M1913 prjMagic_1/bitslice_4/xor2_0/a_28_44# subtract Vdd Vdd pfet w=40 l=2
++  ad=200 pd=90 as=0 ps=0
+M1914 Gnd A4 prjMagic_1/bitslice_4/xor2_0/a_17_6# Gnd nfet w=20 l=2
++  ad=0 pd=0 as=100 ps=50
+M1915 prjMagic_1/bitslice_4/xor2_0/a_33_6# prjMagic_1/bitslice_4/xor2_0/a_28_44# Gnd Gnd nfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1916 prjMagic_1/bitslice_4/Y prjMagic_1/bitslice_4/xor2_0/a_17_6# prjMagic_1/bitslice_4/xor2_0/a_33_6# Gnd nfet w=20 l=2
++  ad=200 pd=60 as=0 ps=0
+M1917 prjMagic_1/bitslice_4/xor2_0/a_50_6# A4 prjMagic_1/bitslice_4/Y Gnd nfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1918 Gnd subtract prjMagic_1/bitslice_4/xor2_0/a_50_6# Gnd nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1919 prjMagic_1/bitslice_4/xor2_0/a_28_44# subtract Gnd Gnd nfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1920 Vdd prjMagic_1/inverter_0/Y prjMagic_1/bitslice_3/dffpos_0/a_n34_n84# Vdd pfet w=40 l=2
++  ad=0 pd=0 as=200 ps=90
+M1921 prjMagic_1/bitslice_3/dffpos_0/a_n19_n15# prjMagic_1/bitslice_3/sum Vdd Vdd pfet w=20 l=2
++  ad=80 pd=48 as=0 ps=0
+M1922 prjMagic_1/bitslice_3/dffpos_0/a_n14_n84# prjMagic_1/inverter_0/Y prjMagic_1/bitslice_3/dffpos_0/a_n19_n15# Vdd pfet w=20 l=2
++  ad=120 pd=52 as=0 ps=0
+M1923 prjMagic_1/bitslice_3/dffpos_0/a_n5_n15# prjMagic_1/bitslice_3/dffpos_0/a_n34_n84# prjMagic_1/bitslice_3/dffpos_0/a_n14_n84# Vdd pfet w=20 l=2
++  ad=80 pd=48 as=0 ps=0
+M1924 Vdd prjMagic_1/bitslice_3/dffpos_0/a_n2_n86# prjMagic_1/bitslice_3/dffpos_0/a_n5_n15# Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1925 prjMagic_1/bitslice_3/dffpos_0/a_n2_n86# prjMagic_1/bitslice_3/dffpos_0/a_n14_n84# Vdd Vdd pfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1926 prjMagic_1/bitslice_3/dffpos_0/a_25_n15# prjMagic_1/bitslice_3/dffpos_0/a_n2_n86# Vdd Vdd pfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1927 prjMagic_1/bitslice_3/dffpos_0/a_30_n84# prjMagic_1/bitslice_3/dffpos_0/a_n34_n84# prjMagic_1/bitslice_3/dffpos_0/a_25_n15# Vdd pfet w=20 l=2
++  ad=150 pd=56 as=0 ps=0
+M1928 prjMagic_1/bitslice_3/dffpos_0/a_40_n5# prjMagic_1/inverter_0/Y prjMagic_1/bitslice_3/dffpos_0/a_30_n84# Vdd pfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1929 Vdd 1Out3 prjMagic_1/bitslice_3/dffpos_0/a_40_n5# Vdd pfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1930 Gnd prjMagic_1/inverter_0/Y prjMagic_1/bitslice_3/dffpos_0/a_n34_n84# Gnd nfet w=20 l=2
++  ad=0 pd=0 as=100 ps=50
+M1931 1Out3 prjMagic_1/bitslice_3/dffpos_0/a_30_n84# Vdd Vdd pfet w=40 l=2
++  ad=200 pd=90 as=0 ps=0
+M1932 prjMagic_1/bitslice_3/dffpos_0/a_n19_n84# prjMagic_1/bitslice_3/sum Gnd Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1933 prjMagic_1/bitslice_3/dffpos_0/a_n14_n84# prjMagic_1/bitslice_3/dffpos_0/a_n34_n84# prjMagic_1/bitslice_3/dffpos_0/a_n19_n84# Gnd nfet w=10 l=2
++  ad=70 pd=34 as=0 ps=0
+M1934 prjMagic_1/bitslice_3/dffpos_0/a_n5_n84# prjMagic_1/inverter_0/Y prjMagic_1/bitslice_3/dffpos_0/a_n14_n84# Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1935 Gnd prjMagic_1/bitslice_3/dffpos_0/a_n2_n86# prjMagic_1/bitslice_3/dffpos_0/a_n5_n84# Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1936 prjMagic_1/bitslice_3/dffpos_0/a_n2_n86# prjMagic_1/bitslice_3/dffpos_0/a_n14_n84# Gnd Gnd nfet w=10 l=2
++  ad=50 pd=30 as=0 ps=0
+M1937 prjMagic_1/bitslice_3/dffpos_0/a_25_n84# prjMagic_1/bitslice_3/dffpos_0/a_n2_n86# Gnd Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1938 prjMagic_1/bitslice_3/dffpos_0/a_30_n84# prjMagic_1/inverter_0/Y prjMagic_1/bitslice_3/dffpos_0/a_25_n84# Gnd nfet w=10 l=2
++  ad=80 pd=36 as=0 ps=0
+M1939 prjMagic_1/bitslice_3/dffpos_0/a_40_n84# prjMagic_1/bitslice_3/dffpos_0/a_n34_n84# prjMagic_1/bitslice_3/dffpos_0/a_30_n84# Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1940 Gnd 1Out3 prjMagic_1/bitslice_3/dffpos_0/a_40_n84# Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1941 1Out3 prjMagic_1/bitslice_3/dffpos_0/a_30_n84# Gnd Gnd nfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1942 Vdd prjMagic_1/bitslice_3/fa_0/A prjMagic_1/bitslice_3/fa_0/a_2_74# Vdd pfet w=20 l=2
++  ad=0 pd=0 as=220 ps=102
+M1943 prjMagic_1/bitslice_3/fa_0/a_2_74# prjMagic_1/bitslice_3/Y Vdd Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1944 prjMagic_1/bitslice_3/fa_0/a_25_6# prjMagic_1/bitslice_3/Cin prjMagic_1/bitslice_3/fa_0/a_2_74# Vdd pfet w=20 l=2
++  ad=120 pd=52 as=0 ps=0
+M1945 prjMagic_1/bitslice_3/fa_0/a_33_74# prjMagic_1/bitslice_3/Y prjMagic_1/bitslice_3/fa_0/a_25_6# Vdd pfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1946 Vdd prjMagic_1/bitslice_3/fa_0/A prjMagic_1/bitslice_3/fa_0/a_33_74# Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1947 prjMagic_1/bitslice_3/fa_0/a_46_74# prjMagic_1/bitslice_3/fa_0/A Vdd Vdd pfet w=20 l=2
++  ad=240 pd=104 as=0 ps=0
+M1948 Vdd prjMagic_1/bitslice_3/Y prjMagic_1/bitslice_3/fa_0/a_46_74# Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1949 prjMagic_1/bitslice_3/fa_0/a_46_74# prjMagic_1/bitslice_3/Cin Vdd Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1950 prjMagic_1/bitslice_3/fa_0/a_70_6# prjMagic_1/bitslice_3/fa_0/a_25_6# prjMagic_1/bitslice_3/fa_0/a_46_74# Vdd pfet w=20 l=2
++  ad=140 pd=54 as=0 ps=0
+M1951 prjMagic_1/bitslice_3/fa_0/a_79_74# prjMagic_1/bitslice_3/Cin prjMagic_1/bitslice_3/fa_0/a_70_6# Vdd pfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1952 prjMagic_1/bitslice_3/fa_0/a_84_74# prjMagic_1/bitslice_3/Y prjMagic_1/bitslice_3/fa_0/a_79_74# Vdd pfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1953 Vdd prjMagic_1/bitslice_3/fa_0/A prjMagic_1/bitslice_3/fa_0/a_84_74# Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1954 prjMagic_1/bitslice_3/sum prjMagic_1/bitslice_3/fa_0/a_70_6# Vdd Vdd pfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1955 prjMagic_1/bitslice_4/Cin prjMagic_1/bitslice_3/fa_0/a_25_6# Vdd Vdd pfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1956 Gnd prjMagic_1/bitslice_3/fa_0/A prjMagic_1/bitslice_3/fa_0/a_2_6# Gnd nfet w=10 l=2
++  ad=0 pd=0 as=110 ps=62
+M1957 prjMagic_1/bitslice_3/fa_0/a_2_6# prjMagic_1/bitslice_3/Y Gnd Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1958 prjMagic_1/bitslice_3/fa_0/a_25_6# prjMagic_1/bitslice_3/Cin prjMagic_1/bitslice_3/fa_0/a_2_6# Gnd nfet w=10 l=2
++  ad=60 pd=32 as=0 ps=0
+M1959 prjMagic_1/bitslice_3/fa_0/a_33_6# prjMagic_1/bitslice_3/Y prjMagic_1/bitslice_3/fa_0/a_25_6# Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1960 Gnd prjMagic_1/bitslice_3/fa_0/A prjMagic_1/bitslice_3/fa_0/a_33_6# Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1961 prjMagic_1/bitslice_3/fa_0/a_46_6# prjMagic_1/bitslice_3/fa_0/A Gnd Gnd nfet w=10 l=2
++  ad=120 pd=64 as=0 ps=0
+M1962 Gnd prjMagic_1/bitslice_3/Y prjMagic_1/bitslice_3/fa_0/a_46_6# Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1963 prjMagic_1/bitslice_3/fa_0/a_46_6# prjMagic_1/bitslice_3/Cin Gnd Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1964 prjMagic_1/bitslice_3/fa_0/a_70_6# prjMagic_1/bitslice_3/fa_0/a_25_6# prjMagic_1/bitslice_3/fa_0/a_46_6# Gnd nfet w=10 l=2
++  ad=70 pd=34 as=0 ps=0
+M1965 prjMagic_1/bitslice_3/fa_0/a_79_6# prjMagic_1/bitslice_3/Cin prjMagic_1/bitslice_3/fa_0/a_70_6# Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1966 prjMagic_1/bitslice_3/fa_0/a_84_6# prjMagic_1/bitslice_3/Y prjMagic_1/bitslice_3/fa_0/a_79_6# Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1967 Gnd prjMagic_1/bitslice_3/fa_0/A prjMagic_1/bitslice_3/fa_0/a_84_6# Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1968 prjMagic_1/bitslice_3/sum prjMagic_1/bitslice_3/fa_0/a_70_6# Gnd Gnd nfet w=10 l=2
++  ad=50 pd=30 as=0 ps=0
+M1969 prjMagic_1/bitslice_4/Cin prjMagic_1/bitslice_3/fa_0/a_25_6# Gnd Gnd nfet w=10 l=2
++  ad=50 pd=30 as=0 ps=0
+M1970 prjMagic_1/bitslice_3/mux21_0/nand_1/A 1Out3 Vdd Vdd pfet w=20 l=2
++  ad=120 pd=52 as=0 ps=0
+M1971 Vdd prjMagic_1/bitslice_3/mux21_0/nand_2/B prjMagic_1/bitslice_3/mux21_0/nand_1/A Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1972 prjMagic_1/bitslice_3/mux21_0/nand_2/a_9_6# 1Out3 Gnd Gnd nfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1973 prjMagic_1/bitslice_3/mux21_0/nand_1/A prjMagic_1/bitslice_3/mux21_0/nand_2/B prjMagic_1/bitslice_3/mux21_0/nand_2/a_9_6# Gnd nfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1974 prjMagic_1/bitslice_3/mux21_0/nand_2/B loadB Vdd Vdd pfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1975 prjMagic_1/bitslice_3/mux21_0/nand_2/B loadB Gnd Gnd nfet w=10 l=2
++  ad=50 pd=30 as=0 ps=0
+M1976 prjMagic_1/bitslice_3/fa_0/A prjMagic_1/bitslice_3/mux21_0/nand_1/A Vdd Vdd pfet w=20 l=2
++  ad=120 pd=52 as=0 ps=0
+M1977 Vdd prjMagic_1/bitslice_3/mux21_0/nand_1/B prjMagic_1/bitslice_3/fa_0/A Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1978 prjMagic_1/bitslice_3/mux21_0/nand_1/a_9_6# prjMagic_1/bitslice_3/mux21_0/nand_1/A Gnd Gnd nfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1979 prjMagic_1/bitslice_3/fa_0/A prjMagic_1/bitslice_3/mux21_0/nand_1/B prjMagic_1/bitslice_3/mux21_0/nand_1/a_9_6# Gnd nfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1980 prjMagic_1/bitslice_3/mux21_0/nand_1/B loadB Vdd Vdd pfet w=20 l=2
++  ad=120 pd=52 as=0 ps=0
+M1981 Vdd B3 prjMagic_1/bitslice_3/mux21_0/nand_1/B Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1982 prjMagic_1/bitslice_3/mux21_0/nand_0/a_9_6# loadB Gnd Gnd nfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1983 prjMagic_1/bitslice_3/mux21_0/nand_1/B B3 prjMagic_1/bitslice_3/mux21_0/nand_0/a_9_6# Gnd nfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1984 Vdd A3 prjMagic_1/bitslice_3/xor2_0/a_17_6# Vdd pfet w=40 l=2
++  ad=0 pd=0 as=200 ps=90
+M1985 prjMagic_1/bitslice_3/xor2_0/a_33_54# prjMagic_1/bitslice_3/xor2_0/a_28_44# Vdd Vdd pfet w=40 l=2
++  ad=120 pd=86 as=0 ps=0
+M1986 prjMagic_1/bitslice_3/Y A3 prjMagic_1/bitslice_3/xor2_0/a_33_54# Vdd pfet w=40 l=2
++  ad=400 pd=100 as=0 ps=0
+M1987 prjMagic_1/bitslice_3/xor2_0/a_50_54# prjMagic_1/bitslice_3/xor2_0/a_17_6# prjMagic_1/bitslice_3/Y Vdd pfet w=40 l=2
++  ad=120 pd=86 as=0 ps=0
+M1988 Vdd subtract prjMagic_1/bitslice_3/xor2_0/a_50_54# Vdd pfet w=40 l=2
++  ad=0 pd=0 as=0 ps=0
+M1989 prjMagic_1/bitslice_3/xor2_0/a_28_44# subtract Vdd Vdd pfet w=40 l=2
++  ad=200 pd=90 as=0 ps=0
+M1990 Gnd A3 prjMagic_1/bitslice_3/xor2_0/a_17_6# Gnd nfet w=20 l=2
++  ad=0 pd=0 as=100 ps=50
+M1991 prjMagic_1/bitslice_3/xor2_0/a_33_6# prjMagic_1/bitslice_3/xor2_0/a_28_44# Gnd Gnd nfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1992 prjMagic_1/bitslice_3/Y prjMagic_1/bitslice_3/xor2_0/a_17_6# prjMagic_1/bitslice_3/xor2_0/a_33_6# Gnd nfet w=20 l=2
++  ad=200 pd=60 as=0 ps=0
+M1993 prjMagic_1/bitslice_3/xor2_0/a_50_6# A3 prjMagic_1/bitslice_3/Y Gnd nfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1994 Gnd subtract prjMagic_1/bitslice_3/xor2_0/a_50_6# Gnd nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1995 prjMagic_1/bitslice_3/xor2_0/a_28_44# subtract Gnd Gnd nfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1996 Vdd prjMagic_1/inverter_0/Y prjMagic_1/bitslice_2/dffpos_0/a_n34_n84# Vdd pfet w=40 l=2
++  ad=0 pd=0 as=200 ps=90
+M1997 prjMagic_1/bitslice_2/dffpos_0/a_n19_n15# prjMagic_1/bitslice_2/sum Vdd Vdd pfet w=20 l=2
++  ad=80 pd=48 as=0 ps=0
+M1998 prjMagic_1/bitslice_2/dffpos_0/a_n14_n84# prjMagic_1/inverter_0/Y prjMagic_1/bitslice_2/dffpos_0/a_n19_n15# Vdd pfet w=20 l=2
++  ad=120 pd=52 as=0 ps=0
+M1999 prjMagic_1/bitslice_2/dffpos_0/a_n5_n15# prjMagic_1/bitslice_2/dffpos_0/a_n34_n84# prjMagic_1/bitslice_2/dffpos_0/a_n14_n84# Vdd pfet w=20 l=2
++  ad=80 pd=48 as=0 ps=0
+M2000 Vdd prjMagic_1/bitslice_2/dffpos_0/a_n2_n86# prjMagic_1/bitslice_2/dffpos_0/a_n5_n15# Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M2001 prjMagic_1/bitslice_2/dffpos_0/a_n2_n86# prjMagic_1/bitslice_2/dffpos_0/a_n14_n84# Vdd Vdd pfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M2002 prjMagic_1/bitslice_2/dffpos_0/a_25_n15# prjMagic_1/bitslice_2/dffpos_0/a_n2_n86# Vdd Vdd pfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M2003 prjMagic_1/bitslice_2/dffpos_0/a_30_n84# prjMagic_1/bitslice_2/dffpos_0/a_n34_n84# prjMagic_1/bitslice_2/dffpos_0/a_25_n15# Vdd pfet w=20 l=2
++  ad=150 pd=56 as=0 ps=0
+M2004 prjMagic_1/bitslice_2/dffpos_0/a_40_n5# prjMagic_1/inverter_0/Y prjMagic_1/bitslice_2/dffpos_0/a_30_n84# Vdd pfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M2005 Vdd 1Out2 prjMagic_1/bitslice_2/dffpos_0/a_40_n5# Vdd pfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M2006 Gnd prjMagic_1/inverter_0/Y prjMagic_1/bitslice_2/dffpos_0/a_n34_n84# Gnd nfet w=20 l=2
++  ad=0 pd=0 as=100 ps=50
+M2007 1Out2 prjMagic_1/bitslice_2/dffpos_0/a_30_n84# Vdd Vdd pfet w=40 l=2
++  ad=200 pd=90 as=0 ps=0
+M2008 prjMagic_1/bitslice_2/dffpos_0/a_n19_n84# prjMagic_1/bitslice_2/sum Gnd Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M2009 prjMagic_1/bitslice_2/dffpos_0/a_n14_n84# prjMagic_1/bitslice_2/dffpos_0/a_n34_n84# prjMagic_1/bitslice_2/dffpos_0/a_n19_n84# Gnd nfet w=10 l=2
++  ad=70 pd=34 as=0 ps=0
+M2010 prjMagic_1/bitslice_2/dffpos_0/a_n5_n84# prjMagic_1/inverter_0/Y prjMagic_1/bitslice_2/dffpos_0/a_n14_n84# Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M2011 Gnd prjMagic_1/bitslice_2/dffpos_0/a_n2_n86# prjMagic_1/bitslice_2/dffpos_0/a_n5_n84# Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M2012 prjMagic_1/bitslice_2/dffpos_0/a_n2_n86# prjMagic_1/bitslice_2/dffpos_0/a_n14_n84# Gnd Gnd nfet w=10 l=2
++  ad=50 pd=30 as=0 ps=0
+M2013 prjMagic_1/bitslice_2/dffpos_0/a_25_n84# prjMagic_1/bitslice_2/dffpos_0/a_n2_n86# Gnd Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M2014 prjMagic_1/bitslice_2/dffpos_0/a_30_n84# prjMagic_1/inverter_0/Y prjMagic_1/bitslice_2/dffpos_0/a_25_n84# Gnd nfet w=10 l=2
++  ad=80 pd=36 as=0 ps=0
+M2015 prjMagic_1/bitslice_2/dffpos_0/a_40_n84# prjMagic_1/bitslice_2/dffpos_0/a_n34_n84# prjMagic_1/bitslice_2/dffpos_0/a_30_n84# Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M2016 Gnd 1Out2 prjMagic_1/bitslice_2/dffpos_0/a_40_n84# Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M2017 1Out2 prjMagic_1/bitslice_2/dffpos_0/a_30_n84# Gnd Gnd nfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M2018 Vdd prjMagic_1/bitslice_2/fa_0/A prjMagic_1/bitslice_2/fa_0/a_2_74# Vdd pfet w=20 l=2
++  ad=0 pd=0 as=220 ps=102
+M2019 prjMagic_1/bitslice_2/fa_0/a_2_74# prjMagic_1/bitslice_2/Y Vdd Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M2020 prjMagic_1/bitslice_2/fa_0/a_25_6# prjMagic_1/bitslice_2/Cin prjMagic_1/bitslice_2/fa_0/a_2_74# Vdd pfet w=20 l=2
++  ad=120 pd=52 as=0 ps=0
+M2021 prjMagic_1/bitslice_2/fa_0/a_33_74# prjMagic_1/bitslice_2/Y prjMagic_1/bitslice_2/fa_0/a_25_6# Vdd pfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M2022 Vdd prjMagic_1/bitslice_2/fa_0/A prjMagic_1/bitslice_2/fa_0/a_33_74# Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M2023 prjMagic_1/bitslice_2/fa_0/a_46_74# prjMagic_1/bitslice_2/fa_0/A Vdd Vdd pfet w=20 l=2
++  ad=240 pd=104 as=0 ps=0
+M2024 Vdd prjMagic_1/bitslice_2/Y prjMagic_1/bitslice_2/fa_0/a_46_74# Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M2025 prjMagic_1/bitslice_2/fa_0/a_46_74# prjMagic_1/bitslice_2/Cin Vdd Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M2026 prjMagic_1/bitslice_2/fa_0/a_70_6# prjMagic_1/bitslice_2/fa_0/a_25_6# prjMagic_1/bitslice_2/fa_0/a_46_74# Vdd pfet w=20 l=2
++  ad=140 pd=54 as=0 ps=0
+M2027 prjMagic_1/bitslice_2/fa_0/a_79_74# prjMagic_1/bitslice_2/Cin prjMagic_1/bitslice_2/fa_0/a_70_6# Vdd pfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M2028 prjMagic_1/bitslice_2/fa_0/a_84_74# prjMagic_1/bitslice_2/Y prjMagic_1/bitslice_2/fa_0/a_79_74# Vdd pfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M2029 Vdd prjMagic_1/bitslice_2/fa_0/A prjMagic_1/bitslice_2/fa_0/a_84_74# Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M2030 prjMagic_1/bitslice_2/sum prjMagic_1/bitslice_2/fa_0/a_70_6# Vdd Vdd pfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M2031 prjMagic_1/bitslice_3/Cin prjMagic_1/bitslice_2/fa_0/a_25_6# Vdd Vdd pfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M2032 Gnd prjMagic_1/bitslice_2/fa_0/A prjMagic_1/bitslice_2/fa_0/a_2_6# Gnd nfet w=10 l=2
++  ad=0 pd=0 as=110 ps=62
+M2033 prjMagic_1/bitslice_2/fa_0/a_2_6# prjMagic_1/bitslice_2/Y Gnd Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M2034 prjMagic_1/bitslice_2/fa_0/a_25_6# prjMagic_1/bitslice_2/Cin prjMagic_1/bitslice_2/fa_0/a_2_6# Gnd nfet w=10 l=2
++  ad=60 pd=32 as=0 ps=0
+M2035 prjMagic_1/bitslice_2/fa_0/a_33_6# prjMagic_1/bitslice_2/Y prjMagic_1/bitslice_2/fa_0/a_25_6# Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M2036 Gnd prjMagic_1/bitslice_2/fa_0/A prjMagic_1/bitslice_2/fa_0/a_33_6# Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M2037 prjMagic_1/bitslice_2/fa_0/a_46_6# prjMagic_1/bitslice_2/fa_0/A Gnd Gnd nfet w=10 l=2
++  ad=120 pd=64 as=0 ps=0
+M2038 Gnd prjMagic_1/bitslice_2/Y prjMagic_1/bitslice_2/fa_0/a_46_6# Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M2039 prjMagic_1/bitslice_2/fa_0/a_46_6# prjMagic_1/bitslice_2/Cin Gnd Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M2040 prjMagic_1/bitslice_2/fa_0/a_70_6# prjMagic_1/bitslice_2/fa_0/a_25_6# prjMagic_1/bitslice_2/fa_0/a_46_6# Gnd nfet w=10 l=2
++  ad=70 pd=34 as=0 ps=0
+M2041 prjMagic_1/bitslice_2/fa_0/a_79_6# prjMagic_1/bitslice_2/Cin prjMagic_1/bitslice_2/fa_0/a_70_6# Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M2042 prjMagic_1/bitslice_2/fa_0/a_84_6# prjMagic_1/bitslice_2/Y prjMagic_1/bitslice_2/fa_0/a_79_6# Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M2043 Gnd prjMagic_1/bitslice_2/fa_0/A prjMagic_1/bitslice_2/fa_0/a_84_6# Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M2044 prjMagic_1/bitslice_2/sum prjMagic_1/bitslice_2/fa_0/a_70_6# Gnd Gnd nfet w=10 l=2
++  ad=50 pd=30 as=0 ps=0
+M2045 prjMagic_1/bitslice_3/Cin prjMagic_1/bitslice_2/fa_0/a_25_6# Gnd Gnd nfet w=10 l=2
++  ad=50 pd=30 as=0 ps=0
+M2046 prjMagic_1/bitslice_2/mux21_0/nand_1/A 1Out2 Vdd Vdd pfet w=20 l=2
++  ad=120 pd=52 as=0 ps=0
+M2047 Vdd prjMagic_1/bitslice_2/mux21_0/nand_2/B prjMagic_1/bitslice_2/mux21_0/nand_1/A Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M2048 prjMagic_1/bitslice_2/mux21_0/nand_2/a_9_6# 1Out2 Gnd Gnd nfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M2049 prjMagic_1/bitslice_2/mux21_0/nand_1/A prjMagic_1/bitslice_2/mux21_0/nand_2/B prjMagic_1/bitslice_2/mux21_0/nand_2/a_9_6# Gnd nfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M2050 prjMagic_1/bitslice_2/mux21_0/nand_2/B loadB Vdd Vdd pfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M2051 prjMagic_1/bitslice_2/mux21_0/nand_2/B loadB Gnd Gnd nfet w=10 l=2
++  ad=50 pd=30 as=0 ps=0
+M2052 prjMagic_1/bitslice_2/fa_0/A prjMagic_1/bitslice_2/mux21_0/nand_1/A Vdd Vdd pfet w=20 l=2
++  ad=120 pd=52 as=0 ps=0
+M2053 Vdd prjMagic_1/bitslice_2/mux21_0/nand_1/B prjMagic_1/bitslice_2/fa_0/A Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M2054 prjMagic_1/bitslice_2/mux21_0/nand_1/a_9_6# prjMagic_1/bitslice_2/mux21_0/nand_1/A Gnd Gnd nfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M2055 prjMagic_1/bitslice_2/fa_0/A prjMagic_1/bitslice_2/mux21_0/nand_1/B prjMagic_1/bitslice_2/mux21_0/nand_1/a_9_6# Gnd nfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M2056 prjMagic_1/bitslice_2/mux21_0/nand_1/B loadB Vdd Vdd pfet w=20 l=2
++  ad=120 pd=52 as=0 ps=0
+M2057 Vdd B2 prjMagic_1/bitslice_2/mux21_0/nand_1/B Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M2058 prjMagic_1/bitslice_2/mux21_0/nand_0/a_9_6# loadB Gnd Gnd nfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M2059 prjMagic_1/bitslice_2/mux21_0/nand_1/B B2 prjMagic_1/bitslice_2/mux21_0/nand_0/a_9_6# Gnd nfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M2060 Vdd A2 prjMagic_1/bitslice_2/xor2_0/a_17_6# Vdd pfet w=40 l=2
++  ad=0 pd=0 as=200 ps=90
+M2061 prjMagic_1/bitslice_2/xor2_0/a_33_54# prjMagic_1/bitslice_2/xor2_0/a_28_44# Vdd Vdd pfet w=40 l=2
++  ad=120 pd=86 as=0 ps=0
+M2062 prjMagic_1/bitslice_2/Y A2 prjMagic_1/bitslice_2/xor2_0/a_33_54# Vdd pfet w=40 l=2
++  ad=400 pd=100 as=0 ps=0
+M2063 prjMagic_1/bitslice_2/xor2_0/a_50_54# prjMagic_1/bitslice_2/xor2_0/a_17_6# prjMagic_1/bitslice_2/Y Vdd pfet w=40 l=2
++  ad=120 pd=86 as=0 ps=0
+M2064 Vdd subtract prjMagic_1/bitslice_2/xor2_0/a_50_54# Vdd pfet w=40 l=2
++  ad=0 pd=0 as=0 ps=0
+M2065 prjMagic_1/bitslice_2/xor2_0/a_28_44# subtract Vdd Vdd pfet w=40 l=2
++  ad=200 pd=90 as=0 ps=0
+M2066 Gnd A2 prjMagic_1/bitslice_2/xor2_0/a_17_6# Gnd nfet w=20 l=2
++  ad=0 pd=0 as=100 ps=50
+M2067 prjMagic_1/bitslice_2/xor2_0/a_33_6# prjMagic_1/bitslice_2/xor2_0/a_28_44# Gnd Gnd nfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M2068 prjMagic_1/bitslice_2/Y prjMagic_1/bitslice_2/xor2_0/a_17_6# prjMagic_1/bitslice_2/xor2_0/a_33_6# Gnd nfet w=20 l=2
++  ad=200 pd=60 as=0 ps=0
+M2069 prjMagic_1/bitslice_2/xor2_0/a_50_6# A2 prjMagic_1/bitslice_2/Y Gnd nfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M2070 Gnd subtract prjMagic_1/bitslice_2/xor2_0/a_50_6# Gnd nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M2071 prjMagic_1/bitslice_2/xor2_0/a_28_44# subtract Gnd Gnd nfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M2072 Vdd prjMagic_1/inverter_0/Y prjMagic_1/bitslice_1/dffpos_0/a_n34_n84# Vdd pfet w=40 l=2
++  ad=0 pd=0 as=200 ps=90
+M2073 prjMagic_1/bitslice_1/dffpos_0/a_n19_n15# prjMagic_1/bitslice_1/sum Vdd Vdd pfet w=20 l=2
++  ad=80 pd=48 as=0 ps=0
+M2074 prjMagic_1/bitslice_1/dffpos_0/a_n14_n84# prjMagic_1/inverter_0/Y prjMagic_1/bitslice_1/dffpos_0/a_n19_n15# Vdd pfet w=20 l=2
++  ad=120 pd=52 as=0 ps=0
+M2075 prjMagic_1/bitslice_1/dffpos_0/a_n5_n15# prjMagic_1/bitslice_1/dffpos_0/a_n34_n84# prjMagic_1/bitslice_1/dffpos_0/a_n14_n84# Vdd pfet w=20 l=2
++  ad=80 pd=48 as=0 ps=0
+M2076 Vdd prjMagic_1/bitslice_1/dffpos_0/a_n2_n86# prjMagic_1/bitslice_1/dffpos_0/a_n5_n15# Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M2077 prjMagic_1/bitslice_1/dffpos_0/a_n2_n86# prjMagic_1/bitslice_1/dffpos_0/a_n14_n84# Vdd Vdd pfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M2078 prjMagic_1/bitslice_1/dffpos_0/a_25_n15# prjMagic_1/bitslice_1/dffpos_0/a_n2_n86# Vdd Vdd pfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M2079 prjMagic_1/bitslice_1/dffpos_0/a_30_n84# prjMagic_1/bitslice_1/dffpos_0/a_n34_n84# prjMagic_1/bitslice_1/dffpos_0/a_25_n15# Vdd pfet w=20 l=2
++  ad=150 pd=56 as=0 ps=0
+M2080 prjMagic_1/bitslice_1/dffpos_0/a_40_n5# prjMagic_1/inverter_0/Y prjMagic_1/bitslice_1/dffpos_0/a_30_n84# Vdd pfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M2081 Vdd 1Out1 prjMagic_1/bitslice_1/dffpos_0/a_40_n5# Vdd pfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M2082 Gnd prjMagic_1/inverter_0/Y prjMagic_1/bitslice_1/dffpos_0/a_n34_n84# Gnd nfet w=20 l=2
++  ad=0 pd=0 as=100 ps=50
+M2083 1Out1 prjMagic_1/bitslice_1/dffpos_0/a_30_n84# Vdd Vdd pfet w=40 l=2
++  ad=200 pd=90 as=0 ps=0
+M2084 prjMagic_1/bitslice_1/dffpos_0/a_n19_n84# prjMagic_1/bitslice_1/sum Gnd Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M2085 prjMagic_1/bitslice_1/dffpos_0/a_n14_n84# prjMagic_1/bitslice_1/dffpos_0/a_n34_n84# prjMagic_1/bitslice_1/dffpos_0/a_n19_n84# Gnd nfet w=10 l=2
++  ad=70 pd=34 as=0 ps=0
+M2086 prjMagic_1/bitslice_1/dffpos_0/a_n5_n84# prjMagic_1/inverter_0/Y prjMagic_1/bitslice_1/dffpos_0/a_n14_n84# Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M2087 Gnd prjMagic_1/bitslice_1/dffpos_0/a_n2_n86# prjMagic_1/bitslice_1/dffpos_0/a_n5_n84# Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M2088 prjMagic_1/bitslice_1/dffpos_0/a_n2_n86# prjMagic_1/bitslice_1/dffpos_0/a_n14_n84# Gnd Gnd nfet w=10 l=2
++  ad=50 pd=30 as=0 ps=0
+M2089 prjMagic_1/bitslice_1/dffpos_0/a_25_n84# prjMagic_1/bitslice_1/dffpos_0/a_n2_n86# Gnd Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M2090 prjMagic_1/bitslice_1/dffpos_0/a_30_n84# prjMagic_1/inverter_0/Y prjMagic_1/bitslice_1/dffpos_0/a_25_n84# Gnd nfet w=10 l=2
++  ad=80 pd=36 as=0 ps=0
+M2091 prjMagic_1/bitslice_1/dffpos_0/a_40_n84# prjMagic_1/bitslice_1/dffpos_0/a_n34_n84# prjMagic_1/bitslice_1/dffpos_0/a_30_n84# Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M2092 Gnd 1Out1 prjMagic_1/bitslice_1/dffpos_0/a_40_n84# Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M2093 1Out1 prjMagic_1/bitslice_1/dffpos_0/a_30_n84# Gnd Gnd nfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M2094 Vdd prjMagic_1/bitslice_1/fa_0/A prjMagic_1/bitslice_1/fa_0/a_2_74# Vdd pfet w=20 l=2
++  ad=0 pd=0 as=220 ps=102
+M2095 prjMagic_1/bitslice_1/fa_0/a_2_74# prjMagic_1/bitslice_1/Y Vdd Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M2096 prjMagic_1/bitslice_1/fa_0/a_25_6# prjMagic_1/bitslice_1/Cin prjMagic_1/bitslice_1/fa_0/a_2_74# Vdd pfet w=20 l=2
++  ad=120 pd=52 as=0 ps=0
+M2097 prjMagic_1/bitslice_1/fa_0/a_33_74# prjMagic_1/bitslice_1/Y prjMagic_1/bitslice_1/fa_0/a_25_6# Vdd pfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M2098 Vdd prjMagic_1/bitslice_1/fa_0/A prjMagic_1/bitslice_1/fa_0/a_33_74# Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M2099 prjMagic_1/bitslice_1/fa_0/a_46_74# prjMagic_1/bitslice_1/fa_0/A Vdd Vdd pfet w=20 l=2
++  ad=240 pd=104 as=0 ps=0
+M2100 Vdd prjMagic_1/bitslice_1/Y prjMagic_1/bitslice_1/fa_0/a_46_74# Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M2101 prjMagic_1/bitslice_1/fa_0/a_46_74# prjMagic_1/bitslice_1/Cin Vdd Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M2102 prjMagic_1/bitslice_1/fa_0/a_70_6# prjMagic_1/bitslice_1/fa_0/a_25_6# prjMagic_1/bitslice_1/fa_0/a_46_74# Vdd pfet w=20 l=2
++  ad=140 pd=54 as=0 ps=0
+M2103 prjMagic_1/bitslice_1/fa_0/a_79_74# prjMagic_1/bitslice_1/Cin prjMagic_1/bitslice_1/fa_0/a_70_6# Vdd pfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M2104 prjMagic_1/bitslice_1/fa_0/a_84_74# prjMagic_1/bitslice_1/Y prjMagic_1/bitslice_1/fa_0/a_79_74# Vdd pfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M2105 Vdd prjMagic_1/bitslice_1/fa_0/A prjMagic_1/bitslice_1/fa_0/a_84_74# Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M2106 prjMagic_1/bitslice_1/sum prjMagic_1/bitslice_1/fa_0/a_70_6# Vdd Vdd pfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M2107 prjMagic_1/bitslice_2/Cin prjMagic_1/bitslice_1/fa_0/a_25_6# Vdd Vdd pfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M2108 Gnd prjMagic_1/bitslice_1/fa_0/A prjMagic_1/bitslice_1/fa_0/a_2_6# Gnd nfet w=10 l=2
++  ad=0 pd=0 as=110 ps=62
+M2109 prjMagic_1/bitslice_1/fa_0/a_2_6# prjMagic_1/bitslice_1/Y Gnd Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M2110 prjMagic_1/bitslice_1/fa_0/a_25_6# prjMagic_1/bitslice_1/Cin prjMagic_1/bitslice_1/fa_0/a_2_6# Gnd nfet w=10 l=2
++  ad=60 pd=32 as=0 ps=0
+M2111 prjMagic_1/bitslice_1/fa_0/a_33_6# prjMagic_1/bitslice_1/Y prjMagic_1/bitslice_1/fa_0/a_25_6# Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M2112 Gnd prjMagic_1/bitslice_1/fa_0/A prjMagic_1/bitslice_1/fa_0/a_33_6# Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M2113 prjMagic_1/bitslice_1/fa_0/a_46_6# prjMagic_1/bitslice_1/fa_0/A Gnd Gnd nfet w=10 l=2
++  ad=120 pd=64 as=0 ps=0
+M2114 Gnd prjMagic_1/bitslice_1/Y prjMagic_1/bitslice_1/fa_0/a_46_6# Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M2115 prjMagic_1/bitslice_1/fa_0/a_46_6# prjMagic_1/bitslice_1/Cin Gnd Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M2116 prjMagic_1/bitslice_1/fa_0/a_70_6# prjMagic_1/bitslice_1/fa_0/a_25_6# prjMagic_1/bitslice_1/fa_0/a_46_6# Gnd nfet w=10 l=2
++  ad=70 pd=34 as=0 ps=0
+M2117 prjMagic_1/bitslice_1/fa_0/a_79_6# prjMagic_1/bitslice_1/Cin prjMagic_1/bitslice_1/fa_0/a_70_6# Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M2118 prjMagic_1/bitslice_1/fa_0/a_84_6# prjMagic_1/bitslice_1/Y prjMagic_1/bitslice_1/fa_0/a_79_6# Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M2119 Gnd prjMagic_1/bitslice_1/fa_0/A prjMagic_1/bitslice_1/fa_0/a_84_6# Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M2120 prjMagic_1/bitslice_1/sum prjMagic_1/bitslice_1/fa_0/a_70_6# Gnd Gnd nfet w=10 l=2
++  ad=50 pd=30 as=0 ps=0
+M2121 prjMagic_1/bitslice_2/Cin prjMagic_1/bitslice_1/fa_0/a_25_6# Gnd Gnd nfet w=10 l=2
++  ad=50 pd=30 as=0 ps=0
+M2122 prjMagic_1/bitslice_1/mux21_0/nand_1/A 1Out1 Vdd Vdd pfet w=20 l=2
++  ad=120 pd=52 as=0 ps=0
+M2123 Vdd prjMagic_1/bitslice_1/mux21_0/nand_2/B prjMagic_1/bitslice_1/mux21_0/nand_1/A Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M2124 prjMagic_1/bitslice_1/mux21_0/nand_2/a_9_6# 1Out1 Gnd Gnd nfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M2125 prjMagic_1/bitslice_1/mux21_0/nand_1/A prjMagic_1/bitslice_1/mux21_0/nand_2/B prjMagic_1/bitslice_1/mux21_0/nand_2/a_9_6# Gnd nfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M2126 prjMagic_1/bitslice_1/mux21_0/nand_2/B loadB Vdd Vdd pfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M2127 prjMagic_1/bitslice_1/mux21_0/nand_2/B loadB Gnd Gnd nfet w=10 l=2
++  ad=50 pd=30 as=0 ps=0
+M2128 prjMagic_1/bitslice_1/fa_0/A prjMagic_1/bitslice_1/mux21_0/nand_1/A Vdd Vdd pfet w=20 l=2
++  ad=120 pd=52 as=0 ps=0
+M2129 Vdd prjMagic_1/bitslice_1/mux21_0/nand_1/B prjMagic_1/bitslice_1/fa_0/A Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M2130 prjMagic_1/bitslice_1/mux21_0/nand_1/a_9_6# prjMagic_1/bitslice_1/mux21_0/nand_1/A Gnd Gnd nfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M2131 prjMagic_1/bitslice_1/fa_0/A prjMagic_1/bitslice_1/mux21_0/nand_1/B prjMagic_1/bitslice_1/mux21_0/nand_1/a_9_6# Gnd nfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M2132 prjMagic_1/bitslice_1/mux21_0/nand_1/B loadB Vdd Vdd pfet w=20 l=2
++  ad=120 pd=52 as=0 ps=0
+M2133 Vdd B1 prjMagic_1/bitslice_1/mux21_0/nand_1/B Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M2134 prjMagic_1/bitslice_1/mux21_0/nand_0/a_9_6# loadB Gnd Gnd nfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M2135 prjMagic_1/bitslice_1/mux21_0/nand_1/B B1 prjMagic_1/bitslice_1/mux21_0/nand_0/a_9_6# Gnd nfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M2136 Vdd A1 prjMagic_1/bitslice_1/xor2_0/a_17_6# Vdd pfet w=40 l=2
++  ad=0 pd=0 as=200 ps=90
+M2137 prjMagic_1/bitslice_1/xor2_0/a_33_54# prjMagic_1/bitslice_1/xor2_0/a_28_44# Vdd Vdd pfet w=40 l=2
++  ad=120 pd=86 as=0 ps=0
+M2138 prjMagic_1/bitslice_1/Y A1 prjMagic_1/bitslice_1/xor2_0/a_33_54# Vdd pfet w=40 l=2
++  ad=400 pd=100 as=0 ps=0
+M2139 prjMagic_1/bitslice_1/xor2_0/a_50_54# prjMagic_1/bitslice_1/xor2_0/a_17_6# prjMagic_1/bitslice_1/Y Vdd pfet w=40 l=2
++  ad=120 pd=86 as=0 ps=0
+M2140 Vdd subtract prjMagic_1/bitslice_1/xor2_0/a_50_54# Vdd pfet w=40 l=2
++  ad=0 pd=0 as=0 ps=0
+M2141 prjMagic_1/bitslice_1/xor2_0/a_28_44# subtract Vdd Vdd pfet w=40 l=2
++  ad=200 pd=90 as=0 ps=0
+M2142 Gnd A1 prjMagic_1/bitslice_1/xor2_0/a_17_6# Gnd nfet w=20 l=2
++  ad=0 pd=0 as=100 ps=50
+M2143 prjMagic_1/bitslice_1/xor2_0/a_33_6# prjMagic_1/bitslice_1/xor2_0/a_28_44# Gnd Gnd nfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M2144 prjMagic_1/bitslice_1/Y prjMagic_1/bitslice_1/xor2_0/a_17_6# prjMagic_1/bitslice_1/xor2_0/a_33_6# Gnd nfet w=20 l=2
++  ad=200 pd=60 as=0 ps=0
+M2145 prjMagic_1/bitslice_1/xor2_0/a_50_6# A1 prjMagic_1/bitslice_1/Y Gnd nfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M2146 Gnd subtract prjMagic_1/bitslice_1/xor2_0/a_50_6# Gnd nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M2147 prjMagic_1/bitslice_1/xor2_0/a_28_44# subtract Gnd Gnd nfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M2148 Vdd prjMagic_1/inverter_0/Y prjMagic_1/bitslice_0/dffpos_0/a_n34_n84# Vdd pfet w=40 l=2
++  ad=0 pd=0 as=200 ps=90
+M2149 prjMagic_1/bitslice_0/dffpos_0/a_n19_n15# prjMagic_1/bitslice_0/sum Vdd Vdd pfet w=20 l=2
++  ad=80 pd=48 as=0 ps=0
+M2150 prjMagic_1/bitslice_0/dffpos_0/a_n14_n84# prjMagic_1/inverter_0/Y prjMagic_1/bitslice_0/dffpos_0/a_n19_n15# Vdd pfet w=20 l=2
++  ad=120 pd=52 as=0 ps=0
+M2151 prjMagic_1/bitslice_0/dffpos_0/a_n5_n15# prjMagic_1/bitslice_0/dffpos_0/a_n34_n84# prjMagic_1/bitslice_0/dffpos_0/a_n14_n84# Vdd pfet w=20 l=2
++  ad=80 pd=48 as=0 ps=0
+M2152 Vdd prjMagic_1/bitslice_0/dffpos_0/a_n2_n86# prjMagic_1/bitslice_0/dffpos_0/a_n5_n15# Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M2153 prjMagic_1/bitslice_0/dffpos_0/a_n2_n86# prjMagic_1/bitslice_0/dffpos_0/a_n14_n84# Vdd Vdd pfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M2154 prjMagic_1/bitslice_0/dffpos_0/a_25_n15# prjMagic_1/bitslice_0/dffpos_0/a_n2_n86# Vdd Vdd pfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M2155 prjMagic_1/bitslice_0/dffpos_0/a_30_n84# prjMagic_1/bitslice_0/dffpos_0/a_n34_n84# prjMagic_1/bitslice_0/dffpos_0/a_25_n15# Vdd pfet w=20 l=2
++  ad=150 pd=56 as=0 ps=0
+M2156 prjMagic_1/bitslice_0/dffpos_0/a_40_n5# prjMagic_1/inverter_0/Y prjMagic_1/bitslice_0/dffpos_0/a_30_n84# Vdd pfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M2157 Vdd 1Out0 prjMagic_1/bitslice_0/dffpos_0/a_40_n5# Vdd pfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M2158 Gnd prjMagic_1/inverter_0/Y prjMagic_1/bitslice_0/dffpos_0/a_n34_n84# Gnd nfet w=20 l=2
++  ad=0 pd=0 as=100 ps=50
+M2159 1Out0 prjMagic_1/bitslice_0/dffpos_0/a_30_n84# Vdd Vdd pfet w=40 l=2
++  ad=200 pd=90 as=0 ps=0
+M2160 prjMagic_1/bitslice_0/dffpos_0/a_n19_n84# prjMagic_1/bitslice_0/sum Gnd Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M2161 prjMagic_1/bitslice_0/dffpos_0/a_n14_n84# prjMagic_1/bitslice_0/dffpos_0/a_n34_n84# prjMagic_1/bitslice_0/dffpos_0/a_n19_n84# Gnd nfet w=10 l=2
++  ad=70 pd=34 as=0 ps=0
+M2162 prjMagic_1/bitslice_0/dffpos_0/a_n5_n84# prjMagic_1/inverter_0/Y prjMagic_1/bitslice_0/dffpos_0/a_n14_n84# Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M2163 Gnd prjMagic_1/bitslice_0/dffpos_0/a_n2_n86# prjMagic_1/bitslice_0/dffpos_0/a_n5_n84# Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M2164 prjMagic_1/bitslice_0/dffpos_0/a_n2_n86# prjMagic_1/bitslice_0/dffpos_0/a_n14_n84# Gnd Gnd nfet w=10 l=2
++  ad=50 pd=30 as=0 ps=0
+M2165 prjMagic_1/bitslice_0/dffpos_0/a_25_n84# prjMagic_1/bitslice_0/dffpos_0/a_n2_n86# Gnd Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M2166 prjMagic_1/bitslice_0/dffpos_0/a_30_n84# prjMagic_1/inverter_0/Y prjMagic_1/bitslice_0/dffpos_0/a_25_n84# Gnd nfet w=10 l=2
++  ad=80 pd=36 as=0 ps=0
+M2167 prjMagic_1/bitslice_0/dffpos_0/a_40_n84# prjMagic_1/bitslice_0/dffpos_0/a_n34_n84# prjMagic_1/bitslice_0/dffpos_0/a_30_n84# Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M2168 Gnd 1Out0 prjMagic_1/bitslice_0/dffpos_0/a_40_n84# Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M2169 1Out0 prjMagic_1/bitslice_0/dffpos_0/a_30_n84# Gnd Gnd nfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M2170 Vdd prjMagic_1/bitslice_0/fa_0/A prjMagic_1/bitslice_0/fa_0/a_2_74# Vdd pfet w=20 l=2
++  ad=0 pd=0 as=220 ps=102
+M2171 prjMagic_1/bitslice_0/fa_0/a_2_74# prjMagic_1/bitslice_0/Y Vdd Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M2172 prjMagic_1/bitslice_0/fa_0/a_25_6# subtract prjMagic_1/bitslice_0/fa_0/a_2_74# Vdd pfet w=20 l=2
++  ad=120 pd=52 as=0 ps=0
+M2173 prjMagic_1/bitslice_0/fa_0/a_33_74# prjMagic_1/bitslice_0/Y prjMagic_1/bitslice_0/fa_0/a_25_6# Vdd pfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M2174 Vdd prjMagic_1/bitslice_0/fa_0/A prjMagic_1/bitslice_0/fa_0/a_33_74# Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M2175 prjMagic_1/bitslice_0/fa_0/a_46_74# prjMagic_1/bitslice_0/fa_0/A Vdd Vdd pfet w=20 l=2
++  ad=240 pd=104 as=0 ps=0
+M2176 Vdd prjMagic_1/bitslice_0/Y prjMagic_1/bitslice_0/fa_0/a_46_74# Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M2177 prjMagic_1/bitslice_0/fa_0/a_46_74# subtract Vdd Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M2178 prjMagic_1/bitslice_0/fa_0/a_70_6# prjMagic_1/bitslice_0/fa_0/a_25_6# prjMagic_1/bitslice_0/fa_0/a_46_74# Vdd pfet w=20 l=2
++  ad=140 pd=54 as=0 ps=0
+M2179 prjMagic_1/bitslice_0/fa_0/a_79_74# subtract prjMagic_1/bitslice_0/fa_0/a_70_6# Vdd pfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M2180 prjMagic_1/bitslice_0/fa_0/a_84_74# prjMagic_1/bitslice_0/Y prjMagic_1/bitslice_0/fa_0/a_79_74# Vdd pfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M2181 Vdd prjMagic_1/bitslice_0/fa_0/A prjMagic_1/bitslice_0/fa_0/a_84_74# Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M2182 prjMagic_1/bitslice_0/sum prjMagic_1/bitslice_0/fa_0/a_70_6# Vdd Vdd pfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M2183 prjMagic_1/bitslice_1/Cin prjMagic_1/bitslice_0/fa_0/a_25_6# Vdd Vdd pfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M2184 Gnd prjMagic_1/bitslice_0/fa_0/A prjMagic_1/bitslice_0/fa_0/a_2_6# Gnd nfet w=10 l=2
++  ad=0 pd=0 as=110 ps=62
+M2185 prjMagic_1/bitslice_0/fa_0/a_2_6# prjMagic_1/bitslice_0/Y Gnd Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M2186 prjMagic_1/bitslice_0/fa_0/a_25_6# subtract prjMagic_1/bitslice_0/fa_0/a_2_6# Gnd nfet w=10 l=2
++  ad=60 pd=32 as=0 ps=0
+M2187 prjMagic_1/bitslice_0/fa_0/a_33_6# prjMagic_1/bitslice_0/Y prjMagic_1/bitslice_0/fa_0/a_25_6# Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M2188 Gnd prjMagic_1/bitslice_0/fa_0/A prjMagic_1/bitslice_0/fa_0/a_33_6# Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M2189 prjMagic_1/bitslice_0/fa_0/a_46_6# prjMagic_1/bitslice_0/fa_0/A Gnd Gnd nfet w=10 l=2
++  ad=120 pd=64 as=0 ps=0
+M2190 Gnd prjMagic_1/bitslice_0/Y prjMagic_1/bitslice_0/fa_0/a_46_6# Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M2191 prjMagic_1/bitslice_0/fa_0/a_46_6# subtract Gnd Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M2192 prjMagic_1/bitslice_0/fa_0/a_70_6# prjMagic_1/bitslice_0/fa_0/a_25_6# prjMagic_1/bitslice_0/fa_0/a_46_6# Gnd nfet w=10 l=2
++  ad=70 pd=34 as=0 ps=0
+M2193 prjMagic_1/bitslice_0/fa_0/a_79_6# subtract prjMagic_1/bitslice_0/fa_0/a_70_6# Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M2194 prjMagic_1/bitslice_0/fa_0/a_84_6# prjMagic_1/bitslice_0/Y prjMagic_1/bitslice_0/fa_0/a_79_6# Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M2195 Gnd prjMagic_1/bitslice_0/fa_0/A prjMagic_1/bitslice_0/fa_0/a_84_6# Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M2196 prjMagic_1/bitslice_0/sum prjMagic_1/bitslice_0/fa_0/a_70_6# Gnd Gnd nfet w=10 l=2
++  ad=50 pd=30 as=0 ps=0
+M2197 prjMagic_1/bitslice_1/Cin prjMagic_1/bitslice_0/fa_0/a_25_6# Gnd Gnd nfet w=10 l=2
++  ad=50 pd=30 as=0 ps=0
+M2198 prjMagic_1/bitslice_0/mux21_0/nand_1/A 1Out0 Vdd Vdd pfet w=20 l=2
++  ad=120 pd=52 as=0 ps=0
+M2199 Vdd prjMagic_1/bitslice_0/mux21_0/nand_2/B prjMagic_1/bitslice_0/mux21_0/nand_1/A Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M2200 prjMagic_1/bitslice_0/mux21_0/nand_2/a_9_6# 1Out0 Gnd Gnd nfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M2201 prjMagic_1/bitslice_0/mux21_0/nand_1/A prjMagic_1/bitslice_0/mux21_0/nand_2/B prjMagic_1/bitslice_0/mux21_0/nand_2/a_9_6# Gnd nfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M2202 prjMagic_1/bitslice_0/mux21_0/nand_2/B loadB Vdd Vdd pfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M2203 prjMagic_1/bitslice_0/mux21_0/nand_2/B loadB Gnd Gnd nfet w=10 l=2
++  ad=50 pd=30 as=0 ps=0
+M2204 prjMagic_1/bitslice_0/fa_0/A prjMagic_1/bitslice_0/mux21_0/nand_1/A Vdd Vdd pfet w=20 l=2
++  ad=120 pd=52 as=0 ps=0
+M2205 Vdd prjMagic_1/bitslice_0/mux21_0/nand_1/B prjMagic_1/bitslice_0/fa_0/A Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M2206 prjMagic_1/bitslice_0/mux21_0/nand_1/a_9_6# prjMagic_1/bitslice_0/mux21_0/nand_1/A Gnd Gnd nfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M2207 prjMagic_1/bitslice_0/fa_0/A prjMagic_1/bitslice_0/mux21_0/nand_1/B prjMagic_1/bitslice_0/mux21_0/nand_1/a_9_6# Gnd nfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M2208 prjMagic_1/bitslice_0/mux21_0/nand_1/B loadB Vdd Vdd pfet w=20 l=2
++  ad=120 pd=52 as=0 ps=0
+M2209 Vdd B0 prjMagic_1/bitslice_0/mux21_0/nand_1/B Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M2210 prjMagic_1/bitslice_0/mux21_0/nand_0/a_9_6# loadB Gnd Gnd nfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M2211 prjMagic_1/bitslice_0/mux21_0/nand_1/B B0 prjMagic_1/bitslice_0/mux21_0/nand_0/a_9_6# Gnd nfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M2212 Vdd A0 prjMagic_1/bitslice_0/xor2_0/a_17_6# Vdd pfet w=40 l=2
++  ad=0 pd=0 as=200 ps=90
+M2213 prjMagic_1/bitslice_0/xor2_0/a_33_54# prjMagic_1/bitslice_0/xor2_0/a_28_44# Vdd Vdd pfet w=40 l=2
++  ad=120 pd=86 as=0 ps=0
+M2214 prjMagic_1/bitslice_0/Y A0 prjMagic_1/bitslice_0/xor2_0/a_33_54# Vdd pfet w=40 l=2
++  ad=400 pd=100 as=0 ps=0
+M2215 prjMagic_1/bitslice_0/xor2_0/a_50_54# prjMagic_1/bitslice_0/xor2_0/a_17_6# prjMagic_1/bitslice_0/Y Vdd pfet w=40 l=2
++  ad=120 pd=86 as=0 ps=0
+M2216 Vdd subtract prjMagic_1/bitslice_0/xor2_0/a_50_54# Vdd pfet w=40 l=2
++  ad=0 pd=0 as=0 ps=0
+M2217 prjMagic_1/bitslice_0/xor2_0/a_28_44# subtract Vdd Vdd pfet w=40 l=2
++  ad=200 pd=90 as=0 ps=0
+M2218 Gnd A0 prjMagic_1/bitslice_0/xor2_0/a_17_6# Gnd nfet w=20 l=2
++  ad=0 pd=0 as=100 ps=50
+M2219 prjMagic_1/bitslice_0/xor2_0/a_33_6# prjMagic_1/bitslice_0/xor2_0/a_28_44# Gnd Gnd nfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M2220 prjMagic_1/bitslice_0/Y prjMagic_1/bitslice_0/xor2_0/a_17_6# prjMagic_1/bitslice_0/xor2_0/a_33_6# Gnd nfet w=20 l=2
++  ad=200 pd=60 as=0 ps=0
+M2221 prjMagic_1/bitslice_0/xor2_0/a_50_6# A0 prjMagic_1/bitslice_0/Y Gnd nfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M2222 Gnd subtract prjMagic_1/bitslice_0/xor2_0/a_50_6# Gnd nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M2223 prjMagic_1/bitslice_0/xor2_0/a_28_44# subtract Gnd Gnd nfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M2224 prjMagic_1/inverter_0/A loadR Vdd Vdd pfet w=20 l=2
++  ad=120 pd=52 as=0 ps=0
+M2225 Vdd inverter_2/Y prjMagic_1/inverter_0/A Vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M2226 prjMagic_1/nand_0/a_9_6# loadR Gnd Gnd nfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M2227 prjMagic_1/inverter_0/A inverter_2/Y prjMagic_1/nand_0/a_9_6# Gnd nfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M2228 inverter_0/Y subtract Vdd Vdd pfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M2229 inverter_0/Y subtract Gnd Gnd nfet w=10 l=2
++  ad=50 pd=30 as=0 ps=0
+M2230 inverter_2/Y inverter_1/Y Vdd Vdd pfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M2231 inverter_2/Y inverter_1/Y Gnd Gnd nfet w=10 l=2
++  ad=50 pd=30 as=0 ps=0
+M2232 inverter_1/Y clk Vdd Vdd pfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M2233 inverter_1/Y clk Gnd Gnd nfet w=10 l=2
++  ad=50 pd=30 as=0 ps=0
+C0 Vdd prjMagic_1/bitslice_4/mux21_0/nand_1/B 2.097720fF
+C1 prjMagic_1/inverter_0/Y prjMagic_1/bitslice_4/dffpos_0/a_n2_n86# 3.159600fF
+C2 Vdd prjMagic_1/bitslice_7/xor2_0/a_17_6# 2.059560fF
+C3 prjMagic_0/bitslice_3/dffpos_0/a_n34_n84# prjMagic_0/bitslice_3/dffpos_0/a_30_n84# 2.081040fF
+C4 prjMagic_1/inverter_0/Y prjMagic_1/bitslice_4/dffpos_0/a_n34_n84# 2.571480fF
+C5 prjMagic_0/bitslice_5/dffpos_0/a_n2_n86# prjMagic_0/inverter_0/Y 3.159600fF
+C6 prjMagic_0/bitslice_2/dffpos_0/a_n34_n84# prjMagic_0/inverter_0/Y 2.571480fF
+C7 prjMagic_0/bitslice_0/fa_0/a_70_6# inverter_0/Y 2.233260fF
+C8 Vdd prjMagic_1/bitslice_1/xor2_0/a_17_6# 2.059560fF
+C9 Gnd prjMagic_1/bitslice_6/sum 5.857320fF
+C10 prjMagic_1/bitslice_1/Cin prjMagic_1/bitslice_1/fa_0/a_70_6# 2.233260fF
+C11 prjMagic_0/inverter_0/Y prjMagic_0/bitslice_7/dffpos_0/a_n2_n86# 3.159600fF
+C12 prjMagic_0/bitslice_2/sum Gnd 5.857320fF
+C13 Vdd prjMagic_1/bitslice_1/xor2_0/a_28_44# 2.119800fF
+C14 Vdd prjMagic_1/bitslice_0/fa_0/a_25_6# 3.134880fF
+C15 Vdd prjMagic_0/bitslice_6/xor2_0/a_17_6# 2.059560fF
+C16 loadB subtract 2.514300fF
+C17 Vdd prjMagic_1/bitslice_6/mux21_0/nand_2/B 5.855850fF
+C18 Vdd prjMagic_0/bitslice_1/xor2_0/a_17_6# 2.059560fF
+C19 prjMagic_0/bitslice_4/fa_0/A Vdd 8.476560fF
+C20 prjMagic_1/bitslice_3/fa_0/a_25_6# Vdd 3.134880fF
+C21 prjMagic_0/bitslice_2/xor2_0/a_28_44# Vdd 2.119800fF
+C22 prjMagic_1/bitslice_7/fa_0/a_25_6# Vdd 3.134880fF
+C23 prjMagic_1/bitslice_7/Cin prjMagic_1/bitslice_7/fa_0/a_70_6# 2.233260fF
+C24 prjMagic_1/inverter_0/Y prjMagic_1/bitslice_5/dffpos_0/a_n34_n84# 2.571480fF
+C25 prjMagic_0/bitslice_5/sum Gnd 5.857320fF
+C26 Vdd inverter_2/Y 4.160160fF
+C27 prjMagic_0/bitslice_0/dffpos_0/a_n34_n84# prjMagic_0/inverter_0/Y 2.571480fF
+C28 prjMagic_0/bitslice_7/dffpos_0/a_n34_n84# prjMagic_0/inverter_0/Y 2.571480fF
+C29 prjMagic_1/bitslice_3/dffpos_0/a_n34_n84# prjMagic_1/bitslice_3/dffpos_0/a_30_n84# 2.081040fF
+C30 loadB inverter_0/Y 3.032940fF
+C31 prjMagic_1/bitslice_4/xor2_0/a_28_44# Vdd 2.119800fF
+C32 Vdd prjMagic_1/bitslice_0/mux21_0/nand_2/B 5.855850fF
+C33 Vdd prjMagic_0/bitslice_5/fa_0/a_25_6# 3.134880fF
+C34 prjMagic_1/bitslice_2/dffpos_0/a_n2_n86# prjMagic_1/inverter_0/Y 3.159600fF
+C35 prjMagic_1/bitslice_5/dffpos_0/a_30_n84# prjMagic_1/bitslice_5/dffpos_0/a_n34_n84# 2.081040fF
+C36 prjMagic_0/bitslice_1/dffpos_0/a_n34_n84# prjMagic_0/inverter_0/Y 2.571480fF
+C37 prjMagic_1/bitslice_6/xor2_0/a_17_6# Vdd 2.059560fF
+C38 prjMagic_0/bitslice_3/fa_0/a_70_6# prjMagic_0/bitslice_3/Cin 2.233260fF
+C39 Vdd prjMagic_1/bitslice_4/xor2_0/a_17_6# 2.059560fF
+C40 prjMagic_0/bitslice_0/xor2_0/a_28_44# Vdd 2.119800fF
+C41 prjMagic_0/bitslice_2/fa_0/a_25_6# Vdd 3.134880fF
+C42 prjMagic_0/bitslice_1/fa_0/a_25_6# Vdd 3.134880fF
+C43 prjMagic_0/bitslice_2/mux21_0/nand_1/B Vdd 2.097720fF
+C44 prjMagic_0/bitslice_3/sum Gnd 5.857320fF
+C45 prjMagic_0/bitslice_6/fa_0/a_25_6# Vdd 3.134880fF
+C46 prjMagic_1/bitslice_3/fa_0/a_70_6# prjMagic_1/bitslice_3/Cin 2.233260fF
+C47 Vdd prjMagic_0/bitslice_7/mux21_0/nand_2/B 5.855850fF
+C48 Vdd prjMagic_0/bitslice_7/fa_0/a_25_6# 3.134880fF
+C49 Gnd prjMagic_1/bitslice_1/sum 5.857320fF
+C50 prjMagic_1/inverter_0/Y prjMagic_1/bitslice_1/dffpos_0/a_n2_n86# 3.159600fF
+C51 prjMagic_1/bitslice_6/Cin prjMagic_1/bitslice_6/fa_0/a_70_6# 2.233260fF
+C52 prjMagic_1/bitslice_5/fa_0/a_70_6# prjMagic_1/bitslice_5/Cin 2.233260fF
+C53 prjMagic_1/bitslice_5/dffpos_0/a_n2_n86# prjMagic_1/inverter_0/Y 3.159600fF
+C54 prjMagic_1/bitslice_4/dffpos_0/a_30_n84# prjMagic_1/bitslice_4/dffpos_0/a_n34_n84# 2.081040fF
+C55 prjMagic_0/bitslice_4/dffpos_0/a_n34_n84# prjMagic_0/inverter_0/Y 2.571480fF
+C56 Gnd prjMagic_0/bitslice_6/sum 5.857320fF
+C57 Vdd prjMagic_1/bitslice_6/xor2_0/a_28_44# 2.119800fF
+C58 Vdd prjMagic_1/bitslice_2/fa_0/a_25_6# 3.134880fF
+C59 prjMagic_1/bitslice_7/mux21_0/nand_1/B Vdd 2.097720fF
+C60 Vdd prjMagic_1/bitslice_5/fa_0/a_25_6# 3.134880fF
+C61 prjMagic_0/bitslice_7/Cin prjMagic_0/bitslice_7/fa_0/a_70_6# 2.233260fF
+C62 prjMagic_1/bitslice_5/xor2_0/a_17_6# Vdd 2.059560fF
+C63 Vdd prjMagic_1/bitslice_0/fa_0/A 8.476560fF
+C64 prjMagic_0/bitslice_2/dffpos_0/a_n2_n86# prjMagic_0/inverter_0/Y 3.159600fF
+C65 prjMagic_0/bitslice_4/mux21_0/nand_1/B Vdd 2.097720fF
+C66 Vdd prjMagic_1/bitslice_0/mux21_0/nand_1/B 2.097720fF
+C67 Gnd prjMagic_1/bitslice_2/sum 5.857320fF
+C68 Vdd prjMagic_0/bitslice_2/fa_0/A 8.476560fF
+C69 prjMagic_1/bitslice_7/mux21_0/nand_2/B Vdd 5.855850fF
+C70 prjMagic_1/bitslice_7/fa_0/A Vdd 8.476560fF
+C71 prjMagic_0/bitslice_4/sum Gnd 5.857320fF
+C72 prjMagic_0/bitslice_4/dffpos_0/a_n2_n86# prjMagic_0/inverter_0/Y 3.159600fF
+C73 Gnd subtract 3.965880fF
+C74 prjMagic_0/bitslice_1/mux21_0/nand_1/B Vdd 2.097720fF
+C75 Vdd prjMagic_1/bitslice_2/xor2_0/a_28_44# 2.119800fF
+C76 prjMagic_1/bitslice_7/xor2_0/a_28_44# Vdd 2.119800fF
+C77 prjMagic_0/bitslice_1/dffpos_0/a_n2_n86# prjMagic_0/inverter_0/Y 3.159600fF
+C78 loadB Gnd 10.999682fF
+C79 Vdd prjMagic_1/bitslice_2/xor2_0/a_17_6# 2.059560fF
+C80 prjMagic_1/bitslice_3/xor2_0/a_17_6# Vdd 2.059560fF
+C81 Vdd prjMagic_0/bitslice_4/xor2_0/a_28_44# 2.119800fF
+C82 Vdd prjMagic_0/bitslice_3/fa_0/A 8.476560fF
+C83 Vdd prjMagic_0/bitslice_7/xor2_0/a_28_44# 2.119800fF
+C84 subtract Vdd 6.487560fF
+C85 Vdd prjMagic_1/bitslice_1/fa_0/a_25_6# 3.134880fF
+C86 prjMagic_0/bitslice_7/mux21_0/nand_1/B Vdd 2.097720fF
+C87 prjMagic_1/bitslice_1/dffpos_0/a_30_n84# prjMagic_1/bitslice_1/dffpos_0/a_n34_n84# 2.081040fF
+C88 prjMagic_0/bitslice_3/fa_0/a_25_6# Vdd 3.134880fF
+C89 prjMagic_1/bitslice_7/dffpos_0/a_n34_n84# prjMagic_1/bitslice_7/dffpos_0/a_30_n84# 2.081040fF
+C90 prjMagic_1/bitslice_6/dffpos_0/a_30_n84# prjMagic_1/bitslice_6/dffpos_0/a_n34_n84# 2.081040fF
+C91 Gnd inverter_0/Y 4.343879fF
+C92 loadB Vdd 13.344542fF
+C93 prjMagic_0/bitslice_3/dffpos_0/a_n34_n84# prjMagic_0/inverter_0/Y 2.571480fF
+C94 prjMagic_1/bitslice_5/sum Gnd 5.857320fF
+C95 Vdd inverter_0/Y 7.689240fF
+C96 Gnd prjMagic_1/bitslice_4/sum 5.857320fF
+C97 prjMagic_1/bitslice_7/dffpos_0/a_n34_n84# prjMagic_1/inverter_0/Y 2.571480fF
+C98 Vdd prjMagic_1/bitslice_5/mux21_0/nand_2/B 5.855850fF
+C99 Vdd prjMagic_1/bitslice_1/mux21_0/nand_2/B 5.855850fF
+C100 Vdd prjMagic_0/bitslice_2/mux21_0/nand_2/B 5.855850fF
+C101 Gnd prjMagic_1/bitslice_3/sum 5.857320fF
+C102 Vdd prjMagic_0/bitslice_5/mux21_0/nand_1/B 2.097720fF
+C103 prjMagic_0/bitslice_5/mux21_0/nand_2/B Vdd 5.855850fF
+C104 prjMagic_1/bitslice_3/mux21_0/nand_1/B Vdd 2.097720fF
+C105 Vdd prjMagic_1/bitslice_4/mux21_0/nand_2/B 5.855850fF
+C106 prjMagic_1/bitslice_4/Cin prjMagic_1/bitslice_4/fa_0/a_70_6# 2.233260fF
+C107 Vdd prjMagic_0/bitslice_7/fa_0/A 8.476560fF
+C108 prjMagic_0/bitslice_5/xor2_0/a_17_6# Vdd 2.059560fF
+C109 Vdd prjMagic_1/bitslice_2/mux21_0/nand_2/B 5.855850fF
+C110 Gnd prjMagic_0/bitslice_1/sum 5.857320fF
+C111 prjMagic_0/bitslice_5/fa_0/a_70_6# prjMagic_0/bitslice_5/Cin 2.233260fF
+C112 Vdd prjMagic_0/bitslice_0/fa_0/a_25_6# 3.134880fF
+C113 prjMagic_1/bitslice_7/dffpos_0/a_n2_n86# prjMagic_1/inverter_0/Y 3.159600fF
+C114 prjMagic_1/bitslice_2/dffpos_0/a_n34_n84# prjMagic_1/bitslice_2/dffpos_0/a_30_n84# 2.081040fF
+C115 prjMagic_0/bitslice_4/mux21_0/nand_2/B Vdd 5.855850fF
+C116 Vdd prjMagic_0/bitslice_0/fa_0/A 8.476560fF
+C117 prjMagic_1/inverter_0/Y prjMagic_1/bitslice_1/dffpos_0/a_n34_n84# 2.571480fF
+C118 Gnd prjMagic_1/inverter_0/Y 2.544000fF
+C119 prjMagic_0/bitslice_7/dffpos_0/a_n34_n84# prjMagic_0/bitslice_7/dffpos_0/a_30_n84# 2.081040fF
+C120 prjMagic_0/bitslice_6/fa_0/A Vdd 8.476560fF
+C121 Vdd prjMagic_1/bitslice_1/fa_0/A 8.476560fF
+C122 prjMagic_0/bitslice_1/mux21_0/nand_2/B Vdd 5.855850fF
+C123 Gnd prjMagic_0/bitslice_0/sum 5.857320fF
+C124 Vdd prjMagic_1/bitslice_1/mux21_0/nand_1/B 2.097720fF
+C125 Vdd prjMagic_1/inverter_0/Y 11.673119fF
+C126 prjMagic_0/bitslice_6/mux21_0/nand_1/B Vdd 2.097720fF
+C127 prjMagic_0/bitslice_0/dffpos_0/a_n2_n86# prjMagic_0/inverter_0/Y 3.159600fF
+C128 prjMagic_1/bitslice_3/dffpos_0/a_n34_n84# prjMagic_1/inverter_0/Y 2.571480fF
+C129 prjMagic_0/bitslice_7/xor2_0/a_17_6# Vdd 2.059560fF
+C130 prjMagic_1/inverter_0/Y prjMagic_1/bitslice_3/dffpos_0/a_n2_n86# 3.159600fF
+C131 prjMagic_0/bitslice_4/Cin prjMagic_0/bitslice_4/fa_0/a_70_6# 2.233260fF
+C132 prjMagic_0/bitslice_1/xor2_0/a_28_44# Vdd 2.119800fF
+C133 Vdd prjMagic_0/bitslice_5/xor2_0/a_28_44# 2.119800fF
+C134 prjMagic_1/bitslice_3/xor2_0/a_28_44# Vdd 2.119800fF
+C135 Vdd prjMagic_1/bitslice_6/mux21_0/nand_1/B 2.097720fF
+C136 prjMagic_1/bitslice_6/dffpos_0/a_n2_n86# prjMagic_1/inverter_0/Y 3.159600fF
+C137 Vdd prjMagic_1/bitslice_4/fa_0/a_25_6# 3.134880fF
+C138 Gnd Vdd 11.245681fF
+C139 Vdd prjMagic_1/bitslice_4/fa_0/A 8.476560fF
+C140 subtract prjMagic_1/bitslice_0/fa_0/a_70_6# 2.233260fF
+C141 Gnd prjMagic_0/inverter_0/Y 2.544000fF
+C142 Vdd prjMagic_1/bitslice_0/xor2_0/a_28_44# 2.119800fF
+C143 prjMagic_1/inverter_0/Y prjMagic_1/bitslice_0/dffpos_0/a_n34_n84# 2.571480fF
+C144 Vdd prjMagic_1/bitslice_0/xor2_0/a_17_6# 2.059560fF
+C145 Vdd prjMagic_0/inverter_0/Y 11.673119fF
+C146 prjMagic_0/bitslice_0/xor2_0/a_17_6# Vdd 2.059560fF
+C147 prjMagic_0/inverter_0/Y prjMagic_0/bitslice_5/dffpos_0/a_n34_n84# 2.571480fF
+C148 prjMagic_1/bitslice_6/fa_0/A Vdd 8.476560fF
+C149 prjMagic_0/bitslice_1/fa_0/a_70_6# prjMagic_0/bitslice_1/Cin 2.233260fF
+C150 prjMagic_1/inverter_0/Y prjMagic_1/bitslice_0/dffpos_0/a_n2_n86# 3.159600fF
+C151 prjMagic_1/bitslice_5/mux21_0/nand_1/B Vdd 2.097720fF
+C152 prjMagic_0/bitslice_4/xor2_0/a_17_6# Vdd 2.059560fF
+C153 prjMagic_0/bitslice_2/xor2_0/a_17_6# Vdd 2.059560fF
+C154 Vdd prjMagic_0/bitslice_4/fa_0/a_25_6# 3.134880fF
+C155 prjMagic_1/bitslice_0/dffpos_0/a_30_n84# prjMagic_1/bitslice_0/dffpos_0/a_n34_n84# 2.081040fF
+C156 prjMagic_0/bitslice_6/dffpos_0/a_n2_n86# prjMagic_0/inverter_0/Y 3.159600fF
+C157 prjMagic_0/bitslice_6/dffpos_0/a_30_n84# prjMagic_0/bitslice_6/dffpos_0/a_n34_n84# 2.081040fF
+C158 Vdd prjMagic_0/bitslice_0/mux21_0/nand_2/B 5.855850fF
+C159 prjMagic_0/bitslice_1/dffpos_0/a_30_n84# prjMagic_0/bitslice_1/dffpos_0/a_n34_n84# 2.081040fF
+C160 Vdd prjMagic_0/bitslice_6/mux21_0/nand_2/B 5.855850fF
+C161 prjMagic_1/bitslice_3/fa_0/A Vdd 8.476560fF
+C162 prjMagic_1/bitslice_2/Cin prjMagic_1/bitslice_2/fa_0/a_70_6# 2.233260fF
+C163 prjMagic_1/bitslice_5/fa_0/A Vdd 8.476560fF
+C164 Gnd prjMagic_0/gundy 5.857320fF
+C165 prjMagic_0/bitslice_4/dffpos_0/a_n34_n84# prjMagic_0/bitslice_4/dffpos_0/a_30_n84# 2.081040fF
+C166 Vdd prjMagic_1/bitslice_6/fa_0/a_25_6# 3.134880fF
+C167 prjMagic_1/bitslice_6/dffpos_0/a_n34_n84# prjMagic_1/inverter_0/Y 2.571480fF
+C168 prjMagic_1/bitslice_3/mux21_0/nand_2/B Vdd 5.855850fF
+C169 prjMagic_0/bitslice_5/dffpos_0/a_30_n84# prjMagic_0/bitslice_5/dffpos_0/a_n34_n84# 2.081040fF
+C170 prjMagic_0/bitslice_6/xor2_0/a_28_44# Vdd 2.119800fF
+C171 prjMagic_0/bitslice_2/dffpos_0/a_n34_n84# prjMagic_0/bitslice_2/dffpos_0/a_30_n84# 2.081040fF
+C172 prjMagic_0/bitslice_6/Cin prjMagic_0/bitslice_6/fa_0/a_70_6# 2.233260fF
+C173 prjMagic_1/bitslice_2/dffpos_0/a_n34_n84# prjMagic_1/inverter_0/Y 2.571480fF
+C174 Vdd prjMagic_0/bitslice_5/fa_0/A 8.476560fF
+C175 Gnd prjMagic_1/bitslice_0/sum 5.857320fF
+C176 prjMagic_0/bitslice_3/mux21_0/nand_1/B Vdd 2.097720fF
+C177 prjMagic_1/gundy Gnd 5.857320fF
+C178 prjMagic_0/bitslice_3/xor2_0/a_17_6# Vdd 2.059560fF
+C179 prjMagic_0/bitslice_3/xor2_0/a_28_44# Vdd 2.119800fF
+C180 prjMagic_0/bitslice_2/fa_0/a_70_6# prjMagic_0/bitslice_2/Cin 2.233260fF
+C181 prjMagic_0/bitslice_3/mux21_0/nand_2/B Vdd 5.855850fF
+C182 Vdd prjMagic_1/bitslice_2/fa_0/A 8.476560fF
+C183 Vdd prjMagic_0/bitslice_0/mux21_0/nand_1/B 2.097720fF
+C184 prjMagic_0/bitslice_3/dffpos_0/a_n2_n86# prjMagic_0/inverter_0/Y 3.159600fF
+C185 Vdd prjMagic_1/bitslice_2/mux21_0/nand_1/B 2.097720fF
+C186 prjMagic_1/bitslice_5/xor2_0/a_28_44# Vdd 2.119800fF
+C187 Vdd prjMagic_0/bitslice_1/fa_0/A 8.476560fF
+C188 prjMagic_0/bitslice_0/dffpos_0/a_30_n84# prjMagic_0/bitslice_0/dffpos_0/a_n34_n84# 2.081040fF
+C189 prjMagic_0/bitslice_6/dffpos_0/a_n34_n84# prjMagic_0/inverter_0/Y 2.571480fF
+C190 inverter_1/Y gnd! 3.044160fF
+C191 inverter_0/Y gnd! 136.491969fF
+C192 inverter_2/Y gnd! 10.893883fF
+C193 prjMagic_1/bitslice_0/Y gnd! 18.021119fF
+C194 prjMagic_1/bitslice_0/xor2_0/a_17_6# gnd! 4.666380fF
+C195 prjMagic_1/bitslice_0/xor2_0/a_28_44# gnd! 4.104630fF
+C196 prjMagic_1/bitslice_0/fa_0/A gnd! 7.977440fF
+C197 prjMagic_1/bitslice_0/mux21_0/nand_1/B gnd! 3.001320fF
+C198 prjMagic_1/bitslice_0/mux21_0/nand_1/A gnd! 6.037200fF
+C199 prjMagic_1/bitslice_0/mux21_0/nand_2/B gnd! 2.382240fF
+C200 prjMagic_1/bitslice_0/sum gnd! 8.877960fF
+C201 prjMagic_1/bitslice_0/fa_0/a_70_6# gnd! 3.242790fF
+C202 prjMagic_1/bitslice_0/fa_0/a_25_6# gnd! 9.314280fF
+C203 prjMagic_1/bitslice_0/dffpos_0/a_30_n84# gnd! 4.448070fF
+C204 prjMagic_1/bitslice_0/dffpos_0/a_n14_n84# gnd! 4.801770fF
+C205 prjMagic_1/bitslice_0/dffpos_0/a_n2_n86# gnd! 5.164560fF
+C206 prjMagic_1/bitslice_0/dffpos_0/a_n34_n84# gnd! 8.655120fF
+C207 prjMagic_1/bitslice_1/Y gnd! 18.021119fF
+C208 prjMagic_1/bitslice_1/xor2_0/a_17_6# gnd! 4.666380fF
+C209 prjMagic_1/bitslice_1/xor2_0/a_28_44# gnd! 4.104630fF
+C210 prjMagic_1/bitslice_1/fa_0/A gnd! 7.977440fF
+C211 prjMagic_1/bitslice_1/mux21_0/nand_1/B gnd! 3.001320fF
+C212 prjMagic_1/bitslice_1/mux21_0/nand_1/A gnd! 6.037200fF
+C213 prjMagic_1/bitslice_1/mux21_0/nand_2/B gnd! 2.382240fF
+C214 prjMagic_1/bitslice_1/sum gnd! 8.877960fF
+C215 prjMagic_1/bitslice_1/fa_0/a_70_6# gnd! 3.242790fF
+C216 prjMagic_1/bitslice_1/fa_0/a_25_6# gnd! 9.314280fF
+C217 prjMagic_1/bitslice_1/dffpos_0/a_30_n84# gnd! 4.448070fF
+C218 prjMagic_1/bitslice_1/dffpos_0/a_n14_n84# gnd! 4.801770fF
+C219 prjMagic_1/bitslice_1/dffpos_0/a_n2_n86# gnd! 5.164560fF
+C220 prjMagic_1/bitslice_1/dffpos_0/a_n34_n84# gnd! 8.655120fF
+C221 prjMagic_1/bitslice_2/Y gnd! 18.021119fF
+C222 prjMagic_1/bitslice_2/xor2_0/a_17_6# gnd! 4.666380fF
+C223 prjMagic_1/bitslice_2/xor2_0/a_28_44# gnd! 4.104630fF
+C224 prjMagic_1/bitslice_2/fa_0/A gnd! 7.977440fF
+C225 prjMagic_1/bitslice_2/mux21_0/nand_1/B gnd! 3.001320fF
+C226 prjMagic_1/bitslice_2/mux21_0/nand_1/A gnd! 6.037200fF
+C227 prjMagic_1/bitslice_2/mux21_0/nand_2/B gnd! 2.382240fF
+C228 prjMagic_1/bitslice_2/sum gnd! 8.877960fF
+C229 prjMagic_1/bitslice_2/fa_0/a_70_6# gnd! 3.242790fF
+C230 prjMagic_1/bitslice_2/fa_0/a_25_6# gnd! 9.314280fF
+C231 prjMagic_1/bitslice_2/dffpos_0/a_30_n84# gnd! 4.448070fF
+C232 prjMagic_1/bitslice_2/dffpos_0/a_n14_n84# gnd! 4.801770fF
+C233 prjMagic_1/bitslice_2/dffpos_0/a_n2_n86# gnd! 5.164560fF
+C234 prjMagic_1/bitslice_2/dffpos_0/a_n34_n84# gnd! 8.655120fF
+C235 prjMagic_1/bitslice_3/Y gnd! 18.021119fF
+C236 prjMagic_1/bitslice_3/xor2_0/a_17_6# gnd! 4.666380fF
+C237 prjMagic_1/bitslice_3/xor2_0/a_28_44# gnd! 4.104630fF
+C238 prjMagic_1/bitslice_3/fa_0/A gnd! 7.977440fF
+C239 prjMagic_1/bitslice_3/mux21_0/nand_1/B gnd! 3.001320fF
+C240 prjMagic_1/bitslice_3/mux21_0/nand_1/A gnd! 6.037200fF
+C241 prjMagic_1/bitslice_3/mux21_0/nand_2/B gnd! 2.382240fF
+C242 prjMagic_1/bitslice_3/sum gnd! 8.877960fF
+C243 prjMagic_1/bitslice_3/fa_0/a_70_6# gnd! 3.242790fF
+C244 prjMagic_1/bitslice_3/fa_0/a_25_6# gnd! 9.314280fF
+C245 prjMagic_1/bitslice_3/dffpos_0/a_30_n84# gnd! 4.448070fF
+C246 prjMagic_1/bitslice_3/dffpos_0/a_n14_n84# gnd! 4.801770fF
+C247 prjMagic_1/bitslice_3/dffpos_0/a_n2_n86# gnd! 5.164560fF
+C248 prjMagic_1/bitslice_3/dffpos_0/a_n34_n84# gnd! 8.655120fF
+C249 prjMagic_1/bitslice_4/Y gnd! 18.021119fF
+C250 prjMagic_1/bitslice_4/xor2_0/a_17_6# gnd! 4.666380fF
+C251 prjMagic_1/bitslice_4/xor2_0/a_28_44# gnd! 4.104630fF
+C252 prjMagic_1/bitslice_4/fa_0/A gnd! 7.977440fF
+C253 prjMagic_1/bitslice_4/mux21_0/nand_1/B gnd! 3.001320fF
+C254 prjMagic_1/bitslice_4/mux21_0/nand_1/A gnd! 6.037200fF
+C255 prjMagic_1/bitslice_4/mux21_0/nand_2/B gnd! 2.382240fF
+C256 prjMagic_1/bitslice_4/sum gnd! 8.877960fF
+C257 prjMagic_1/bitslice_4/fa_0/a_70_6# gnd! 3.242790fF
+C258 prjMagic_1/bitslice_4/fa_0/a_25_6# gnd! 9.314280fF
+C259 prjMagic_1/bitslice_4/dffpos_0/a_30_n84# gnd! 4.448070fF
+C260 prjMagic_1/bitslice_4/dffpos_0/a_n14_n84# gnd! 4.801770fF
+C261 prjMagic_1/bitslice_4/dffpos_0/a_n2_n86# gnd! 5.164560fF
+C262 prjMagic_1/bitslice_4/dffpos_0/a_n34_n84# gnd! 8.655120fF
+C263 prjMagic_1/bitslice_5/Y gnd! 18.021119fF
+C264 prjMagic_1/bitslice_5/xor2_0/a_17_6# gnd! 4.666380fF
+C265 prjMagic_1/bitslice_5/xor2_0/a_28_44# gnd! 4.104630fF
+C266 prjMagic_1/bitslice_5/fa_0/A gnd! 7.977440fF
+C267 prjMagic_1/bitslice_5/mux21_0/nand_1/B gnd! 3.001320fF
+C268 prjMagic_1/bitslice_5/mux21_0/nand_1/A gnd! 6.037200fF
+C269 prjMagic_1/bitslice_5/mux21_0/nand_2/B gnd! 2.382240fF
+C270 prjMagic_1/bitslice_5/sum gnd! 8.877960fF
+C271 prjMagic_1/bitslice_5/fa_0/a_70_6# gnd! 3.242790fF
+C272 prjMagic_1/bitslice_5/fa_0/a_25_6# gnd! 9.314280fF
+C273 prjMagic_1/bitslice_5/dffpos_0/a_30_n84# gnd! 4.448070fF
+C274 prjMagic_1/bitslice_5/dffpos_0/a_n14_n84# gnd! 4.801770fF
+C275 prjMagic_1/bitslice_5/dffpos_0/a_n2_n86# gnd! 5.164560fF
+C276 prjMagic_1/bitslice_5/dffpos_0/a_n34_n84# gnd! 8.655120fF
+C277 prjMagic_1/bitslice_6/Y gnd! 18.021119fF
+C278 prjMagic_1/bitslice_6/xor2_0/a_17_6# gnd! 4.666380fF
+C279 prjMagic_1/bitslice_6/xor2_0/a_28_44# gnd! 4.104630fF
+C280 prjMagic_1/bitslice_6/fa_0/A gnd! 7.977440fF
+C281 prjMagic_1/bitslice_6/mux21_0/nand_1/B gnd! 3.001320fF
+C282 prjMagic_1/bitslice_6/mux21_0/nand_1/A gnd! 6.037200fF
+C283 prjMagic_1/bitslice_6/mux21_0/nand_2/B gnd! 2.382240fF
+C284 prjMagic_1/bitslice_6/sum gnd! 8.877960fF
+C285 prjMagic_1/bitslice_6/fa_0/a_70_6# gnd! 3.242790fF
+C286 prjMagic_1/bitslice_6/fa_0/a_25_6# gnd! 9.314280fF
+C287 prjMagic_1/bitslice_6/dffpos_0/a_30_n84# gnd! 4.448070fF
+C288 prjMagic_1/bitslice_6/dffpos_0/a_n14_n84# gnd! 4.801770fF
+C289 prjMagic_1/bitslice_6/dffpos_0/a_n2_n86# gnd! 5.164560fF
+C290 prjMagic_1/bitslice_6/dffpos_0/a_n34_n84# gnd! 8.655120fF
+C291 prjMagic_1/bitslice_7/Y gnd! 18.021119fF
+C292 subtract gnd! 108.603203fF
+C293 prjMagic_1/bitslice_7/xor2_0/a_17_6# gnd! 4.666380fF
+C294 prjMagic_1/bitslice_7/xor2_0/a_28_44# gnd! 4.104630fF
+C295 loadB gnd! 325.719000fF
+C296 prjMagic_1/bitslice_7/fa_0/A gnd! 7.977440fF
+C297 prjMagic_1/bitslice_7/mux21_0/nand_1/B gnd! 3.001320fF
+C298 prjMagic_1/bitslice_7/mux21_0/nand_1/A gnd! 6.037200fF
+C299 prjMagic_1/bitslice_7/mux21_0/nand_2/B gnd! 2.382240fF
+C300 prjMagic_1/bitslice_7/fa_0/a_70_6# gnd! 3.242790fF
+C301 prjMagic_1/bitslice_7/fa_0/a_25_6# gnd! 9.314280fF
+C302 prjMagic_1/bitslice_7/dffpos_0/a_30_n84# gnd! 4.448070fF
+C303 prjMagic_1/bitslice_7/dffpos_0/a_n14_n84# gnd! 4.801770fF
+C304 prjMagic_1/bitslice_7/dffpos_0/a_n2_n86# gnd! 5.164560fF
+C305 prjMagic_1/bitslice_7/dffpos_0/a_n34_n84# gnd! 8.655120fF
+C306 prjMagic_1/inverter_0/Y gnd! 153.770641fF
+C307 prjMagic_1/inverter_0/A gnd! 8.251561fF
+C308 prjMagic_0/bitslice_0/Y gnd! 18.021119fF
+C309 prjMagic_0/bitslice_0/xor2_0/a_17_6# gnd! 4.666380fF
+C310 prjMagic_0/bitslice_0/xor2_0/a_28_44# gnd! 4.104630fF
+C311 prjMagic_0/bitslice_0/fa_0/A gnd! 7.718120fF
+C312 prjMagic_0/bitslice_0/mux21_0/nand_1/B gnd! 3.001320fF
+C313 prjMagic_0/bitslice_0/mux21_0/nand_1/A gnd! 6.037200fF
+C314 prjMagic_0/bitslice_0/mux21_0/nand_2/B gnd! 2.145240fF
+C315 Out0 gnd! 87.716727fF
+C316 prjMagic_0/bitslice_0/sum gnd! 8.877960fF
+C317 prjMagic_0/bitslice_0/fa_0/a_70_6# gnd! 3.242790fF
+C318 prjMagic_0/bitslice_0/fa_0/a_25_6# gnd! 9.314280fF
+C319 prjMagic_0/bitslice_0/dffpos_0/a_30_n84# gnd! 3.784590fF
+C320 prjMagic_0/bitslice_0/dffpos_0/a_n14_n84# gnd! 4.801770fF
+C321 prjMagic_0/bitslice_0/dffpos_0/a_n2_n86# gnd! 5.164560fF
+C322 prjMagic_0/bitslice_0/dffpos_0/a_n34_n84# gnd! 8.655120fF
+C323 prjMagic_0/bitslice_1/Y gnd! 18.021119fF
+C324 prjMagic_0/bitslice_1/xor2_0/a_17_6# gnd! 4.666380fF
+C325 prjMagic_0/bitslice_1/xor2_0/a_28_44# gnd! 4.104630fF
+C326 prjMagic_0/bitslice_1/fa_0/A gnd! 7.718120fF
+C327 prjMagic_0/bitslice_1/mux21_0/nand_1/B gnd! 3.001320fF
+C328 prjMagic_0/bitslice_1/mux21_0/nand_1/A gnd! 6.037200fF
+C329 prjMagic_0/bitslice_1/mux21_0/nand_2/B gnd! 2.145240fF
+C330 Out1 gnd! 76.024156fF
+C331 prjMagic_0/bitslice_1/sum gnd! 8.877960fF
+C332 prjMagic_0/bitslice_1/fa_0/a_70_6# gnd! 3.242790fF
+C333 prjMagic_0/bitslice_1/fa_0/a_25_6# gnd! 9.314280fF
+C334 prjMagic_0/bitslice_1/dffpos_0/a_30_n84# gnd! 3.784590fF
+C335 prjMagic_0/bitslice_1/dffpos_0/a_n14_n84# gnd! 4.801770fF
+C336 prjMagic_0/bitslice_1/dffpos_0/a_n2_n86# gnd! 5.164560fF
+C337 prjMagic_0/bitslice_1/dffpos_0/a_n34_n84# gnd! 8.655120fF
+C338 prjMagic_0/bitslice_2/Y gnd! 18.021119fF
+C339 prjMagic_0/bitslice_2/xor2_0/a_17_6# gnd! 4.666380fF
+C340 prjMagic_0/bitslice_2/xor2_0/a_28_44# gnd! 4.104630fF
+C341 prjMagic_0/bitslice_2/fa_0/A gnd! 7.718120fF
+C342 prjMagic_0/bitslice_2/mux21_0/nand_1/B gnd! 3.001320fF
+C343 prjMagic_0/bitslice_2/mux21_0/nand_1/A gnd! 6.037200fF
+C344 prjMagic_0/bitslice_2/mux21_0/nand_2/B gnd! 2.145240fF
+C345 Out2 gnd! 67.966133fF
+C346 prjMagic_0/bitslice_2/sum gnd! 8.877960fF
+C347 prjMagic_0/bitslice_2/fa_0/a_70_6# gnd! 3.242790fF
+C348 prjMagic_0/bitslice_2/fa_0/a_25_6# gnd! 9.314280fF
+C349 prjMagic_0/bitslice_2/dffpos_0/a_30_n84# gnd! 3.784590fF
+C350 prjMagic_0/bitslice_2/dffpos_0/a_n14_n84# gnd! 4.801770fF
+C351 prjMagic_0/bitslice_2/dffpos_0/a_n2_n86# gnd! 5.164560fF
+C352 prjMagic_0/bitslice_2/dffpos_0/a_n34_n84# gnd! 8.655120fF
+C353 prjMagic_0/bitslice_3/Y gnd! 18.021119fF
+C354 prjMagic_0/bitslice_3/xor2_0/a_17_6# gnd! 4.666380fF
+C355 prjMagic_0/bitslice_3/xor2_0/a_28_44# gnd! 4.104630fF
+C356 prjMagic_0/bitslice_3/fa_0/A gnd! 7.718120fF
+C357 prjMagic_0/bitslice_3/mux21_0/nand_1/B gnd! 3.001320fF
+C358 prjMagic_0/bitslice_3/mux21_0/nand_1/A gnd! 6.037200fF
+C359 prjMagic_0/bitslice_3/mux21_0/nand_2/B gnd! 2.145240fF
+C360 Out3 gnd! 58.928160fF
+C361 prjMagic_0/bitslice_3/sum gnd! 8.877960fF
+C362 prjMagic_0/bitslice_3/fa_0/a_70_6# gnd! 3.242790fF
+C363 prjMagic_0/bitslice_3/fa_0/a_25_6# gnd! 9.314280fF
+C364 prjMagic_0/bitslice_3/dffpos_0/a_30_n84# gnd! 3.784590fF
+C365 prjMagic_0/bitslice_3/dffpos_0/a_n14_n84# gnd! 4.801770fF
+C366 prjMagic_0/bitslice_3/dffpos_0/a_n2_n86# gnd! 5.164560fF
+C367 prjMagic_0/bitslice_3/dffpos_0/a_n34_n84# gnd! 8.655120fF
+C368 prjMagic_0/bitslice_4/Y gnd! 18.021119fF
+C369 prjMagic_0/bitslice_4/xor2_0/a_17_6# gnd! 4.666380fF
+C370 prjMagic_0/bitslice_4/xor2_0/a_28_44# gnd! 4.104630fF
+C371 prjMagic_0/bitslice_4/fa_0/A gnd! 7.718120fF
+C372 prjMagic_0/bitslice_4/mux21_0/nand_1/B gnd! 3.001320fF
+C373 prjMagic_0/bitslice_4/mux21_0/nand_1/A gnd! 6.037200fF
+C374 prjMagic_0/bitslice_4/mux21_0/nand_2/B gnd! 2.145240fF
+C375 Out4 gnd! 50.394660fF
+C376 prjMagic_0/bitslice_4/sum gnd! 8.877960fF
+C377 prjMagic_0/bitslice_4/fa_0/a_70_6# gnd! 3.242790fF
+C378 prjMagic_0/bitslice_4/fa_0/a_25_6# gnd! 9.314280fF
+C379 prjMagic_0/bitslice_4/dffpos_0/a_30_n84# gnd! 3.784590fF
+C380 prjMagic_0/bitslice_4/dffpos_0/a_n14_n84# gnd! 4.801770fF
+C381 prjMagic_0/bitslice_4/dffpos_0/a_n2_n86# gnd! 5.164560fF
+C382 prjMagic_0/bitslice_4/dffpos_0/a_n34_n84# gnd! 8.655120fF
+C383 prjMagic_0/bitslice_5/Y gnd! 18.021119fF
+C384 prjMagic_0/bitslice_5/xor2_0/a_17_6# gnd! 4.666380fF
+C385 prjMagic_0/bitslice_5/xor2_0/a_28_44# gnd! 4.104630fF
+C386 prjMagic_0/bitslice_5/fa_0/A gnd! 7.718120fF
+C387 prjMagic_0/bitslice_5/mux21_0/nand_1/B gnd! 3.001320fF
+C388 prjMagic_0/bitslice_5/mux21_0/nand_1/A gnd! 6.037200fF
+C389 prjMagic_0/bitslice_5/mux21_0/nand_2/B gnd! 2.145240fF
+C390 Out5 gnd! 41.783863fF
+C391 prjMagic_0/bitslice_5/sum gnd! 8.877960fF
+C392 prjMagic_0/bitslice_5/fa_0/a_70_6# gnd! 3.242790fF
+C393 prjMagic_0/bitslice_5/fa_0/a_25_6# gnd! 9.314280fF
+C394 prjMagic_0/bitslice_5/dffpos_0/a_30_n84# gnd! 3.784590fF
+C395 prjMagic_0/bitslice_5/dffpos_0/a_n14_n84# gnd! 4.801770fF
+C396 prjMagic_0/bitslice_5/dffpos_0/a_n2_n86# gnd! 5.164560fF
+C397 prjMagic_0/bitslice_5/dffpos_0/a_n34_n84# gnd! 8.655120fF
+C398 prjMagic_0/bitslice_6/Y gnd! 18.021119fF
+C399 prjMagic_0/bitslice_6/xor2_0/a_17_6# gnd! 4.666380fF
+C400 prjMagic_0/bitslice_6/xor2_0/a_28_44# gnd! 4.104630fF
+C401 prjMagic_0/bitslice_6/fa_0/A gnd! 7.718120fF
+C402 prjMagic_0/bitslice_6/mux21_0/nand_1/B gnd! 3.001320fF
+C403 prjMagic_0/bitslice_6/mux21_0/nand_1/A gnd! 6.037200fF
+C404 prjMagic_0/bitslice_6/mux21_0/nand_2/B gnd! 2.145240fF
+C405 Out6 gnd! 33.352602fF
+C406 prjMagic_0/bitslice_6/sum gnd! 8.877960fF
+C407 prjMagic_0/bitslice_6/fa_0/a_70_6# gnd! 3.242790fF
+C408 prjMagic_0/bitslice_6/fa_0/a_25_6# gnd! 9.314280fF
+C409 prjMagic_0/bitslice_6/dffpos_0/a_30_n84# gnd! 3.784590fF
+C410 prjMagic_0/bitslice_6/dffpos_0/a_n14_n84# gnd! 4.801770fF
+C411 prjMagic_0/bitslice_6/dffpos_0/a_n2_n86# gnd! 5.164560fF
+C412 prjMagic_0/bitslice_6/dffpos_0/a_n34_n84# gnd! 8.655120fF
+C413 Gnd gnd! 2527.982750fF
+C414 prjMagic_0/bitslice_7/Y gnd! 18.021119fF
+C415 prjMagic_0/bitslice_7/xor2_0/a_17_6# gnd! 4.666380fF
+C416 prjMagic_0/bitslice_7/xor2_0/a_28_44# gnd! 4.104630fF
+C417 prjMagic_0/bitslice_7/fa_0/A gnd! 7.718120fF
+C418 prjMagic_0/bitslice_7/mux21_0/nand_1/B gnd! 3.001320fF
+C419 prjMagic_0/bitslice_7/mux21_0/nand_1/A gnd! 6.037200fF
+C420 prjMagic_0/bitslice_7/mux21_0/nand_2/B gnd! 2.145240fF
+C421 Out7 gnd! 24.748672fF
+C422 prjMagic_0/bitslice_7/fa_0/a_70_6# gnd! 3.242790fF
+C423 prjMagic_0/bitslice_7/fa_0/a_25_6# gnd! 9.314280fF
+C424 prjMagic_0/bitslice_7/dffpos_0/a_30_n84# gnd! 3.784590fF
+C425 prjMagic_0/bitslice_7/dffpos_0/a_n14_n84# gnd! 4.801770fF
+C426 prjMagic_0/bitslice_7/dffpos_0/a_n2_n86# gnd! 5.164560fF
+C427 prjMagic_0/bitslice_7/dffpos_0/a_n34_n84# gnd! 8.655120fF
+C428 prjMagic_0/inverter_0/Y gnd! 148.452219fF
+C429 prjMagic_0/inverter_0/A gnd! 8.251561fF

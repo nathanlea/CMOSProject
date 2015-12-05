@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1449155358
+timestamp 1449195552
 << metal1 >>
 rect -132 491 1451 503
 rect -132 -135 -120 491
@@ -348,7 +348,6 @@ rect 1012 -6 1016 0
 rect 996 -9 1016 -6
 rect 1163 -6 1167 0
 rect 1171 1 1175 63
-rect 1249 62 1254 65
 rect 1334 3 1338 65
 rect 1409 5 1433 11
 rect 1179 0 1261 3
@@ -407,7 +406,6 @@ box -4 -1 20 85
 rlabel metal1 -28 -33 -28 -33 3 clk
 rlabel metal1 -29 -40 -29 -40 3 loadR
 rlabel metal1 -4 291 -4 291 1 subtract
-rlabel metal2 1251 64 1251 64 1 Out7
 rlabel metal1 1341 144 1341 144 7 Cout
 rlabel metal1 1321 158 1321 158 1 gundy
 rlabel metal1 -126 497 -126 497 1 Vdd

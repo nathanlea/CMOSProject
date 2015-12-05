@@ -1,0 +1,137 @@
+magic
+tech scmos
+timestamp 1449265334
+<< metal1 >>
+rect 1633 711 1644 714
+rect 1655 711 1658 714
+rect 7 640 19 652
+rect 1590 640 1638 652
+rect 31 616 43 628
+rect 1578 601 1590 614
+rect 1604 579 1607 627
+rect 1638 601 1650 614
+rect -35 169 19 175
+rect -81 113 -75 116
+rect -67 113 -52 116
+rect -43 114 -7 118
+rect 53 115 111 118
+rect 1682 115 1692 118
+rect -33 91 -19 97
+rect -7 0 -3 114
+rect 53 108 111 111
+rect 1682 108 1692 111
+rect 7 91 19 97
+rect 31 91 43 97
+<< m2contact >>
+rect 1612 706 1616 710
+rect 1604 627 1608 631
+rect 1544 582 1554 594
+rect 1674 582 1684 594
+rect 1604 575 1608 579
+rect -7 114 -3 118
+rect 49 115 53 119
+rect 1678 115 1682 119
+rect -19 91 -13 97
+rect 49 108 53 112
+rect 1678 108 1682 112
+rect 25 91 31 97
+rect -7 -4 -3 0
+<< metal2 >>
+rect 1604 706 1612 709
+rect 164 654 167 660
+rect 176 654 179 660
+rect 344 654 347 660
+rect 363 654 366 660
+rect 513 655 516 660
+rect 531 655 534 660
+rect 668 654 671 660
+rect 687 654 690 660
+rect 851 654 854 660
+rect 867 654 870 660
+rect 1023 654 1026 660
+rect 1038 654 1041 660
+rect 1197 654 1200 660
+rect 1213 654 1216 660
+rect 1359 654 1362 660
+rect 1370 654 1373 660
+rect 1604 631 1607 706
+rect 1554 582 1674 594
+rect 1604 494 1607 575
+rect 0 490 6 494
+rect 1604 490 1636 494
+rect 1624 139 1631 143
+rect 1624 132 1631 136
+rect 1624 125 1631 129
+rect -3 115 49 118
+rect 1624 118 1631 122
+rect 1654 115 1678 118
+rect -26 108 49 111
+rect 1624 111 1631 115
+rect -26 85 -22 108
+rect 1624 104 1631 108
+rect 1624 97 1631 101
+rect -13 91 25 97
+rect 1624 89 1631 94
+rect -26 81 -13 85
+rect -17 -8 -13 81
+rect 1654 -1 1657 115
+rect -3 -4 1657 -1
+rect 1660 108 1678 111
+rect 1660 -8 1663 108
+rect -17 -11 1663 -8
+use ../../inv/magic/inverter  inverter_3 ../../inv/magic
+timestamp 1013989724
+transform -1 0 1630 0 -1 735
+box -4 -1 20 85
+use ../../inv/magic/inverter  inverter_2
+timestamp 1013989724
+transform -1 0 1654 0 -1 735
+box -4 -1 20 85
+use ../../inv/magic/inverter  inverter_0
+timestamp 1013989724
+transform 1 0 -77 0 1 92
+box -4 -1 20 85
+use ../../inv/magic/inverter  inverter_1
+timestamp 1013989724
+transform 1 0 -53 0 1 92
+box -4 -1 20 85
+use prjMagic  prjMagic_0
+timestamp 1449195552
+transform 1 0 139 0 1 149
+box -139 -149 1492 511
+use prjMagic  prjMagic_1
+timestamp 1449195552
+transform 1 0 1770 0 1 149
+box -139 -149 1492 511
+<< labels >>
+rlabel metal1 13 646 13 646 1 Vdd
+rlabel metal1 38 620 38 620 1 Gnd
+rlabel metal2 1360 657 1360 657 5 B7
+rlabel metal2 1371 657 1371 657 5 A7
+rlabel metal2 1198 657 1198 657 5 B6
+rlabel metal2 1214 657 1214 657 5 B6
+rlabel metal2 1024 657 1024 657 5 B5
+rlabel metal2 1039 657 1039 657 5 A5
+rlabel metal2 852 658 852 658 5 B4
+rlabel metal2 868 658 868 658 5 A4
+rlabel metal2 669 658 669 658 5 B3
+rlabel metal2 688 658 688 658 5 A3
+rlabel metal2 514 658 514 658 5 B2
+rlabel metal2 532 658 532 658 5 A2
+rlabel metal2 345 658 345 658 5 B1
+rlabel metal2 364 658 364 658 5 A1
+rlabel metal2 165 658 165 658 5 B0
+rlabel metal2 177 658 177 658 5 A0
+rlabel metal2 2 492 2 492 3 loadB
+rlabel metal1 -79 114 -79 114 3 clk
+rlabel metal2 1629 141 1629 141 1 Out7
+rlabel metal2 1629 134 1629 134 1 Out6
+rlabel metal2 1629 127 1629 127 1 Out5
+rlabel metal2 1629 120 1629 120 1 Out4
+rlabel metal2 1629 113 1629 113 1 Out3
+rlabel metal2 1629 106 1629 106 1 Out2
+rlabel metal2 1629 99 1629 99 1 Out1
+rlabel metal2 1629 91 1629 91 1 Out0
+rlabel metal2 -24 109 -24 109 1 loadR
+rlabel metal1 1657 713 1657 713 1 loadB
+<< end >>

@@ -4,12 +4,12 @@ vector A {A7} {A6} {A5} {A4} {A3} {A2} {A1} {A0}
 vector B {B7} {B6} {B5} {B4} {B3} {B2} {B1} {B0}
 vector Out {1Out7} {1Out6} {1Out5} {1Out4} {1Out3} {1Out2} {1Out1} {1Out0}
 
-ana -h A B clk subtract loadB loadR Out Cout1
+ana -h A B clk subtract loadB loadR Out Cout
 analyzer
 clock clk 0 1
 h loadB
 h loadR
-l subtract
+h subtract
 c
 c
 
@@ -518,8 +518,8 @@ setvector B 01111101
 c
 assert Out 11010100
 c
-| subtract
 h subtract
+l subtract
 h loadB
 h loadR
 setvector A 10000000
@@ -1025,7 +1025,7 @@ c
 assert Out 00100110
 c
 | addition w/loops
-l subtract
+h subtract
 h loadB
 h loadR
 setvector A 10000000
@@ -2334,8 +2334,8 @@ l loadB
 c
 assert Out 00110000
 h loadB
-| subtract w/loops
-h subtract
+h subtract w/loops
+l subtract
 h loadB
 h loadR
 setvector A 10000000

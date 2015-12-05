@@ -1,0 +1,187 @@
+timestamp 1449270792
+version 8.0
+tech scmos
+style AMI0.5um(amic5)from:T01X
+scale 1000 1 30
+resistclasses 82100 102500 827000 827000 1 26000 26500 26500 90 90 50
+use ../../inv/magic/inverter inverter_1 1 0 -303 0 1 1052
+use ../../inv/magic/inverter inverter_2 1 0 -279 0 1 1052
+use ../../inv/magic/inverter inverter_0 1 0 -296 0 1 817
+use prjMagic prjMagic_1 1 0 -109 0 -1 1132
+use prjMagic prjMagic_0 1 0 -109 0 1 110
+node "Out0" 0 647.55 1374 50 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 45 28 0 0
+node "Out1" 0 589.32 1374 58 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 36 26 0 0
+node "Out2" 0 589.32 1374 65 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 36 26 0 0
+node "Out3" 0 589.32 1374 72 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 36 26 0 0
+node "Out4" 0 589.32 1374 79 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 36 26 0 0
+node "Out5" 0 589.32 1374 86 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 36 26 0 0
+node "Out6" 0 589.32 1374 93 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 36 26 0 0
+node "Out7" 0 589.32 1374 100 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 36 26 0 0
+node "A7" 0 622.71 1122 615 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 33 28 0 0
+node "B7" 0 622.71 1111 615 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 33 28 0 0
+node "A6" 0 622.71 965 615 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 33 28 0 0
+node "B6" 0 622.71 949 615 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 33 28 0 0
+node "A5" 0 622.71 790 615 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 33 28 0 0
+node "B5" 0 622.71 775 616 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 33 28 0 0
+node "A4" 0 622.71 619 616 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 33 28 0 0
+node "B4" 0 622.71 603 615 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 33 28 0 0
+node "A3" 0 622.71 439 616 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 33 28 0 0
+node "B3" 0 622.71 420 616 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 33 28 0 0
+node "A2" 0 622.71 283 616 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 33 28 0 0
+node "B2" 0 622.71 265 616 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 33 28 0 0
+node "A1" 0 622.71 115 616 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 33 28 0 0
+node "B1" 0 622.71 96 616 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 33 28 0 0
+node "A0" 0 668.52 -72 615 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 36 30 0 0
+node "B0" 0 668.52 -84 615 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 36 30 0 0
+node "1Out7" 0 589.32 1374 1138 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 36 26 0 0
+node "1Out6" 0 589.32 1374 1145 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 36 26 0 0
+node "1Out5" 0 589.32 1374 1152 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 36 26 0 0
+node "1Out4" 0 589.32 1374 1159 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 36 26 0 0
+node "1Out3" 0 589.32 1374 1166 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 36 26 0 0
+node "loadB" 14 24599.9 -350 451 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1788 1070 0 0
+node "1Out2" 0 589.32 1374 1173 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 36 26 0 0
+node "1Out1" 0 589.32 1374 1180 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 36 26 0 0
+node "1Out0" 0 647.55 1374 1187 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 45 28 0 0
+node "Cout" 0 370.8 1229 252 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12 14 0 0 0 0
+node "Vdd" 0 4161.6 -241 601 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 480 104 0 0 0 0
+node "Gnd" 1 8124.12 -217 583 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 288 96 924 178 0 0
+node "m1_n276_816#" 1 4324.14 -276 816 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 60 44 360 132 0 0
+node "m1_n286_840#" 17 34422.8 -286 840 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1445 952 601 308 0 0
+node "subtract" 7 11799.7 -305 838 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 266 188 428 290 0 0
+node "m1_n276_894#" 1 2880 -276 894 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 228 88 0 0 0 0
+node "Cout1" 0 370.8 1229 987 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12 14 0 0 0 0
+node "m1_n259_1051#" 1 3543.84 -259 1051 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 60 44 252 96 0 0
+node "m1_n293_1073#" 0 946.8 -293 1073 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 42 34 0 0 0 0
+node "clk" 0 486 -307 1073 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 18 18 0 0 0 0
+node "m1_n259_1129#" 1 2731.32 -259 1129 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 30 22 244 92 0 0
+node "m1_n269_1074#" 42 66171.7 -269 1074 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 627 438 3549 2374 0 0
+node "loadR" 39 59816.2 -163 69 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 343 244 3493 2338 0 0
+cap "m1_n269_1074#" "m1_n259_1129#" 341.28
+cap "m1_n286_840#" "loadB" 518.64
+cap "subtract" "loadR" 218.34
+cap "m1_n269_1074#" "subtract" 218.34
+cap "m1_n286_840#" "m1_n276_816#" 341.28
+cap "m1_n286_840#" "loadR" 259.32
+cap "m1_n286_840#" "m1_n269_1074#" 259.32
+cap "m1_n269_1074#" "loadR" 436.68
+cap "prjMagic_0/Vdd" "m1_n269_1074#" 55.08
+cap "prjMagic_0/Vdd" "loadR" 55.08
+cap "prjMagic_0/Gnd" "loadR" 137.7
+cap "prjMagic_0/Gnd" "m1_n269_1074#" 137.7
+cap "loadR" "prjMagic_0/Vdd" 128.52
+cap "m1_n269_1074#" "prjMagic_0/Vdd" 128.52
+cap "m1_n286_840#" "prjMagic_0/Gnd" 146.88
+cap "loadR" "prjMagic_0/Gnd" 55.08
+cap "m1_n269_1074#" "prjMagic_0/loadB" 36.72
+cap "m1_n286_840#" "prjMagic_0/Vdd" 146.88
+cap "prjMagic_0/Gnd" "m1_n269_1074#" 55.08
+cap "loadR" "prjMagic_0/loadB" 36.72
+cap "loadR" "prjMagic_0/Vdd" 55.08
+cap "m1_n269_1074#" "prjMagic_0/Vdd" 55.08
+cap "Vdd" "loadR" 220.32
+cap "Gnd" "loadR" 183.6
+cap "Vdd" "m1_n269_1074#" 220.32
+cap "Gnd" "m1_n269_1074#" 183.6
+cap "Vdd" "Gnd" 881.28
+cap "prjMagic_1/Vdd" "loadR" 55.08
+cap "prjMagic_1/Vdd" "m1_n269_1074#" 55.08
+cap "prjMagic_1/Gnd" "loadR" 36.72
+cap "m1_n269_1074#" "prjMagic_1/Gnd" 36.72
+cap "subtract" "inverter_0/Y" 36.72
+cap "m1_n276_816#" "loadR" 55.08
+cap "m1_n276_816#" "m1_n269_1074#" 55.08
+cap "prjMagic_1/Vdd" "m1_n276_816#" 220.32
+cap "m1_n276_816#" "subtract" 110.16
+cap "prjMagic_1/Vdd" "subtract" 110.16
+cap "loadB" "loadR" 36.72
+cap "loadB" "m1_n269_1074#" 36.72
+cap "m1_n276_894#" "loadR" 128.52
+cap "m1_n269_1074#" "m1_n276_894#" 128.52
+cap "m1_n259_1051#" "m1_n269_1074#" 137.7
+cap "loadR" "m1_n259_1051#" 137.7
+cap "prjMagic_1/Vdd" "m1_n259_1051#" 220.32
+cap "inverter_1/vdd" "inverter_1/Y" -2.84217e-14
+cap "m1_n259_1129#" "m1_n269_1074#" 55.08
+cap "loadR" "m1_n259_1129#" 55.08
+cap "loadR" "prjMagic_1/Vdd" 110.16
+cap "prjMagic_1/Gnd" "loadR" 110.16
+cap "m1_n269_1074#" "prjMagic_1/Vdd" 110.16
+cap "prjMagic_1/Gnd" "m1_n269_1074#" 110.16
+merge "prjMagic_0/A0" "prjMagic_1/A0" -787.32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -36 -36 0 0
+merge "prjMagic_1/A0" "A0"
+merge "prjMagic_0/B1" "prjMagic_1/B1" -741.51 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -33 -34 0 0
+merge "prjMagic_1/B1" "B1"
+merge "prjMagic_0/Vdd" "prjMagic_1/Vdd" 14445.5 0 0 0 0 0 -90 0 0 0 0 0 0 0 0 0 0 1596 304 270 82 0 0
+merge "prjMagic_1/Vdd" "Vdd"
+merge "Vdd" "inverter_0/vdd"
+merge "inverter_0/vdd" "m1_n276_894#"
+merge "m1_n276_894#" "inverter_2/vdd"
+merge "inverter_2/vdd" "inverter_1/vdd"
+merge "inverter_1/vdd" "m1_n259_1129#"
+merge "prjMagic_0/A1" "prjMagic_1/A1" -741.51 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -33 -34 0 0
+merge "prjMagic_1/A1" "A1"
+merge "prjMagic_0/B2" "prjMagic_1/B2" -741.51 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -33 -34 0 0
+merge "prjMagic_1/B2" "B2"
+merge "prjMagic_1/Out0" "1Out0" -647.55 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -45 -28 0 0
+merge "inverter_2/A" "inverter_1/Y" -741.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -24 -28 0 0 0 0
+merge "inverter_1/Y" "m1_n293_1073#"
+merge "prjMagic_0/A2" "prjMagic_1/A2" -741.51 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -33 -34 0 0
+merge "prjMagic_1/A2" "A2"
+merge "prjMagic_0/B3" "prjMagic_1/B3" -741.51 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -33 -34 0 0
+merge "prjMagic_1/B3" "B3"
+merge "prjMagic_1/Out1" "1Out1" -589.32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -36 -26 0 0
+merge "prjMagic_0/A3" "prjMagic_1/A3" -559.35 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 55 -34 0 0
+merge "prjMagic_1/A3" "A3"
+merge "prjMagic_0/Gnd" "prjMagic_1/Gnd" 13706.3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2014 272 116 0 0 0
+merge "prjMagic_1/Gnd" "Gnd"
+merge "Gnd" "inverter_0/gnd"
+merge "inverter_0/gnd" "m1_n276_816#"
+merge "m1_n276_816#" "inverter_2/gnd"
+merge "inverter_2/gnd" "inverter_1/gnd"
+merge "inverter_1/gnd" "m1_n259_1051#"
+merge "prjMagic_0/B4" "prjMagic_1/B4" -741.51 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -33 -34 0 0
+merge "prjMagic_1/B4" "B4"
+merge "prjMagic_1/Out2" "1Out2" -589.32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -36 -26 0 0
+merge "prjMagic_0/A4" "prjMagic_1/A4" -741.51 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -33 -34 0 0
+merge "prjMagic_1/A4" "A4"
+merge "prjMagic_0/B5" "prjMagic_1/B5" -741.51 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -33 -34 0 0
+merge "prjMagic_1/B5" "B5"
+merge "prjMagic_1/loadB" "prjMagic_0/loadB" -10793.3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -642 -478 0 0
+merge "prjMagic_0/loadB" "loadB"
+merge "prjMagic_1/Out3" "1Out3" -496.17 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9 -26 0 0
+merge "prjMagic_0/A5" "prjMagic_1/A5" -741.51 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -33 -34 0 0
+merge "prjMagic_1/A5" "A5"
+merge "prjMagic_0/B6" "prjMagic_1/B6" -741.51 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -33 -34 0 0
+merge "prjMagic_1/B6" "B6"
+merge "prjMagic_1/Out4" "1Out4" -589.32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -36 -26 0 0
+merge "prjMagic_0/A6" "prjMagic_1/A6" -741.51 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -33 -34 0 0
+merge "prjMagic_1/A6" "A6"
+merge "prjMagic_0/B7" "prjMagic_1/B7" -741.51 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -33 -34 0 0
+merge "prjMagic_1/B7" "B7"
+merge "prjMagic_1/Out5" "1Out5" -496.17 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9 -26 0 0
+merge "prjMagic_0/A7" "prjMagic_1/A7" -741.51 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -33 -34 0 0
+merge "prjMagic_1/A7" "A7"
+merge "prjMagic_1/Out6" "1Out6" -589.32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -36 -26 0 0
+merge "prjMagic_1/Out7" "1Out7" -589.32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -36 -26 0 0
+merge "inverter_0/Y" "prjMagic_0/subtract" -734.04 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 -12 -14 0 0
+merge "prjMagic_0/subtract" "m1_n286_840#"
+merge "prjMagic_0/B0" "prjMagic_1/B0" -787.32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -36 -36 0 0
+merge "prjMagic_1/B0" "B0"
+merge "prjMagic_1/loadR" "prjMagic_0/loadR" -53915.9 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -238 -199 -3147 -2114 0 0
+merge "prjMagic_0/loadR" "loadR"
+merge "prjMagic_1/Cout" "Cout1" -370.8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -12 -14 0 0 0 0
+merge "prjMagic_1/clk" "inverter_2/Y" -58967.1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -480 -394 -2974 -2121 0 0
+merge "inverter_2/Y" "prjMagic_0/clk"
+merge "prjMagic_0/clk" "m1_n269_1074#"
+merge "inverter_1/A" "clk" -486 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -18 -18 0 0 0 0
+merge "prjMagic_0/Cout" "Cout" -284.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12 -14 0 0 0 0
+merge "prjMagic_1/subtract" "inverter_0/A" -5490.81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -142 -109 139 -137 0 0
+merge "inverter_0/A" "subtract"
+merge "prjMagic_0/Out0" "Out0" -535.77 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9 -28 0 0
+merge "prjMagic_0/Out1" "Out1" -589.32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -36 -26 0 0
+merge "prjMagic_0/Out2" "Out2" -514.8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -26 0 0
+merge "prjMagic_0/Out3" "Out3" -589.32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -36 -26 0 0
+merge "prjMagic_0/Out4" "Out4" -589.32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -36 -26 0 0
+merge "prjMagic_0/Out5" "Out5" -589.32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -36 -26 0 0
+merge "prjMagic_0/Out6" "Out6" -589.32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -36 -26 0 0
+merge "prjMagic_0/Out7" "Out7" -589.32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -36 -26 0 0

@@ -31,7 +31,6 @@ catch {source /usr/local/lib/magic/sys/site.def}
 : 1
 Extracting ../../dffpos/magic/dffpos into ../../dffpos/magic/dffpos.ext:
 Extracting ../../FA/magic/fa into ../../FA/magic/fa.ext:
-Extracting ../../inv/magic/inverter into ../../inv/magic/inverter.ext:
 Extracting ../../mux21/magic/mux21 into ../../mux21/magic/mux21.ext:
 ../../mux21/magic/mux21: 2 warnings
 Extracting ../../XOR2/magic/xor2 into ../../XOR2/magic/xor2.ext:
@@ -39,13 +38,23 @@ Extracting ../../bitslice/magic/bitslice into ../../bitslice/magic/bitslice.ext:
 ../../bitslice/magic/bitslice: 5 warnings
 Extracting ../../nand/magic/nand into ../../nand/magic/nand.ext:
 Extracting prjMagic into prjMagic.ext:
-prjMagic: 2 warnings
-Total of 9 warnings.
+Extracting ../../inv/magic/inverter into ../../inv/magic/inverter.ext:
+Extracting 16_bit_try_again into 16_bit_try_again.ext:
+Total of 7 warnings.
 exttosim finished.
 Devices merged: 0
 exttosim finished.
 Devs merged: 0
 exttospice finished.
+Warning: character '.' changed to '_' in name ../../inv/magic/inverter
+Warning: character '.' changed to '_' in name ../../inv/magic/inverter
+Warning: character '/' changed to '_' in name ../../inv/magic/inverter
+Warning: character '.' changed to '_' in name ../../inv/magic/inverter
+Warning: character '.' changed to '_' in name ../../inv/magic/inverter
+Warning: character '/' changed to '_' in name ../../inv/magic/inverter
+Warning: character '/' changed to '_' in name ../../inv/magic/inverter
+Warning: character '/' changed to '_' in name ../../inv/magic/inverter
+Warning: characters changed in string '../../inv/magic/inverter'; modified string is '______inv_magic_inverter'
 Warning: character '.' changed to '_' in name ../../nand/magic/nand
 Warning: character '.' changed to '_' in name ../../nand/magic/nand
 Warning: character '/' changed to '_' in name ../../nand/magic/nand
@@ -64,15 +73,6 @@ Warning: character '/' changed to '_' in name ../../XOR2/magic/xor2
 Warning: character '/' changed to '_' in name ../../XOR2/magic/xor2
 Warning: character '/' changed to '_' in name ../../XOR2/magic/xor2
 Warning: characters changed in string '../../XOR2/magic/xor2'; modified string is '______XOR2_magic_xor2'
-Warning: character '.' changed to '_' in name ../../inv/magic/inverter
-Warning: character '.' changed to '_' in name ../../inv/magic/inverter
-Warning: character '/' changed to '_' in name ../../inv/magic/inverter
-Warning: character '.' changed to '_' in name ../../inv/magic/inverter
-Warning: character '.' changed to '_' in name ../../inv/magic/inverter
-Warning: character '/' changed to '_' in name ../../inv/magic/inverter
-Warning: character '/' changed to '_' in name ../../inv/magic/inverter
-Warning: character '/' changed to '_' in name ../../inv/magic/inverter
-Warning: characters changed in string '../../inv/magic/inverter'; modified string is '______inv_magic_inverter'
 Warning: character '.' changed to '_' in name ../../mux21/magic/mux21
 Warning: character '.' changed to '_' in name ../../mux21/magic/mux21
 Warning: character '/' changed to '_' in name ../../mux21/magic/mux21
@@ -262,6 +262,33 @@ Warning: character '/' changed to '_' in name ../../bitslice/magic/bitslice
 Warning: character '/' changed to '_' in name ../../bitslice/magic/bitslice
 Warning: character '/' changed to '_' in name ../../bitslice/magic/bitslice
 Warning: characters changed in string '../../bitslice/magic/bitslice'; modified string is '______bitslice_magic_bitslice'
+Warning: character '.' changed to '_' in name ../../inv/magic/inverter
+Warning: character '.' changed to '_' in name ../../inv/magic/inverter
+Warning: character '/' changed to '_' in name ../../inv/magic/inverter
+Warning: character '.' changed to '_' in name ../../inv/magic/inverter
+Warning: character '.' changed to '_' in name ../../inv/magic/inverter
+Warning: character '/' changed to '_' in name ../../inv/magic/inverter
+Warning: character '/' changed to '_' in name ../../inv/magic/inverter
+Warning: character '/' changed to '_' in name ../../inv/magic/inverter
+Warning: characters changed in string '../../inv/magic/inverter'; modified string is '______inv_magic_inverter'
+Warning: character '.' changed to '_' in name ../../inv/magic/inverter
+Warning: character '.' changed to '_' in name ../../inv/magic/inverter
+Warning: character '/' changed to '_' in name ../../inv/magic/inverter
+Warning: character '.' changed to '_' in name ../../inv/magic/inverter
+Warning: character '.' changed to '_' in name ../../inv/magic/inverter
+Warning: character '/' changed to '_' in name ../../inv/magic/inverter
+Warning: character '/' changed to '_' in name ../../inv/magic/inverter
+Warning: character '/' changed to '_' in name ../../inv/magic/inverter
+Warning: characters changed in string '../../inv/magic/inverter'; modified string is '______inv_magic_inverter'
+Warning: character '.' changed to '_' in name ../../inv/magic/inverter
+Warning: character '.' changed to '_' in name ../../inv/magic/inverter
+Warning: character '/' changed to '_' in name ../../inv/magic/inverter
+Warning: character '.' changed to '_' in name ../../inv/magic/inverter
+Warning: character '.' changed to '_' in name ../../inv/magic/inverter
+Warning: character '/' changed to '_' in name ../../inv/magic/inverter
+Warning: character '/' changed to '_' in name ../../inv/magic/inverter
+Warning: character '/' changed to '_' in name ../../inv/magic/inverter
+Warning: characters changed in string '../../inv/magic/inverter'; modified string is '______inv_magic_inverter'
 Warning: character '.' changed to '_' in name ../../inv/magic/inverter
 Warning: character '.' changed to '_' in name ../../inv/magic/inverter
 Warning: character '/' changed to '_' in name ../../inv/magic/inverter

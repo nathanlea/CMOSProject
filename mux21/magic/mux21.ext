@@ -20,23 +20,23 @@ node "m1_23_37#" 0 889.2 23 37 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 39 32 0 0 0 0
 node "B" 1 1350 -1 37 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 63 48 0 0 0 0
 node "vdd" 1 4658.4 -1 76 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 384 140 0 0 0 0
 node "w_n1_n90#" 1658 9950.04 -1 -90 nw 0 0 0 0 2988 232 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-cap "gnd" "S" 587.16
+cap "m1_27_n43#" "gnd" 655.68
+cap "S" "gnd" 587.16
 cap "vdd" "w_n1_n90#" 2509.2
 cap "m1_5_n50#" "w_n1_n90#" 3449.52
 cap "m1_46_n43#" "w_n1_n90#" 140.4
-cap "m1_27_n43#" "gnd" 655.68
 cap "m1_27_n43#" "w_n1_n90#" 360
-cap "inverter_0/Y" "inverter_0/A" 15.84
 cap "inverter_0/Y" "nand_2/a_9_52#" 119.34
+cap "inverter_0/Y" "inverter_0/A" 15.84
 cap "inverter_0/Y" "A" 15.84
-cap "nand_0/a_9_52#" "inverter_0/A" 18.36
 cap "gnd" "nand_2/a_9_52#" 2.84217e-14
+cap "nand_0/a_9_52#" "inverter_0/A" 18.36
 cap "gnd" "inverter_0/A" 18.36
-cap "vdd" "inverter_0/A" 31.68
 cap "vdd" "inverter_0/Y" -92.79
-cap "S" "B" 15.84
+cap "vdd" "inverter_0/A" 31.68
 cap "S" "nand_0/a_9_52#" 113.22
 cap "vdd" "nand_0/a_9_52#" 18
+cap "S" "B" 15.84
 merge "nand_1/A" "nand_2/a_9_52#" -972 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -36 -36 0 0 0 0
 merge "nand_2/a_9_52#" "m1_27_n43#"
 merge "nand_2/gnd" "inverter_0/gnd" -9090 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -380 -330 0 0 0 0

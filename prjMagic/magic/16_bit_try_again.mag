@@ -1,0 +1,162 @@
+magic
+tech scmos
+timestamp 1449270792
+<< metal1 >>
+rect -155 1170 -154 1173
+rect -150 1170 -138 1173
+rect -164 1163 -134 1166
+rect -248 1077 -245 1163
+rect -307 1073 -301 1076
+rect -293 1073 -279 1076
+rect -269 1074 -245 1077
+rect 1229 987 1233 990
+rect -276 894 -238 900
+rect -305 838 -301 841
+rect -286 840 -261 844
+rect -184 840 -110 843
+rect -264 400 -261 840
+rect -241 601 -229 641
+rect -175 377 -172 418
+rect -163 377 -160 418
+rect 1229 252 1233 255
+rect -163 72 -160 85
+rect -163 69 -137 72
+<< m2contact >>
+rect -154 1170 -150 1174
+rect -248 1163 -244 1167
+rect -168 1163 -164 1167
+rect -259 1129 -254 1135
+rect -259 1051 -254 1057
+rect -222 1051 -217 1057
+rect -301 838 -297 842
+rect -188 840 -184 844
+rect -276 816 -271 822
+rect -221 816 -216 822
+rect -217 648 -205 660
+rect -217 583 -205 595
+rect -175 418 -171 422
+rect -163 418 -159 422
+rect -264 395 -259 400
+rect -175 373 -171 377
+rect -163 373 -159 377
+rect -163 85 -159 89
+rect -141 75 -136 79
+<< metal2 >>
+rect 1374 1187 1383 1192
+rect 1374 1180 1383 1184
+rect -255 1170 -154 1173
+rect 1374 1173 1383 1177
+rect -255 1163 -248 1166
+rect -244 1163 -168 1166
+rect -254 1129 -221 1135
+rect -229 1127 -221 1129
+rect -254 1051 -222 1057
+rect -300 851 -253 854
+rect -300 842 -297 851
+rect -256 843 -253 851
+rect -256 840 -188 843
+rect -271 816 -221 822
+rect -313 787 -230 791
+rect -252 455 -249 787
+rect -217 595 -205 648
+rect -350 451 -235 455
+rect -175 422 -172 1163
+rect -153 1155 -150 1170
+rect 1374 1166 1383 1170
+rect 1374 1159 1383 1163
+rect -163 1152 -150 1155
+rect 1374 1152 1383 1156
+rect -163 422 -160 1152
+rect 1374 1145 1383 1149
+rect 1374 1138 1383 1142
+rect -84 615 -81 627
+rect -72 615 -69 627
+rect 96 616 99 627
+rect 115 616 118 627
+rect 265 616 268 627
+rect 283 616 286 627
+rect 420 616 423 627
+rect 439 616 442 627
+rect 603 615 606 626
+rect 619 616 622 627
+rect 775 616 778 627
+rect 790 615 793 626
+rect 949 615 952 626
+rect 965 615 968 626
+rect 1111 615 1114 626
+rect 1122 615 1125 626
+rect -259 395 -115 399
+rect -175 79 -172 373
+rect -163 89 -160 373
+rect 1374 100 1383 104
+rect 1374 93 1383 97
+rect 1374 86 1383 90
+rect 1374 79 1383 83
+rect -175 76 -141 79
+rect -136 76 -133 79
+rect 1374 72 1383 76
+rect 1374 65 1383 69
+rect 1374 58 1383 62
+rect 1374 50 1383 55
+use ../../inv/magic/inverter  inverter_1 ../../inv/magic
+timestamp 1013989724
+transform 1 0 -303 0 1 1052
+box -4 -1 20 85
+use ../../inv/magic/inverter  inverter_2
+timestamp 1013989724
+transform 1 0 -279 0 1 1052
+box -4 -1 20 85
+use ../../inv/magic/inverter  inverter_0
+timestamp 1013989724
+transform 1 0 -296 0 1 817
+box -4 -1 20 85
+use prjMagic  prjMagic_1
+timestamp 1449195552
+transform 1 0 -109 0 -1 1132
+box -139 -149 1492 511
+use prjMagic  prjMagic_0
+timestamp 1449195552
+transform 1 0 -109 0 1 110
+box -139 -149 1492 511
+<< labels >>
+rlabel metal1 -236 620 -236 620 1 Vdd
+rlabel metal2 -211 621 -211 621 1 Gnd
+rlabel metal2 -83 621 -83 621 1 B0
+rlabel metal2 -71 621 -71 621 1 A0
+rlabel metal2 97 621 97 621 1 B1
+rlabel metal2 116 621 116 621 1 A1
+rlabel metal2 266 621 266 621 1 B2
+rlabel metal2 284 621 284 621 1 A2
+rlabel metal2 421 621 421 621 1 B3
+rlabel metal2 440 621 440 621 1 A3
+rlabel metal2 604 621 604 621 1 B4
+rlabel metal2 620 621 620 621 1 A4
+rlabel metal2 776 621 776 621 1 B5
+rlabel metal2 791 621 791 621 1 A5
+rlabel metal2 950 620 950 620 1 B6
+rlabel metal2 966 620 966 620 1 A6
+rlabel metal2 1112 621 1112 621 1 B7
+rlabel metal2 1123 621 1123 621 1 A7
+rlabel metal1 -303 839 -303 839 1 subtract
+rlabel metal1 -305 1074 -305 1074 1 clk
+rlabel metal2 1381 102 1381 102 7 Out7
+rlabel metal2 1381 95 1381 95 7 Out6
+rlabel metal2 1381 88 1381 88 7 Out5
+rlabel metal2 1381 81 1381 81 7 Out4
+rlabel metal2 1381 74 1381 74 7 Out3
+rlabel metal2 1381 67 1381 67 7 Out2
+rlabel metal2 1381 60 1381 60 7 Out1
+rlabel metal2 1381 52 1381 52 7 Out0
+rlabel metal2 1381 1190 1381 1190 7 1Out0
+rlabel metal2 1381 1182 1381 1182 7 1Out1
+rlabel metal2 1381 1175 1381 1175 7 1Out2
+rlabel metal2 1381 1168 1381 1168 7 1Out3
+rlabel metal2 1381 1161 1381 1161 7 1Out4
+rlabel metal2 1381 1154 1381 1154 7 1Out5
+rlabel metal2 1381 1147 1381 1147 7 1Out6
+rlabel metal2 1381 1140 1381 1140 7 1Out7
+rlabel metal2 -251 1171 -251 1171 1 loadR
+rlabel metal2 -257 789 -257 789 1 loadB
+rlabel metal1 1232 988 1232 988 1 Cout1
+rlabel metal1 1232 254 1232 254 1 Cout
+<< end >>
